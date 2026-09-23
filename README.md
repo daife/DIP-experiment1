@@ -103,11 +103,17 @@ python scripts/visualize_channels.py
 
 `src/weak_tree.py` 提供 `PixelDifferenceFeature`、`TreeNode` 和 `Depth2WeakTree`。输入为单个 `(11, 24, 24)` 或一批 `(N, 11, 24, 24)` 的 `uint8` 通道图。像素差按 `C[c, y1, x1] - C[c, y2, x2]` 计算为有符号 `int16`；节点在差值小于等于阈值时走左分支。四个叶子分数依次对应根左/子左、根左/子右、根右/子左、根右/子右。
 
-`src/weak_tree_training.py` 实现单棵弱树的随机候选采样和加权贪心搜索：对每个根候选寻找最佳阈值，再在两个分支搜索子节点，按完整树的加权分类错误选择结果。`fit_random_depth2_tree(..., seed=...)` 可复现候选采样；`search_depth2_tree(...)` 可传入固定候选集合验证算法。叶子分数为经过微小平滑的加权对数比值。
+`src/weak_tree_training.py` 实现单棵弱树的随机候选采样和加权贪心搜索；`src/cascade.py` 实现加权弱树组合、3 个 Stage 的早拒绝、召回阈值校准、逐级统计及 JSON 模型读写。训练只读取人工确认保留的样本和 `usable_channels11_index.csv` 对应的通道缓存行。
 
-AdaBoost 权重更新、Cascade Stage 与困难负样本挖掘仍需后续实现；正式训练等待步骤三的人工样本复核完成。
+复现初版模型、扫描训练漫画页、使用已复核的困难负样本回训：
 
-实现方法和验证结果见 [步骤四实验记录](实验记录/2026-09-23_Depth-2弱树与候选搜索.md)。
+```powershell
+.venv\Scripts\python.exe scripts/train_cascade.py --trees-per-stage 18 --root-candidates 32 --child-candidates 24
+.venv\Scripts\python.exe scripts/mine_hard_negatives.py --output datasets/derived/step4_hard_negatives_v2
+.venv\Scripts\python.exe scripts/train_cascade.py --trees-per-stage 18 --root-candidates 32 --child-candidates 24 --hard-negative-dir datasets/derived/step4_hard_negatives_v2 --hard-review-csv datasets/annotations/corrected/step4_hard_negative_review.csv --model models/step4_cascade.json --report results/step4_stage_stats.json
+```
+
+初版与回训模型保存在 `models/`，各 split 的 Stage 通过统计保存在 `results/`。扫描候选与编号总览图保存在本地 `datasets/derived/step4_hard_negatives_v2/`；其余未复核候选不会加入训练。方法和局限见 [弱树候选搜索记录](实验记录/2026-09-23_Depth-2弱树与候选搜索.md)及 [Cascade 训练记录](实验记录/2026-09-23_Cascade训练与困难负样本.md)。
 
 ## 计划中的工程结构
 
