@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -51,6 +52,18 @@ def main() -> None:
     for index in (0, len(rows) // 2, len(rows) - 1):
         with Image.open(args.dataset / rows[index]["file"]) as image:
             assert np.array_equal(channels[index, 0], np.asarray(image))
+    usable_path = args.dataset / "usable_samples.jsonl"
+    if usable_path.exists():
+        usable = [json.loads(line) for line in usable_path.read_text(encoding="utf-8").splitlines()]
+        with (args.dataset / "usable_channels11_index.csv").open(encoding="utf-8", newline="") as stream:
+            usable_index = list(csv.DictReader(stream))
+        assert len(usable) == len(usable_index)
+        for row, mapped in zip(usable, usable_index):
+            assert row["sample_id"] == mapped["sample_id"]
+            assert rows[int(mapped["array_index"])]["sample_id"] == row["sample_id"]
+            assert row["review_decision"] != "reject"
+        summary = json.loads((args.dataset / "review_summary.json").read_text(encoding="utf-8"))
+        assert len(usable) == summary["usable_crops_including_augmentations"]
     print(json.dumps({"crops": len(rows), "base_crops": len(base), "source_groups": len(group_splits),
                       "counts": {str(k): v for k, v in sorted(counts.items())}}, indent=2))
 

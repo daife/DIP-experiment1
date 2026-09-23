@@ -97,6 +97,8 @@ python scripts/visualize_channels.py
 
 输出在 `datasets/derived/step3_detection_v1/`。人工挑图的准确目录、ID 回填格式和复核命令见 [`datasets/derived/STEP3_REVIEW.md`](datasets/derived/STEP3_REVIEW.md)。
 
+已将人工提供的错误样本清单 `datasets/annotations/corrected/revise_reason.csv` 转为完整复核表，并生成 `usable_samples.jsonl` 与 `usable_channels11_index.csv`。后续训练使用可用样本清单和对应通道索引。
+
 ## 步骤四：像素差特征与弱树
 
 `src/weak_tree.py` 提供 `PixelDifferenceFeature`、`TreeNode` 和 `Depth2WeakTree`。输入为单个 `(11, 24, 24)` 或一批 `(N, 11, 24, 24)` 的 `uint8` 通道图。像素差按 `C[c, y1, x1] - C[c, y2, x2]` 计算为有符号 `int16`；节点在差值小于等于阈值时走左分支。四个叶子分数依次对应根左/子左、根左/子右、根右/子左、根右/子右。

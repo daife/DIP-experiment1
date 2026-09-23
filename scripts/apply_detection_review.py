@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 from collections import Counter
 from pathlib import Path
@@ -26,7 +27,9 @@ def main() -> None:
         raise ValueError(f"Unknown sample IDs: {sorted(unknown)[:10]}")
     counts = Counter()
     usable = []
-    for row in rows:
+    usable_indices = []
+    split_counts = Counter()
+    for index, row in enumerate(rows):
         base_id = row.get("parent_sample_id", row["sample_id"])
         decision = review.get(base_id, {"decision": "", "tags": [], "note": ""})
         row["review_decision"] = decision["decision"] or "unreviewed"
@@ -36,13 +39,23 @@ def main() -> None:
             counts[row["review_decision"]] += 1
         if row["review_decision"] != "reject":
             usable.append(row)
+            usable_indices.append((index, row["sample_id"]))
+            split_counts[(row["split"], row["label"], row["augmentation"] is not None)] += 1
     # The usable manifest is an explicit gate for later training. Unreviewed
     # rows remain marked, so consumers can require a fully reviewed dataset.
     with (args.dataset / "usable_samples.jsonl").open("w", encoding="utf-8", newline="\n") as stream:
         for row in usable:
             stream.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
+    with (args.dataset / "usable_channels11_index.csv").open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.writer(stream)
+        writer.writerow(["array_index", "sample_id"])
+        writer.writerows(usable_indices)
     summary = {"base_decisions": dict(counts), "usable_crops_including_augmentations": len(usable),
-               "fully_reviewed": counts["unreviewed"] == 0}
+               "fully_reviewed": counts["unreviewed"] == 0,
+               "usable_by_split_label_augmented": {
+                   f"{split}_{'positive' if label else 'negative'}_{'augmented' if augmented else 'base'}": count
+                   for (split, label, augmented), count in sorted(split_counts.items())
+               }}
     (args.dataset / "review_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 

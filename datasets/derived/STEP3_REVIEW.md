@@ -29,6 +29,16 @@ ten00012,keep,text_box,
 
 脚本生成 `datasets/derived/step3_detection_v1/usable_samples.jsonl` 和 `review_summary.json`，剔除所有 `reject` 样本及其增强图，并保留未复核状态供后续训练选择。`fully_reviewed` 为 `true` 才表示所有基本样本都经过人工复核。请把填好的 CSV 留在上述 `corrected` 路径，我就能接续清洗和检查类别覆盖。
 
+本次人工复核交付的是无表头、仅列错误样本的 `datasets/annotations/corrected/revise_reason.csv`。其余基本样本按已检查并保留处理。转换和应用命令：
+
+```powershell
+.venv\Scripts\python.exe scripts/import_detection_rejections.py
+.venv\Scripts\python.exe scripts/apply_detection_review.py
+.venv\Scripts\python.exe scripts/verify_detection_dataset.py
+```
+
+转换保留原始错误原因，生成有表头、每张基本样本一行的 `step3_crop_review.csv`。`usable_channels11_index.csv` 给出可用样本在原始 `channels11.npy` 中的行号；训练时必须按该索引读取，不能直接使用全部通道行。
+
 ## 数据规则
 
 - 每类基本样本默认 Train 1800、Validation 240、Test 360；训练集每张另有水平翻转增强图。固定种子为 `experiment1-step3-v1`。
