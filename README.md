@@ -115,6 +115,18 @@ python scripts/visualize_channels.py
 
 初版与回训模型保存在 `models/`，各 split 的 Stage 通过统计保存在 `results/`。扫描候选与编号总览图保存在本地 `datasets/derived/step4_hard_negatives_v2/`；其余未复核候选不会加入训练。方法和局限见 [弱树候选搜索记录](实验记录/2026-09-23_Depth-2弱树与候选搜索.md)及 [Cascade 训练记录](实验记录/2026-09-23_Cascade训练与困难负样本.md)。
 
+## 步骤五：多尺度搜索与候选框合并
+
+`src/multiscale.py` 在原图上构建逐层缩小的金字塔，对每层运行 24×24 Cascade 滑窗，将半开区间候选框映射回输入图坐标，再按末级分数做 IoU NMS。默认参数保存在 `models/step5_search_config.json`：尺度因子 1.2、步长 1、NMS IoU 0.3。`detect_multiscale(gray, cascade)` 返回原图坐标框、分数和逐层尺寸/窗口数/候选数/耗时。
+
+复现 1.1/1.2/1.3 与 step 1/2 对照：
+
+```powershell
+.venv\Scripts\python.exe scripts/compare_multiscale.py
+```
+
+该脚本从两个不同作品的 validation 页面各选一张 320×320 人脸周边裁剪，完成 3 种尺度因子与 2 种步长的对照，逐层数据写入 `results/step5_comparison.json`。随后对第一张原生分辨率整页用默认尺度因子比较 step 1/2，原页坐标框和逐层数据写入 `results/step5_full_page.json`。预览图位于本地忽略目录 `datasets/derived/step5_comparison/`，红框为最高分的 20 个 NMS 检测，绿框为裁剪的锚定标注。方法、数值和当前检测误报情况见 [步骤五实验记录](实验记录/2026-09-23_多尺度搜索与候选框合并.md)。
+
 ## 计划中的工程结构
 
 ```text

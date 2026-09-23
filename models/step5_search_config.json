@@ -1,0 +1,9 @@
+{
+  "format": "experiment1-multiscale-search-v1",
+  "window_size": 24,
+  "scale_factor": 1.2,
+  "step": 1,
+  "nms_iou": 0.3,
+  "box_convention": "xyxy_half_open_original_pixels",
+  "score": "final_cascade_stage_sum"
+}
