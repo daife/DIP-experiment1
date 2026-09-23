@@ -68,6 +68,22 @@ python scripts/preannotate_landmarks.py --limit 64 --split all
 
 固定划分种子为 `experiment1-anime-face-v1`，按来源组进行 Train 75% / Validation 10% / Test 15% 划分，避免同源图片泄漏到不同集合。
 
+## 11 通道特征复现与观察
+
+核心实现位于 `src/channels11.py`，使用 `int16` 中间量和显式 NumPy 切片复现原图、两级平滑及八个方向差分通道。运行公式、类型、形状和边界验收：
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+生成步骤二要求的 6 组“原图 + 11 通道”图（两张真实人脸会在首次运行时从 `face_recognition` 示例仓库下载；其余样本读取本地 anime256 和 Manga109）：
+
+```powershell
+python scripts/visualize_channels.py
+```
+
+图片与带 SHA-256 的样本清单输出到 `results/step2_channels/`。完整公式、样本选择、观察结果及局限见 `实验记录/2026-09-23_11通道特征复现与观察.md`。
+
 ## 计划中的工程结构
 
 ```text

@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "real_obama",
+    "category": "real frontal face 1",
+    "source": "face_recognition example image (Obama)",
+    "source_path": "results\\step2_channels\\source_images\\obama.jpg",
+    "source_sha256": "0930e3aa8cae5920329c0c8cbc6a2ab70f47b0e67b432875beaa95cbf7e741f6",
+    "crop_xyxy": [
+      250,
+      20,
+      680,
+      450
+    ],
+    "processed_shape": [
+      430,
+      430,
+      3
+    ],
+    "figure": "results\\step2_channels\\real_obama_channels.png"
+  },
+  {
+    "slug": "real_biden",
+    "category": "real frontal face 2",
+    "source": "face_recognition example image (Biden)",
+    "source_path": "results\\step2_channels\\source_images\\biden.jpg",
+    "source_sha256": "3c17508bb91554c637a2eabddfae790e5bb1caba93130814fc2ac50be9760c4c",
+    "crop_xyxy": [
+      250,
+      40,
+      750,
+      540
+    ],
+    "processed_shape": [
+      500,
+      500,
+      3
+    ],
+    "figure": "results\\step2_channels\\real_biden_channels.png"
+  },
+  {
+    "slug": "anime_front_1",
+    "category": "near-frontal anime face 1",
+    "source": "anime256:1000-2.jpg",
+    "source_path": "datasets\\raw\\anime256\\1000-2.jpg",
+    "source_sha256": "95f6274338a0335abf5054edae5cbd5ae1fae43a746a5bd06ffb83c10f73940e",
+    "crop_xyxy": null,
+    "processed_shape": [
+      256,
+      256,
+      3
+    ],
+    "figure": "results\\step2_channels\\anime_front_1_channels.png"
+  },
+  {
+    "slug": "anime_front_2",
+    "category": "near-frontal anime face 2",
+    "source": "anime256:1009-8.jpg",
+    "source_path": "datasets\\raw\\anime256\\1009-8.jpg",
+    "source_sha256": "f3e026285c783de3f22f4fcea942e351dbeade72b579161949e14c3e0f0202f9",
+    "crop_xyxy": null,
+    "processed_shape": [
+      256,
+      256,
+      3
+    ],
+    "figure": "results\\step2_channels\\anime_front_2_channels.png"
+  },
+  {
+    "slug": "anime_hair_occlusion",
+    "category": "anime face with hair occlusion",
+    "source": "anime256:1007-4.jpg",
+    "source_path": "datasets\\raw\\anime256\\1007-4.jpg",
+    "source_sha256": "9e4377a3aed293ae3bbaf2cbf37f023cc2368a09e18971ba5ce66f7acee7e25a",
+    "crop_xyxy": null,
+    "processed_shape": [
+      256,
+      256,
+      3
+    ],
+    "figure": "results\\step2_channels\\anime_hair_occlusion_channels.png"
+  },
+  {
+    "slug": "manga_complex_background",
+    "category": "manga complex background",
+    "source": "Manga109/AisazuNihaIrarenai/010.jpg",
+    "source_path": "datasets\\raw\\manga109\\images\\AisazuNihaIrarenai\\010.jpg",
+    "source_sha256": "c4d2c0716270ff772df73830ee9ef181e8347472419fab1335461207fb810c56",
+    "crop_xyxy": null,
+    "processed_shape": [
+      362,
+      512,
+      3
+    ],
+    "figure": "results\\step2_channels\\manga_complex_background_channels.png"
+  }
+]

@@ -63,3 +63,6 @@ Desktop.ini
 
 # Keep final models, configs, demo outputs, reports, and fixed split manifests.
 
+# Step 2 inputs can be downloaded again; Manga109 artwork is not redistributable.
+/results/step2_channels/source_images/
+/results/step2_channels/manga_complex_background_channels.png
