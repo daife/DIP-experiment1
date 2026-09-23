@@ -84,6 +84,17 @@ python scripts/visualize_channels.py
 
 图片与带 SHA-256 的样本清单输出到 `results/step2_channels/`。完整公式、样本选择、观察结果及局限见 `实验记录/2026-09-23_11通道特征复现与观察.md`。
 
+## 步骤三：检测训练样本
+
+使用固定来源划分，从 Manga109 人脸框和漫画页面生成 24×24 正负样本、训练集水平翻转增强、元数据和人工复核总览图：
+
+```powershell
+.venv\Scripts\python.exe scripts/prepare_detection_dataset.py
+.venv\Scripts\python.exe scripts/cache_detection_channels.py
+```
+
+输出在 `datasets/derived/step3_detection_v1/`。人工挑图的准确目录、ID 回填格式和复核命令见 [`datasets/derived/STEP3_REVIEW.md`](datasets/derived/STEP3_REVIEW.md)。
+
 ## 计划中的工程结构
 
 ```text
