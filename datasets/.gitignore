@@ -1,0 +1,15 @@
+# Large, reproducible source material
+/downloads/
+/raw/
+
+# Generated crops and model preannotations
+/derived/*/
+/annotations/auto/*/
+
+# Keep human-corrected annotations trackable.
+!/annotations/corrected/
+!/annotations/corrected/**
+
+# Python cache
+__pycache__/
+*.pyc

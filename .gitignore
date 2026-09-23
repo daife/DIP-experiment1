@@ -1,0 +1,65 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Notebook and IDE state
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+/tmp/
+/temp/
+/.cache/
+*.log
+*.tmp
+*.bak
+
+# Large source datasets and reproducible generated data
+/datasets/downloads/
+/datasets/raw/
+/datasets/staging/
+/datasets/derived/*/
+/datasets/annotations/auto/*/
+
+# Keep human-reviewed annotations under version control.
+!/datasets/annotations/corrected/
+!/datasets/annotations/corrected/**
+
+# Training-service state and intermediate checkpoints
+/checkpoints/
+/runs/
+/wandb/
+/mlruns/
+/models/checkpoints/
+
+# Keep final models, configs, demo outputs, reports, and fixed split manifests.
+

@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "coordinate_convention": "xyxy_abs",
+  "bbox_fields": ["x1", "y1", "x2", "y2"],
+  "landmark_count": 28,
+  "landmark_fields": ["x", "y", "visibility", "confidence"],
+  "visibility_values": {
+    "0": "not visible or cannot be reliably annotated",
+    "1": "visible"
+  },
+  "required_record_fields": [
+    "image_id",
+    "image_path",
+    "source_dataset",
+    "source_group",
+    "width",
+    "height",
+    "annotations"
+  ],
+  "notes": [
+    "Keep source annotations unchanged under raw/.",
+    "Normalize annotations into JSONL under manifests/normalized/.",
+    "Assign train/validation/test splits by source_group before creating crops.",
+    "LAP source_group is the MAL title id prefix; Manga109 source_group is the manga title; anime256 source_group is the original-source token before the final crop index where recoverable."
+  ]
+}

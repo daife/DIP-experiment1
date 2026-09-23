@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "split_seed": "experiment1-anime-face-v1",
+  "split_policy": "sha256(dataset, source_group), 75/10/15 thresholds",
+  "images": {
+    "lap": {
+      "train": 33951,
+      "validation": 4462,
+      "test": 6873
+    },
+    "manga109": {
+      "train": 7955,
+      "validation": 955,
+      "test": 1692
+    },
+    "anime256": {
+      "train": 20710,
+      "validation": 2758,
+      "test": 4120
+    }
+  },
+  "validation_error_counts": {
+    "lap": 6,
+    "manga109": 17,
+    "anime256": 0
+  },
+  "normalized_annotations": {
+    "lap_manual": {
+      "records": 5000,
+      "positive_records": 4767,
+      "face_boxes": 19439
+    },
+    "lap_baseline": {
+      "records": 45286,
+      "positive_records": 37857,
+      "face_boxes": 126000
+    },
+    "manga109_v2026": {
+      "records": 10602,
+      "positive_records": 9968,
+      "face_boxes": 118593
+    }
+  },
+  "groups": {
+    "lap": 22907,
+    "manga109": 109,
+    "anime256": 17925
+  }
+}

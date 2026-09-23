@@ -1,0 +1,23 @@
+lap: manual_refined:0/MAL00017_1941_120952.jpg:[209, 13, 425, 421] outside 424x600
+lap: manual_refined:0/MAL00031_WA00033_002.jpg:[303, 144, 401, 496] outside 400x566
+lap: manual_refined:0/MAL00074_0012_018116.jpg:[181, 110, 226, 157] outside 225x350
+lap: manual_refined:0/MAL00194_WA02927_073.jpg:[32, 357, 266, 502] outside 352x500
+lap: manual_refined:0/MAL00250_0004_072766.jpg:[130, 326, 241, 413] outside 300x412
+lap: manual_refined:0/MAL00306_0010_015476.jpg:[20, 240, 131, 343] outside 500x342
+manga109: missing image: AisazuNihaIrarenai/094.jpg
+manga109: missing image: AkkeraKanjinchou/092.jpg
+manga109: missing image: Akuhamu/081.jpg
+manga109: missing image: AosugiruHaru/105.jpg
+manga109: missing image: AppareKappore/097.jpg
+manga109: missing image: Arisa/097.jpg
+manga109: missing image: ARMS/081.jpg
+manga109: missing image: BakuretsuKungFuGirl/097.jpg
+manga109: missing image: Belmondo/099.jpg
+manga109: missing image: BEMADER_P/114.jpg
+manga109: missing image: BokuHaSitatakaKun/099.jpg
+manga109: missing image: BurariTessenTorimonocho/112.jpg
+manga109: missing image: ByebyeC-BOY/094.jpg
+manga109: missing image: Count3DeKimeteAgeru/099.jpg
+manga109: missing image: DollGun/096.jpg
+manga109: missing image: Donburakokko/089.jpg
+manga109: missing image: DualJustice/099.jpg
