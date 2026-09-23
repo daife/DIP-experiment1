@@ -1,0 +1,16 @@
+# Repository Instructions
+
+## Source of truth and scope
+
+- The original project specification, `项目一 基于特征工程的动漫人脸检测与关键点回归 (1).pdf`, and its companion `项目一_基于特征工程的动漫人脸检测与关键点回归_详细说明 (1).md` are the authoritative requirements and acceptance criteria. Consult the relevant sections before planning, implementing, or declaring a task complete. The PDF's extracted text and page images under `tmp/pdfs/requirements/` may help with inspection; they are temporary derivatives, not a replacement for the original PDF.
+- `TODO.md` is a working step-by-step plan based on the specification and the repository's current state. It may contain inaccuracies, omissions, or unnecessary scope. Check disputed items against the authoritative requirements, correct the plan when warranted, and avoid treating a TODO item alone as a mandatory requirement.
+- Keep the work focused on the experiment's required deliverables. Treat optional investigations and enhancements as optional unless the user explicitly requests them. If the PDF and Markdown appear to conflict, inspect the original PDF and explain any unresolved ambiguity to the user before making a decision that depends on it.
+- Preserve traceability: record substantive implementation and experiment decisions, validation results, and any justified changes to the plan in the appropriate repository documentation. Do not mark a task complete without evidence that its applicable acceptance criteria are met.
+
+## Execution and collaboration
+
+- Work autonomously by default. Inspect the repository, make reasonable implementation decisions, run appropriate checks, and finish authorized work without asking for routine confirmation at each step. Give concise progress updates when work is prolonged or a meaningful finding changes the approach.
+- Inspect a small or manageable set of images directly with available tools such as `view_image`. Make the visual assessment yourself and document the basis for consequential judgments; do not automatically delegate ordinary image review to the user.
+- If a large image set, a specialized subjective judgment, or another task genuinely requires human review, pause the affected work and tell the user exactly what to do. Identify the files or review sheet, give simple numbered actions and explicit accept/reject or correction criteria, state where to save the results, and explain how work will resume. Prepare and narrow the review material first so the user has as little manual work as possible. Do not claim that unreviewed material was reviewed.
+- If a necessary fact, preference, or decision cannot be inferred reliably from the specification, repository, or existing conversation, ask the user a focused question and pause the dependent work. Continue independent work when useful. State the available options and a sensible default when that helps the user answer quickly; do not silently invent a requirement.
+- Keep raw or licensed datasets and disposable generated files in their existing local/ignored locations. Preserve fixed data splits, provenance, random seeds, and human-corrected annotations needed for reproducibility. Do not overwrite source data or recorded manual judgments without a clear reason.

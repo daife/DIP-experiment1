@@ -1,0 +1,4 @@
+interface:
+  display_name: "DIP 实验报告格式"
+  short_description: "依照电子科技大学权威参考稿规范编排数字图像处理实验报告"
+  default_prompt: "Use $dip-report-format to format this digital image processing experiment report as a Word document."
