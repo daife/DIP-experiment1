@@ -15,13 +15,17 @@
 
 ## 环境
 
-推荐使用 Python 3.12 或更高版本和 [uv](https://docs.astral.sh/uv/)（关键点预标注依赖要求 Python 3.12+）：
+推荐使用 Python 3.12 和 [uv](https://docs.astral.sh/uv/)（关键点预标注依赖要求 Python 3.12+）。在 PowerShell 中一键创建环境、安装依赖并执行验收：
 
 ```powershell
-uv venv .venv --python 3.12
+powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
+```
+
+脚本会安装 Python 3.12（若本机尚无）、创建或修正 `.venv`、安装 `requirements.txt`，最后运行无网络、无 GUI 的依赖冒烟测试。成功后可按需激活环境：
+
+```powershell
 .venv\Scripts\Activate.ps1
-uv pip install -r requirements.txt
-uv run python -c "import numpy, cv2, sklearn, matplotlib; print('environment ok')"
+python scripts/verify_environment.py
 ```
 
 ## 当前目录
