@@ -2,6 +2,8 @@
 
 本仓库用于完成数字图像处理实验一：使用 11 通道手工特征、Depth-2 AdaBoost Cascade 和多级形状回归，实现动漫人脸检测与 28 点关键点定位。
 
+当前进度和下一步任务见 [TODO.md](TODO.md)。
+
 ## 实验目标
 
 - 从灰度图计算 11 个 `uint8` 手工特征通道；
@@ -94,6 +96,16 @@ python scripts/visualize_channels.py
 ```
 
 输出在 `datasets/derived/step3_detection_v1/`。人工挑图的准确目录、ID 回填格式和复核命令见 [`datasets/derived/STEP3_REVIEW.md`](datasets/derived/STEP3_REVIEW.md)。
+
+## 步骤四：像素差特征与弱树
+
+`src/weak_tree.py` 提供 `PixelDifferenceFeature`、`TreeNode` 和 `Depth2WeakTree`。输入为单个 `(11, 24, 24)` 或一批 `(N, 11, 24, 24)` 的 `uint8` 通道图。像素差按 `C[c, y1, x1] - C[c, y2, x2]` 计算为有符号 `int16`；节点在差值小于等于阈值时走左分支。四个叶子分数依次对应根左/子左、根左/子右、根右/子左、根右/子右。
+
+`src/weak_tree_training.py` 实现单棵弱树的随机候选采样和加权贪心搜索：对每个根候选寻找最佳阈值，再在两个分支搜索子节点，按完整树的加权分类错误选择结果。`fit_random_depth2_tree(..., seed=...)` 可复现候选采样；`search_depth2_tree(...)` 可传入固定候选集合验证算法。叶子分数为经过微小平滑的加权对数比值。
+
+AdaBoost 权重更新、Cascade Stage 与困难负样本挖掘仍需后续实现；正式训练等待步骤三的人工样本复核完成。
+
+实现方法和验证结果见 [步骤四实验记录](实验记录/2026-09-23_Depth-2弱树与候选搜索.md)。
 
 ## 计划中的工程结构
 

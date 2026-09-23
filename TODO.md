@@ -40,9 +40,9 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 
 ## 步骤四：训练 Depth-2 AdaBoost Cascade
 
-- [ ] 定义候选像素差特征：通道 `c` 与两个相对位置 `p1`、`p2`。
-- [ ] 实现 Depth-2 弱树，包括根节点、左右子节点和四个叶子分数。
-- [ ] 使用随机候选和贪心搜索训练弱树。
+- [x] 定义候选像素差特征：通道 `c` 与两个相对位置 `p1`、`p2`。
+- [x] 实现 Depth-2 弱树，包括根节点、左右子节点和四个叶子分数。
+- [x] 使用随机候选和贪心搜索训练弱树。
 - [ ] 使用 AdaBoost 更新样本权重并组合弱分类器。
 - [ ] 构建至少 3 个 Stage 的 Cascade。
 - [ ] 统计每个 Stage 的真实人脸保留情况和背景窗口拒绝情况。
