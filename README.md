@@ -4,6 +4,8 @@
 
 当前进度和下一步任务见 [TODO.md](TODO.md)。
 
+已完成步骤的规范核对、验收证据、报告可用图表及局限见 [审计与报告素材索引](实验记录/2026-09-24_已完成步骤审计与报告素材索引.md)。原创统计图位于 `results/report_evidence/`，可用 `python scripts/plot_report_evidence.py` 从已保存的 JSON 重建。
+
 ## 实验目标
 
 - 从灰度图计算 11 个 `uint8` 手工特征通道；
