@@ -139,6 +139,10 @@ python scripts/visualize_channels.py
 
 该脚本从两个不同作品的 validation 页面各选一张 320×320 人脸周边裁剪，完成 3 种尺度因子与 2 种步长的对照，逐层数据写入 `results/step5_comparison.json`。随后对第一张原生分辨率整页用默认尺度因子比较 step 1/2，原页坐标框和逐层数据写入 `results/step5_full_page.json`。预览图位于本地忽略目录 `datasets/derived/step5_comparison/`，红框为最高分的 20 个 NMS 检测，绿框为裁剪的锚定标注。方法、数值和当前检测误报情况见 [步骤五实验记录](实验记录/2026-09-23_多尺度搜索与候选框合并.md)。
 
+## 步骤七：固定页面评价
+
+运行 `.venv\Scripts\python.exe scripts/evaluate_detection.py` 可复现两张 validation 整页的 IoU ≥ 0.5 一对一匹配指标，并记录 step 1/2 的窗口数和含 NMS 耗时；运行 `.venv\Scripts\python.exe scripts/compare_integer_float.py` 比较固定 100 个窗口的整数与等价舍入浮点通道及 Cascade 输出。结果见 `results/step7_detection_evaluation.json`、`results/step7_integer_float.json` 和 `实验记录/2026-09-25_步骤七评价指标.md`。当前模型整页误检较多，指标仅对应固定已接触的 validation 页面。
+
 ## 计划中的工程结构
 
 ```text

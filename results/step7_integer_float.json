@@ -1,0 +1,41 @@
+{
+  "model_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "selection": "two fixed validation pages, 50 random 24x24 windows each",
+  "seed": 20260925,
+  "windows": 100,
+  "float_definition": "float32 storage and arithmetic with identical floor/rounding and boundary rules",
+  "channel_max_abs_difference": 0.0,
+  "pass_disagreements": 0,
+  "score_max_abs_difference": 0.0,
+  "integer_stage_counts": [
+    {
+      "entering": 100,
+      "passing": 33
+    },
+    {
+      "entering": 33,
+      "passing": 9
+    },
+    {
+      "entering": 9,
+      "passing": 7
+    }
+  ],
+  "float_stage_counts": [
+    {
+      "entering": 100,
+      "passing": 33
+    },
+    {
+      "entering": 33,
+      "passing": 9
+    },
+    {
+      "entering": 9,
+      "passing": 7
+    }
+  ],
+  "integer_channel_seconds": 0.009151000005658716,
+  "float_channel_seconds": 0.0083429999940563
+}

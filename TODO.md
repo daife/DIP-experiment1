@@ -74,11 +74,11 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 
 ## 步骤七：评价指标
 
-- [ ] 检测使用 `IoU >= 0.5` 判定匹配，报告 Precision、Recall 和 F1。
+- [x] 检测使用 `IoU >= 0.5` 判定匹配，报告 Precision、Recall 和 F1；固定两张 validation 原生整页，见 `results/step7_detection_evaluation.json`。
 - [x] 关键点报告 NME，使用双眼中心距离归一化，只统计 `visibility=1` 的点；双眼中心不可算时按规格说明回退人脸框对角线。
-- [ ] 记录平均每张图的检测时间和每个 Stage 的通过率。
-- [ ] 记录不同滑窗步长的窗口数量和处理时间。
-- [ ] 比较整数版与浮点版输出是否一致。
+- [x] 记录平均每张图的检测时间和每个 Stage 的通过率；Stage 通过率基于步骤四固定裁剪测试集及步骤七固定抽样窗口，范围见阶段记录。
+- [x] 记录不同滑窗步长的窗口数量和处理时间。
+- [x] 比较整数版与浮点版输出是否一致；相同舍入规则下比较 100 个固定验证窗口。
 
 ## 步骤八：最终 Demo 与模型导出
 
