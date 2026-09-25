@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-09-25T03:54:28.262039+00:00",
+  "model": {
+    "name": "anime-face-detector/hrnetv2",
+    "checkpoint": "model.safetensors",
+    "checkpoint_sha256": "e71271376406a743c01528a0460637fcc06e72aeeea583f85007cc72dc8b7a4a",
+    "flip_test": true,
+    "input_policy": "anime256 full crop; face detector skipped"
+  },
+  "landmark_schema": "datasets/annotations/landmark28_schema.json",
+  "sampling": {
+    "manifest": "datasets/annotations/review_sets/landmark320/supplement_selection.csv",
+    "source_dataset": "anime256",
+    "split": "all",
+    "pool_size": 256,
+    "seed": 20260925,
+    "requested": 256,
+    "selected": 256,
+    "warmup_excluded": 3
+  },
+  "environment": {
+    "device": "cpu",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.13",
+    "torch": "2.14.0+cpu",
+    "torch_threads": 8,
+    "cuda_available": false,
+    "cuda_device": null
+  },
+  "result": {
+    "successful_images": 256,
+    "annotated_faces": 256,
+    "failures": [],
+    "model_load_seconds": 0.14634759999171365,
+    "batch_elapsed_seconds": 31.97124719999556,
+    "steady_mean_seconds_per_image": 0.12487732529636286,
+    "steady_median_seconds_per_image": 0.12208939999982249,
+    "steady_p95_seconds_per_image": 0.149197259999346,
+    "steady_images_per_second": 8.007858893732454,
+    "estimated_current_pool_seconds": 31.968595275868893,
+    "estimated_all_anime256_seconds": 31.968595275868893,
+    "landmark_points": 7168,
+    "out_of_bounds_landmark_points": 2,
+    "landmark_confidence_mean": 0.8592881529522336,
+    "landmark_confidence_median": 0.9154789447784424,
+    "landmark_confidence_min": 0.0475255623459816,
+    "landmark_confidence_max": 1.0875165462493896
+  },
+  "outputs": {
+    "annotations": "annotations.jsonl"
+  }
+}

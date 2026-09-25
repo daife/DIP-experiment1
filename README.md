@@ -70,6 +70,14 @@ python scripts/preannotate_landmarks.py --limit 64 --split all
 
 每次运行会在 `datasets/annotations/auto/<run-name>/` 下生成不可变的 JSONL 标注和包含模型校验值、环境、耗时及全量外推的元数据。anime256 已是一脸一图的裁剪池，因此脚本跳过人脸检测，直接运行 HRNetV2 关键点模型；自动标注的 `visibility` 保持为空，等待人工确认。
 
+当前人工复核入口是 320 张固定预标注（train 240、validation 32、test 48），清单和校验值在 `datasets/annotations/review_sets/landmark320/`。源图保留在本地忽略目录 `datasets/raw/anime256/`。启动本地复核工具：
+
+```powershell
+.venv\Scripts\python.exe scripts\review_landmarks.py
+```
+
+操作和交接规则见 [`datasets/annotations/LANDMARK_REVIEW_GUIDE.md`](datasets/annotations/LANDMARK_REVIEW_GUIDE.md)。
+
 固定划分种子为 `experiment1-anime-face-v1`，按来源组进行 Train 75% / Validation 10% / Test 15% 划分，避免同源图片泄漏到不同集合。
 
 ## 11 通道特征复现与观察

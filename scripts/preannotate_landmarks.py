@@ -29,6 +29,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MANIFEST = PROJECT_ROOT / "datasets" / "manifests" / "images.csv"
 AUTO_ROOT = PROJECT_ROOT / "datasets" / "annotations" / "auto"
 MODEL_NAME = "anime-face-detector/hrnetv2"
+LANDMARK_SCHEMA = "anime_face_detector_hrnetv2_28_v1"
 
 
 def parse_args() -> argparse.Namespace:
@@ -155,6 +156,7 @@ def main() -> None:
                 "width": width,
                 "height": height,
                 "annotation_source": MODEL_NAME,
+                "landmark_schema_id": LANDMARK_SCHEMA,
                 "annotations": [
                     {
                         "bbox": [0.0, 0.0, float(width - 1), float(height - 1)],
@@ -193,8 +195,9 @@ def main() -> None:
             "flip_test": not args.no_flip_test,
             "input_policy": "anime256 full crop; face detector skipped",
         },
+        "landmark_schema": "datasets/annotations/landmark28_schema.json",
         "sampling": {
-            "manifest": str(args.manifest.relative_to(PROJECT_ROOT)).replace("\\", "/"),
+            "manifest": str(args.manifest.resolve().relative_to(PROJECT_ROOT)).replace("\\", "/"),
             "source_dataset": "anime256",
             "split": args.split,
             "pool_size": total_pool,

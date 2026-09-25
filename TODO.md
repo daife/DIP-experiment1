@@ -60,7 +60,8 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 ## 步骤六：28 点关键点回归
 
 - [x] 已完成 anime256 固定 64 张的 CPU 预标注基准。
-- [ ] 固定 28 个关键点的编号和顺序，遮挡点使用 `visibility=0`。
+- [x] 固定 28 个关键点的编号和顺序，遮挡点使用 `visibility=0`；自动预标注在人工复核前仍为 `null`。
+- [x] 已按固定 split 准备 320 张待复核自动预标注（train 240、validation 32、test 48），图片留在本地忽略目录。
 - [ ] 使用 anime-face-detector 预标注并进行人工修正，形成可用的 28 点数据。
 - [ ] 计算初始平均形状。
 - [ ] 围绕关键点采样局部像素差特征。
