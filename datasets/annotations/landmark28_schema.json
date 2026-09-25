@@ -23,5 +23,9 @@
     "1": "The landmark is visible and its coordinate has been checked by a human reviewer.",
     "null": "Automatic preannotation only; visibility has not been reviewed. This record is not ground truth."
   },
-  "annotation_policy": "Keep all 28 positions, even when visibility is 0. Occlusion means visibility 0 even if an automatic prediction is anatomically plausible. Do not move an occluded point to a guessed location; retain its automatic coordinate only as a masked placeholder. Move a point and mark visibility 1 only when the target location is directly identifiable in the image. Do not infer visibility from heatmap confidence. Training and NME must mask visibility-0 points. The review UI converts remaining null visibility values to 1 only on an explicit per-image save after inspection; it records timestamp, edited indices, and occluded indices without requiring a typed reviewer identifier. Keep model confidence in a separate field. Test records require human review."
+  "coordinate_quality": {
+    "reliable_estimate": "Occluded point whose location can be reasonably inferred from visible facial structure; correct the coordinate before marking it occluded.",
+    "uncertain": "Occluded, out-of-frame, or otherwise unlocalizable point; its coordinate must not be treated as a training target."
+  },
+  "annotation_policy": "Keep all 28 positions. Visibility 0 denotes an occluded or non-visible point, regardless of whether its location can be estimated. If an occluded location can be reasonably inferred, correct its coordinate and set coordinate_quality to reliable_estimate. Otherwise set coordinate_quality to uncertain; retain the coordinate only as a placeholder. Do not infer visibility or coordinate quality from heatmap confidence. NME uses visibility-1 points only. Compare training with reliable estimated occluded coordinates against training with all visibility-0 coordinates excluded, using the same fixed split. The review UI converts remaining null visibility values to 1 only on an explicit per-image save after inspection. Keep model confidence in a separate field. Test records require human review."
 }

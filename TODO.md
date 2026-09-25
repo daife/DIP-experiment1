@@ -66,6 +66,7 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 - [ ] 计算初始平均形状。
 - [ ] 围绕关键点采样局部像素差特征。
 - [ ] 使用 Ridge Regression 预测 56 维形状残差并更新关键点。
+- [ ] 在同一固定 split、特征和随机种子下，对比遮挡点坐标全部屏蔽与纳入人工确认的可靠推定遮挡点；不可靠坐标始终屏蔽，并分别报告可见点 NME 与辅助的推定遮挡点误差。
 - [ ] 重复 3～5 轮完成多级形状回归。
 - [ ] 可选：根据基础方案效果尝试 Fern/LBF 风格特征或可见点加权损失。
 

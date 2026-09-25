@@ -36,12 +36,12 @@ textarea{min-height:55px}p{line-height:1.5}small{color:#625f5b}.warn{color:#ad3b
 <main><canvas id="board" width="800" height="800"></canvas><aside>
 <div class="row"><button id="prev">← 上一张</button><button id="next">下一张 →</button><button id="jump">跳到未完成</button></div>
 <p id="identity"></p><p id="selected"></p>
-<p>检查 28 个点：拖动看得见但位置错误的点；被遮挡的点按 H 标为 0。其余点保存时自动记为可见。不要把遮挡点拖到猜测位置。</p>
-<div class="row"><button id="visible">V：可见 1</button><button id="hidden">H：遮挡 0</button></div>
+<p>逐点检查：可见点拖到实际位置；遮挡但能依据脸部结构合理推定的点，先拖到推定位置，再按 H。无法可靠推定或出画的点按 U。其余点保存时记为可见。</p>
+<div class="row"><button id="visible">V：可见 1</button><button id="hidden">H：遮挡，位置可推定</button><button id="uncertain">U：位置不可靠</button></div>
 <p><button id="allHidden">整图不可标（备注原因）</button></p>
 <label>备注（可留空；整图不可标时必填）<textarea id="note"></textarea></label>
 <p><button class="primary" id="save">检查完后保存并下一张（S）</button></p><p id="message"></p>
-<hr><p><small>黄圈＝自动点，保存后默认可见；绿色＝已标可见；灰色＝遮挡。自动模型置信度不等于可见性。关闭页面后可继续，已保存内容在 corrected JSONL 中。</small></p>
+<hr><p><small>黄圈＝自动点；绿色＝可见；灰色＝遮挡且位置可推定；红色＝位置不可靠。模型置信度不等于可见性。灰色点可用于后续训练对照，NME 仍只统计可见点。</small></p>
 </aside></main><script>
 let records=[],index=0,selected=0,image=new Image(),dirty=false,dragging=false,loaded=false;
 const q=id=>document.getElementById(id),canvas=q('board'),ctx=canvas.getContext('2d');
@@ -50,8 +50,8 @@ const L={left:48,top:48,size:704};
 function pointScreen(p){return [L.left+p.x*L.size/records[index].width,L.top+p.y*L.size/records[index].height]}
 function draw(){if(!loaded)return;ctx.fillStyle='#e5e0d7';ctx.fillRect(0,0,800,800);ctx.drawImage(image,L.left,L.top,L.size,L.size);
   const pts=records[index].annotations[0].landmarks;
-  pts.forEach((p,i)=>{const [x,y]=pointScreen(p);ctx.beginPath();ctx.arc(x,y,i===selected?10:7,0,Math.PI*2);ctx.fillStyle=colors[String(p.visibility)];ctx.fill();ctx.lineWidth=i===selected?3:1.5;ctx.strokeStyle='white';ctx.stroke();ctx.font='bold 17px system-ui';ctx.fillStyle='white';ctx.strokeStyle='#172025';ctx.lineWidth=3;ctx.strokeText(String(i),x+9,y-8);ctx.fillText(String(i),x+9,y-8)});
-  const p=pts[selected];q('selected').textContent=`选中 #${selected} · (${p.x.toFixed(1)}, ${p.y.toFixed(1)}) · ${p.visibility===null?'未单独标记（保存时为 1）':'visibility='+p.visibility} · confidence=${p.confidence?.toFixed(3)??'—'}`;
+  pts.forEach((p,i)=>{const [x,y]=pointScreen(p);ctx.beginPath();ctx.arc(x,y,i===selected?10:7,0,Math.PI*2);ctx.fillStyle=p.visibility===0&&p.coordinate_quality!=='reliable_estimate'?'#b5443b':colors[String(p.visibility)];ctx.fill();ctx.lineWidth=i===selected?3:1.5;ctx.strokeStyle='white';ctx.stroke();ctx.font='bold 17px system-ui';ctx.fillStyle='white';ctx.strokeStyle='#172025';ctx.lineWidth=3;ctx.strokeText(String(i),x+9,y-8);ctx.fillText(String(i),x+9,y-8)});
+  const p=pts[selected];q('selected').textContent=`选中 #${selected} · (${p.x.toFixed(1)}, ${p.y.toFixed(1)}) · ${p.visibility===null?'未单独标记（保存时为 1）':'visibility='+p.visibility} · ${p.visibility===0?(p.coordinate_quality==='reliable_estimate'?'位置可推定':'位置不可靠'):''} · confidence=${p.confidence?.toFixed(3)??'—'}`;
 }
 function setMessage(s,bad=false){q('message').textContent=s;q('message').className=bad?'warn':'ok'}
 function show(n){if(dirty&&!confirm('本图改动尚未保存，确定离开？'))return;index=Math.max(0,Math.min(records.length-1,n));selected=0;dirty=false;loaded=false;
@@ -60,15 +60,15 @@ function show(n){if(dirty&&!confirm('本图改动尚未保存，确定离开？'
   image=new Image();image.onload=()=>{loaded=true;draw()};image.onerror=()=>setMessage('图片无法读取',true);image.src=`/image/${index}`;
   q('progress').textContent=`已保存 ${records.filter(x=>x.review).length}/${records.length}`;setMessage('');
 }
-function mark(v){records[index].annotations[0].landmarks[selected].visibility=v;dirty=true;draw()}
+function mark(v,quality=null){const p=records[index].annotations[0].landmarks[selected];p.visibility=v;if(v===0)p.coordinate_quality=quality;else delete p.coordinate_quality;dirty=true;draw()}
 function nearest(e){const b=canvas.getBoundingClientRect(),x=(e.clientX-b.left)*800/b.width,y=(e.clientY-b.top)*800/b.height;
   let best=-1,dist=1e9;records[index].annotations[0].landmarks.forEach((p,i)=>{const [px,py]=pointScreen(p),d=(x-px)**2+(y-py)**2;if(d<dist){dist=d;best=i}});return {best,dist,x,y}}
 canvas.onpointerdown=e=>{if(!loaded)return;const n=nearest(e);if(n.dist<45**2){selected=n.best;dragging=true;canvas.setPointerCapture(e.pointerId);draw()}};
 canvas.onpointermove=e=>{if(!dragging)return;const n=nearest(e),p=records[index].annotations[0].landmarks[selected];p.x=Math.round((n.x-L.left)*records[index].width/L.size*10)/10;p.y=Math.round((n.y-L.top)*records[index].height/L.size*10)/10;dirty=true;draw()};
 canvas.onpointerup=()=>dragging=false;canvas.onpointercancel=()=>dragging=false;
-q('prev').onclick=()=>show(index-1);q('next').onclick=()=>show(index+1);q('visible').onclick=()=>mark(1);q('hidden').onclick=()=>mark(0);
+q('prev').onclick=()=>show(index-1);q('next').onclick=()=>show(index+1);q('visible').onclick=()=>mark(1);q('hidden').onclick=()=>mark(0,'reliable_estimate');q('uncertain').onclick=()=>mark(0,'uncertain');
 q('jump').onclick=()=>{const n=records.findIndex((r,i)=>i>index&&!r.review);show(n<0?records.findIndex(r=>!r.review):n)};
-q('allHidden').onclick=()=>{if(!confirm('仅用于无可靠人脸或整图无法定位的样本。确认把 28 点全部标为 0？请在备注中写原因。'))return;records[index].annotations[0].landmarks.forEach(p=>p.visibility=0);dirty=true;draw()};
+q('allHidden').onclick=()=>{if(!confirm('仅用于无可靠人脸或整图无法定位的样本。确认把 28 点全部标为 0 且位置不可靠？请在备注中写原因。'))return;records[index].annotations[0].landmarks.forEach(p=>{p.visibility=0;p.coordinate_quality='uncertain'});dirty=true;draw()};
 async function save(){const r=records[index];
  if(r.annotations[0].landmarks.every(p=>p.visibility===0)&&!q('note').value.trim())return setMessage('整图不可标时请填写原因。',true);
  const response=await fetch('/api/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({index,landmarks:r.annotations[0].landmarks,note:q('note').value.trim()})});
@@ -77,7 +77,7 @@ async function save(){const r=records[index];
  if(index<records.length-1){show(index+1);setMessage('上一张已保存。')}else{draw();setMessage('本批最后一张已保存。')}
 }
 q('save').onclick=save;document.onkeydown=e=>{if(['INPUT','TEXTAREA'].includes(document.activeElement.tagName))return;
- if(e.key.toLowerCase()==='v')mark(1);if(e.key.toLowerCase()==='h')mark(0);if(e.key.toLowerCase()==='s'){e.preventDefault();save()}if(e.key==='ArrowRight')show(index+1);if(e.key==='ArrowLeft')show(index-1)};
+ if(e.key.toLowerCase()==='v')mark(1);if(e.key.toLowerCase()==='h')mark(0,'reliable_estimate');if(e.key.toLowerCase()==='u')mark(0,'uncertain');if(e.key.toLowerCase()==='s'){e.preventDefault();save()}if(e.key==='ArrowRight')show(index+1);if(e.key==='ArrowLeft')show(index-1)};
 fetch('/api/records').then(r=>r.json()).then(data=>{records=data;show(0)}).catch(e=>setMessage(String(e),true));
 </script></body></html>"""
 
@@ -158,6 +158,8 @@ def main() -> None:
                         raise ValueError("Invalid visibility")
                     if not all(isinstance(p[k], (int, float)) for k in ("x", "y")):
                         raise ValueError("Invalid landmark")
+                    if p.get("coordinate_quality") not in (None, "reliable_estimate", "uncertain"):
+                        raise ValueError("Invalid coordinate quality")
                 if all(p["visibility"] == 0 for p in points) and not str(data.get("note", "")).strip():
                     raise ValueError("An unlabelable image requires a reason in note")
                 record = copy.deepcopy(records[i])
@@ -165,6 +167,10 @@ def main() -> None:
                 adjusted = []
                 for j, (target, point, source_point) in enumerate(zip(record["annotations"][0]["landmarks"], points, original[i]["annotations"][0]["landmarks"], strict=True)):
                     target["x"], target["y"], target["visibility"] = point["x"], point["y"], 1 if point["visibility"] is None else point["visibility"]
+                    if target["visibility"] == 0:
+                        target["coordinate_quality"] = point.get("coordinate_quality") or "uncertain"
+                    else:
+                        target.pop("coordinate_quality", None)
                     if (target["x"], target["y"]) != (source_point["x"], source_point["y"]):
                         adjusted.append(j)
                 record["landmark_schema_id"] = schema["schema_id"]
@@ -172,7 +178,8 @@ def main() -> None:
                                     "method": "local_ui_explicit_save", "note": str(data.get("note", ""))[:2000],
                                     "status": "human_reviewed", "default_visible_count": defaulted,
                                     "adjusted_point_indices": adjusted,
-                                    "occluded_point_indices": [j for j, p in enumerate(record["annotations"][0]["landmarks"]) if p["visibility"] == 0]}
+                                    "occluded_point_indices": [j for j, p in enumerate(record["annotations"][0]["landmarks"]) if p["visibility"] == 0],
+                                    "reliable_occluded_point_indices": [j for j, p in enumerate(record["annotations"][0]["landmarks"]) if p["visibility"] == 0 and p["coordinate_quality"] == "reliable_estimate"]}
                 updated = records.copy()
                 updated[i] = record
                 output.parent.mkdir(parents=True, exist_ok=True)
