@@ -70,7 +70,7 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 - [x] 使用 Ridge Regression 预测 56 维形状残差并更新关键点。
 - [x] 在同一固定 split、特征和随机种子下，对比遮挡点坐标全部屏蔽与纳入人工确认的可靠推定遮挡点；不可靠坐标始终屏蔽，并分别报告可见点 NME 与辅助的推定遮挡点误差。
 - [x] 重复 4 轮完成多级形状回归。
-- [ ] 可选：根据基础方案效果尝试 Fern/LBF 风格特征或可见点加权损失。
+- [x] 可选进阶：在同一固定 split 上尝试 Fern 风格局部二值特征；validation NME 未超过基础 Ridge，详见 `实验记录/2026-09-25_Fern进阶关键点对照.md`。
 
 ## 步骤七：评价指标
 
