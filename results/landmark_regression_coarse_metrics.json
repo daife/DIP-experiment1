@@ -1,0 +1,2009 @@
+{
+  "annotation_sha256": "f2304ab323cb547dcd36383ff2afd95bcdafc8ab139e06ff20265dd3b65019db",
+  "mean_shape_sha256": "5e3a2a97795d2d04a480e5f9cb86a02baa5a624ca0963fbdc8ab2a99b8dcbce7",
+  "seed": 20260925,
+  "stages": 4,
+  "differences_per_point": 8,
+  "feature_count": 224,
+  "offset_radius_bbox_fraction": 0.075,
+  "ridge_alpha": 10.0,
+  "image_normalization_size": 256,
+  "nme_definition": "mean visible-point Euclidean error / visible eye-center distance; bbox diagonal fallback",
+  "target_status": "coarse-human-accepted, unchanged HRNetV2 coordinates",
+  "baseline": {
+    "validation": {
+      "images": 32,
+      "visible_points": 885,
+      "visible_nme": 0.19061511329713962,
+      "reliable_occluded_points": 5,
+      "reliable_occluded_error": 0.2811483449316946,
+      "bbox_diagonal_fallback_images": 0,
+      "per_image": [
+        {
+          "image_id": "anime256:236302-13748.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.12885915230045591,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:785-27544.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.22245349670983575,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:126840-3028.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1593687849845907,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:120288-2407.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.3198585403122598,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-l3pypq-2955.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.09566921116149625,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:95705-29119.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.296316119937703,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:55016-24670.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.09233860846475983,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:229280-13171.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.10586783580151542,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-3k5w23-531.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14315176650878655,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-ymw56d-4580.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.15296746865014102,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-gj95r3-2537.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.13399143820212464,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:181383-8769.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2841457664269047,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:194840-9909.jpg",
+          "visible_points": 23,
+          "visible_nme": 0.2839444837443655,
+          "reliable_occluded_points": 5,
+          "reliable_occluded_error": 0.2811483449316946,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:233262-13614.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.22618469764363155,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:308302-19818.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.10875750680303052,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-4d3q93-924.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2665890034937273,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:31046-19867.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.13078916365064414,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-9mwpmk-2010.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.17124875819233293,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:153767-5813.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.15688205934073857,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:6884-26200.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.13812251807821915,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:332342-21359.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.10664326568494323,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:294535-18866.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2625532845761303,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:307602-19610.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.22009269763743533,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:14072-4312.jpg",
+          "visible_points": 22,
+          "visible_nme": 0.10987015262012566,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-578357-1293.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1837129830956281,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:253219-15570.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14603546387162983,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:44528-23420.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.45387420950721064,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:192101-9842.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14537375093120103,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:88870-28538.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.08955899127760635,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:47973-23819.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1861953794328021,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:116825-2011.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.39025600655980525,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:273990-17097.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.18737452734147383,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        }
+      ]
+    },
+    "test": {
+      "images": 48,
+      "visible_points": 1234,
+      "visible_nme": 0.19392090556558142,
+      "reliable_occluded_points": 21,
+      "reliable_occluded_error": 0.542373979062478,
+      "bbox_diagonal_fallback_images": 4,
+      "per_image": [
+        {
+          "image_id": "anime256:239424-13963.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2126502537567935,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:195162-10056.jpg",
+          "visible_points": 21,
+          "visible_nme": 0.1870812874615867,
+          "reliable_occluded_points": 2,
+          "reliable_occluded_error": 0.1552072988058369,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:195162-10031.jpg",
+          "visible_points": 0,
+          "visible_nme": null,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "bbox_diagonal"
+        },
+        {
+          "image_id": "anime256:273797-17024.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1717706078587895,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-m9qxwm-3094.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.20325095849012897,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:68710-26136.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1761645792551829,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:45103-23680.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.19451286647974372,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:72211-26736.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.12319318020112575,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:130629-3404.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1985643898837519,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:120508-2514.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.07860746990835764,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:185146-9211.jpg",
+          "visible_points": 0,
+          "visible_nme": null,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "bbox_diagonal"
+        },
+        {
+          "image_id": "anime256:109927-1191.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.25543636805019154,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:99583-29566.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.20483662352980123,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:252886-15513.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.11250113137298161,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-76lo63-1723.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1032429951036782,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:120177-2367.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.3778322231007935,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:154633-6067.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.13164134585707948,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:222839-12781.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.12555966253307152,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:294217-18781.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.08906333896671091,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:308340-19830.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.06887297312343116,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:48234-23875.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.3845189819978153,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-48zo5k-865.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.17022398545590497,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:174673-7927.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2973980059213343,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:150927-5662.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1844183819086826,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:324465-20892.jpg",
+          "visible_points": 22,
+          "visible_nme": 0.04933663912758291,
+          "reliable_occluded_points": 6,
+          "reliable_occluded_error": 0.031113771713403102,
+          "normalizer": "bbox_diagonal"
+        },
+        {
+          "image_id": "anime256:587-25118.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1530947387571162,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:151078-5752.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.16990358932335287,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:44814-23540.jpg",
+          "visible_points": 27,
+          "visible_nme": 0.2906345030051149,
+          "reliable_occluded_points": 1,
+          "reliable_occluded_error": 0.33898866047000886,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:14531-5057.jpg",
+          "visible_points": 0,
+          "visible_nme": null,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "bbox_diagonal"
+        },
+        {
+          "image_id": "anime256:328550-21150.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2934532475105063,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:212021-11683.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14048570231914997,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:62326-25595.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14980237347468234,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:41319-22800.jpg",
+          "visible_points": 26,
+          "visible_nme": 0.14874265867721517,
+          "reliable_occluded_points": 2,
+          "reliable_occluded_error": 0.2656321142989983,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:103382-391.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.145746518077724,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:232686-13411.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2904348924905817,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:3753-22028.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14548005994241528,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-6oz3lq-1516.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.118505072441991,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-vgq585-4088.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.17442990836502872,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:174863-8015.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.17703868668026448,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:48757-24114.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.27390241829626444,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:215189-12062.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1245195553193456,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:208879-11363.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.2360493293938962,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:102884-127.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.1911942841392537,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:85989-28435.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.15427467322874558,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:68357-26010.jpg",
+          "visible_points": 23,
+          "visible_nme": 0.2944500215895975,
+          "reliable_occluded_points": 5,
+          "reliable_occluded_error": 0.17413430449192202,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:270675-16897.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.14160292306995195,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:wallhaven-wqke56-4161.jpg",
+          "visible_points": 23,
+          "visible_nme": 0.8412051329416049,
+          "reliable_occluded_points": 5,
+          "reliable_occluded_error": 1.8303663841784659,
+          "normalizer": "eye_centers"
+        },
+        {
+          "image_id": "anime256:133278-3516.jpg",
+          "visible_points": 28,
+          "visible_nme": 0.07188510118095007,
+          "reliable_occluded_points": 0,
+          "reliable_occluded_error": null,
+          "normalizer": "eye_centers"
+        }
+      ]
+    }
+  },
+  "models": {
+    "visible_only": {
+      "path": "models/landmark_ridge4_visible_only.npz",
+      "sha256": "1acf86d74815c7dd91ccbef8f89bd98cdaf992948e2aeb3812710c24ecdc9b50",
+      "train_target_points": 6550,
+      "train_target_images": 237,
+      "validation": {
+        "images": 32,
+        "visible_points": 885,
+        "visible_nme": 0.16001602294892997,
+        "reliable_occluded_points": 5,
+        "reliable_occluded_error": 0.21480658678473677,
+        "bbox_diagonal_fallback_images": 0,
+        "per_image": [
+          {
+            "image_id": "anime256:236302-13748.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.27581080501304645,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:785-27544.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.17337335444111296,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:126840-3028.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.06337814037722608,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120288-2407.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.39424085888789717,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-l3pypq-2955.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12329874301033086,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:95705-29119.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10556939850796966,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:55016-24670.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1558608617517619,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:229280-13171.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09095421478030619,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-3k5w23-531.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12914131034846302,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-ymw56d-4580.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.16094384557823777,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-gj95r3-2537.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10299540063881438,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:181383-8769.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.15045440534825724,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:194840-9909.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.4587071466092328,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 0.21480658678473677,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:233262-13614.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14452695941930976,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:308302-19818.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10154272231383435,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-4d3q93-924.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1823329208242784,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:31046-19867.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.19648371271244022,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-9mwpmk-2010.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12820215207933525,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:153767-5813.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08977080470122893,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:6884-26200.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10641172184604326,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:332342-21359.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0970245407564537,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:294535-18866.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.21508733746711264,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:307602-19610.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.21013901744912697,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:14072-4312.jpg",
+            "visible_points": 22,
+            "visible_nme": 0.165573644062187,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-578357-1293.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11066269656153695,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:253219-15570.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11541967005690468,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:44528-23420.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2765696535661728,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:192101-9842.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11853872155655712,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:88870-28538.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08743740848015011,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:47973-23819.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.16146489502091027,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:116825-2011.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1816445755183899,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:273990-17097.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10147971414473989,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          }
+        ]
+      },
+      "test": {
+        "images": 48,
+        "visible_points": 1234,
+        "visible_nme": 0.1552765245135099,
+        "reliable_occluded_points": 21,
+        "reliable_occluded_error": 0.5190944740114302,
+        "bbox_diagonal_fallback_images": 4,
+        "per_image": [
+          {
+            "image_id": "anime256:239424-13963.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0861904598266409,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:195162-10056.jpg",
+            "visible_points": 21,
+            "visible_nme": 0.14929086653712398,
+            "reliable_occluded_points": 2,
+            "reliable_occluded_error": 0.26075733958963115,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:195162-10031.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:273797-17024.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.15005312749722224,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-m9qxwm-3094.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1514218950143905,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:68710-26136.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.153182442695675,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:45103-23680.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1792258337616269,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:72211-26736.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12246050144471983,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:130629-3404.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09661304429548649,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120508-2514.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.059647952622584675,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:185146-9211.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:109927-1191.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12668789336750355,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:99583-29566.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11000997138343092,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:252886-15513.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.07514559713418655,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-76lo63-1723.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1806741882427436,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120177-2367.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2728161711513634,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:154633-6067.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10635810859503476,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:222839-12781.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.06070396248151751,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:294217-18781.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14066702356655023,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:308340-19830.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0989808507507856,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:48234-23875.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1057807357867605,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-48zo5k-865.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10807088395859313,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:174673-7927.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2634142906817511,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:150927-5662.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.16546821763070968,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:324465-20892.jpg",
+            "visible_points": 22,
+            "visible_nme": 0.04895110223939872,
+            "reliable_occluded_points": 6,
+            "reliable_occluded_error": 0.040797808997753864,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:587-25118.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1706648331384226,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:151078-5752.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10712358696872139,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:44814-23540.jpg",
+            "visible_points": 27,
+            "visible_nme": 0.19415674295657115,
+            "reliable_occluded_points": 1,
+            "reliable_occluded_error": 0.10430274152593677,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:14531-5057.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:328550-21150.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14606224067750753,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:212021-11683.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10912759410510475,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:62326-25595.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08303582329303745,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:41319-22800.jpg",
+            "visible_points": 26,
+            "visible_nme": 0.1459882986766154,
+            "reliable_occluded_points": 2,
+            "reliable_occluded_error": 0.2649401384898785,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:103382-391.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12895223072974282,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:232686-13411.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2492415397964686,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:3753-22028.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10800518338181096,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-6oz3lq-1516.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10162290170557929,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-vgq585-4088.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08990683949347034,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:174863-8015.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12992749545658705,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:48757-24114.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.20704543688315422,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:215189-12062.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11819227748625717,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:208879-11363.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.26470029132811246,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:102884-127.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2265409439252391,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:85989-28435.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.260084631878639,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:68357-26010.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.2230835793573018,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 0.2324827617153336,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:270675-16897.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0880471095033434,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-wqke56-4161.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.8360963764091776,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 1.6676171187983768,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:133278-3516.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.098150602469397,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          }
+        ]
+      }
+    },
+    "visible_and_reliable_occluded": {
+      "path": "models/landmark_ridge4_visible_and_reliable_occluded.npz",
+      "sha256": "a25bf471b08df6038299c5408fce277a87626d480cb598ea86da4b107fc44cec",
+      "train_target_points": 6598,
+      "train_target_images": 237,
+      "validation": {
+        "images": 32,
+        "visible_points": 885,
+        "visible_nme": 0.16327893536230376,
+        "reliable_occluded_points": 5,
+        "reliable_occluded_error": 0.21986091249064182,
+        "bbox_diagonal_fallback_images": 0,
+        "per_image": [
+          {
+            "image_id": "anime256:236302-13748.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.29000628624061114,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:785-27544.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.19425606086766675,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:126840-3028.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0818899620097556,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120288-2407.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.3884202630196217,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-l3pypq-2955.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12190709143553155,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:95705-29119.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12594592945820957,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:55016-24670.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12676081159356203,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:229280-13171.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08801236858359943,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-3k5w23-531.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1494480666319666,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-ymw56d-4580.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1593225781609382,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-gj95r3-2537.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1006879349946765,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:181383-8769.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14033612111933627,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:194840-9909.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.4842079734963567,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 0.21986091249064182,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:233262-13614.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.13400737859751263,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:308302-19818.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09486793255560645,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-4d3q93-924.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1963536214173168,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:31046-19867.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.22983217218149485,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-9mwpmk-2010.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1304426725431749,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:153767-5813.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.07918834778371937,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:6884-26200.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09730214708931387,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:332342-21359.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09623974406827818,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:294535-18866.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2027195317560986,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:307602-19610.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.21094953651921672,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:14072-4312.jpg",
+            "visible_points": 22,
+            "visible_nme": 0.1559756510812263,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-578357-1293.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1225020658406488,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:253219-15570.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1343854536761287,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:44528-23420.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2653302999156134,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:192101-9842.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11945142484573644,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:88870-28538.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08606567545640749,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:47973-23819.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.18599445412811016,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:116825-2011.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.18364645665906348,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:273990-17097.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10421368518807016,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          }
+        ]
+      },
+      "test": {
+        "images": 48,
+        "visible_points": 1234,
+        "visible_nme": 0.15694804811076235,
+        "reliable_occluded_points": 21,
+        "reliable_occluded_error": 0.5227675807909588,
+        "bbox_diagonal_fallback_images": 4,
+        "per_image": [
+          {
+            "image_id": "anime256:239424-13963.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10309000123947054,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:195162-10056.jpg",
+            "visible_points": 21,
+            "visible_nme": 0.1455955580291047,
+            "reliable_occluded_points": 2,
+            "reliable_occluded_error": 0.2723612578001853,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:195162-10031.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:273797-17024.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.13563430952339944,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-m9qxwm-3094.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14986614713084528,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:68710-26136.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14367183020664426,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:45103-23680.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.17564594250598375,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:72211-26736.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14016681283790255,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:130629-3404.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09756167247625923,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120508-2514.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.06282036373284115,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:185146-9211.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:109927-1191.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1298424315296743,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:99583-29566.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12635975084500864,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:252886-15513.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0760524386981508,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-76lo63-1723.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.19034202392654073,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:120177-2367.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.29278439863814426,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:154633-6067.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09500773258783606,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:222839-12781.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.07085476508658602,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:294217-18781.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.14687725095889156,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:308340-19830.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.09471733034404496,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:48234-23875.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.15617422111562607,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-48zo5k-865.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10351127195661898,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:174673-7927.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.24265518564994684,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:150927-5662.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.16447881065972828,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:324465-20892.jpg",
+            "visible_points": 22,
+            "visible_nme": 0.04542568574009005,
+            "reliable_occluded_points": 6,
+            "reliable_occluded_error": 0.037432844072425635,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:587-25118.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.17144474904632886,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:151078-5752.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.11509221906494735,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:44814-23540.jpg",
+            "visible_points": 27,
+            "visible_nme": 0.18937789133070126,
+            "reliable_occluded_points": 1,
+            "reliable_occluded_error": 0.12716445915344232,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:14531-5057.jpg",
+            "visible_points": 0,
+            "visible_nme": null,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "bbox_diagonal"
+          },
+          {
+            "image_id": "anime256:328550-21150.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12644036975179024,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:212021-11683.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10232237348817695,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:62326-25595.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.07831541180971109,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:41319-22800.jpg",
+            "visible_points": 26,
+            "visible_nme": 0.13696767547004512,
+            "reliable_occluded_points": 2,
+            "reliable_occluded_error": 0.22677684115659041,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:103382-391.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1332554630419877,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:232686-13411.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.24146372128118873,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:3753-22028.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12111290384683644,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-6oz3lq-1516.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1037745781313477,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-vgq585-4088.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.0886277816182087,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:174863-8015.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.1307187293145381,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:48757-24114.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.20555909431126215,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:215189-12062.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.12175410701211273,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:208879-11363.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2706037660540778,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:102884-127.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.22457400409154826,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:85989-28435.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.2583363202389241,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:68357-26010.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.20668776989896356,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 0.23320081378182383,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:270675-16897.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.08364036879080095,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:wallhaven-wqke56-4161.jpg",
+            "visible_points": 23,
+            "visible_nme": 0.8650738952279433,
+            "reliable_occluded_points": 5,
+            "reliable_occluded_error": 1.692415481239894,
+            "normalizer": "eye_centers"
+          },
+          {
+            "image_id": "anime256:133278-3516.jpg",
+            "visible_points": 28,
+            "visible_nme": 0.10671144166030426,
+            "reliable_occluded_points": 0,
+            "reliable_occluded_error": null,
+            "normalizer": "eye_centers"
+          }
+        ]
+      }
+    }
+  }
+}
