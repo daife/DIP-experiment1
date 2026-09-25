@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "cohort": "landmark320",
+  "assisted_review_file": "datasets/annotations/review_sets/landmark320/assisted_review_v2.jsonl",
+  "assisted_review_sha256": "56ce64034a043b318adb8b4c6be53eb50c798de1beeef2b8c975c6646147dc0b",
+  "confirmation": "User confirmed all 320 images were visually checked and the current point positions and V/H/U classifications were accepted.",
+  "review_level": "coarse_visual_acceptance_without_coordinate_refinement",
+  "coordinate_refinement": false,
+  "recorded_at_utc": "2026-09-25T09:54:14Z",
+  "source": "user confirmation in the project conversation"
+}

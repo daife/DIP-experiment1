@@ -4,6 +4,10 @@
 - `corrected/`: human-reviewed 28-point labels. Never overwrite an automatic run in place.
 - `review_sets/landmark320/`: fixed 320-image preannotation cohort, image hashes, and the versioned review images used by the local tool.
 
+For the 320-image cohort, `review_sets/landmark320/assisted_review_v2.jsonl` and its summary preserve the original automated visual review (`reviewer_claim: not_human_reviewed`). The user later confirmed a simple visual pass over all 320 images and accepted its V/H/U assignments and model coordinates without fine coordinate edits. `corrected/landmark28_review320.jsonl` records that coarse human acceptance, with `corrected/landmark28_review320_acceptance.json` as provenance. The authoritative schema remains `landmark28_schema.json` here; no duplicate schema is needed under `corrected/`.
+
+This cohort is suitable as a reviewed starting point for training experiments. Its coordinates are still the HRNetV2 predictions, so they must not be described as finely corrected landmark ground truth. Six images have all 28 points marked U and should be excluded from shape fitting and NME; this does not assert that those images contain no face. See `results/landmark_review320_coarse_stats.json` for counts.
+
 Each corrected record must keep `image_id`, `source_dataset`, `source_group`, and `split` from `manifests/images.csv`; contain exactly 28 landmarks in the agreed fixed order; and store `visibility` as 0 or 1. Preserve model confidence separately from human visibility.
 
 The fixed zero-based order and flip pairs are in `landmark28_schema.json`; the numbered schematic is `../../results/landmark28_index.png`. The array order matches `anime-face-detector/hrnetv2` directly. Image-left and image-right refer to the viewer's image coordinates, not anatomical left/right.

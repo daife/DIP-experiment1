@@ -78,6 +78,8 @@ python scripts/preannotate_landmarks.py --limit 64 --split all
 
 操作和交接规则见 [`datasets/annotations/LANDMARK_REVIEW_GUIDE.md`](datasets/annotations/LANDMARK_REVIEW_GUIDE.md)。
 
+320 张现已完成 V/H/U 人工粗复核并接受辅助标注，但未人工精调坐标。正式记录在 `datasets/annotations/corrected/landmark28_review320.jsonl`，来源与限制见 `datasets/annotations/corrected/landmark28_review320_acceptance.json` 及阶段记录；不要将其称为精确人工关键点真值。
+
 固定划分种子为 `experiment1-anime-face-v1`，按来源组进行 Train 75% / Validation 10% / Test 15% 划分，避免同源图片泄漏到不同集合。
 
 ## 11 通道特征复现与观察

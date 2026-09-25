@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "schema_id": "anime_face_detector_hrnetv2_28_v1",
+  "records": 320,
+  "points": 8960,
+  "record_counts_by_split": {
+    "test": 48,
+    "train": 240,
+    "validation": 32
+  },
+  "point_counts_by_type": {
+    "V": 8669,
+    "H": 74,
+    "U": 217
+  },
+  "images_containing_type": {
+    "V": 314,
+    "H": 21,
+    "U": 17
+  },
+  "point_counts_by_split_and_type": {
+    "test": {
+      "V": 1234,
+      "H": 21,
+      "U": 89
+    },
+    "train": {
+      "V": 6550,
+      "H": 48,
+      "U": 122
+    },
+    "validation": {
+      "V": 885,
+      "H": 5,
+      "U": 6
+    }
+  },
+  "fully_unreliable_images": [
+    "anime256:14531-5057.jpg",
+    "anime256:185146-9211.jpg",
+    "anime256:195162-10031.jpg",
+    "anime256:27393-17071.jpg",
+    "anime256:44846-23554.jpg",
+    "anime256:61829-25391.jpg"
+  ],
+  "out_of_bounds_points": [
+    {
+      "image_id": "anime256:270509-16840.jpg",
+      "point_index": 4,
+      "review_type": "U",
+      "x": 259.48748779296875,
+      "y": 139.40603637695312
+    },
+    {
+      "image_id": "anime256:270509-16840.jpg",
+      "point_index": 9,
+      "review_type": "U",
+      "x": 259.52069091796875,
+      "y": 99.98532104492188
+    },
+    {
+      "image_id": "anime256:270509-16840.jpg",
+      "point_index": 10,
+      "review_type": "U",
+      "x": 269.5386962890625,
+      "y": 109.5948486328125
+    },
+    {
+      "image_id": "anime256:270509-16840.jpg",
+      "point_index": 19,
+      "review_type": "U",
+      "x": 259.71746826171875,
+      "y": 127.8529052734375
+    },
+    {
+      "image_id": "anime256:61829-25391.jpg",
+      "point_index": 4,
+      "review_type": "U",
+      "x": 97.6171875,
+      "y": -26.89453125
+    },
+    {
+      "image_id": "anime256:44846-23554.jpg",
+      "point_index": 0,
+      "review_type": "U",
+      "x": -2.8489837646484375,
+      "y": 142.27703857421875
+    }
+  ],
+  "coordinates_changed": 0,
+  "confidence_values_changed": 0,
+  "review_scope": "all_320_images_second_visual_sheet_review",
+  "human_review_claimed": false,
+  "input": "D:\\prj_dip_cr\\DIP-experiment1-main\\datasets\\annotations\\review_sets\\landmark320\\annotations.jsonl",
+  "input_sha256": "db187f9ae74825615c1d137b18c28eafdad022230f2890c290c12d2ce7af0baa",
+  "canonical_output": "datasets\\annotations\\corrected\\landmark28_review320_final_v2.jsonl",
+  "export_output": "D:\\prj_dip_cr\\landmark320_final_review_v2\\landmark28_review320_final_v2.jsonl",
+  "output_sha256": "56ce64034a043b318adb8b4c6be53eb50c798de1beeef2b8c975c6646147dc0b",
+  "schema": "D:\\prj_dip_cr\\DIP-experiment1-main\\datasets\\annotations\\landmark28_schema.json"
+}

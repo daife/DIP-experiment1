@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "review_level": "coarse_visual_acceptance_without_coordinate_refinement",
+  "records": 320,
+  "split_counts": {
+    "train": 240,
+    "validation": 32,
+    "test": 48
+  },
+  "point_counts": {
+    "V": 8669,
+    "H": 74,
+    "U": 217
+  },
+  "fully_unreliable_images": [
+    {
+      "image_id": "anime256:195162-10031.jpg",
+      "split": "test"
+    },
+    {
+      "image_id": "anime256:185146-9211.jpg",
+      "split": "test"
+    },
+    {
+      "image_id": "anime256:61829-25391.jpg",
+      "split": "train"
+    },
+    {
+      "image_id": "anime256:14531-5057.jpg",
+      "split": "test"
+    },
+    {
+      "image_id": "anime256:27393-17071.jpg",
+      "split": "train"
+    },
+    {
+      "image_id": "anime256:44846-23554.jpg",
+      "split": "train"
+    }
+  ],
+  "coordinate_changes_from_preannotation": 0,
+  "assisted_sha256": "56ce64034a043b318adb8b4c6be53eb50c798de1beeef2b8c975c6646147dc0b",
+  "accepted_sha256": "f2304ab323cb547dcd36383ff2afd95bcdafc8ab139e06ff20265dd3b65019db",
+  "limitations": "Human accepted assisted V/H/U labels after simple visual review; no point coordinates were fine-tuned. Do not call coordinates precise human ground truth."
+}
