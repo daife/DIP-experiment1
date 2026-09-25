@@ -16,6 +16,7 @@ MANIFEST = ROOT / "datasets/manifests/images.csv"
 PILOT = ROOT / "datasets/annotations/auto/hrnetv2_cpu_pilot_64/annotations.jsonl"
 NEW = ROOT / "datasets/annotations/auto/hrnetv2_review_256_v2/annotations.jsonl"
 OUTPUT = ROOT / "datasets/annotations/review_sets/landmark320"
+TRACKED_IMAGE_DIR = OUTPUT / "images"
 SEED = 20260925
 TARGET = {"train": 240, "validation": 32, "test": 48}
 
@@ -93,12 +94,16 @@ def assemble() -> None:
         points = record["annotations"][0]["landmarks"]
         if len(points) != 28 or any(point["visibility"] is not None for point in points):
             raise ValueError(f"Unexpected landmark state: {record['image_id']}")
-        path = ROOT / "datasets" / record["image_path"]
+        filename = Path(record["image_path"]).name
+        tracked_path = TRACKED_IMAGE_DIR / filename
+        path = tracked_path if tracked_path.is_file() else ROOT / "datasets" / record["image_path"]
         if not path.is_file():
             raise FileNotFoundError(path)
+        image_path = str(path.relative_to(ROOT / "datasets")).replace("\\", "/")
+        record["image_path"] = image_path
         images.append({
             "image_id": record["image_id"],
-            "image_path": record["image_path"],
+            "image_path": image_path,
             "split": record["split"],
             "source_group": record["source_group"],
             "sha256": sha256(path),

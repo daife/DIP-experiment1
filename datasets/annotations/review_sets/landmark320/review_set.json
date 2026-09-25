@@ -15,7 +15,7 @@
   "pilot_run_metadata_sha256": "6e771f1124514fbd61ba6124c53c5e234e4913612a3f2588a0e53a5d151c0536",
   "supplement_run_metadata_sha256": "8d5aa168612a7e18e1bd2cb9bb0df1311ce240350ab8a66ba2ad840935a89936",
   "supplement_selection_sha256": "02e753103ccf299db7bfd6f1b882960ad1289033bbf17b8d2da79bfaefaf4156",
-  "annotations_sha256": "b7046385b9d0bcd10213fd89c5715dbccb985d1876d40f8991fea5d1af6c968b",
+  "annotations_sha256": "db187f9ae74825615c1d137b18c28eafdad022230f2890c290c12d2ce7af0baa",
   "archive_url": "https://github.com/luzhixing12345/anime-face-dataset/releases/download/v0.0.1/anime256.zip",
   "archive_sha256": "5e266c8954dc75f0d0bbf01e537e0097faba34c3cd7d7efbc7195bfabec07297",
   "image_count": 320,
@@ -23,7 +23,7 @@
   "images": [
     {
       "image_id": "anime256:239424-13963.jpg",
-      "image_path": "raw/anime256/239424-13963.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/239424-13963.jpg",
       "split": "test",
       "source_group": "239424",
       "sha256": "dea218c614dc33009f08443ff4399408d5ab69e9a2871f4d8bc20fec8000cb11",
@@ -31,7 +31,7 @@
     },
     {
       "image_id": "anime256:195162-10056.jpg",
-      "image_path": "raw/anime256/195162-10056.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/195162-10056.jpg",
       "split": "test",
       "source_group": "195162",
       "sha256": "74e335ea65ad97ac8789304c14bccd9d600ec820768a6570fbcdb55c5e179de2",
@@ -39,7 +39,7 @@
     },
     {
       "image_id": "anime256:212545-11876.jpg",
-      "image_path": "raw/anime256/212545-11876.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212545-11876.jpg",
       "split": "train",
       "source_group": "212545",
       "sha256": "d2a13fe2624c6c89d021a2c28a12bba9449cfc7aaa5bf087331d5e9272616f11",
@@ -47,7 +47,7 @@
     },
     {
       "image_id": "anime256:246391-14977.jpg",
-      "image_path": "raw/anime256/246391-14977.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/246391-14977.jpg",
       "split": "train",
       "source_group": "246391",
       "sha256": "b9ff98c6a0350a343f7e3a1405d1f4251c7fae0e69e2138f60c4d37bddc9d50f",
@@ -55,7 +55,7 @@
     },
     {
       "image_id": "anime256:wallhaven-ey1vj8-2314.jpg",
-      "image_path": "raw/anime256/wallhaven-ey1vj8-2314.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-ey1vj8-2314.jpg",
       "split": "train",
       "source_group": "wallhaven-ey1vj8",
       "sha256": "aa974f0c6f57a67f4070758b11b846c42bd6ede025ee32b567c41a3dbb3d48f4",
@@ -63,7 +63,7 @@
     },
     {
       "image_id": "anime256:195162-10031.jpg",
-      "image_path": "raw/anime256/195162-10031.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/195162-10031.jpg",
       "split": "test",
       "source_group": "195162",
       "sha256": "14eaba2e16b8e394f18c0ecad2cf713ffa3eef2dcc36fbb3b357101e23940690",
@@ -71,7 +71,7 @@
     },
     {
       "image_id": "anime256:273797-17024.jpg",
-      "image_path": "raw/anime256/273797-17024.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/273797-17024.jpg",
       "split": "test",
       "source_group": "273797",
       "sha256": "f3499e43b6425c0f3d9d8046ae137b1ab6e97e846f2f7c04dd4112df17da2153",
@@ -79,7 +79,7 @@
     },
     {
       "image_id": "anime256:311076-19941.jpg",
-      "image_path": "raw/anime256/311076-19941.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/311076-19941.jpg",
       "split": "train",
       "source_group": "311076",
       "sha256": "60ddbae69fe002b9453d3188380453f5c663d3bd686d0445e97a2f31012bf573",
@@ -87,7 +87,7 @@
     },
     {
       "image_id": "anime256:177808-8378.jpg",
-      "image_path": "raw/anime256/177808-8378.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/177808-8378.jpg",
       "split": "train",
       "source_group": "177808",
       "sha256": "c62418fa3e857112740802ec501d758f22e1ede252429763afa78821ff14a6a3",
@@ -95,7 +95,7 @@
     },
     {
       "image_id": "anime256:109580-1035.jpg",
-      "image_path": "raw/anime256/109580-1035.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/109580-1035.jpg",
       "split": "train",
       "source_group": "109580",
       "sha256": "de95073ee8f26eec3881ca23094f74a1b1223260d85994509b59f906e6cbba9a",
@@ -103,7 +103,7 @@
     },
     {
       "image_id": "anime256:wallhaven-m9qxwm-3094.jpg",
-      "image_path": "raw/anime256/wallhaven-m9qxwm-3094.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-m9qxwm-3094.jpg",
       "split": "test",
       "source_group": "wallhaven-m9qxwm",
       "sha256": "c7ebde71da8f48f9351af2dfd5f145447dd0110300e86769fc9df7583a91e684",
@@ -111,7 +111,7 @@
     },
     {
       "image_id": "anime256:68710-26136.jpg",
-      "image_path": "raw/anime256/68710-26136.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/68710-26136.jpg",
       "split": "test",
       "source_group": "68710",
       "sha256": "fffd117fffcaf3e2935ae0688f0df5e29e249509dac180fc3ae3f5791a40a656",
@@ -119,7 +119,7 @@
     },
     {
       "image_id": "anime256:109984-1262.jpg",
-      "image_path": "raw/anime256/109984-1262.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/109984-1262.jpg",
       "split": "train",
       "source_group": "109984",
       "sha256": "1648b286a0cdac5c373b8dfbc2e3e6031d594bacfbde9875aaaef667590871bf",
@@ -127,7 +127,7 @@
     },
     {
       "image_id": "anime256:325001-20960.jpg",
-      "image_path": "raw/anime256/325001-20960.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/325001-20960.jpg",
       "split": "train",
       "source_group": "325001",
       "sha256": "eb5d3f5cc6452f7ccbb1d8e4cd374606cbeb809e508daaa52a19b8e429dab243",
@@ -135,7 +135,7 @@
     },
     {
       "image_id": "anime256:wallhaven-m9vk5m-3096.jpg",
-      "image_path": "raw/anime256/wallhaven-m9vk5m-3096.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-m9vk5m-3096.jpg",
       "split": "train",
       "source_group": "wallhaven-m9vk5m",
       "sha256": "e704c84dfcdd4302c4e4945d8556ff23baf70cbaa0756b09624a8ed885dadcd6",
@@ -143,7 +143,7 @@
     },
     {
       "image_id": "anime256:178414-8595.jpg",
-      "image_path": "raw/anime256/178414-8595.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/178414-8595.jpg",
       "split": "train",
       "source_group": "178414",
       "sha256": "5a2cc3384af3676a1757969bb8bffa8eafbcab23b610d337d26546bb0ad518a9",
@@ -151,7 +151,7 @@
     },
     {
       "image_id": "anime256:321831-20844.jpg",
-      "image_path": "raw/anime256/321831-20844.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/321831-20844.jpg",
       "split": "train",
       "source_group": "321831",
       "sha256": "69bcafc5a7de0026e8fe310099b330b0a90b898206d776bb7997d938c39a36b7",
@@ -159,7 +159,7 @@
     },
     {
       "image_id": "anime256:45103-23680.jpg",
-      "image_path": "raw/anime256/45103-23680.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/45103-23680.jpg",
       "split": "test",
       "source_group": "45103",
       "sha256": "ae047735d1cadcb78b3b380b619ba659e7427f71d20bd9e0fc220387b5f3c5e7",
@@ -167,7 +167,7 @@
     },
     {
       "image_id": "anime256:120019-2308.jpg",
-      "image_path": "raw/anime256/120019-2308.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/120019-2308.jpg",
       "split": "train",
       "source_group": "120019",
       "sha256": "54ec8731d561fde7dd5f862e757cdd01fc828d983db1f5a03d02f2a8311cda6f",
@@ -175,7 +175,7 @@
     },
     {
       "image_id": "anime256:307441-19579.jpg",
-      "image_path": "raw/anime256/307441-19579.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/307441-19579.jpg",
       "split": "train",
       "source_group": "307441",
       "sha256": "2824197fef9b2c178dc34e9e127894846208acaede6670550507ddedf9b95c5c",
@@ -183,7 +183,7 @@
     },
     {
       "image_id": "anime256:72211-26736.jpg",
-      "image_path": "raw/anime256/72211-26736.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/72211-26736.jpg",
       "split": "test",
       "source_group": "72211",
       "sha256": "4b0e81994d19ca3499c53ed426b9650ce28317ad96f7b51915e38302505ad482",
@@ -191,7 +191,7 @@
     },
     {
       "image_id": "anime256:79367-27841.jpg",
-      "image_path": "raw/anime256/79367-27841.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/79367-27841.jpg",
       "split": "train",
       "source_group": "79367",
       "sha256": "0bf4cd7519966003f270fe8f86d59f4b583af4b459d58e284029eb2ac7c2a124",
@@ -199,7 +199,7 @@
     },
     {
       "image_id": "anime256:130629-3404.jpg",
-      "image_path": "raw/anime256/130629-3404.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/130629-3404.jpg",
       "split": "test",
       "source_group": "130629",
       "sha256": "c980b0d797a93c741689b45df90fc790fd8c66001a6c2ab92b84f947bde9f6c8",
@@ -207,7 +207,7 @@
     },
     {
       "image_id": "anime256:120508-2514.jpg",
-      "image_path": "raw/anime256/120508-2514.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/120508-2514.jpg",
       "split": "test",
       "source_group": "120508",
       "sha256": "f971e3d7f019c6a8dc56b6f2768b3b0d7732528b1f4d3fe4bd632a6787f86961",
@@ -215,7 +215,7 @@
     },
     {
       "image_id": "anime256:232456-13349.jpg",
-      "image_path": "raw/anime256/232456-13349.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/232456-13349.jpg",
       "split": "train",
       "source_group": "232456",
       "sha256": "53986faf295de18c7bcd4b3fa1f963e2ca1f9ef45018d242324aedec5d6fe07a",
@@ -223,7 +223,7 @@
     },
     {
       "image_id": "anime256:185146-9211.jpg",
-      "image_path": "raw/anime256/185146-9211.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/185146-9211.jpg",
       "split": "test",
       "source_group": "185146",
       "sha256": "4423a1749012ba3f3b5bc64db19052e80e5e3db704781038b241eabe3455a493",
@@ -231,7 +231,7 @@
     },
     {
       "image_id": "anime256:109927-1191.jpg",
-      "image_path": "raw/anime256/109927-1191.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/109927-1191.jpg",
       "split": "test",
       "source_group": "109927",
       "sha256": "f84c5c17756486c6d1cd1fdb289caa11eb9d3cbe14856bdcdd777a31b4e1bfc8",
@@ -239,7 +239,7 @@
     },
     {
       "image_id": "anime256:wallhaven-k76z8m-2780.jpg",
-      "image_path": "raw/anime256/wallhaven-k76z8m-2780.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-k76z8m-2780.jpg",
       "split": "train",
       "source_group": "wallhaven-k76z8m",
       "sha256": "9c6f4815ab11a04aa8e10297e06c6cf387128918a5b81521c75e140b7cf3a774",
@@ -247,7 +247,7 @@
     },
     {
       "image_id": "anime256:4014-22571.jpg",
-      "image_path": "raw/anime256/4014-22571.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/4014-22571.jpg",
       "split": "train",
       "source_group": "4014",
       "sha256": "912d39f9823b907e248136ef46848ed96b0a00ed682a1cb5b0ff72afee64c21e",
@@ -255,7 +255,7 @@
     },
     {
       "image_id": "anime256:246289-14936.jpg",
-      "image_path": "raw/anime256/246289-14936.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/246289-14936.jpg",
       "split": "train",
       "source_group": "246289",
       "sha256": "7e2affe00b22151bf4d5ae0ff084682d98fa50ab0c5caf24f45d90254c935ae2",
@@ -263,7 +263,7 @@
     },
     {
       "image_id": "anime256:236302-13748.jpg",
-      "image_path": "raw/anime256/236302-13748.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/236302-13748.jpg",
       "split": "validation",
       "source_group": "236302",
       "sha256": "badc10a59b136d42b2cc653a990f2e81eacd000c212c859b1c4defad7bfe12b9",
@@ -271,7 +271,7 @@
     },
     {
       "image_id": "anime256:103059-226.jpg",
-      "image_path": "raw/anime256/103059-226.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/103059-226.jpg",
       "split": "train",
       "source_group": "103059",
       "sha256": "55d7612bf90bced9a5aafa0c657ac69aac99a78272c4c2e2722eaa11f6733a00",
@@ -279,7 +279,7 @@
     },
     {
       "image_id": "anime256:99583-29566.jpg",
-      "image_path": "raw/anime256/99583-29566.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/99583-29566.jpg",
       "split": "test",
       "source_group": "99583",
       "sha256": "8bbcdeb3cbb45a517c7f79e1c10b47a8e18866d00be1e4b77fcc86446918891b",
@@ -287,7 +287,7 @@
     },
     {
       "image_id": "anime256:174432-7851.jpg",
-      "image_path": "raw/anime256/174432-7851.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/174432-7851.jpg",
       "split": "train",
       "source_group": "174432",
       "sha256": "9419021d2dc2bb74ae294aef66e212c44721b50b19375f9bb762dc533718e0a7",
@@ -295,7 +295,7 @@
     },
     {
       "image_id": "anime256:38557-22474.jpg",
-      "image_path": "raw/anime256/38557-22474.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/38557-22474.jpg",
       "split": "train",
       "source_group": "38557",
       "sha256": "d138d27ca1702401322ebd0af89d100c847ac54f9ab528df4fb3b679e2f7f40e",
@@ -303,7 +303,7 @@
     },
     {
       "image_id": "anime256:62152-25510.jpg",
-      "image_path": "raw/anime256/62152-25510.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/62152-25510.jpg",
       "split": "train",
       "source_group": "62152",
       "sha256": "2e3ad818f1e7cf140c32d783e63b4db5bd569182f39f442c8c6f1acafe253c24",
@@ -311,7 +311,7 @@
     },
     {
       "image_id": "anime256:65596-25876.jpg",
-      "image_path": "raw/anime256/65596-25876.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/65596-25876.jpg",
       "split": "train",
       "source_group": "65596",
       "sha256": "9c3daa1c2629246bed3706e1a4d8fbd217fac1dfb9794f49e7bb69b295f36b85",
@@ -319,7 +319,7 @@
     },
     {
       "image_id": "anime256:252886-15513.jpg",
-      "image_path": "raw/anime256/252886-15513.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/252886-15513.jpg",
       "split": "test",
       "source_group": "252886",
       "sha256": "d20e66e233c2d7a52a16afafcfef4abdd01b513a23dff25300f2679ea040c433",
@@ -327,7 +327,7 @@
     },
     {
       "image_id": "anime256:328620-21171.jpg",
-      "image_path": "raw/anime256/328620-21171.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/328620-21171.jpg",
       "split": "train",
       "source_group": "328620",
       "sha256": "aea3e359887a5fb7259c6edf9fbdbdc2ba17be4f015f5a3ebf75db936b3d775d",
@@ -335,7 +335,7 @@
     },
     {
       "image_id": "anime256:232852-13458.jpg",
-      "image_path": "raw/anime256/232852-13458.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/232852-13458.jpg",
       "split": "train",
       "source_group": "232852",
       "sha256": "3886dabb78533e4b2a01ac5894d8129499f12cd91c221e1e6d3a7c538bab166d",
@@ -343,7 +343,7 @@
     },
     {
       "image_id": "anime256:41321-22807.jpg",
-      "image_path": "raw/anime256/41321-22807.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/41321-22807.jpg",
       "split": "train",
       "source_group": "41321",
       "sha256": "ff5d77961d1e92e48a31809268f71a37c6f95b0d49ddbd1a08768062deca02d2",
@@ -351,7 +351,7 @@
     },
     {
       "image_id": "anime256:270509-16840.jpg",
-      "image_path": "raw/anime256/270509-16840.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/270509-16840.jpg",
       "split": "train",
       "source_group": "270509",
       "sha256": "1d6d1bd1f6649d4974df95c683ba8317f9bcb4a0e22d431d8aba33f2a4128d6c",
@@ -359,7 +359,7 @@
     },
     {
       "image_id": "anime256:51456-24290.jpg",
-      "image_path": "raw/anime256/51456-24290.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/51456-24290.jpg",
       "split": "train",
       "source_group": "51456",
       "sha256": "ad7a979a8abc2b8b14d786156b30a909552164b030d4ae0f5a2e26408af25399",
@@ -367,7 +367,7 @@
     },
     {
       "image_id": "anime256:157550-6224.jpg",
-      "image_path": "raw/anime256/157550-6224.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/157550-6224.jpg",
       "split": "train",
       "source_group": "157550",
       "sha256": "8895f26485c1022d9a3449e995738718d901718ea1df63a85bf6577414c51aee",
@@ -375,7 +375,7 @@
     },
     {
       "image_id": "anime256:wallhaven-0p6kyj-103.jpg",
-      "image_path": "raw/anime256/wallhaven-0p6kyj-103.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-0p6kyj-103.jpg",
       "split": "train",
       "source_group": "wallhaven-0p6kyj",
       "sha256": "0095153f6ab41a44e61f585ab803c0da0ecbca03e7045d4fd4ae0ab8e76e56f6",
@@ -383,7 +383,7 @@
     },
     {
       "image_id": "anime256:201673-10574.jpg",
-      "image_path": "raw/anime256/201673-10574.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/201673-10574.jpg",
       "split": "train",
       "source_group": "201673",
       "sha256": "94ca596ba08308ccef8dc05c8a1a668b27734e1ec1dd6a40ac1d0932bdff1707",
@@ -391,7 +391,7 @@
     },
     {
       "image_id": "anime256:14243-4491.jpg",
-      "image_path": "raw/anime256/14243-4491.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/14243-4491.jpg",
       "split": "train",
       "source_group": "14243",
       "sha256": "e0d8d425eec586a407eae48862264d07351093b97e90fdcfddb7518a1ecb7681",
@@ -399,7 +399,7 @@
     },
     {
       "image_id": "anime256:218963-12355.jpg",
-      "image_path": "raw/anime256/218963-12355.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/218963-12355.jpg",
       "split": "train",
       "source_group": "218963",
       "sha256": "82df70acf44ff2cb066d99f1b3a3453acc8aab2fe5052e068c704c04b11ead10",
@@ -407,7 +407,7 @@
     },
     {
       "image_id": "anime256:317722-20519.jpg",
-      "image_path": "raw/anime256/317722-20519.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/317722-20519.jpg",
       "split": "train",
       "source_group": "317722",
       "sha256": "e01482ac40832346cc93556b01fecb6859d2979a092dca140f57177a33311e70",
@@ -415,7 +415,7 @@
     },
     {
       "image_id": "anime256:31773-20522.jpg",
-      "image_path": "raw/anime256/31773-20522.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/31773-20522.jpg",
       "split": "train",
       "source_group": "31773",
       "sha256": "e04e39040752389aed8d491b6f9b509a87b8351c3c221a54ea6364deb7d366e3",
@@ -423,7 +423,7 @@
     },
     {
       "image_id": "anime256:239111-13875.jpg",
-      "image_path": "raw/anime256/239111-13875.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/239111-13875.jpg",
       "split": "train",
       "source_group": "239111",
       "sha256": "9421941ef281c8ba9a4d0092247cfca795a51bcafdbefa40a5eb28871029b8a9",
@@ -431,7 +431,7 @@
     },
     {
       "image_id": "anime256:wallhaven-e7qqy8-2260.jpg",
-      "image_path": "raw/anime256/wallhaven-e7qqy8-2260.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-e7qqy8-2260.jpg",
       "split": "train",
       "source_group": "wallhaven-e7qqy8",
       "sha256": "32b42600b6b42c449621dbe5ff4a23e1d2bd76e82a97a19b8a360bd4e202b529",
@@ -439,7 +439,7 @@
     },
     {
       "image_id": "anime256:wallhaven-76lo63-1723.jpg",
-      "image_path": "raw/anime256/wallhaven-76lo63-1723.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-76lo63-1723.jpg",
       "split": "test",
       "source_group": "wallhaven-76lo63",
       "sha256": "5e1c459f7d3aa8eb0c725720138d4ae5672963f94c083591a75d676f6ba52488",
@@ -447,7 +447,7 @@
     },
     {
       "image_id": "anime256:wallhaven-3z8e86-561.jpg",
-      "image_path": "raw/anime256/wallhaven-3z8e86-561.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-3z8e86-561.jpg",
       "split": "train",
       "source_group": "wallhaven-3z8e86",
       "sha256": "12ae4e886021c13c279a868a8754867101c2fcd409b7f14c89b2653e0a172db7",
@@ -455,7 +455,7 @@
     },
     {
       "image_id": "anime256:120177-2367.jpg",
-      "image_path": "raw/anime256/120177-2367.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/120177-2367.jpg",
       "split": "test",
       "source_group": "120177",
       "sha256": "454bc2d12e2f87feabd225922612cb5632eeede13bd3c5e2398eca75e2e91f8c",
@@ -463,7 +463,7 @@
     },
     {
       "image_id": "anime256:205834-11108.jpg",
-      "image_path": "raw/anime256/205834-11108.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/205834-11108.jpg",
       "split": "train",
       "source_group": "205834",
       "sha256": "9564062c0a06578fdde6cddca04dab5cd8ade199abfbaf3adf4f5c4131787f3f",
@@ -471,7 +471,7 @@
     },
     {
       "image_id": "anime256:154633-6067.jpg",
-      "image_path": "raw/anime256/154633-6067.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/154633-6067.jpg",
       "split": "test",
       "source_group": "154633",
       "sha256": "3e22a4b15ac84ec34d50e1d624cf7119f2accf21d3ba1fbfe663d8a82535121a",
@@ -479,7 +479,7 @@
     },
     {
       "image_id": "anime256:wallhaven-488324-845.jpg",
-      "image_path": "raw/anime256/wallhaven-488324-845.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-488324-845.jpg",
       "split": "train",
       "source_group": "wallhaven-488324",
       "sha256": "6664c550eb8ce1afa08eeef2c2c0e80940e82c9c6925ac141f41acc2d346e452",
@@ -487,7 +487,7 @@
     },
     {
       "image_id": "anime256:785-27544.jpg",
-      "image_path": "raw/anime256/785-27544.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/785-27544.jpg",
       "split": "validation",
       "source_group": "785",
       "sha256": "82774a52bfa705e0cf7618f4066e2ff46937cb84054b6ec94f9f9c17bef1df0a",
@@ -495,7 +495,7 @@
     },
     {
       "image_id": "anime256:168051-7173.jpg",
-      "image_path": "raw/anime256/168051-7173.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/168051-7173.jpg",
       "split": "train",
       "source_group": "168051",
       "sha256": "2a2fab4b7e421e0bf0260001595edf350f3ec9007c65b22bca1d98188dd69f90",
@@ -503,7 +503,7 @@
     },
     {
       "image_id": "anime256:62287-25567.jpg",
-      "image_path": "raw/anime256/62287-25567.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/62287-25567.jpg",
       "split": "train",
       "source_group": "62287",
       "sha256": "7021ab4c391d91db95011d3d42389159ddd20674f73ef727ff89b3ba2f3e0e35",
@@ -511,7 +511,7 @@
     },
     {
       "image_id": "anime256:284270-18163.jpg",
-      "image_path": "raw/anime256/284270-18163.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/284270-18163.jpg",
       "split": "train",
       "source_group": "284270",
       "sha256": "14a9910b0d0970e513fd2e721a2295dcd38a912b7586c26471fc0ce0c9122edf",
@@ -519,7 +519,7 @@
     },
     {
       "image_id": "anime256:72059-26645.jpg",
-      "image_path": "raw/anime256/72059-26645.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/72059-26645.jpg",
       "split": "train",
       "source_group": "72059",
       "sha256": "e88af78d10c64bc70519c3d4924c1ec619ad7ad2adbbf3361180023140058223",
@@ -527,7 +527,7 @@
     },
     {
       "image_id": "anime256:318326-20624.jpg",
-      "image_path": "raw/anime256/318326-20624.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/318326-20624.jpg",
       "split": "train",
       "source_group": "318326",
       "sha256": "816cc773d27d18745cd07f109d6b4bce83a6c241bd255cded32b992f098d3c06",
@@ -535,7 +535,7 @@
     },
     {
       "image_id": "anime256:wallhaven-43jj39-732.jpg",
-      "image_path": "raw/anime256/wallhaven-43jj39-732.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-43jj39-732.jpg",
       "split": "train",
       "source_group": "wallhaven-43jj39",
       "sha256": "46cf7d068b7e51c6ec595973b518f8de5bb8231e91977050b427360b54afa57b",
@@ -543,7 +543,7 @@
     },
     {
       "image_id": "anime256:222839-12781.jpg",
-      "image_path": "raw/anime256/222839-12781.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/222839-12781.jpg",
       "split": "test",
       "source_group": "222839",
       "sha256": "7942b2ebe32f06c100dbfc0a339d101d392eb260626fe0503c4fc93369e0428d",
@@ -551,7 +551,7 @@
     },
     {
       "image_id": "anime256:24706-15176.jpg",
-      "image_path": "raw/anime256/24706-15176.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/24706-15176.jpg",
       "split": "train",
       "source_group": "24706",
       "sha256": "fc1f6dc6f4ea484606dd585cf02971780babbef5f2129698372d797223bd539b",
@@ -559,7 +559,7 @@
     },
     {
       "image_id": "anime256:126840-3028.jpg",
-      "image_path": "raw/anime256/126840-3028.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/126840-3028.jpg",
       "split": "validation",
       "source_group": "126840",
       "sha256": "6cff760d24db34db4d8f1870b28561e0b2d7c240dfc4480a6cce869d9ade889e",
@@ -567,7 +567,7 @@
     },
     {
       "image_id": "anime256:wallhaven-y8lryd-4450.jpg",
-      "image_path": "raw/anime256/wallhaven-y8lryd-4450.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-y8lryd-4450.jpg",
       "split": "train",
       "source_group": "wallhaven-y8lryd",
       "sha256": "8c281035890ed7b63e197ea3314bbbb4d88fa0ff9d6daa95ae7dd1508ddd090f",
@@ -575,7 +575,7 @@
     },
     {
       "image_id": "anime256:92750-28915.jpg",
-      "image_path": "raw/anime256/92750-28915.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/92750-28915.jpg",
       "split": "train",
       "source_group": "92750",
       "sha256": "27f813f410b4f4c97278abb45651aa0f1164f4d1d1f99c4b1b2cfaaa93727e4c",
@@ -583,7 +583,7 @@
     },
     {
       "image_id": "anime256:78697-27614.jpg",
-      "image_path": "raw/anime256/78697-27614.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/78697-27614.jpg",
       "split": "train",
       "source_group": "78697",
       "sha256": "a09fe39987b1bd45c2d5f180cb91542359c46c1c0f88827cdba3eae5e946d8d9",
@@ -591,7 +591,7 @@
     },
     {
       "image_id": "anime256:301171-19254.jpg",
-      "image_path": "raw/anime256/301171-19254.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/301171-19254.jpg",
       "split": "train",
       "source_group": "301171",
       "sha256": "9186f4a27cd9ef21f570a76af1144049c72e7af43e06e5934db915b228707c8a",
@@ -599,7 +599,7 @@
     },
     {
       "image_id": "anime256:294217-18781.jpg",
-      "image_path": "raw/anime256/294217-18781.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294217-18781.jpg",
       "split": "test",
       "source_group": "294217",
       "sha256": "6fb0c0804d96fe43feb8ac8442c00866c44174f2999433424a39d1d4caea0134",
@@ -607,7 +607,7 @@
     },
     {
       "image_id": "anime256:wallhaven-nkol11-3273.jpg",
-      "image_path": "raw/anime256/wallhaven-nkol11-3273.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-nkol11-3273.jpg",
       "split": "train",
       "source_group": "wallhaven-nkol11",
       "sha256": "001ac5566ef06ed2fb0845c288fd944b07167ab9bf280d6ae2fba9715fd2cee5",
@@ -615,7 +615,7 @@
     },
     {
       "image_id": "anime256:120288-2407.jpg",
-      "image_path": "raw/anime256/120288-2407.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/120288-2407.jpg",
       "split": "validation",
       "source_group": "120288",
       "sha256": "1ff691a93afdac5bd92a1d2f3a40b6848be9641593c1858182cdb0cbbfad2e1c",
@@ -623,7 +623,7 @@
     },
     {
       "image_id": "anime256:147580-5342.jpg",
-      "image_path": "raw/anime256/147580-5342.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/147580-5342.jpg",
       "split": "train",
       "source_group": "147580",
       "sha256": "9d7dcb3d7cdc27058003b372e1955edcbe8a9930ec172e8fedf6c0e9537ac602",
@@ -631,7 +631,7 @@
     },
     {
       "image_id": "anime256:38483-22399.jpg",
-      "image_path": "raw/anime256/38483-22399.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/38483-22399.jpg",
       "split": "train",
       "source_group": "38483",
       "sha256": "a8aed8476abfc0a344e3a970c3b3ced413ec01bbc1fe8e914cae8cccdf000022",
@@ -639,7 +639,7 @@
     },
     {
       "image_id": "anime256:158004-6328.jpg",
-      "image_path": "raw/anime256/158004-6328.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/158004-6328.jpg",
       "split": "train",
       "source_group": "158004",
       "sha256": "c75f1c468be07fb768d8d247c1fc571bf9c6a6065716803c13330f9d8399f47f",
@@ -647,7 +647,7 @@
     },
     {
       "image_id": "anime256:wallhaven-1j966g-289.jpg",
-      "image_path": "raw/anime256/wallhaven-1j966g-289.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-1j966g-289.jpg",
       "split": "train",
       "source_group": "wallhaven-1j966g",
       "sha256": "32267eda4e606ccebd87f4a2f7af38d238948ee61695d61c638c05958e9c0ac4",
@@ -655,7 +655,7 @@
     },
     {
       "image_id": "anime256:226189-13019.jpg",
-      "image_path": "raw/anime256/226189-13019.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/226189-13019.jpg",
       "split": "train",
       "source_group": "226189",
       "sha256": "3606b271bae0a590120a1b4dd95fab49f5a40f07cae765e5190aa6effef3f08e",
@@ -663,7 +663,7 @@
     },
     {
       "image_id": "anime256:95651-29111.jpg",
-      "image_path": "raw/anime256/95651-29111.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/95651-29111.jpg",
       "split": "train",
       "source_group": "95651",
       "sha256": "43d1c7e85be567ead8b3766c7b8848553dde2a54e8b768b7353a379deabe8f47",
@@ -671,7 +671,7 @@
     },
     {
       "image_id": "anime256:wallhaven-8ow6vo-1832.jpg",
-      "image_path": "raw/anime256/wallhaven-8ow6vo-1832.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-8ow6vo-1832.jpg",
       "split": "train",
       "source_group": "wallhaven-8ow6vo",
       "sha256": "b4e358d55c439b82ab75febec8802a4e328f7c3bb07ec68cddeb93fa12341f9f",
@@ -679,7 +679,7 @@
     },
     {
       "image_id": "anime256:34797-21819.jpg",
-      "image_path": "raw/anime256/34797-21819.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/34797-21819.jpg",
       "split": "train",
       "source_group": "34797",
       "sha256": "00d0d66604621c48ce8639481fcd76c085b59fca702827d8861b9c76c9064705",
@@ -687,7 +687,7 @@
     },
     {
       "image_id": "anime256:24229-14250.jpg",
-      "image_path": "raw/anime256/24229-14250.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/24229-14250.jpg",
       "split": "train",
       "source_group": "24229",
       "sha256": "a4ce032e4930458f1a87c5ef8899eccbdc935ddd58642a76b2f2dbb073648dfb",
@@ -695,7 +695,7 @@
     },
     {
       "image_id": "anime256:308340-19830.jpg",
-      "image_path": "raw/anime256/308340-19830.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/308340-19830.jpg",
       "split": "test",
       "source_group": "308340",
       "sha256": "1a65707e9f2a3ee3da4283ef1b7a9edc885407c18d6402f40b8779249fd8f9bf",
@@ -703,7 +703,7 @@
     },
     {
       "image_id": "anime256:89563-28701.jpg",
-      "image_path": "raw/anime256/89563-28701.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/89563-28701.jpg",
       "split": "train",
       "source_group": "89563",
       "sha256": "7560fc3b8d9b7eef619c11fbd8581065658fbea72e22838e75b1c671e1c13015",
@@ -711,7 +711,7 @@
     },
     {
       "image_id": "anime256:wallhaven-r2ok6j-3864.jpg",
-      "image_path": "raw/anime256/wallhaven-r2ok6j-3864.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-r2ok6j-3864.jpg",
       "split": "train",
       "source_group": "wallhaven-r2ok6j",
       "sha256": "3482fa9f8fa67593da7c1069c2552206b3c4daf68cf34895a066d6d583044724",
@@ -719,7 +719,7 @@
     },
     {
       "image_id": "anime256:wallhaven-l3pypq-2955.jpg",
-      "image_path": "raw/anime256/wallhaven-l3pypq-2955.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-l3pypq-2955.jpg",
       "split": "validation",
       "source_group": "wallhaven-l3pypq",
       "sha256": "77694f682c2c64df2c8a124078ef992289c52d6d9b55a191a5ad2fd60ff25420",
@@ -727,7 +727,7 @@
     },
     {
       "image_id": "anime256:48234-23875.jpg",
-      "image_path": "raw/anime256/48234-23875.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/48234-23875.jpg",
       "split": "test",
       "source_group": "48234",
       "sha256": "d5ba6767fe7fb4fcb6cc88d21b74917b5e41ecf0a24615a337f04f4139a20e62",
@@ -735,7 +735,7 @@
     },
     {
       "image_id": "anime256:191494-9603.jpg",
-      "image_path": "raw/anime256/191494-9603.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/191494-9603.jpg",
       "split": "train",
       "source_group": "191494",
       "sha256": "fb80409daa29c50dab4f58c74603c72f858895b257015a29381e43428e84925c",
@@ -743,7 +743,7 @@
     },
     {
       "image_id": "anime256:wallhaven-48zo5k-865.jpg",
-      "image_path": "raw/anime256/wallhaven-48zo5k-865.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-48zo5k-865.jpg",
       "split": "test",
       "source_group": "wallhaven-48zo5k",
       "sha256": "e258cec69c1aa30e9f3dc1591f5bda28545cb7b08f3261d3670f3ce47440ddaf",
@@ -751,7 +751,7 @@
     },
     {
       "image_id": "anime256:201974-10670.jpg",
-      "image_path": "raw/anime256/201974-10670.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/201974-10670.jpg",
       "split": "train",
       "source_group": "201974",
       "sha256": "dfc96f6b5a90e2184a4c9b00ea4c2c79d4c85d64ecfc720825825c170706e945",
@@ -759,7 +759,7 @@
     },
     {
       "image_id": "anime256:48206-23869.jpg",
-      "image_path": "raw/anime256/48206-23869.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/48206-23869.jpg",
       "split": "train",
       "source_group": "48206",
       "sha256": "5fecea96608153d23d22a2e758543c34867cc3c35cd7bea0013b01be00313ab8",
@@ -767,7 +767,7 @@
     },
     {
       "image_id": "anime256:3794-22129.jpg",
-      "image_path": "raw/anime256/3794-22129.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/3794-22129.jpg",
       "split": "train",
       "source_group": "3794",
       "sha256": "6e5ea3b05ea9749e5c27f67c621b12d252a2629c7b0af0f3f3b4a4ad5ae3dcdf",
@@ -775,7 +775,7 @@
     },
     {
       "image_id": "anime256:38492-22416.jpg",
-      "image_path": "raw/anime256/38492-22416.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/38492-22416.jpg",
       "split": "train",
       "source_group": "38492",
       "sha256": "2539e9ffb1f69806dba16bc9a57cd0708673437882714dd73daed4c615d4d743",
@@ -783,7 +783,7 @@
     },
     {
       "image_id": "anime256:17506-8093.jpg",
-      "image_path": "raw/anime256/17506-8093.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/17506-8093.jpg",
       "split": "train",
       "source_group": "17506",
       "sha256": "9f9c41b2dd295b2f790afcddd7a8b9bde0396b46f872a01c0b7e6f39712066eb",
@@ -791,7 +791,7 @@
     },
     {
       "image_id": "anime256:277378-17391.jpg",
-      "image_path": "raw/anime256/277378-17391.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/277378-17391.jpg",
       "split": "train",
       "source_group": "277378",
       "sha256": "b1c0af59128e5457098a944a45d93655fab116da759d9f9da615cbfb0e8a8cb6",
@@ -799,7 +799,7 @@
     },
     {
       "image_id": "anime256:106828-830.jpg",
-      "image_path": "raw/anime256/106828-830.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/106828-830.jpg",
       "split": "train",
       "source_group": "106828",
       "sha256": "6d0d9d0a5e1508e7dd0d35da8c6b80a066e1395b5ce8d6e1d0bb9bb10b765c37",
@@ -807,7 +807,7 @@
     },
     {
       "image_id": "anime256:95705-29119.jpg",
-      "image_path": "raw/anime256/95705-29119.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/95705-29119.jpg",
       "split": "validation",
       "source_group": "95705",
       "sha256": "7bf3201f88128b51e56d660e892bf762b7fe1cacbbf4fa74072d01dbe642a8f4",
@@ -815,7 +815,7 @@
     },
     {
       "image_id": "anime256:225763-12894.jpg",
-      "image_path": "raw/anime256/225763-12894.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/225763-12894.jpg",
       "split": "train",
       "source_group": "225763",
       "sha256": "b06a1d12c3634794ceb6444995c0b61f1ca559cd878f8c915343739517848c34",
@@ -823,7 +823,7 @@
     },
     {
       "image_id": "anime256:wallhaven-m9oxr1-3090.jpg",
-      "image_path": "raw/anime256/wallhaven-m9oxr1-3090.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-m9oxr1-3090.jpg",
       "split": "train",
       "source_group": "wallhaven-m9oxr1",
       "sha256": "dbf21859247c106c3bf71789a7308ee828aeecce7d2d72f6cb91ea02ae208e45",
@@ -831,7 +831,7 @@
     },
     {
       "image_id": "anime256:198333-10337.jpg",
-      "image_path": "raw/anime256/198333-10337.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/198333-10337.jpg",
       "split": "train",
       "source_group": "198333",
       "sha256": "ce813eaeb28caead9af2b6a5165af2a00ac6f1765431ce8e0d414f2bf0df1b5a",
@@ -839,7 +839,7 @@
     },
     {
       "image_id": "anime256:280428-17775.jpg",
-      "image_path": "raw/anime256/280428-17775.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/280428-17775.jpg",
       "split": "train",
       "source_group": "280428",
       "sha256": "3f48bc6323c6dbf27047adccfe89782b468a9fee6d059315b462f9091f93cdd5",
@@ -847,7 +847,7 @@
     },
     {
       "image_id": "anime256:3873-22506.jpg",
-      "image_path": "raw/anime256/3873-22506.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/3873-22506.jpg",
       "split": "train",
       "source_group": "3873",
       "sha256": "6d96b8c6390fe0dd27c75e79d1a781b42887f0b54a1a359635c538644ccb5bfb",
@@ -855,7 +855,7 @@
     },
     {
       "image_id": "anime256:10926-969.jpg",
-      "image_path": "raw/anime256/10926-969.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/10926-969.jpg",
       "split": "train",
       "source_group": "10926",
       "sha256": "6aa3f4f90e5845176c0aca58d92a5cabdecd65c6b76e9b220f404717bc65174c",
@@ -863,7 +863,7 @@
     },
     {
       "image_id": "anime256:41243-22750.jpg",
-      "image_path": "raw/anime256/41243-22750.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/41243-22750.jpg",
       "split": "train",
       "source_group": "41243",
       "sha256": "70505908542112bdb0d31a4907030285bd333308b66a340c29eb4893c651cb11",
@@ -871,7 +871,7 @@
     },
     {
       "image_id": "anime256:140172-4135.jpg",
-      "image_path": "raw/anime256/140172-4135.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/140172-4135.jpg",
       "split": "train",
       "source_group": "140172",
       "sha256": "7c096bc4faac287fda6ec3bf3ec18b4dd704fe06fd297471a768d971465f9734",
@@ -879,7 +879,7 @@
     },
     {
       "image_id": "anime256:334755-21379.jpg",
-      "image_path": "raw/anime256/334755-21379.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/334755-21379.jpg",
       "split": "train",
       "source_group": "334755",
       "sha256": "20f30394a6bf5434b0f6c4ac26015412705db57ca6b2592c31c679c89332b9a5",
@@ -887,7 +887,7 @@
     },
     {
       "image_id": "anime256:120197-2374.jpg",
-      "image_path": "raw/anime256/120197-2374.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/120197-2374.jpg",
       "split": "train",
       "source_group": "120197",
       "sha256": "001c588f5589e3798d6b1cc7a9142e30e8889ab7d05f65077e6f365f81815ef0",
@@ -895,7 +895,7 @@
     },
     {
       "image_id": "anime256:321670-20820.jpg",
-      "image_path": "raw/anime256/321670-20820.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/321670-20820.jpg",
       "split": "train",
       "source_group": "321670",
       "sha256": "e53896b54bf36de1db0285e6cdcc3401e3a2bd0799bc6a96d0644ea197138439",
@@ -903,7 +903,7 @@
     },
     {
       "image_id": "anime256:55016-24670.jpg",
-      "image_path": "raw/anime256/55016-24670.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/55016-24670.jpg",
       "split": "validation",
       "source_group": "55016",
       "sha256": "493334b016148990b9e196140cdefe375e67d2c183437069ddb3dc921b640635",
@@ -911,7 +911,7 @@
     },
     {
       "image_id": "anime256:174673-7927.jpg",
-      "image_path": "raw/anime256/174673-7927.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/174673-7927.jpg",
       "split": "test",
       "source_group": "174673",
       "sha256": "21860f2d3e804825fcda99cc5b5383b6b5c30a0597fef2efc7376f1c88cee14f",
@@ -919,7 +919,7 @@
     },
     {
       "image_id": "anime256:185131-9210.jpg",
-      "image_path": "raw/anime256/185131-9210.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/185131-9210.jpg",
       "split": "train",
       "source_group": "185131",
       "sha256": "fe195317e307abfd376edd993026c59121c80fdffc5494ae1e27177de68c600b",
@@ -927,7 +927,7 @@
     },
     {
       "image_id": "anime256:wallhaven-eoy13o-2294.jpg",
-      "image_path": "raw/anime256/wallhaven-eoy13o-2294.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-eoy13o-2294.jpg",
       "split": "train",
       "source_group": "wallhaven-eoy13o",
       "sha256": "ae2ed123f71e34dd390945fa82aa4d00c487966c3af6e4c7a0dffeb4f7faf036",
@@ -935,7 +935,7 @@
     },
     {
       "image_id": "anime256:170948-7323.jpg",
-      "image_path": "raw/anime256/170948-7323.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/170948-7323.jpg",
       "split": "train",
       "source_group": "170948",
       "sha256": "75ccd72869e30a3631e62f942ad44517ca956171a42c525888853503b6ec29d3",
@@ -943,7 +943,7 @@
     },
     {
       "image_id": "anime256:82480-28084.jpg",
-      "image_path": "raw/anime256/82480-28084.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/82480-28084.jpg",
       "split": "train",
       "source_group": "82480",
       "sha256": "94ecb473fc887c7bcdc5fe1899330261e70ad9692a898457acab13ff58e433a4",
@@ -951,7 +951,7 @@
     },
     {
       "image_id": "anime256:17710-8282.jpg",
-      "image_path": "raw/anime256/17710-8282.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/17710-8282.jpg",
       "split": "train",
       "source_group": "17710",
       "sha256": "b5aebf653dd4bb00440756657e719f415e76f959e6481f29e902752e066f1340",
@@ -959,7 +959,7 @@
     },
     {
       "image_id": "anime256:294527-18863.jpg",
-      "image_path": "raw/anime256/294527-18863.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294527-18863.jpg",
       "split": "train",
       "source_group": "294527",
       "sha256": "621fb8670efd11310a4d642f31d332e001ab38519c4c8c975c7dff41e2322966",
@@ -967,7 +967,7 @@
     },
     {
       "image_id": "anime256:wallhaven-76xye3-1732.jpg",
-      "image_path": "raw/anime256/wallhaven-76xye3-1732.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-76xye3-1732.jpg",
       "split": "train",
       "source_group": "wallhaven-76xye3",
       "sha256": "a52de997ee237f26e979858a51c7e2ace67041ee58c932fa92ff6b08aee66577",
@@ -975,7 +975,7 @@
     },
     {
       "image_id": "anime256:229280-13171.jpg",
-      "image_path": "raw/anime256/229280-13171.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/229280-13171.jpg",
       "split": "validation",
       "source_group": "229280",
       "sha256": "304b5fd5fcd134818c0af746d682a61b4e78995af3576fdef8a562890ada03b0",
@@ -983,7 +983,7 @@
     },
     {
       "image_id": "anime256:45127-23691.jpg",
-      "image_path": "raw/anime256/45127-23691.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/45127-23691.jpg",
       "split": "train",
       "source_group": "45127",
       "sha256": "42e98e9d3ff0244bb7761253b3870fc34678e2c57a3e7330d8b5df594a446afd",
@@ -991,7 +991,7 @@
     },
     {
       "image_id": "anime256:wallhaven-3k5w23-531.jpg",
-      "image_path": "raw/anime256/wallhaven-3k5w23-531.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-3k5w23-531.jpg",
       "split": "validation",
       "source_group": "wallhaven-3k5w23",
       "sha256": "288781c3bcac3d370197103f11ee961e38e0545e5c58dc1af31fa0b62291b775",
@@ -999,7 +999,7 @@
     },
     {
       "image_id": "anime256:191724-9689.jpg",
-      "image_path": "raw/anime256/191724-9689.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/191724-9689.jpg",
       "split": "train",
       "source_group": "191724",
       "sha256": "907527ca6538bb1138a2f9ca9dd19507dbb65e8b583cdca7ecf8652c82f8cb4b",
@@ -1007,7 +1007,7 @@
     },
     {
       "image_id": "anime256:212558-11880.jpg",
-      "image_path": "raw/anime256/212558-11880.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212558-11880.jpg",
       "split": "train",
       "source_group": "212558",
       "sha256": "d483a244b6462e8a8db2f4c5a0f89781d78e19a4c56d62f859bfed57efd310ea",
@@ -1015,7 +1015,7 @@
     },
     {
       "image_id": "anime256:7014-26492.jpg",
-      "image_path": "raw/anime256/7014-26492.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/7014-26492.jpg",
       "split": "train",
       "source_group": "7014",
       "sha256": "666585b5b3a9c07c1a3db99012d272d506113f20f23b041bce5e74669b57f195",
@@ -1023,7 +1023,7 @@
     },
     {
       "image_id": "anime256:256173-15693.jpg",
-      "image_path": "raw/anime256/256173-15693.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/256173-15693.jpg",
       "split": "train",
       "source_group": "256173",
       "sha256": "f192bedc0fdb30c345c9104b53fed4842e6a05fe9735c55c0af1104ed072dbd1",
@@ -1031,7 +1031,7 @@
     },
     {
       "image_id": "anime256:wallhaven-ymw56d-4580.jpg",
-      "image_path": "raw/anime256/wallhaven-ymw56d-4580.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-ymw56d-4580.jpg",
       "split": "validation",
       "source_group": "wallhaven-ymw56d",
       "sha256": "4fa8ff1dfe70bcab252f8fe928c4b2ed76858f65db4c897ffa1d28541b3874aa",
@@ -1039,7 +1039,7 @@
     },
     {
       "image_id": "anime256:65573-25860.jpg",
-      "image_path": "raw/anime256/65573-25860.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/65573-25860.jpg",
       "split": "train",
       "source_group": "65573",
       "sha256": "271faf78b3c43cce5c7acb5faaa531d782c0b63b92f705fbb3a47bbbbc26352f",
@@ -1047,7 +1047,7 @@
     },
     {
       "image_id": "anime256:69210-26386.jpg",
-      "image_path": "raw/anime256/69210-26386.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/69210-26386.jpg",
       "split": "train",
       "source_group": "69210",
       "sha256": "a28ca7704b28d5815aec055f2e3712254d978b511564bb5a47d38236ea6df4b0",
@@ -1055,7 +1055,7 @@
     },
     {
       "image_id": "anime256:314747-20283.jpg",
-      "image_path": "raw/anime256/314747-20283.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/314747-20283.jpg",
       "split": "train",
       "source_group": "314747",
       "sha256": "ec1a156506d2668424bca048a2cafb8818dde19133b5459cf7f4a7bc5b5fa8ae",
@@ -1063,7 +1063,7 @@
     },
     {
       "image_id": "anime256:wallhaven-9my7xk-2022.jpg",
-      "image_path": "raw/anime256/wallhaven-9my7xk-2022.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-9my7xk-2022.jpg",
       "split": "train",
       "source_group": "wallhaven-9my7xk",
       "sha256": "490c020cebb04337f70bbf07bd3ed312e7d1d1db9c842c45ee435ff829d66dd2",
@@ -1071,7 +1071,7 @@
     },
     {
       "image_id": "anime256:38315-22350.jpg",
-      "image_path": "raw/anime256/38315-22350.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/38315-22350.jpg",
       "split": "train",
       "source_group": "38315",
       "sha256": "cb2e106621acdedf5b42b5566ad06f25cc3b8fe528f0a61e0c835fae23811da9",
@@ -1079,7 +1079,7 @@
     },
     {
       "image_id": "anime256:133284-3517.jpg",
-      "image_path": "raw/anime256/133284-3517.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/133284-3517.jpg",
       "split": "train",
       "source_group": "133284",
       "sha256": "b2bf942688e8ce73056b90c6adc434b69236d62e8e2f1c2433e370856e038477",
@@ -1087,7 +1087,7 @@
     },
     {
       "image_id": "anime256:89663-28727.jpg",
-      "image_path": "raw/anime256/89663-28727.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/89663-28727.jpg",
       "split": "train",
       "source_group": "89663",
       "sha256": "57d5ee3b4725fbfd10f3f1eb209f51e2e51f70d6eefafb4fc36149cd5d497ad3",
@@ -1095,7 +1095,7 @@
     },
     {
       "image_id": "anime256:212127-11723.jpg",
-      "image_path": "raw/anime256/212127-11723.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212127-11723.jpg",
       "split": "train",
       "source_group": "212127",
       "sha256": "e737c62f845209c05410dd2dc2848a4d32523b170c8084b48fd1f9c2ee1bbb3c",
@@ -1103,7 +1103,7 @@
     },
     {
       "image_id": "anime256:4261-23296.jpg",
-      "image_path": "raw/anime256/4261-23296.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/4261-23296.jpg",
       "split": "train",
       "source_group": "4261",
       "sha256": "fe8acf1dc5ef5948cfb86e575c8a273ce7537491dc9b2094fbf132a3535c32bd",
@@ -1111,7 +1111,7 @@
     },
     {
       "image_id": "anime256:219308-12440.jpg",
-      "image_path": "raw/anime256/219308-12440.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/219308-12440.jpg",
       "split": "train",
       "source_group": "219308",
       "sha256": "9dbf3f1fbd4d4039c165ef1a10de0105453a348c25074d3dcfcf489b62cbb0ba",
@@ -1119,7 +1119,7 @@
     },
     {
       "image_id": "anime256:171143-7439.jpg",
-      "image_path": "raw/anime256/171143-7439.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/171143-7439.jpg",
       "split": "train",
       "source_group": "171143",
       "sha256": "789830294f7f6e5805451f1228178cc585f1c49ee2ccba13722b36084916ede0",
@@ -1127,7 +1127,7 @@
     },
     {
       "image_id": "anime256:198337-10346.jpg",
-      "image_path": "raw/anime256/198337-10346.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/198337-10346.jpg",
       "split": "train",
       "source_group": "198337",
       "sha256": "b2190d6b41adfd08c5fa081e23e9659a1c03902d5f338fbda2ee9e6cc199fe25",
@@ -1135,7 +1135,7 @@
     },
     {
       "image_id": "anime256:41576-22879.jpg",
-      "image_path": "raw/anime256/41576-22879.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/41576-22879.jpg",
       "split": "train",
       "source_group": "41576",
       "sha256": "79b053a1e32a9ef801528ceaf82ce5b137225dc8047d57d4959906b358655c14",
@@ -1143,7 +1143,7 @@
     },
     {
       "image_id": "anime256:wallhaven-dpq2lm-2139.jpg",
-      "image_path": "raw/anime256/wallhaven-dpq2lm-2139.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-dpq2lm-2139.jpg",
       "split": "train",
       "source_group": "wallhaven-dpq2lm",
       "sha256": "fd0c64c8b950267fa262910329a2a058e2d08a73f10bfa9c1948f2451868be6e",
@@ -1151,7 +1151,7 @@
     },
     {
       "image_id": "anime256:wallhaven-8ow8qk-1834.jpg",
-      "image_path": "raw/anime256/wallhaven-8ow8qk-1834.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-8ow8qk-1834.jpg",
       "split": "train",
       "source_group": "wallhaven-8ow8qk",
       "sha256": "05fc83051987053f3656a1da906903c08fa39a619a2b86d6e1a6054d7f506fad",
@@ -1159,7 +1159,7 @@
     },
     {
       "image_id": "anime256:150927-5662.jpg",
-      "image_path": "raw/anime256/150927-5662.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/150927-5662.jpg",
       "split": "test",
       "source_group": "150927",
       "sha256": "6d3d600e7568fb81e4c4c4e6f5ee4d9322d2eed51268f9ac93cae8a48145c347",
@@ -1167,7 +1167,7 @@
     },
     {
       "image_id": "anime256:wallhaven-2k63km-470.jpg",
-      "image_path": "raw/anime256/wallhaven-2k63km-470.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-2k63km-470.jpg",
       "split": "train",
       "source_group": "wallhaven-2k63km",
       "sha256": "fad7891248d20d030204a5e350ab7f2886e943e2ae8dea951240e496ec1bacb3",
@@ -1175,7 +1175,7 @@
     },
     {
       "image_id": "anime256:324465-20892.jpg",
-      "image_path": "raw/anime256/324465-20892.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/324465-20892.jpg",
       "split": "test",
       "source_group": "324465",
       "sha256": "57dfe3dcaed33940d1c2f42040906216620e4e91e8bd9a32719cb4ffbdebc2a5",
@@ -1183,7 +1183,7 @@
     },
     {
       "image_id": "anime256:324912-20948.jpg",
-      "image_path": "raw/anime256/324912-20948.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/324912-20948.jpg",
       "split": "train",
       "source_group": "324912",
       "sha256": "a5503793a8747821cd7353a17060ba81b2c26a16dd4f4304a1cbcb55e6ee0708",
@@ -1191,7 +1191,7 @@
     },
     {
       "image_id": "anime256:133213-3501.jpg",
-      "image_path": "raw/anime256/133213-3501.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/133213-3501.jpg",
       "split": "train",
       "source_group": "133213",
       "sha256": "a543a998b4dd686a7e27daf03211d6e46ec579363fd78725637290d1185fd89b",
@@ -1199,7 +1199,7 @@
     },
     {
       "image_id": "anime256:587-25118.jpg",
-      "image_path": "raw/anime256/587-25118.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/587-25118.jpg",
       "split": "test",
       "source_group": "587",
       "sha256": "21d0bde71336181032ad11c3e9fa236e89c56cd924896973723cd344957dfb94",
@@ -1207,7 +1207,7 @@
     },
     {
       "image_id": "anime256:294050-18730.jpg",
-      "image_path": "raw/anime256/294050-18730.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294050-18730.jpg",
       "split": "train",
       "source_group": "294050",
       "sha256": "94e371552ef9c594cbce0769f60e221b4479c7032c231e19ed60e87dbec314b2",
@@ -1215,7 +1215,7 @@
     },
     {
       "image_id": "anime256:267195-16618.jpg",
-      "image_path": "raw/anime256/267195-16618.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/267195-16618.jpg",
       "split": "train",
       "source_group": "267195",
       "sha256": "8c2cf9fa837c3a5d5edca859effc95421807479b2c7e05395c51227cb7185f6b",
@@ -1223,7 +1223,7 @@
     },
     {
       "image_id": "anime256:106019-617.jpg",
-      "image_path": "raw/anime256/106019-617.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/106019-617.jpg",
       "split": "train",
       "source_group": "106019",
       "sha256": "b0554c16337eea4cacd7ffb23159c853f634ef2235a14d907400db329e308bbc",
@@ -1231,7 +1231,7 @@
     },
     {
       "image_id": "anime256:wallhaven-43l164-735.jpg",
-      "image_path": "raw/anime256/wallhaven-43l164-735.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-43l164-735.jpg",
       "split": "train",
       "source_group": "wallhaven-43l164",
       "sha256": "b1c78e37176622248bbbd14f857f77f9ef2a2a6d485e8e7402baad76d20995e9",
@@ -1239,7 +1239,7 @@
     },
     {
       "image_id": "anime256:wallhaven-gj95r3-2537.jpg",
-      "image_path": "raw/anime256/wallhaven-gj95r3-2537.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-gj95r3-2537.jpg",
       "split": "validation",
       "source_group": "wallhaven-gj95r3",
       "sha256": "2226e906915f836d4727e650ca2ab626b803b3410c7add4b553af4404d3450b8",
@@ -1247,7 +1247,7 @@
     },
     {
       "image_id": "anime256:61829-25391.jpg",
-      "image_path": "raw/anime256/61829-25391.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/61829-25391.jpg",
       "split": "train",
       "source_group": "61829",
       "sha256": "a4666cf7c081aa81f3aebae0d42f836aeef5773f5f73e9bfcd5112df92407641",
@@ -1255,7 +1255,7 @@
     },
     {
       "image_id": "anime256:151078-5752.jpg",
-      "image_path": "raw/anime256/151078-5752.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/151078-5752.jpg",
       "split": "test",
       "source_group": "151078",
       "sha256": "88219673ea5ea63776947415ee7fcaef3e67f5a1f150bd17f2deb8c471f54fff",
@@ -1263,7 +1263,7 @@
     },
     {
       "image_id": "anime256:106206-664.jpg",
-      "image_path": "raw/anime256/106206-664.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/106206-664.jpg",
       "split": "train",
       "source_group": "106206",
       "sha256": "c5d7c530b397ffd56296da63b0f3e35562103d78723f127898ab0d506a0ca73c",
@@ -1271,7 +1271,7 @@
     },
     {
       "image_id": "anime256:181383-8769.jpg",
-      "image_path": "raw/anime256/181383-8769.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/181383-8769.jpg",
       "split": "validation",
       "source_group": "181383",
       "sha256": "9e0ef1bd510d2e9833f6e53fa6576eef6d2d637b6aa6c18824e9909537f8fc26",
@@ -1279,7 +1279,7 @@
     },
     {
       "image_id": "anime256:44814-23540.jpg",
-      "image_path": "raw/anime256/44814-23540.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/44814-23540.jpg",
       "split": "test",
       "source_group": "44814",
       "sha256": "e194e0d60583814da273444d5cebd3d97642cf3cb0d82a452feac05431d14fa7",
@@ -1287,7 +1287,7 @@
     },
     {
       "image_id": "anime256:194840-9909.jpg",
-      "image_path": "raw/anime256/194840-9909.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/194840-9909.jpg",
       "split": "validation",
       "source_group": "194840",
       "sha256": "7c3fbb9121128d27cd8360fca0db7d991a5f2987edb581c0b8b646cc5c6d4278",
@@ -1295,7 +1295,7 @@
     },
     {
       "image_id": "anime256:273857-17046.jpg",
-      "image_path": "raw/anime256/273857-17046.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/273857-17046.jpg",
       "split": "train",
       "source_group": "273857",
       "sha256": "95099f5b10bf696b36417ec9bcc1278f006b2cb720475c3652ef9d9418a37995",
@@ -1303,7 +1303,7 @@
     },
     {
       "image_id": "anime256:164307-6782.jpg",
-      "image_path": "raw/anime256/164307-6782.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/164307-6782.jpg",
       "split": "train",
       "source_group": "164307",
       "sha256": "7d620554b445a64aa292fe6f9b9a194925937179cf1abd1394d6c16b5167e4b7",
@@ -1311,7 +1311,7 @@
     },
     {
       "image_id": "anime256:14531-5057.jpg",
-      "image_path": "raw/anime256/14531-5057.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/14531-5057.jpg",
       "split": "test",
       "source_group": "14531",
       "sha256": "539acb5e80c2f33a99131c3fcd5fc2501f95c5ef9f5828c6a218ef4afdc1439f",
@@ -1319,7 +1319,7 @@
     },
     {
       "image_id": "anime256:171290-7483.jpg",
-      "image_path": "raw/anime256/171290-7483.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/171290-7483.jpg",
       "split": "train",
       "source_group": "171290",
       "sha256": "c8a8f0c73b1cc964f0be6ae5550f9354de80d5ef55c604851a33a440fd341002",
@@ -1327,7 +1327,7 @@
     },
     {
       "image_id": "anime256:44470-23388.jpg",
-      "image_path": "raw/anime256/44470-23388.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/44470-23388.jpg",
       "split": "train",
       "source_group": "44470",
       "sha256": "a300abe40f0ed5be322a6175aee1d3ebe4936d3d9dfef205d7f4d0477324ca3b",
@@ -1335,7 +1335,7 @@
     },
     {
       "image_id": "anime256:79141-27757.jpg",
-      "image_path": "raw/anime256/79141-27757.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/79141-27757.jpg",
       "split": "train",
       "source_group": "79141",
       "sha256": "56d2b82531c06b0333f3e50e559e41b22254cf92cda2a0fac50df4c75c07afcc",
@@ -1343,7 +1343,7 @@
     },
     {
       "image_id": "anime256:202452-10785.jpg",
-      "image_path": "raw/anime256/202452-10785.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/202452-10785.jpg",
       "split": "train",
       "source_group": "202452",
       "sha256": "0fb6b3639afbcee9eee2abc3f49986f3ba954417f0766652d1a5293355921d0d",
@@ -1351,7 +1351,7 @@
     },
     {
       "image_id": "anime256:324714-20916.jpg",
-      "image_path": "raw/anime256/324714-20916.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/324714-20916.jpg",
       "split": "train",
       "source_group": "324714",
       "sha256": "b4529a23102c00500ffc317572e36c2fbaf06001ad3dc205ffddb15e4a170825",
@@ -1359,7 +1359,7 @@
     },
     {
       "image_id": "anime256:48374-23960.jpg",
-      "image_path": "raw/anime256/48374-23960.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/48374-23960.jpg",
       "split": "train",
       "source_group": "48374",
       "sha256": "19128a9d02f1001f7234afa8bfe6dd16a7b298401ad9a72a9d4f9a41f1909787",
@@ -1367,7 +1367,7 @@
     },
     {
       "image_id": "anime256:99554-29559.jpg",
-      "image_path": "raw/anime256/99554-29559.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/99554-29559.jpg",
       "split": "train",
       "source_group": "99554",
       "sha256": "4a3b48edc5d6a2a3d9a33d6d6dc941a10b004d64b6c425dbc90f6a30372ab272",
@@ -1375,7 +1375,7 @@
     },
     {
       "image_id": "anime256:72634-26910.jpg",
-      "image_path": "raw/anime256/72634-26910.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/72634-26910.jpg",
       "split": "train",
       "source_group": "72634",
       "sha256": "7e26eb121094fd933c98f203bba6bb4cc654d03b99987b0c5e7dcbffbd777363",
@@ -1383,7 +1383,7 @@
     },
     {
       "image_id": "anime256:194948-9924.jpg",
-      "image_path": "raw/anime256/194948-9924.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/194948-9924.jpg",
       "split": "train",
       "source_group": "194948",
       "sha256": "8e125e27a2c3fb10939c676a9819b67a5f8153af26fc976d5921269705eddd5f",
@@ -1391,7 +1391,7 @@
     },
     {
       "image_id": "anime256:301175-19257.jpg",
-      "image_path": "raw/anime256/301175-19257.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/301175-19257.jpg",
       "split": "train",
       "source_group": "301175",
       "sha256": "694e4bd0d0e8594cea46a7b3c61bb5537ff387ba3b921ad57a20e101b892204d",
@@ -1399,7 +1399,7 @@
     },
     {
       "image_id": "anime256:233262-13614.jpg",
-      "image_path": "raw/anime256/233262-13614.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/233262-13614.jpg",
       "split": "validation",
       "source_group": "233262",
       "sha256": "af9f5917fe0b346cc3fa5a62c29246481e79667687125d313fe40aa15aedd391",
@@ -1407,7 +1407,7 @@
     },
     {
       "image_id": "anime256:106425-709.jpg",
-      "image_path": "raw/anime256/106425-709.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/106425-709.jpg",
       "split": "train",
       "source_group": "106425",
       "sha256": "5d05748b124bf142731741b9c8778427652a35e23be37d11b1cb9eeec761ddaa",
@@ -1415,7 +1415,7 @@
     },
     {
       "image_id": "anime256:328550-21150.jpg",
-      "image_path": "raw/anime256/328550-21150.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/328550-21150.jpg",
       "split": "test",
       "source_group": "328550",
       "sha256": "36078ddf8a1e211d12982b5f71330ef1ef1ba3f6d33419fcb78db7073d9d6e1f",
@@ -1423,7 +1423,7 @@
     },
     {
       "image_id": "anime256:212508-11841.jpg",
-      "image_path": "raw/anime256/212508-11841.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212508-11841.jpg",
       "split": "train",
       "source_group": "212508",
       "sha256": "9770c858857ab60ed618bd55fa8b7bed118ac2b4e7864d90ffde14ec8a639842",
@@ -1431,7 +1431,7 @@
     },
     {
       "image_id": "anime256:239483-13985.jpg",
-      "image_path": "raw/anime256/239483-13985.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/239483-13985.jpg",
       "split": "train",
       "source_group": "239483",
       "sha256": "57faff94b2c780e30ccb376a8eaca8839cc94171a64c3961da3d7c359b6ff6d3",
@@ -1439,7 +1439,7 @@
     },
     {
       "image_id": "anime256:79273-27795.jpg",
-      "image_path": "raw/anime256/79273-27795.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/79273-27795.jpg",
       "split": "train",
       "source_group": "79273",
       "sha256": "37b2af6658e246d6ac3d2f6e26c9aa540da85698b7397726f900b20f23160cce",
@@ -1447,7 +1447,7 @@
     },
     {
       "image_id": "anime256:304255-19385.jpg",
-      "image_path": "raw/anime256/304255-19385.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/304255-19385.jpg",
       "split": "train",
       "source_group": "304255",
       "sha256": "1dd52e0ed77b3f7eca2ee8737e10d8941707d2b2b8a6df0153452b880d48fb75",
@@ -1455,7 +1455,7 @@
     },
     {
       "image_id": "anime256:212021-11683.jpg",
-      "image_path": "raw/anime256/212021-11683.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212021-11683.jpg",
       "split": "test",
       "source_group": "212021",
       "sha256": "058d234dd817a97264c2cf69e3761061905290f569ec0e072e5701e06cbd9dd7",
@@ -1463,7 +1463,7 @@
     },
     {
       "image_id": "anime256:65703-25939.jpg",
-      "image_path": "raw/anime256/65703-25939.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/65703-25939.jpg",
       "split": "train",
       "source_group": "65703",
       "sha256": "7f32f52d53d3d03cb6e46d5520c60180d63c6af4383df01d2fe6bd98e6a63d58",
@@ -1471,7 +1471,7 @@
     },
     {
       "image_id": "anime256:62326-25595.jpg",
-      "image_path": "raw/anime256/62326-25595.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/62326-25595.jpg",
       "split": "test",
       "source_group": "62326",
       "sha256": "91fc159817c4c3920c5beddf22e06e9a155b67ff77d776c53fd162e749eb430d",
@@ -1479,7 +1479,7 @@
     },
     {
       "image_id": "anime256:325545-21039.jpg",
-      "image_path": "raw/anime256/325545-21039.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/325545-21039.jpg",
       "split": "train",
       "source_group": "325545",
       "sha256": "ad7470e29b0391c707a2480ea805bd2eafa96928b52b07ad20cfafa963028833",
@@ -1487,7 +1487,7 @@
     },
     {
       "image_id": "anime256:34682-21764.jpg",
-      "image_path": "raw/anime256/34682-21764.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/34682-21764.jpg",
       "split": "train",
       "source_group": "34682",
       "sha256": "5d238eebe168d42a4091579eea32b5f1fdbb3433cd04e14f2a00d17b85a1e9f3",
@@ -1495,7 +1495,7 @@
     },
     {
       "image_id": "anime256:229464-13224.jpg",
-      "image_path": "raw/anime256/229464-13224.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/229464-13224.jpg",
       "split": "train",
       "source_group": "229464",
       "sha256": "a759a5250db0793e1cbd07ce34ce0f9d848437b96c70ad014bfa20c26a4cdc1e",
@@ -1503,7 +1503,7 @@
     },
     {
       "image_id": "anime256:308302-19818.jpg",
-      "image_path": "raw/anime256/308302-19818.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/308302-19818.jpg",
       "split": "validation",
       "source_group": "308302",
       "sha256": "06bb4bf0a0fcfdbddfc76593acef47e0f5279a7f76761102ef2c3d3c6399e91b",
@@ -1511,7 +1511,7 @@
     },
     {
       "image_id": "anime256:58422-25010.jpg",
-      "image_path": "raw/anime256/58422-25010.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/58422-25010.jpg",
       "split": "train",
       "source_group": "58422",
       "sha256": "732cd67ed3f4c09fa5d01d950e8f4ab80e8dc597ed72d1e50d791f6c904b426d",
@@ -1519,7 +1519,7 @@
     },
     {
       "image_id": "anime256:wallhaven-4d3q93-924.jpg",
-      "image_path": "raw/anime256/wallhaven-4d3q93-924.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-4d3q93-924.jpg",
       "split": "validation",
       "source_group": "wallhaven-4d3q93",
       "sha256": "5fead7c9db07b01da6e5a46db2a03e4618920dd7882b5c64ebc40171083ee26f",
@@ -1527,7 +1527,7 @@
     },
     {
       "image_id": "anime256:246121-14840.jpg",
-      "image_path": "raw/anime256/246121-14840.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/246121-14840.jpg",
       "split": "train",
       "source_group": "246121",
       "sha256": "77ea24c9e7ce9de8355d12e2dc99fb81f374223108c13aef9b3506c72e3f10d5",
@@ -1535,7 +1535,7 @@
     },
     {
       "image_id": "anime256:96390-29341.jpg",
-      "image_path": "raw/anime256/96390-29341.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/96390-29341.jpg",
       "split": "train",
       "source_group": "96390",
       "sha256": "a1c0c7b616aef9c3f98b1144a3cad02b9d747e17fecfb99db53188d49c40a035",
@@ -1543,7 +1543,7 @@
     },
     {
       "image_id": "anime256:31046-19867.jpg",
-      "image_path": "raw/anime256/31046-19867.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/31046-19867.jpg",
       "split": "validation",
       "source_group": "31046",
       "sha256": "89535a7cb128ceb4d8d0870c178c852e6257bd52b147bd081856805242b8ddc2",
@@ -1551,7 +1551,7 @@
     },
     {
       "image_id": "anime256:263948-16451.jpg",
-      "image_path": "raw/anime256/263948-16451.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/263948-16451.jpg",
       "split": "train",
       "source_group": "263948",
       "sha256": "b7a4e317dd6e1b3c268b6fa104a05b9d26d2cc1830063fa7fd1ed36c55a0fb92",
@@ -1559,7 +1559,7 @@
     },
     {
       "image_id": "anime256:140477-4249.jpg",
-      "image_path": "raw/anime256/140477-4249.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/140477-4249.jpg",
       "split": "train",
       "source_group": "140477",
       "sha256": "dfb9330b0d74c84ec3ac2757a921cc7612624eb8466b2f00ef6b559f43e24ce1",
@@ -1567,7 +1567,7 @@
     },
     {
       "image_id": "anime256:41319-22800.jpg",
-      "image_path": "raw/anime256/41319-22800.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/41319-22800.jpg",
       "split": "test",
       "source_group": "41319",
       "sha256": "5bfbe4ed4a9c6ce869f886af1082aa51b47f9d5f55fba3e3de86124b381d20a6",
@@ -1575,7 +1575,7 @@
     },
     {
       "image_id": "anime256:218873-12342.jpg",
-      "image_path": "raw/anime256/218873-12342.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/218873-12342.jpg",
       "split": "train",
       "source_group": "218873",
       "sha256": "1b514fb76fa2b9b894fd16a1e98811c9ea0325f7e663a1d8ba0a3a9d72694ead",
@@ -1583,7 +1583,7 @@
     },
     {
       "image_id": "anime256:wallhaven-9mwpmk-2010.jpg",
-      "image_path": "raw/anime256/wallhaven-9mwpmk-2010.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-9mwpmk-2010.jpg",
       "split": "validation",
       "source_group": "wallhaven-9mwpmk",
       "sha256": "b6a962ea0cd8a3cf877f29eaa5ea5c12b2fc10967a83608e8cbbb2d64c0cb4bd",
@@ -1591,7 +1591,7 @@
     },
     {
       "image_id": "anime256:153767-5813.jpg",
-      "image_path": "raw/anime256/153767-5813.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/153767-5813.jpg",
       "split": "validation",
       "source_group": "153767",
       "sha256": "8a8a353262ad40d860117f9637de731d0d02a52404d39c0d8cb86051a52a7894",
@@ -1599,7 +1599,7 @@
     },
     {
       "image_id": "anime256:222539-12689.jpg",
-      "image_path": "raw/anime256/222539-12689.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/222539-12689.jpg",
       "split": "train",
       "source_group": "222539",
       "sha256": "d6921c645976c2de5df5029508a3594a95964bc9652c2cb7b900a3538b446496",
@@ -1607,7 +1607,7 @@
     },
     {
       "image_id": "anime256:wallhaven-3z8dzy-559.jpg",
-      "image_path": "raw/anime256/wallhaven-3z8dzy-559.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-3z8dzy-559.jpg",
       "split": "train",
       "source_group": "wallhaven-3z8dzy",
       "sha256": "2d6db298af6d0b9c465cdfcfd1ac37533193cb355a4088c1c6125986df1ab993",
@@ -1615,7 +1615,7 @@
     },
     {
       "image_id": "anime256:79356-27827.jpg",
-      "image_path": "raw/anime256/79356-27827.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/79356-27827.jpg",
       "split": "train",
       "source_group": "79356",
       "sha256": "71e639a0b3e0d04f66d663145d5d2ca2207b828d8d305ab84cbeaba43c1f23c1",
@@ -1623,7 +1623,7 @@
     },
     {
       "image_id": "anime256:wallhaven-6o6wl7-1482.jpg",
-      "image_path": "raw/anime256/wallhaven-6o6wl7-1482.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-6o6wl7-1482.jpg",
       "split": "train",
       "source_group": "wallhaven-6o6wl7",
       "sha256": "295c73208a5b57b8553e82b387b00a174698501c2cc3572af56b1e5af9c8774c",
@@ -1631,7 +1631,7 @@
     },
     {
       "image_id": "anime256:171435-7515.jpg",
-      "image_path": "raw/anime256/171435-7515.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/171435-7515.jpg",
       "split": "train",
       "source_group": "171435",
       "sha256": "020d8b41b4f8b24fe3445a4281e5561136f838d81b21f8be14af12e006d53b1f",
@@ -1639,7 +1639,7 @@
     },
     {
       "image_id": "anime256:116922-2137.jpg",
-      "image_path": "raw/anime256/116922-2137.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/116922-2137.jpg",
       "split": "train",
       "source_group": "116922",
       "sha256": "c4be61765305c36c0495cd0ac3236ccf60c6b863c8ab94c4dee56e4cf4d368da",
@@ -1647,7 +1647,7 @@
     },
     {
       "image_id": "anime256:6884-26200.jpg",
-      "image_path": "raw/anime256/6884-26200.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/6884-26200.jpg",
       "split": "validation",
       "source_group": "6884",
       "sha256": "0e1429277dab14df2fce6f8702adc8d2e30947b56e8c8b6b1093697533074cdc",
@@ -1655,7 +1655,7 @@
     },
     {
       "image_id": "anime256:17527-8160.jpg",
-      "image_path": "raw/anime256/17527-8160.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/17527-8160.jpg",
       "split": "train",
       "source_group": "17527",
       "sha256": "de18489536d29dbefe3b69acaed18d54c1c347c3245340282a717cc8f7d0ed44",
@@ -1663,7 +1663,7 @@
     },
     {
       "image_id": "anime256:144126-4816.jpg",
-      "image_path": "raw/anime256/144126-4816.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/144126-4816.jpg",
       "split": "train",
       "source_group": "144126",
       "sha256": "858dfc89a0abfe08b846abf43ca0db35443bb255938cf968ff6a7d6527e2d436",
@@ -1671,7 +1671,7 @@
     },
     {
       "image_id": "anime256:130550-3386.jpg",
-      "image_path": "raw/anime256/130550-3386.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/130550-3386.jpg",
       "split": "train",
       "source_group": "130550",
       "sha256": "f877cf3af5e12c548a8aa611c64f2dc3835bc2d56cb4271b66233188bf9ae873",
@@ -1679,7 +1679,7 @@
     },
     {
       "image_id": "anime256:205590-11012.jpg",
-      "image_path": "raw/anime256/205590-11012.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/205590-11012.jpg",
       "split": "train",
       "source_group": "205590",
       "sha256": "2ca702998b35c96f7a755075e4b3f5d8d2b64c00a306a3bb7c881a2f191ea4a7",
@@ -1687,7 +1687,7 @@
     },
     {
       "image_id": "anime256:103382-391.jpg",
-      "image_path": "raw/anime256/103382-391.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/103382-391.jpg",
       "split": "test",
       "source_group": "103382",
       "sha256": "37fc8f3848b290ba2472a762f61b64cb7051ee62fb930c10fae96b4574d0a978",
@@ -1695,7 +1695,7 @@
     },
     {
       "image_id": "anime256:222027-12557.jpg",
-      "image_path": "raw/anime256/222027-12557.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/222027-12557.jpg",
       "split": "train",
       "source_group": "222027",
       "sha256": "31c91869b4f793c2b7bf1e7b4b2c16d7e339909c40f30f08cac8d7424140f1ac",
@@ -1703,7 +1703,7 @@
     },
     {
       "image_id": "anime256:20862-11275.jpg",
-      "image_path": "raw/anime256/20862-11275.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/20862-11275.jpg",
       "split": "train",
       "source_group": "20862",
       "sha256": "2fb36fbbc1d2dcfc8b9dc3c1f69749fb68846534b26ec92f9e27eb1f57bb3783",
@@ -1711,7 +1711,7 @@
     },
     {
       "image_id": "anime256:wallhaven-47xoeo-831.jpg",
-      "image_path": "raw/anime256/wallhaven-47xoeo-831.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-47xoeo-831.jpg",
       "split": "train",
       "source_group": "wallhaven-47xoeo",
       "sha256": "dad53d68143ced40e95a3bd59c5b8dd93f83622bc6385fee143666b6446d70dc",
@@ -1719,7 +1719,7 @@
     },
     {
       "image_id": "anime256:38206-22264.jpg",
-      "image_path": "raw/anime256/38206-22264.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/38206-22264.jpg",
       "split": "train",
       "source_group": "38206",
       "sha256": "2c6abc620142580e3f200f5ef6391692e10e7854e722e31804bced139712e6ec",
@@ -1727,7 +1727,7 @@
     },
     {
       "image_id": "anime256:17806-8434.jpg",
-      "image_path": "raw/anime256/17806-8434.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/17806-8434.jpg",
       "split": "train",
       "source_group": "17806",
       "sha256": "938579df1fbdbac005c11889a388f855131dc9936416f2a511076bba4f31632f",
@@ -1735,7 +1735,7 @@
     },
     {
       "image_id": "anime256:232686-13411.jpg",
-      "image_path": "raw/anime256/232686-13411.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/232686-13411.jpg",
       "split": "test",
       "source_group": "232686",
       "sha256": "47037fc7859c10a4b1b2ca7c13b7422622de8bf23552b3f462c9736a90d9f800",
@@ -1743,7 +1743,7 @@
     },
     {
       "image_id": "anime256:226357-13069.jpg",
-      "image_path": "raw/anime256/226357-13069.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/226357-13069.jpg",
       "split": "train",
       "source_group": "226357",
       "sha256": "2f79cb57545511e90bccd709e6e0dd4bc1a1804f73578b2e7aa27f8830080892",
@@ -1751,7 +1751,7 @@
     },
     {
       "image_id": "anime256:54990-24652.jpg",
-      "image_path": "raw/anime256/54990-24652.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/54990-24652.jpg",
       "split": "train",
       "source_group": "54990",
       "sha256": "086a3fb5b605bbcaf32a7b11da095f3f4005badd6644fc0577636dbfdce4e8b5",
@@ -1759,7 +1759,7 @@
     },
     {
       "image_id": "anime256:wallhaven-45x68n-807.jpg",
-      "image_path": "raw/anime256/wallhaven-45x68n-807.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-45x68n-807.jpg",
       "split": "train",
       "source_group": "wallhaven-45x68n",
       "sha256": "da43ce4f4d31c7677f3f5e6abbdcee113d44120f3fe3949d5dbcc863a2339977",
@@ -1767,7 +1767,7 @@
     },
     {
       "image_id": "anime256:10754-888.jpg",
-      "image_path": "raw/anime256/10754-888.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/10754-888.jpg",
       "split": "train",
       "source_group": "10754",
       "sha256": "b9c033f9098072c793a59e7bad67e0c81b35427a52e868a4d602fc89c8d370f5",
@@ -1775,7 +1775,7 @@
     },
     {
       "image_id": "anime256:105981-602.jpg",
-      "image_path": "raw/anime256/105981-602.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/105981-602.jpg",
       "split": "train",
       "source_group": "105981",
       "sha256": "5d204d2f36fc473ff3555a3de27c273d886937614efe1e2aaa8a7d637ff02dd9",
@@ -1783,7 +1783,7 @@
     },
     {
       "image_id": "anime256:109796-1139.jpg",
-      "image_path": "raw/anime256/109796-1139.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/109796-1139.jpg",
       "split": "train",
       "source_group": "109796",
       "sha256": "00e932c19639f2328e6d5bfc9c5cdb62a7d27df298b8e10dcf8f525138c052ac",
@@ -1791,7 +1791,7 @@
     },
     {
       "image_id": "anime256:3849-22407.jpg",
-      "image_path": "raw/anime256/3849-22407.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/3849-22407.jpg",
       "split": "train",
       "source_group": "3849",
       "sha256": "399c7ebeaca41795d8cefd81360c7d5f43a4bb42a9934e9fe7bf0c3278a9e24c",
@@ -1799,7 +1799,7 @@
     },
     {
       "image_id": "anime256:270285-16787.jpg",
-      "image_path": "raw/anime256/270285-16787.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/270285-16787.jpg",
       "split": "train",
       "source_group": "270285",
       "sha256": "e984bb68ef7ea090d42e7c0eaf4c6e561fd81397a6517a26abb6735da458d425",
@@ -1807,7 +1807,7 @@
     },
     {
       "image_id": "anime256:27393-17071.jpg",
-      "image_path": "raw/anime256/27393-17071.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/27393-17071.jpg",
       "split": "train",
       "source_group": "27393",
       "sha256": "fdae229b43148414528cdb72c85d6ca0a91bb255b4d9cd0c4dea9b66f1db36cf",
@@ -1815,7 +1815,7 @@
     },
     {
       "image_id": "anime256:253322-15587.jpg",
-      "image_path": "raw/anime256/253322-15587.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/253322-15587.jpg",
       "split": "train",
       "source_group": "253322",
       "sha256": "7418101ccb059ed045cd1387a2a0bd9b406cc678f318d68d31a295355860aea3",
@@ -1823,7 +1823,7 @@
     },
     {
       "image_id": "anime256:130781-3494.jpg",
-      "image_path": "raw/anime256/130781-3494.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/130781-3494.jpg",
       "split": "train",
       "source_group": "130781",
       "sha256": "19e7f91beadd974930c300db050da14dee748f72b0fd49cf9465a6bb03d98b6c",
@@ -1831,7 +1831,7 @@
     },
     {
       "image_id": "anime256:123538-2721.jpg",
-      "image_path": "raw/anime256/123538-2721.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/123538-2721.jpg",
       "split": "train",
       "source_group": "123538",
       "sha256": "a52ee7f690d7e9dc35e019392917181d51d27c08e434187ad38920f920d0698b",
@@ -1839,7 +1839,7 @@
     },
     {
       "image_id": "anime256:wallhaven-285q5g-395.jpg",
-      "image_path": "raw/anime256/wallhaven-285q5g-395.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-285q5g-395.jpg",
       "split": "train",
       "source_group": "wallhaven-285q5g",
       "sha256": "655ec1fe8e29a013efd9ea5cb0e511f45fe090eeaaf767448a42b6df11701af3",
@@ -1847,7 +1847,7 @@
     },
     {
       "image_id": "anime256:116745-1973.jpg",
-      "image_path": "raw/anime256/116745-1973.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/116745-1973.jpg",
       "split": "train",
       "source_group": "116745",
       "sha256": "4346bd50d5dc358205a7121b169b66e050d88ce20ebc494fbd15ccb9002f33a4",
@@ -1855,7 +1855,7 @@
     },
     {
       "image_id": "anime256:82377-28025.jpg",
-      "image_path": "raw/anime256/82377-28025.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/82377-28025.jpg",
       "split": "train",
       "source_group": "82377",
       "sha256": "a3a952f2e588ecccf2389d836732f3f9c4eff38952a6d8a71f3d5e9e1f0a4969",
@@ -1863,7 +1863,7 @@
     },
     {
       "image_id": "anime256:181355-8762.jpg",
-      "image_path": "raw/anime256/181355-8762.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/181355-8762.jpg",
       "split": "train",
       "source_group": "181355",
       "sha256": "fb755823bc97460faeea5ca993419941801bba76f60d168d39e77668010167ec",
@@ -1871,7 +1871,7 @@
     },
     {
       "image_id": "anime256:332342-21359.jpg",
-      "image_path": "raw/anime256/332342-21359.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/332342-21359.jpg",
       "split": "validation",
       "source_group": "332342",
       "sha256": "805edf1826e53376566b66a1a5a2f5a21963a7cb8e20cdf05615b6858690343f",
@@ -1879,7 +1879,7 @@
     },
     {
       "image_id": "anime256:wallhaven-57g277-1298.jpg",
-      "image_path": "raw/anime256/wallhaven-57g277-1298.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-57g277-1298.jpg",
       "split": "train",
       "source_group": "wallhaven-57g277",
       "sha256": "f2c474943d4434de41f5d2c4cc249f8eaa4a41f7b248aa3170fd382bfad6f50a",
@@ -1887,7 +1887,7 @@
     },
     {
       "image_id": "anime256:294535-18866.jpg",
-      "image_path": "raw/anime256/294535-18866.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294535-18866.jpg",
       "split": "validation",
       "source_group": "294535",
       "sha256": "57008aa4be435b5d26b0dc127c6646ad11535a1197e5d8d37870533513d60e4b",
@@ -1895,7 +1895,7 @@
     },
     {
       "image_id": "anime256:147346-5223.jpg",
-      "image_path": "raw/anime256/147346-5223.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/147346-5223.jpg",
       "split": "train",
       "source_group": "147346",
       "sha256": "c22f2ca5786e7b138d5f7261b58f8df51fffc9650177f6750d3846c89458c572",
@@ -1903,7 +1903,7 @@
     },
     {
       "image_id": "anime256:307602-19610.jpg",
-      "image_path": "raw/anime256/307602-19610.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/307602-19610.jpg",
       "split": "validation",
       "source_group": "307602",
       "sha256": "cce0da1657f5d61456f3a22c817253652773be165a85b2efa489a381c36d556b",
@@ -1911,7 +1911,7 @@
     },
     {
       "image_id": "anime256:222167-12609.jpg",
-      "image_path": "raw/anime256/222167-12609.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/222167-12609.jpg",
       "split": "train",
       "source_group": "222167",
       "sha256": "85882f00aa8129052d2702ed042e168a997b7ce7ecea9fa5d7127c0859f24999",
@@ -1919,7 +1919,7 @@
     },
     {
       "image_id": "anime256:3753-22028.jpg",
-      "image_path": "raw/anime256/3753-22028.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/3753-22028.jpg",
       "split": "test",
       "source_group": "3753",
       "sha256": "f5a36b693cb75e6b9658c323e5966be910fde5f069929fc817a5f17f83428f4a",
@@ -1927,7 +1927,7 @@
     },
     {
       "image_id": "anime256:wallhaven-6oz3lq-1516.jpg",
-      "image_path": "raw/anime256/wallhaven-6oz3lq-1516.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-6oz3lq-1516.jpg",
       "split": "test",
       "source_group": "wallhaven-6oz3lq",
       "sha256": "59d522496747d7e538e8b4b2778456098f8d6f767935e40032387d7c0a818d4d",
@@ -1935,7 +1935,7 @@
     },
     {
       "image_id": "anime256:wallhaven-2ekm7m-455.jpg",
-      "image_path": "raw/anime256/wallhaven-2ekm7m-455.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-2ekm7m-455.jpg",
       "split": "train",
       "source_group": "wallhaven-2ekm7m",
       "sha256": "2b4b35ecaf8be767d2c2a95cd91fdab6a5f78bfcff5aa9ed6ebcd709698c0c69",
@@ -1943,7 +1943,7 @@
     },
     {
       "image_id": "anime256:14072-4312.jpg",
-      "image_path": "raw/anime256/14072-4312.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/14072-4312.jpg",
       "split": "validation",
       "source_group": "14072",
       "sha256": "a81914d1b3d4793612388c7e79bace7b4bd6ebc92ec8047ddf6085d883cfe569",
@@ -1951,7 +1951,7 @@
     },
     {
       "image_id": "anime256:314656-20256.jpg",
-      "image_path": "raw/anime256/314656-20256.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/314656-20256.jpg",
       "split": "train",
       "source_group": "314656",
       "sha256": "2e5bf5c237f0ac1bc05afec88dfcf01ff6f579bb8b24d40ea7b7e9ac7cb7426b",
@@ -1959,7 +1959,7 @@
     },
     {
       "image_id": "anime256:314865-20305.jpg",
-      "image_path": "raw/anime256/314865-20305.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/314865-20305.jpg",
       "split": "train",
       "source_group": "314865",
       "sha256": "5c97748e6383bcf34a737907893fd50e5e92372ba06e06cfdca33dce5f7e6723",
@@ -1967,7 +1967,7 @@
     },
     {
       "image_id": "anime256:157580-6233.jpg",
-      "image_path": "raw/anime256/157580-6233.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/157580-6233.jpg",
       "split": "train",
       "source_group": "157580",
       "sha256": "4a29021092781a9fdcae6fe4c0802c39c6a484437c825777ca9274752eb3af07",
@@ -1975,7 +1975,7 @@
     },
     {
       "image_id": "anime256:72062-26648.jpg",
-      "image_path": "raw/anime256/72062-26648.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/72062-26648.jpg",
       "split": "train",
       "source_group": "72062",
       "sha256": "128cd79807bd7507c252827e653cfbeb509d8eb34c7c5ddd7073cf2433666b3e",
@@ -1983,7 +1983,7 @@
     },
     {
       "image_id": "anime256:133837-3640.jpg",
-      "image_path": "raw/anime256/133837-3640.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/133837-3640.jpg",
       "split": "train",
       "source_group": "133837",
       "sha256": "5a0a90ec3a75a79095a6629b120f022a11146622df4ba5bad7042baa52c009ba",
@@ -1991,7 +1991,7 @@
     },
     {
       "image_id": "anime256:75488-27160.jpg",
-      "image_path": "raw/anime256/75488-27160.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/75488-27160.jpg",
       "split": "train",
       "source_group": "75488",
       "sha256": "a44afa52865becf04fbd69602b396fa2d8bfd208ae8fd606996a57941ec9ffd9",
@@ -1999,7 +1999,7 @@
     },
     {
       "image_id": "anime256:wallhaven-578357-1293.jpg",
-      "image_path": "raw/anime256/wallhaven-578357-1293.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-578357-1293.jpg",
       "split": "validation",
       "source_group": "wallhaven-578357",
       "sha256": "2adf03785e9fabeea5e37e20bec9627e9698efea7ab9d7ccb0ca1d01d0db78b8",
@@ -2007,7 +2007,7 @@
     },
     {
       "image_id": "anime256:wallhaven-vgq585-4088.jpg",
-      "image_path": "raw/anime256/wallhaven-vgq585-4088.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-vgq585-4088.jpg",
       "split": "test",
       "source_group": "wallhaven-vgq585",
       "sha256": "e5f6b9a548cb42ff6d07f40c7d104594d9a651b3aa4a9a2bd99b36199d39b086",
@@ -2015,7 +2015,7 @@
     },
     {
       "image_id": "anime256:294176-18761.jpg",
-      "image_path": "raw/anime256/294176-18761.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294176-18761.jpg",
       "split": "train",
       "source_group": "294176",
       "sha256": "d69fbdedd582fe324a47c7f5140238b1618f15c85ed238b30da152c63c91bacd",
@@ -2023,7 +2023,7 @@
     },
     {
       "image_id": "anime256:253219-15570.jpg",
-      "image_path": "raw/anime256/253219-15570.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/253219-15570.jpg",
       "split": "validation",
       "source_group": "253219",
       "sha256": "61837efb3537a60fb01b1265809de485faea8ee0d4e96e3cdfd74b32efb9eadf",
@@ -2031,7 +2031,7 @@
     },
     {
       "image_id": "anime256:174863-8015.jpg",
-      "image_path": "raw/anime256/174863-8015.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/174863-8015.jpg",
       "split": "test",
       "source_group": "174863",
       "sha256": "c2f27902a7ab076935a5a4fa731d32204ba35472aba7337fd74cfe06bb71aaa7",
@@ -2039,7 +2039,7 @@
     },
     {
       "image_id": "anime256:69080-26295.jpg",
-      "image_path": "raw/anime256/69080-26295.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/69080-26295.jpg",
       "split": "train",
       "source_group": "69080",
       "sha256": "1f169c0debfd86038065b3dd0d76acbf54f70c447f84d5129259a8cba516671b",
@@ -2047,7 +2047,7 @@
     },
     {
       "image_id": "anime256:96062-29215.jpg",
-      "image_path": "raw/anime256/96062-29215.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/96062-29215.jpg",
       "split": "train",
       "source_group": "96062",
       "sha256": "44aba0407f72d5e457e49189bc842678f7543b8382973cbe2f253f912e3cd46c",
@@ -2055,7 +2055,7 @@
     },
     {
       "image_id": "anime256:212112-11718.jpg",
-      "image_path": "raw/anime256/212112-11718.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/212112-11718.jpg",
       "split": "train",
       "source_group": "212112",
       "sha256": "2cd25ddbb938395c3aa74734dd21b8928b6f8f9f11b907057e2d344126609e60",
@@ -2063,7 +2063,7 @@
     },
     {
       "image_id": "anime256:110279-1367.jpg",
-      "image_path": "raw/anime256/110279-1367.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/110279-1367.jpg",
       "split": "train",
       "source_group": "110279",
       "sha256": "72c8c294fb7b2ca1f11c79ad07ddcd2ee501c5c6a7f1056e92c29da44cc151f5",
@@ -2071,7 +2071,7 @@
     },
     {
       "image_id": "anime256:294229-18786.jpg",
-      "image_path": "raw/anime256/294229-18786.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/294229-18786.jpg",
       "split": "train",
       "source_group": "294229",
       "sha256": "c71a5d6d8f44efe03a8aaeab15542ba40c0416d5a9b5939931cb586573fd4e39",
@@ -2079,7 +2079,7 @@
     },
     {
       "image_id": "anime256:44846-23554.jpg",
-      "image_path": "raw/anime256/44846-23554.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/44846-23554.jpg",
       "split": "train",
       "source_group": "44846",
       "sha256": "a1ad974690ffb3da0a77c0ba234adad3aca3bcea34e944dadd4d36829702d854",
@@ -2087,7 +2087,7 @@
     },
     {
       "image_id": "anime256:147603-5347.jpg",
-      "image_path": "raw/anime256/147603-5347.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/147603-5347.jpg",
       "split": "train",
       "source_group": "147603",
       "sha256": "2410a8a1ea91b6539b5792f2693fc8649a4aa8c7114f21d0a10356a85c93c529",
@@ -2095,7 +2095,7 @@
     },
     {
       "image_id": "anime256:wallhaven-8o8vdk-1795.jpg",
-      "image_path": "raw/anime256/wallhaven-8o8vdk-1795.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-8o8vdk-1795.jpg",
       "split": "train",
       "source_group": "wallhaven-8o8vdk",
       "sha256": "928dbed1ed95feb52c32498499be05ea36ac35bd0db81d503965f6c049940452",
@@ -2103,7 +2103,7 @@
     },
     {
       "image_id": "anime256:44528-23420.jpg",
-      "image_path": "raw/anime256/44528-23420.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/44528-23420.jpg",
       "split": "validation",
       "source_group": "44528",
       "sha256": "31454751f979e5722cecdd288a4a006255ad4068f4d505699c02cc75cc93bee1",
@@ -2111,7 +2111,7 @@
     },
     {
       "image_id": "anime256:34513-21731.jpg",
-      "image_path": "raw/anime256/34513-21731.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/34513-21731.jpg",
       "split": "train",
       "source_group": "34513",
       "sha256": "2caaa18d72c9e40c755d81585695f0a8bd5fe0dba3abfa5138014b29d85cdd6f",
@@ -2119,7 +2119,7 @@
     },
     {
       "image_id": "anime256:192101-9842.jpg",
-      "image_path": "raw/anime256/192101-9842.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/192101-9842.jpg",
       "split": "validation",
       "source_group": "192101",
       "sha256": "5c915aef3389bc4bca9cb0942c89d748702c52047a61f2474944dbe5d2be5c45",
@@ -2127,7 +2127,7 @@
     },
     {
       "image_id": "anime256:47984-23823.jpg",
-      "image_path": "raw/anime256/47984-23823.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/47984-23823.jpg",
       "split": "train",
       "source_group": "47984",
       "sha256": "afbea7bd939e94e56090994eaaff82419dc3bc972f41b2f42962585e1bd483fb",
@@ -2135,7 +2135,7 @@
     },
     {
       "image_id": "anime256:48757-24114.jpg",
-      "image_path": "raw/anime256/48757-24114.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/48757-24114.jpg",
       "split": "test",
       "source_group": "48757",
       "sha256": "d6d7d984cca2410d7ef92bcb12436dfbc6f82047877bda4ea2371c450634250a",
@@ -2143,7 +2143,7 @@
     },
     {
       "image_id": "anime256:232799-13432.jpg",
-      "image_path": "raw/anime256/232799-13432.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/232799-13432.jpg",
       "split": "train",
       "source_group": "232799",
       "sha256": "5102f7bca871d95b5ae04daca21dd2964e610665b441afd56e88f753c94b55bd",
@@ -2151,7 +2151,7 @@
     },
     {
       "image_id": "anime256:71997-26622.jpg",
-      "image_path": "raw/anime256/71997-26622.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/71997-26622.jpg",
       "split": "train",
       "source_group": "71997",
       "sha256": "74d9022e76a9b1bd2c267b073935bb2cfff393b8b94860c0b2d9f4803a7b551e",
@@ -2159,7 +2159,7 @@
     },
     {
       "image_id": "anime256:164032-6680.jpg",
-      "image_path": "raw/anime256/164032-6680.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/164032-6680.jpg",
       "split": "train",
       "source_group": "164032",
       "sha256": "afa6ff72e066a780082c1e2001a7d13e8119ba9cf8ae2f0af89eb63a653f5e12",
@@ -2167,7 +2167,7 @@
     },
     {
       "image_id": "anime256:226127-13001.jpg",
-      "image_path": "raw/anime256/226127-13001.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/226127-13001.jpg",
       "split": "train",
       "source_group": "226127",
       "sha256": "bc6fc533347e6bbf3506cfe7ad78254cc4b9ab62ca6d444855b82505ce8fafcc",
@@ -2175,7 +2175,7 @@
     },
     {
       "image_id": "anime256:215189-12062.jpg",
-      "image_path": "raw/anime256/215189-12062.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/215189-12062.jpg",
       "split": "test",
       "source_group": "215189",
       "sha256": "90971e3183f39f3f3e03fed6d06a6aa6fb7032992b72e19f362a4beb2f2d4dc3",
@@ -2183,7 +2183,7 @@
     },
     {
       "image_id": "anime256:116200-1832.jpg",
-      "image_path": "raw/anime256/116200-1832.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/116200-1832.jpg",
       "split": "train",
       "source_group": "116200",
       "sha256": "1af07f5797d6b4fa69ed50bcdfd5651ba23ae8a3bc49eedd4d38995aefdece09",
@@ -2191,7 +2191,7 @@
     },
     {
       "image_id": "anime256:44743-23519.jpg",
-      "image_path": "raw/anime256/44743-23519.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/44743-23519.jpg",
       "split": "train",
       "source_group": "44743",
       "sha256": "12fa2896318f108b6147df7179df614d8b46340ac5f31758882af970d270e292",
@@ -2199,7 +2199,7 @@
     },
     {
       "image_id": "anime256:198194-10295.jpg",
-      "image_path": "raw/anime256/198194-10295.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/198194-10295.jpg",
       "split": "train",
       "source_group": "198194",
       "sha256": "cc585afcc8944031ac31e2f3e5bb87432aef54b6ddff48eac416a7da54ed3d68",
@@ -2207,7 +2207,7 @@
     },
     {
       "image_id": "anime256:96055-29212.jpg",
-      "image_path": "raw/anime256/96055-29212.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/96055-29212.jpg",
       "split": "train",
       "source_group": "96055",
       "sha256": "e8fd5917a1357a300efa836c0e5ffd7eb5b4ec0a284f8e849465d77b28e0b37e",
@@ -2215,7 +2215,7 @@
     },
     {
       "image_id": "anime256:208879-11363.jpg",
-      "image_path": "raw/anime256/208879-11363.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/208879-11363.jpg",
       "split": "test",
       "source_group": "208879",
       "sha256": "a5a2cbdac3bd0334fa1f4fdd565410a06de047ba7273ced3f76699f7658323c1",
@@ -2223,7 +2223,7 @@
     },
     {
       "image_id": "anime256:246656-15079.jpg",
-      "image_path": "raw/anime256/246656-15079.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/246656-15079.jpg",
       "split": "train",
       "source_group": "246656",
       "sha256": "0b075ac27659f8ace97ae3b1ba6c624e9ea43226caf1d5afb83a75f5555bad60",
@@ -2231,7 +2231,7 @@
     },
     {
       "image_id": "anime256:17315-7743.jpg",
-      "image_path": "raw/anime256/17315-7743.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/17315-7743.jpg",
       "split": "train",
       "source_group": "17315",
       "sha256": "0e15c2cd7b4e5b591d0e9a93baf661b1619527192afabf7dfa4a92f2be326dea",
@@ -2239,7 +2239,7 @@
     },
     {
       "image_id": "anime256:147335-5218.jpg",
-      "image_path": "raw/anime256/147335-5218.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/147335-5218.jpg",
       "split": "train",
       "source_group": "147335",
       "sha256": "c967c609dee5e5e6c22437617e17af73f91ceea1ed0b27a7033727cffba3c1b0",
@@ -2247,7 +2247,7 @@
     },
     {
       "image_id": "anime256:129985-3218.jpg",
-      "image_path": "raw/anime256/129985-3218.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/129985-3218.jpg",
       "split": "train",
       "source_group": "129985",
       "sha256": "2c732355724cc6bad1eec7ddeac9ed1b1608f213f99893704286fc6adb0b370d",
@@ -2255,7 +2255,7 @@
     },
     {
       "image_id": "anime256:331434-21232.jpg",
-      "image_path": "raw/anime256/331434-21232.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/331434-21232.jpg",
       "split": "train",
       "source_group": "331434",
       "sha256": "c00fe2f48b28179bdb884bb9c74db99b1b1b89664391b7854f9c4a6394aa2da3",
@@ -2263,7 +2263,7 @@
     },
     {
       "image_id": "anime256:7562-27228.jpg",
-      "image_path": "raw/anime256/7562-27228.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/7562-27228.jpg",
       "split": "train",
       "source_group": "7562",
       "sha256": "a429d11e70126f8352c7838c438d4c7270ba20032ddc6b88bc26cbdb1ee63e95",
@@ -2271,7 +2271,7 @@
     },
     {
       "image_id": "anime256:240004-14153.jpg",
-      "image_path": "raw/anime256/240004-14153.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/240004-14153.jpg",
       "split": "train",
       "source_group": "240004",
       "sha256": "3f184f39b41f928764e45983de63853e6fa6aa4ae5c804494ad4d5d6bdfbabca",
@@ -2279,7 +2279,7 @@
     },
     {
       "image_id": "anime256:wallhaven-kwqemd-2868.jpg",
-      "image_path": "raw/anime256/wallhaven-kwqemd-2868.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-kwqemd-2868.jpg",
       "split": "train",
       "source_group": "wallhaven-kwqemd",
       "sha256": "8f07a073572867ee224ff50def0ad0865182c11d1741f686471834c3e0e47834",
@@ -2287,7 +2287,7 @@
     },
     {
       "image_id": "anime256:wallhaven-0qo1jr-163.jpg",
-      "image_path": "raw/anime256/wallhaven-0qo1jr-163.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-0qo1jr-163.jpg",
       "split": "train",
       "source_group": "wallhaven-0qo1jr",
       "sha256": "ac9b99249406de609d6d641af231bb115a6db1633de36ecff1b3b3fd9c20610c",
@@ -2295,7 +2295,7 @@
     },
     {
       "image_id": "anime256:88870-28538.jpg",
-      "image_path": "raw/anime256/88870-28538.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/88870-28538.jpg",
       "split": "validation",
       "source_group": "88870",
       "sha256": "e4f968dc825922a9dc6d4f8209806e2a049a175346d7a87caa8259ecae3c7a1f",
@@ -2303,7 +2303,7 @@
     },
     {
       "image_id": "anime256:wallhaven-k75ee7-2761.jpg",
-      "image_path": "raw/anime256/wallhaven-k75ee7-2761.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-k75ee7-2761.jpg",
       "split": "train",
       "source_group": "wallhaven-k75ee7",
       "sha256": "d2dfab884b7ead318ea45f02f09d22c24a642ead5f2b7f7a1264f2bb56c54cd8",
@@ -2311,7 +2311,7 @@
     },
     {
       "image_id": "anime256:311453-20018.jpg",
-      "image_path": "raw/anime256/311453-20018.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/311453-20018.jpg",
       "split": "train",
       "source_group": "311453",
       "sha256": "f4d10630d0e6c5b3553eae75e9c317d39bbca92a92bbbe84e1e1f7823715d7f1",
@@ -2319,7 +2319,7 @@
     },
     {
       "image_id": "anime256:263791-16419.jpg",
-      "image_path": "raw/anime256/263791-16419.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/263791-16419.jpg",
       "split": "train",
       "source_group": "263791",
       "sha256": "e40ed2a9cec1a312ff369c7808aa29a7e843c259dca54c70ed65ad4f50c11faa",
@@ -2327,7 +2327,7 @@
     },
     {
       "image_id": "anime256:102884-127.jpg",
-      "image_path": "raw/anime256/102884-127.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/102884-127.jpg",
       "split": "test",
       "source_group": "102884",
       "sha256": "8982349aacc7520f28476d8d80bb065edf8eb3818cf5e6577283956bf3e7c3f4",
@@ -2335,7 +2335,7 @@
     },
     {
       "image_id": "anime256:270410-16809.jpg",
-      "image_path": "raw/anime256/270410-16809.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/270410-16809.jpg",
       "split": "train",
       "source_group": "270410",
       "sha256": "407ba0b1590639ee6680e4dbdaa4563e551a10e8795d626916ae8427349cd909",
@@ -2343,7 +2343,7 @@
     },
     {
       "image_id": "anime256:85989-28435.jpg",
-      "image_path": "raw/anime256/85989-28435.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/85989-28435.jpg",
       "split": "test",
       "source_group": "85989",
       "sha256": "e836b3418e869d53fc7a7d456379b45497f79ace73d373a8194c1e854b58ea53",
@@ -2351,7 +2351,7 @@
     },
     {
       "image_id": "anime256:68357-26010.jpg",
-      "image_path": "raw/anime256/68357-26010.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/68357-26010.jpg",
       "split": "test",
       "source_group": "68357",
       "sha256": "e95bba54aaa1c3f6a984977fe798977d6cb18c642611927df3d53b8d24f9fea5",
@@ -2359,7 +2359,7 @@
     },
     {
       "image_id": "anime256:174814-7979.jpg",
-      "image_path": "raw/anime256/174814-7979.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/174814-7979.jpg",
       "split": "train",
       "source_group": "174814",
       "sha256": "b755ec497c5434e77854dda614e7b2ebb094fc949337ee84e00ffe9fa80910a7",
@@ -2367,7 +2367,7 @@
     },
     {
       "image_id": "anime256:wallhaven-k75xyq-2770.jpg",
-      "image_path": "raw/anime256/wallhaven-k75xyq-2770.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-k75xyq-2770.jpg",
       "split": "train",
       "source_group": "wallhaven-k75xyq",
       "sha256": "16c08ea207f36a11934a056b01b83e3e931a5c6b1518c704b0dad908a69cd920",
@@ -2375,7 +2375,7 @@
     },
     {
       "image_id": "anime256:194780-9886.jpg",
-      "image_path": "raw/anime256/194780-9886.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/194780-9886.jpg",
       "split": "train",
       "source_group": "194780",
       "sha256": "792cf1629780eea8f3bfba5f59eeed2ca25d76a290670b0f6b18403948481245",
@@ -2383,7 +2383,7 @@
     },
     {
       "image_id": "anime256:75850-27329.jpg",
-      "image_path": "raw/anime256/75850-27329.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/75850-27329.jpg",
       "split": "train",
       "source_group": "75850",
       "sha256": "7ad578d5cf211196580d0b3e9744ab0f917232a9bd5275131c48bfa9ac6b5c3c",
@@ -2391,7 +2391,7 @@
     },
     {
       "image_id": "anime256:47973-23819.jpg",
-      "image_path": "raw/anime256/47973-23819.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/47973-23819.jpg",
       "split": "validation",
       "source_group": "47973",
       "sha256": "ed6d2eedaae4a8622b1157cc0e14526f89eab7c101385af58c1c193d0f3f80e0",
@@ -2399,7 +2399,7 @@
     },
     {
       "image_id": "anime256:270675-16897.jpg",
-      "image_path": "raw/anime256/270675-16897.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/270675-16897.jpg",
       "split": "test",
       "source_group": "270675",
       "sha256": "bccdea61bb812b1d3558edf377fe2d5de7928fa3a440dcb0c4b606f17676af2b",
@@ -2407,7 +2407,7 @@
     },
     {
       "image_id": "anime256:116825-2011.jpg",
-      "image_path": "raw/anime256/116825-2011.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/116825-2011.jpg",
       "split": "validation",
       "source_group": "116825",
       "sha256": "328237c7a265ed9d08f9bd04e5c3de36f1e9bbabcd6321c983c5ae98c856cc8b",
@@ -2415,7 +2415,7 @@
     },
     {
       "image_id": "anime256:273990-17097.jpg",
-      "image_path": "raw/anime256/273990-17097.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/273990-17097.jpg",
       "split": "validation",
       "source_group": "273990",
       "sha256": "ea7ae45295b6a42e342fa2c104ee95ff9ed0aab344ff47ae7123d2cd2ccc1a26",
@@ -2423,7 +2423,7 @@
     },
     {
       "image_id": "anime256:205894-11124.jpg",
-      "image_path": "raw/anime256/205894-11124.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/205894-11124.jpg",
       "split": "train",
       "source_group": "205894",
       "sha256": "03f9d696aec5137faddf329ea9a9d826120e9ec0c18a90cbd6cdf9d1c7fcaed9",
@@ -2431,7 +2431,7 @@
     },
     {
       "image_id": "anime256:65181-25693.jpg",
-      "image_path": "raw/anime256/65181-25693.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/65181-25693.jpg",
       "split": "train",
       "source_group": "65181",
       "sha256": "60d1754f2db2b152fc9101c881017a25fc3be228d9e32f7491b7e07524f40165",
@@ -2439,7 +2439,7 @@
     },
     {
       "image_id": "anime256:188750-9523.jpg",
-      "image_path": "raw/anime256/188750-9523.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/188750-9523.jpg",
       "split": "train",
       "source_group": "188750",
       "sha256": "b99b23d18d5dfe6ccac21474ff15ce72a2fac3a365b3b5828976db60e794ca55",
@@ -2447,7 +2447,7 @@
     },
     {
       "image_id": "anime256:wallhaven-83lzp2-1761.jpg",
-      "image_path": "raw/anime256/wallhaven-83lzp2-1761.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-83lzp2-1761.jpg",
       "split": "train",
       "source_group": "wallhaven-83lzp2",
       "sha256": "fb837778f435fbf5c5de8d2f75e90eb3319534234149a0617513de4e2d8693ee",
@@ -2455,7 +2455,7 @@
     },
     {
       "image_id": "anime256:58311-24988.jpg",
-      "image_path": "raw/anime256/58311-24988.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/58311-24988.jpg",
       "split": "train",
       "source_group": "58311",
       "sha256": "641a590513249c565661822fe459180ebf3cf81a9de506f6ec4a363dd641c71a",
@@ -2463,7 +2463,7 @@
     },
     {
       "image_id": "anime256:259940-16044.jpg",
-      "image_path": "raw/anime256/259940-16044.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/259940-16044.jpg",
       "split": "train",
       "source_group": "259940",
       "sha256": "b835267aa2e195b345f1c309291bc830beb138faac28f71ab37bb40f0e3609ac",
@@ -2471,7 +2471,7 @@
     },
     {
       "image_id": "anime256:205742-11070.jpg",
-      "image_path": "raw/anime256/205742-11070.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/205742-11070.jpg",
       "split": "train",
       "source_group": "205742",
       "sha256": "aaf3454b8ee254acde069de59e4b3d84cca3fe43b09dc550f5086bc20a9517df",
@@ -2479,7 +2479,7 @@
     },
     {
       "image_id": "anime256:123583-2745.jpg",
-      "image_path": "raw/anime256/123583-2745.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/123583-2745.jpg",
       "split": "train",
       "source_group": "123583",
       "sha256": "da4a8fd19472b495a29fbd7f4616cd73f624a767fa8b931ec037ab390517b447",
@@ -2487,7 +2487,7 @@
     },
     {
       "image_id": "anime256:48760-24121.jpg",
-      "image_path": "raw/anime256/48760-24121.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/48760-24121.jpg",
       "split": "train",
       "source_group": "48760",
       "sha256": "07e991515ef4a861277e2167faf805d5b676362dabbd91da802ee78109bd7420",
@@ -2495,7 +2495,7 @@
     },
     {
       "image_id": "anime256:110064-1288.jpg",
-      "image_path": "raw/anime256/110064-1288.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/110064-1288.jpg",
       "split": "train",
       "source_group": "110064",
       "sha256": "6a5b90974317c71dff952057de7889b4c9a2882679b3dc53e104a6dc4f9c4a38",
@@ -2503,7 +2503,7 @@
     },
     {
       "image_id": "anime256:301297-19293.jpg",
-      "image_path": "raw/anime256/301297-19293.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/301297-19293.jpg",
       "split": "train",
       "source_group": "301297",
       "sha256": "bad5b5887fe61c46c653813ff9f219bdbbe8da32f04a685b7deef66f1a6a6ff4",
@@ -2511,7 +2511,7 @@
     },
     {
       "image_id": "anime256:88917-28551.jpg",
-      "image_path": "raw/anime256/88917-28551.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/88917-28551.jpg",
       "split": "train",
       "source_group": "88917",
       "sha256": "addc21df7d903b442fead3fe5411f98ada9bf89551effdcc4f2af27a0288cafc",
@@ -2519,7 +2519,7 @@
     },
     {
       "image_id": "anime256:283552-17994.jpg",
-      "image_path": "raw/anime256/283552-17994.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/283552-17994.jpg",
       "split": "train",
       "source_group": "283552",
       "sha256": "78842a59d9b294215a920f5bbf6b5b13055deccbc1c5e06a018ab16e85f02dc3",
@@ -2527,7 +2527,7 @@
     },
     {
       "image_id": "anime256:283851-18042.jpg",
-      "image_path": "raw/anime256/283851-18042.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/283851-18042.jpg",
       "split": "train",
       "source_group": "283851",
       "sha256": "c655b2d849d2c4aed265639795eb30acc2a493d6fca300a4845282acc5ce1258",
@@ -2535,7 +2535,7 @@
     },
     {
       "image_id": "anime256:239976-14146.jpg",
-      "image_path": "raw/anime256/239976-14146.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/239976-14146.jpg",
       "split": "train",
       "source_group": "239976",
       "sha256": "d4862bbcced873cfeb49adf9acd0e4592cdc4ab21e25302071c06d0db8af9161",
@@ -2543,7 +2543,7 @@
     },
     {
       "image_id": "anime256:wallhaven-q6ed6d-3771.jpg",
-      "image_path": "raw/anime256/wallhaven-q6ed6d-3771.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-q6ed6d-3771.jpg",
       "split": "train",
       "source_group": "wallhaven-q6ed6d",
       "sha256": "019daa6d0333259af9af3f545ff752fddf3ad4e73d2d3343035aac828ad422a0",
@@ -2551,7 +2551,7 @@
     },
     {
       "image_id": "anime256:wallhaven-wqke56-4161.jpg",
-      "image_path": "raw/anime256/wallhaven-wqke56-4161.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/wallhaven-wqke56-4161.jpg",
       "split": "test",
       "source_group": "wallhaven-wqke56",
       "sha256": "f3923799f67ad3d88c860e96b760395b5082c1a3e90360a302ad7a48a471e95a",
@@ -2559,7 +2559,7 @@
     },
     {
       "image_id": "anime256:311509-20034.jpg",
-      "image_path": "raw/anime256/311509-20034.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/311509-20034.jpg",
       "split": "train",
       "source_group": "311509",
       "sha256": "97968b81e07fe7df9c7d2de27abf27bd1a0fea81469b5aaa07f9baa008dc1156",
@@ -2567,7 +2567,7 @@
     },
     {
       "image_id": "anime256:331396-21227.jpg",
-      "image_path": "raw/anime256/331396-21227.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/331396-21227.jpg",
       "split": "train",
       "source_group": "331396",
       "sha256": "076ed4dfbbf186df0db28a757cadd0b2456aa63c8b0c34befc7f2b334d60b18d",
@@ -2575,7 +2575,7 @@
     },
     {
       "image_id": "anime256:133278-3516.jpg",
-      "image_path": "raw/anime256/133278-3516.jpg",
+      "image_path": "annotations/review_sets/landmark320/images/133278-3516.jpg",
       "split": "test",
       "source_group": "133278",
       "sha256": "4d7a56f3e1b359d5b91c33fe105eb88eaa94e1d1bbb49e0414cd8c94152fb8a6",

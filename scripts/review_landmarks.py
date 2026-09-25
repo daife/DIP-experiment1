@@ -18,6 +18,17 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "datasets/annotations/review_sets/landmark320/annotations.jsonl"
 DEFAULT_OUTPUT = ROOT / "datasets/annotations/corrected/landmark28_review320.jsonl"
 SCHEMA = ROOT / "datasets/annotations/landmark28_schema.json"
+REVIEW_IMAGE_DIR = ROOT / "datasets/annotations/review_sets/landmark320/images"
+RAW_IMAGE_DIR = ROOT / "datasets/raw/anime256"
+
+
+def resolve_image_path(relative_path: str) -> Path:
+    """Resolve a review image while keeping requests inside known image roots."""
+    candidate = (ROOT / "datasets" / relative_path).resolve()
+    allowed_roots = (REVIEW_IMAGE_DIR.resolve(), RAW_IMAGE_DIR.resolve())
+    if not any(candidate.is_relative_to(root) for root in allowed_roots):
+        raise ValueError("Image path outside review image roots")
+    return candidate
 
 HTML = r"""<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
 <title>28 点人工复核</title><style>
@@ -131,9 +142,7 @@ def main() -> None:
                 try:
                     i = int(path.removeprefix("/image/"))
                     r = original[i]
-                    image_path = (ROOT / "datasets" / r["image_path"]).resolve()
-                    if not image_path.is_relative_to((ROOT / "datasets/raw").resolve()):
-                        raise ValueError("Image path outside raw dataset")
+                    image_path = resolve_image_path(r["image_path"])
                     return self.send(image_path.read_bytes(), "image/jpeg")
                 except (ValueError, IndexError, FileNotFoundError):
                     return self.json_response({"error": "image not found"}, 404)

@@ -6,7 +6,7 @@
 
 ## 输入与启动
 
-- 输入：`review_sets/landmark320/annotations.jsonl`；其中 64 张来自原短程基准，256 张来自固定补充抽样。图像由 `image_id` 定位到本地 `datasets/raw/anime256/`，请勿移动源图。图片和原始压缩包留在本地忽略目录，不进入 Git。
+- 输入：`review_sets/landmark320/annotations.jsonl`；其中 64 张来自原短程基准，256 张来自固定补充抽样。复核图片随仓库保存在 `review_sets/landmark320/images/`，清单中的 SHA-256 用于校验文件完整性；原始数据目录仍可作为本地回退来源。
 - 规范与编号图：`landmark28_schema.json`、`../../results/landmark28_index.png`。
 - 在项目根目录运行：
 
