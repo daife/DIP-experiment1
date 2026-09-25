@@ -1,0 +1,166 @@
+{
+  "split": "test",
+  "step": 2,
+  "scale_factor": 1.2,
+  "nms_iou": 0.3,
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "verifier_sha256": "75376b297d58539a65797234d84ab9f83dda8de733f50edb57e1004027cf34bb",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "selection": "step8-test SHA-256 order, eight distinct source groups",
+  "pages": [
+    {
+      "id": "manga109:AisazuNihaIrarenai:026",
+      "gt": 8,
+      "candidates": 3317,
+      "rules": {
+        "baseline": {
+          "tp": 5,
+          "fp": 3312,
+          "fn": 3
+        },
+        "hog0.75_side36": {
+          "tp": 0,
+          "fp": 16,
+          "fn": 8
+        }
+      }
+    },
+    {
+      "id": "manga109:ShimatteIkouze_vol01:002",
+      "gt": 21,
+      "candidates": 4055,
+      "rules": {
+        "baseline": {
+          "tp": 11,
+          "fp": 4044,
+          "fn": 10
+        },
+        "hog0.75_side36": {
+          "tp": 4,
+          "fp": 18,
+          "fn": 17
+        }
+      }
+    },
+    {
+      "id": "manga109:GarakutayaManta:043",
+      "gt": 10,
+      "candidates": 5252,
+      "rules": {
+        "baseline": {
+          "tp": 5,
+          "fp": 5247,
+          "fn": 5
+        },
+        "hog0.75_side36": {
+          "tp": 1,
+          "fp": 29,
+          "fn": 9
+        }
+      }
+    },
+    {
+      "id": "manga109:TasogareTsushin:010",
+      "gt": 8,
+      "candidates": 4017,
+      "rules": {
+        "baseline": {
+          "tp": 7,
+          "fp": 4010,
+          "fn": 1
+        },
+        "hog0.75_side36": {
+          "tp": 3,
+          "fp": 8,
+          "fn": 5
+        }
+      }
+    },
+    {
+      "id": "manga109:SeisinkiVulnus:028",
+      "gt": 9,
+      "candidates": 5224,
+      "rules": {
+        "baseline": {
+          "tp": 6,
+          "fp": 5218,
+          "fn": 3
+        },
+        "hog0.75_side36": {
+          "tp": 0,
+          "fp": 21,
+          "fn": 9
+        }
+      }
+    },
+    {
+      "id": "manga109:BakuretsuKungFuGirl:031",
+      "gt": 8,
+      "candidates": 3211,
+      "rules": {
+        "baseline": {
+          "tp": 7,
+          "fp": 3204,
+          "fn": 1
+        },
+        "hog0.75_side36": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 5
+        }
+      }
+    },
+    {
+      "id": "manga109:BEMADER_P:078",
+      "gt": 12,
+      "candidates": 5348,
+      "rules": {
+        "baseline": {
+          "tp": 6,
+          "fp": 5342,
+          "fn": 6
+        },
+        "hog0.75_side36": {
+          "tp": 3,
+          "fp": 29,
+          "fn": 9
+        }
+      }
+    },
+    {
+      "id": "manga109:GOOD_KISS_Ver2:087",
+      "gt": 9,
+      "candidates": 4481,
+      "rules": {
+        "baseline": {
+          "tp": 8,
+          "fp": 4473,
+          "fn": 1
+        },
+        "hog0.75_side36": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 7
+        }
+      }
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "tp": 55,
+      "fp": 34850,
+      "fn": 30,
+      "precision": 0.0015757054863200115,
+      "recall": 0.6470588235294118,
+      "f1": 0.003143755358673907
+    },
+    "hog0.75_side36": {
+      "tp": 16,
+      "fp": 149,
+      "fn": 69,
+      "precision": 0.09696969696969697,
+      "recall": 0.18823529411764706,
+      "f1": 0.128
+    }
+  }
+}

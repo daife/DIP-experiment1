@@ -1,0 +1,54 @@
+{
+  "format": "experiment1-demo-v1",
+  "cascade": "step4_cascade.json",
+  "landmark_model": "landmark_ridge4_visible_only.npz",
+  "channels": {
+    "count": 11,
+    "definition": "feature_definition.json",
+    "dtype": "uint8",
+    "boundary": "invalid right/bottom positions zero"
+  },
+  "search": {
+    "scale_factor": 1.2,
+    "step": 2,
+    "nms_iou": 0.3,
+    "box_convention": "xyxy_half_open_original_pixels",
+    "score": "final_cascade_stage_sum"
+  },
+  "landmarks": {
+    "count": 28,
+    "schema": "landmark28_schema.json",
+    "index_base": 0,
+    "normalization": "face box bilinear grayscale to 256x256; normalized coordinates mapped to original box",
+    "training_target": "visible_only",
+    "regression_stages": 4
+  },
+  "provenance": {
+    "split_seed": "experiment1-anime-face-v1",
+    "cascade_seed": 20260923,
+    "landmark_seed": 20260925,
+    "landmark_split_counts": {
+      "train": 240,
+      "validation": 32,
+      "test": 48
+    },
+    "sha256": {
+      "step4_cascade.json": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+      "landmark_ridge4_visible_only.npz": "1acf86d74815c7dd91ccbef8f89bd98cdaf992948e2aeb3812710c24ecdc9b50",
+      "step5_search_config.json": "ebce9410984aeb811136df631a533a3df8c4c9afc20d10adaa65b7c16d57d8bf",
+      "datasets/annotations/landmark28_schema.json": "02efb8b0f647d27978ea8443766cd136f4d37a07398dc3c202ec901b790555f3",
+      "datasets/annotations/corrected/landmark28_review320.jsonl": "f2304ab323cb547dcd36383ff2afd95bcdafc8ab139e06ff20265dd3b65019db",
+      "feature_definition.json": "39fbbb42d6e50ea81609f1caa3361f8a925c3170383dcd984d138b9079e2c0a0",
+      "landmark28_schema.json": "02efb8b0f647d27978ea8443766cd136f4d37a07398dc3c202ec901b790555f3",
+      "candidate_hog_svm.npz": "75376b297d58539a65797234d84ab9f83dda8de733f50edb57e1004027cf34bb"
+    },
+    "historical_search_config": "step5_search_config.json: prior step=1 baseline; current search parameters are in this config"
+  },
+  "candidate_verifier": {
+    "model": "candidate_hog_svm.npz",
+    "feature": "324-dimensional grayscale HOG (24x24, 6x6 cell, 2x2 block, 9 orientation bins)",
+    "threshold": 0.75,
+    "min_side": 36,
+    "training": "24 distinct Manga109 train source groups; 414 positive and 2880 negative samples; validation selection on eight distinct groups"
+  }
+}

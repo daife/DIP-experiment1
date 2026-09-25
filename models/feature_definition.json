@@ -1,0 +1,21 @@
+{
+  "format": "experiment1-channels11-v1",
+  "implementation": "src/channels11.py:compute_11_channels",
+  "input": "uint8 grayscale",
+  "output": "11 uint8 channels",
+  "difference_rule": "floor((a-b+255)/2)",
+  "boundary": "C1 last row/column zero; C2-C6 last 3 rows/columns zero; C7-C10 last 7 rows/columns zero",
+  "channels": [
+    "C0 input gray",
+    "C1 rounded two-stage 2x2 mean",
+    "C2 rounded four-point C1 mean at offsets (0,0),(0,2),(2,0),(2,2)",
+    "C3 C1 horizontal difference +2",
+    "C4 C1 vertical difference +2",
+    "C5 C1 main diagonal difference +2,+2",
+    "C6 C1 anti-diagonal difference",
+    "C7 C2 horizontal difference +4",
+    "C8 C2 vertical difference +4",
+    "C9 C2 main diagonal difference +4,+4",
+    "C10 C2 anti-diagonal difference"
+  ]
+}

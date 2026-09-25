@@ -1,0 +1,186 @@
+{
+  "split": "train",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "seed": 20260925,
+  "pages": [
+    {
+      "id": "manga109:YoumaKourin:083",
+      "gt": 5,
+      "proposals": 6306,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:LoveHina_vol01:083",
+      "gt": 18,
+      "proposals": 5123,
+      "positive_proposals": 13,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MiraiSan:030",
+      "gt": 4,
+      "proposals": 4667,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:SaladDays_vol18:070",
+      "gt": 6,
+      "proposals": 3223,
+      "positive_proposals": 5,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:ParaisoRoad:057",
+      "gt": 13,
+      "proposals": 4543,
+      "positive_proposals": 7,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:KarappoHighschool:119",
+      "gt": 3,
+      "proposals": 1994,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:That'sIzumiko:033",
+      "gt": 10,
+      "proposals": 4739,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:LoveHina_vol14:012",
+      "gt": 15,
+      "proposals": 4960,
+      "positive_proposals": 12,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HarukaRefrain:045",
+      "gt": 7,
+      "proposals": 2647,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HaruichibanNoFukukoro:071",
+      "gt": 13,
+      "proposals": 3002,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:RisingGirl:110",
+      "gt": 13,
+      "proposals": 2858,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:AppareKappore:066",
+      "gt": 3,
+      "proposals": 4974,
+      "positive_proposals": 1,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:Donburakokko:024",
+      "gt": 4,
+      "proposals": 4193,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:TotteokiNoABC:018",
+      "gt": 9,
+      "proposals": 3720,
+      "positive_proposals": 6,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:YumeNoKayoiji:079",
+      "gt": 3,
+      "proposals": 6281,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:YasasiiAkuma:022",
+      "gt": 16,
+      "proposals": 3785,
+      "positive_proposals": 14,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:Hamlet:100",
+      "gt": 14,
+      "proposals": 3869,
+      "positive_proposals": 7,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:PLANET7:029",
+      "gt": 15,
+      "proposals": 4645,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MisutenaideDaisy:105",
+      "gt": 27,
+      "proposals": 4531,
+      "positive_proposals": 15,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MemorySeijin:047",
+      "gt": 13,
+      "proposals": 3921,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HinagikuKenzan:018",
+      "gt": 6,
+      "proposals": 2209,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:JangiriPonpon:021",
+      "gt": 13,
+      "proposals": 4456,
+      "positive_proposals": 4,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:GakuenNoise:011",
+      "gt": 12,
+      "proposals": 3125,
+      "positive_proposals": 8,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:ByebyeC-BOY:069",
+      "gt": 13,
+      "proposals": 4073,
+      "positive_proposals": 12,
+      "sampled_negative": 120
+    }
+  ],
+  "positive_samples": 414,
+  "negative_samples": 2880,
+  "hog": {
+    "window": 24,
+    "block": 12,
+    "stride": 6,
+    "cell": 6,
+    "bins": 9
+  },
+  "svm_C": 0.1
+}

@@ -1,0 +1,69 @@
+{
+  "inputs_sha256": {
+    "datasets/manifests/normalized/manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "results/step4_stage_stats.json": "2339cca3d30f8a2a977b564c46e2478831b06a93b6a774daf8b4835eb5ee482d",
+    "datasets/annotations/corrected/step4_hard_negative_review.csv": "2681cf8a784c594d1f597fdbb09834cd105e44f4684929c73663085ca96a1657",
+    "results/step8_candidate_verifier_validation.json": "44b2caa862c318cb04ce43ac7470c6bd023e3ccc28ef5c2510428730fdd25a5b",
+    "results/step8_candidate_verifier_test.json": "d014607f8a1cf8be387eb06c043118fec426b30ea50f3de696d0e6cf04ce4cbf"
+  },
+  "crop_test": {
+    "negative_total": 354,
+    "negative_passed_all_stages": 79,
+    "positive_total": 344,
+    "positive_passed_all_stages": 304
+  },
+  "hard_negative_review": {
+    "reviewed": 24,
+    "approved_negative": 24
+  },
+  "pages": {
+    "validation": {
+      "source_groups": 8,
+      "annotated_faces": 73,
+      "aspect_ratio_gt_2_25": 0,
+      "max_side_lt_36": 3,
+      "cascade": {
+        "tp": 46,
+        "fp": 31834,
+        "fn": 27,
+        "precision": 0.0014429109159347553,
+        "recall": 0.6301369863013698,
+        "f1": 0.002879228867398992
+      },
+      "current_demo": {
+        "tp": 16,
+        "fp": 177,
+        "fn": 57,
+        "precision": 0.08290155440414508,
+        "recall": 0.2191780821917808,
+        "f1": 0.12030075187969924
+      },
+      "tp_count_difference": 30,
+      "fp_count_difference": 31657
+    },
+    "test": {
+      "source_groups": 8,
+      "annotated_faces": 85,
+      "aspect_ratio_gt_2_25": 1,
+      "max_side_lt_36": 3,
+      "cascade": {
+        "tp": 55,
+        "fp": 34850,
+        "fn": 30,
+        "precision": 0.0015757054863200115,
+        "recall": 0.6470588235294118,
+        "f1": 0.003143755358673907
+      },
+      "current_demo": {
+        "tp": 16,
+        "fp": 149,
+        "fn": 69,
+        "precision": 0.09696969696969697,
+        "recall": 0.18823529411764706,
+        "f1": 0.128
+      },
+      "tp_count_difference": 39,
+      "fp_count_difference": 34701
+    }
+  }
+}

@@ -82,17 +82,27 @@ powershell -ExecutionPolicy Bypass -File scripts/setup_environment.ps1
 
 ## 步骤八：最终 Demo 与模型导出
 
-- [ ] 实现命令行 Demo：
+- [x] 实现命令行 Demo：
 
 ```powershell
 python demo.py --image test.jpg --model-dir models/ --output results/test_vis.jpg
 ```
 
-- [ ] 输出 Bounding Box、Detection Score、28 个关键点、可视化图片和结构化 JSON。
-- [ ] 实现统一接口 `AnimeFaceDetector.detect()`：输入 OpenCV BGR 图像，返回原图坐标结果并按分数降序排列，无检测时返回空列表。
-- [ ] 保存 11 通道定义、Depth-2 弱树参数、Cascade Stage 阈值、图像金字塔参数和候选框合并参数。
-- [ ] 保存关键点回归模型、关键点编号与归一化配置。
-- [ ] 保存数据划分和随机种子。
+- [x] 输出 Bounding Box、Detection Score、28 个关键点、可视化图片和结构化 JSON。
+- [x] 实现统一接口 `AnimeFaceDetector.detect()`：输入 OpenCV BGR 图像，返回原图坐标结果并按分数降序排列，无检测时返回空列表。
+- [x] 保存 11 通道定义、Depth-2 弱树参数、Cascade Stage 阈值、图像金字塔参数和候选框合并参数。
+- [x] 保存关键点回归模型、关键点编号与归一化配置。
+- [x] 保存数据划分和随机种子。
+
+## 下一步：提升整页检测能力（用户明确要求）
+
+当前 Demo 已可用，但八个固定 test 漫画作品上仍为 16 TP、149 FP、69 FN（Precision 0.097、Recall 0.188、F1 0.128）。误报包含非脸部漫画纹理，严格 HOG 筛选又造成明显漏检。诊断数值和限制见 `实验记录/2026-09-25_步骤八最终Demo与模型导出.md` 与 `results/step8_error_diagnosis.json`。以下是后续改进任务，不把它们误写为 PDF 步骤八的额外强制验收项。
+
+- [ ] 固定当前模型、清单和 split；在 **train 页面**保存 NMS 前每个标注脸的最高候选 IoU、分数与尺度，再分别统计“未提出候选、定位不足、NMS 压掉、HOG/边长筛掉”。保留逐层窗口/候选计数和典型错误编号；用 validation 核对结论，不依据 test 调参。
+- [ ] 从 train 页的非脸误报中分层抽取文字、头发、网点、图案和局部五官等难例；先排除可能未标注的人脸，制作小型联系图与复核 CSV，逐个确认后才加入负样本。保留被拒样本及理由、来源页、坐标、split 和种子。
+- [ ] 用新增的已复核困难负样本重训或扩展 Cascade；同时检查每个 Stage 的人脸通过数、背景拒绝数，以及 validation 整页 IoU Precision/Recall/F1。不得仅靠提高 HOG 阈值换取低误报；比较召回与误报，并保留旧模型为历史对照。
+- [ ] 若候选覆盖/定位仍是主要瓶颈，再研究窗口尺度、框形状或候选合并/定位修正；先在 validation 做消融并记录速度，最后用固定 test 作品评价锁定的配置。test 已被查看，结果不能称为完全盲测。
+- [ ] 更新 `models/config.json`、Demo 效果图、相关统计和阶段记录；旧图表若不对应新配置，重跑或明确标为历史。交付前检查图片可打开、来源许可和 JSON/图注一致。
 
 ## 最终提交内容
 

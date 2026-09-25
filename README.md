@@ -4,6 +4,26 @@
 
 当前进度和下一步任务见 [TODO.md](TODO.md)。
 
+## 最终 Demo
+
+使用已导出的 `models/` 配置与权重，对本地图像执行检测和 28 点回归：
+
+```powershell
+.venv\Scripts\python.exe demo.py --image test.jpg --model-dir models --output results/test_vis.jpg
+```
+
+同时生成 `results/test_vis.json`，内容为按末级 Cascade 分数降序排列的 `bbox`（原图像素、右下角半开）、`score` 和固定顺序的 28 个 `[x,y]` 点。Python 调用方式：
+
+```python
+import cv2
+from src.detector import AnimeFaceDetector
+
+detector = AnimeFaceDetector("models")
+results = detector.detect(cv2.imread("test.jpg"))
+```
+
+导出清单见 `models/config.json`，通道定义见 `models/feature_definition.json`，关键点编号见 `models/landmark28_schema.json`。当前 Demo 在 Cascade 后使用 train 页面训练的 HOG 候选复核器，按固定阈值筛选，再做 28 点回归。八个未用于调参的 test 漫画作品上，IoU≥0.5 的 Precision 为 0.097、Recall 为 0.188、F1 为 0.128；仍有漏检和误报，不能视为可靠的整页人脸识别。效果、对照和限制见 `实验记录/2026-09-25_步骤八最终Demo与模型导出.md`。
+
 已完成步骤的规范核对、验收证据、报告可用图表及局限见 [审计与报告素材索引](实验记录/2026-09-24_已完成步骤审计与报告素材索引.md)。原创统计图位于 `results/report_evidence/`，可用 `python scripts/plot_report_evidence.py` 从已保存的 JSON 重建。
 
 ## 实验目标

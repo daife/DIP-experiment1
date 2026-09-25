@@ -1,0 +1,417 @@
+{
+  "split": "train",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "seed": 20260925,
+  "pages": [
+    {
+      "id": "manga109:YoumaKourin:083",
+      "gt": 5,
+      "proposals": 6306,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:LoveHina_vol01:083",
+      "gt": 18,
+      "proposals": 5123,
+      "positive_proposals": 13,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MiraiSan:030",
+      "gt": 4,
+      "proposals": 4667,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:SaladDays_vol18:070",
+      "gt": 6,
+      "proposals": 3223,
+      "positive_proposals": 5,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:ParaisoRoad:057",
+      "gt": 13,
+      "proposals": 4543,
+      "positive_proposals": 7,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:KarappoHighschool:119",
+      "gt": 3,
+      "proposals": 1994,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:That'sIzumiko:033",
+      "gt": 10,
+      "proposals": 4739,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:LoveHina_vol14:012",
+      "gt": 15,
+      "proposals": 4960,
+      "positive_proposals": 12,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HarukaRefrain:045",
+      "gt": 7,
+      "proposals": 2647,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HaruichibanNoFukukoro:071",
+      "gt": 13,
+      "proposals": 3002,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:RisingGirl:110",
+      "gt": 13,
+      "proposals": 2858,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:AppareKappore:066",
+      "gt": 3,
+      "proposals": 4974,
+      "positive_proposals": 1,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:Donburakokko:024",
+      "gt": 4,
+      "proposals": 4193,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:TotteokiNoABC:018",
+      "gt": 9,
+      "proposals": 3720,
+      "positive_proposals": 6,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:YumeNoKayoiji:079",
+      "gt": 3,
+      "proposals": 6281,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:YasasiiAkuma:022",
+      "gt": 16,
+      "proposals": 3785,
+      "positive_proposals": 14,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:Hamlet:100",
+      "gt": 14,
+      "proposals": 3869,
+      "positive_proposals": 7,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:PLANET7:029",
+      "gt": 15,
+      "proposals": 4645,
+      "positive_proposals": 9,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MisutenaideDaisy:105",
+      "gt": 27,
+      "proposals": 4531,
+      "positive_proposals": 15,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:MemorySeijin:047",
+      "gt": 13,
+      "proposals": 3921,
+      "positive_proposals": 3,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:HinagikuKenzan:018",
+      "gt": 6,
+      "proposals": 2209,
+      "positive_proposals": 2,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:JangiriPonpon:021",
+      "gt": 13,
+      "proposals": 4456,
+      "positive_proposals": 4,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:GakuenNoise:011",
+      "gt": 12,
+      "proposals": 3125,
+      "positive_proposals": 8,
+      "sampled_negative": 120
+    },
+    {
+      "id": "manga109:ByebyeC-BOY:069",
+      "gt": 13,
+      "proposals": 4073,
+      "positive_proposals": 12,
+      "sampled_negative": 120
+    }
+  ],
+  "extra_positive_pages": [
+    {
+      "id": "manga109:PrayerHaNemurenai:058",
+      "positives": 10
+    },
+    {
+      "id": "manga109:EverydayOsakanaChan:017",
+      "positives": 7
+    },
+    {
+      "id": "manga109:ReveryEarth:027",
+      "positives": 3
+    },
+    {
+      "id": "manga109:GinNoChimera:012",
+      "positives": 10
+    },
+    {
+      "id": "manga109:DualJustice:086",
+      "positives": 7
+    },
+    {
+      "id": "manga109:KoukouNoHitotachi:028",
+      "positives": 10
+    },
+    {
+      "id": "manga109:UltraEleven:017",
+      "positives": 8
+    },
+    {
+      "id": "manga109:PikaruGenkiDesu:082",
+      "positives": 6
+    },
+    {
+      "id": "manga109:YumeiroCooking:071",
+      "positives": 10
+    },
+    {
+      "id": "manga109:PsychoStaff:023",
+      "positives": 2
+    },
+    {
+      "id": "manga109:Raphael:100",
+      "positives": 5
+    },
+    {
+      "id": "manga109:MagicianLoad:033",
+      "positives": 9
+    },
+    {
+      "id": "manga109:MayaNoAkaiKutsu:049",
+      "positives": 7
+    },
+    {
+      "id": "manga109:BurariTessenTorimonocho:069",
+      "positives": 10
+    },
+    {
+      "id": "manga109:Nekodama:109",
+      "positives": 10
+    },
+    {
+      "id": "manga109:PrismHeart:018",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MagicStarGakuin:035",
+      "positives": 9
+    },
+    {
+      "id": "manga109:Arisa:078",
+      "positives": 10
+    },
+    {
+      "id": "manga109:YukiNoFuruMachi:067",
+      "positives": 8
+    },
+    {
+      "id": "manga109:Belmondo:083",
+      "positives": 10
+    },
+    {
+      "id": "manga109:SyabondamaKieta:046",
+      "positives": 10
+    },
+    {
+      "id": "manga109:SaladDays_vol01:072",
+      "positives": 8
+    },
+    {
+      "id": "manga109:TennenSenshiG:046",
+      "positives": 6
+    },
+    {
+      "id": "manga109:TsubasaNoKioku:019",
+      "positives": 10
+    },
+    {
+      "id": "manga109:KimiHaBokuNoTaiyouDa:097",
+      "positives": 10
+    },
+    {
+      "id": "manga109:UchuKigekiM774:034",
+      "positives": 10
+    },
+    {
+      "id": "manga109:HeiseiJimen:026",
+      "positives": 10
+    },
+    {
+      "id": "manga109:BokuHaSitatakaKun:022",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MomoyamaHaikagura:027",
+      "positives": 10
+    },
+    {
+      "id": "manga109:PlatinumJungle:057",
+      "positives": 9
+    },
+    {
+      "id": "manga109:ShimatteIkouze_vol26:075",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MeteoSanStrikeDesu:013",
+      "positives": 1
+    },
+    {
+      "id": "manga109:HealingPlanet:046",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MadouTaiga:033",
+      "positives": 3
+    },
+    {
+      "id": "manga109:TaiyouNiSmash:000",
+      "positives": 1
+    },
+    {
+      "id": "manga109:EvaLady:008",
+      "positives": 3
+    },
+    {
+      "id": "manga109:HanzaiKousyouninMinegishiEitarou:001",
+      "positives": 1
+    },
+    {
+      "id": "manga109:OL_Lunch:020",
+      "positives": 10
+    },
+    {
+      "id": "manga109:AosugiruHaru:023",
+      "positives": 5
+    },
+    {
+      "id": "manga109:Jyovolley:089",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MoeruOnisan_vol19:073",
+      "positives": 10
+    },
+    {
+      "id": "manga109:Ningyoushi:091",
+      "positives": 1
+    },
+    {
+      "id": "manga109:UchiNoNyan'sDiary:045",
+      "positives": 3
+    },
+    {
+      "id": "manga109:MAD_STONE:054",
+      "positives": 10
+    },
+    {
+      "id": "manga109:Saisoku:089",
+      "positives": 10
+    },
+    {
+      "id": "manga109:AkkeraKanjinchou:069",
+      "positives": 6
+    },
+    {
+      "id": "manga109:SonokiDeABC:096",
+      "positives": 9
+    },
+    {
+      "id": "manga109:DollGun:080",
+      "positives": 7
+    },
+    {
+      "id": "manga109:Count3DeKimeteAgeru:023",
+      "positives": 9
+    },
+    {
+      "id": "manga109:ToutaMairimasu:029",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MoeruOnisan_vol01:022",
+      "positives": 10
+    },
+    {
+      "id": "manga109:YamatoNoHane:108",
+      "positives": 5
+    },
+    {
+      "id": "manga109:EienNoWith:004",
+      "positives": 10
+    },
+    {
+      "id": "manga109:SamayoeruSyonenNiJunaiWo:028",
+      "positives": 10
+    },
+    {
+      "id": "manga109:ARMS:004",
+      "positives": 6
+    },
+    {
+      "id": "manga109:TetsuSan:016",
+      "positives": 10
+    },
+    {
+      "id": "manga109:MariaSamaNihaNaisyo:028",
+      "positives": 5
+    }
+  ],
+  "anime_train_positives": 240,
+  "positive_samples": 1093,
+  "negative_samples": 2880,
+  "hog": {
+    "window": 24,
+    "block": 12,
+    "stride": 6,
+    "cell": 6,
+    "bins": 9
+  },
+  "svm_C": 0.1
+}
