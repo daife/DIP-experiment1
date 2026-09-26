@@ -1,6 +1,6 @@
 {
   "format": "experiment1-demo-v1",
-  "cascade": "step8_cascade_search128.json",
+  "cascade": "step4_cascade.json",
   "landmark_model": "landmark_ridge4_visible_only.npz",
   "channels": {
     "count": 11,
@@ -13,7 +13,7 @@
     "step": 2,
     "nms_iou": 0.3,
     "box_convention": "xyxy_half_open_original_pixels",
-    "score": "RBF verifier decision score after optional box refinement; first NMS uses last Cascade stage score"
+    "score": "final_cascade_stage_sum"
   },
   "landmarks": {
     "count": 28,
@@ -33,30 +33,22 @@
       "test": 48
     },
     "sha256": {
+      "step4_cascade.json": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
       "landmark_ridge4_visible_only.npz": "1acf86d74815c7dd91ccbef8f89bd98cdaf992948e2aeb3812710c24ecdc9b50",
       "step5_search_config.json": "ebce9410984aeb811136df631a533a3df8c4c9afc20d10adaa65b7c16d57d8bf",
       "datasets/annotations/landmark28_schema.json": "02efb8b0f647d27978ea8443766cd136f4d37a07398dc3c202ec901b790555f3",
       "datasets/annotations/corrected/landmark28_review320.jsonl": "f2304ab323cb547dcd36383ff2afd95bcdafc8ab139e06ff20265dd3b65019db",
       "feature_definition.json": "39fbbb42d6e50ea81609f1caa3361f8a925c3170383dcd984d138b9079e2c0a0",
       "landmark28_schema.json": "02efb8b0f647d27978ea8443766cd136f4d37a07398dc3c202ec901b790555f3",
-      "step8_cascade_search128.json": "dccac3e24b030e5c3ebef4bf8fbe6cf65d06292d5d7b2744e3484fc941931ca8",
-      "candidate_hog_rbf_tight_v1.joblib": "e0dc3a4e94ecf541ce2631eaa2cca0d08d6e78ed0dd034b8ee22a62110843a01",
-      "box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43"
+      "candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39"
     },
-    "historical_search_config": "step5_search_config.json: prior step=1 baseline; current search parameters are in this config",
-    "status": "candidate configuration fixed after validation; test historically explored; not final excellent acceptance"
+    "historical_search_config": "step5_search_config.json: prior step=1 baseline; current search parameters are in this config"
   },
   "candidate_verifier": {
-    "model": "candidate_hog_rbf_tight_v1.joblib",
+    "model": "candidate_hog_rbf_step3_v1.joblib",
     "feature": "324-dimensional grayscale HOG (24x24, 6x6 cell, 2x2 block, 9 orientation bins)",
     "threshold": 1.5,
     "min_side": 36,
-    "training": "Same 6996 reviewed train examples; positive crops deterministically regenerated from reviewed face boxes at centered square max-side ratio 1.0, white boundary padding, OpenCV grayscale/AREA; derived crops not individually re-reviewed; C1/gamma=scale/class_weight=balanced/seed20260925"
-  },
-  "box_refiner": {
-    "model": "box_refiner_ridge_v1.joblib",
-    "nms_iou": 0.3,
-    "score": "candidate_verifier_decision_function",
-    "training": "653 train proposals from 24 groups on historical Cascade; Ridge alpha10; fixed deterministic selection; transferred to search128 Cascade"
+    "training": "6996 fully reviewed Manga109 train crops (3442 positive, 3554 negative); RBF SVC C=1.0, gamma=scale, class_weight=balanced, seed=20260925; threshold selected on eight validation source groups"
   }
 }

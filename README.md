@@ -12,7 +12,7 @@
 .venv\Scripts\python.exe demo.py --image test.jpg --model-dir models --output results/test_vis.jpg
 ```
 
-同时生成 `results/test_vis.json`，内容为按末级 Cascade 分数降序排列的 `bbox`（原图像素、右下角半开）、`score` 和固定顺序的 28 个 `[x,y]` 点。Python 调用方式：
+同时生成 `results/test_vis.json`，内容为按当前配置的 RBF 复核分数降序排列的 `bbox`（原图像素、右下角半开）、`score` 和固定顺序的 28 个 `[x,y]` 点。Python 调用方式：
 
 ```python
 import cv2
@@ -22,7 +22,7 @@ detector = AnimeFaceDetector("models")
 results = detector.detect(cv2.imread("test.jpg"))
 ```
 
-导出清单见 `models/config.json`，通道定义见 `models/feature_definition.json`，关键点编号见 `models/landmark28_schema.json`。当前 Demo 在 Cascade 后使用 train 页面训练的 HOG 候选复核器，按固定阈值筛选，再做 28 点回归。八个未用于调参的 test 漫画作品上，IoU≥0.5 的 Precision 为 0.097、Recall 为 0.188、F1 为 0.128；仍有漏检和误报，不能视为可靠的整页人脸识别。效果、对照和限制见 `实验记录/2026-09-25_步骤八最终Demo与模型导出.md`。
+导出清单见 `models/config.json`，通道定义见 `models/feature_definition.json`，关键点编号见 `models/landmark28_schema.json`。当前 Demo 使用扩大特征搜索的三阶段 Cascade、紧裁剪 HOG RBF 复核器（阈值 1.5）和 Ridge 框修正，再回归 28 点。固定八个 test 漫画作品上，IoU≥0.5 的 Precision 为 0.261、Recall 为 0.341、F1 为 0.296（29 TP、82 FP、56 FN）；相比历史配置 F1 0.159 有改善，仍有明显误报、漏检及关键点偏差，尚未达到优秀效果。test 已在早期实验中被查看，不能称为盲测。详见 `实验记录/2026-09-26_组合改进与新增页面评价及Demo接入.md`。历史配置保留在 `models/config_historical_rbf_v1.json`，可用 `--config config_historical_rbf_v1.json` 运行；其分数为末级 Cascade 分数，与当前 RBF 分数不能直接比较。此前报告素材以各自阶段记录的历史模型为准，本次图像留在记录指定的本地忽略目录。
 
 已完成步骤的规范核对、验收证据、报告可用图表及局限见 [审计与报告素材索引](实验记录/2026-09-24_已完成步骤审计与报告素材索引.md)。原创统计图位于 `results/report_evidence/`，可用 `python scripts/plot_report_evidence.py` 从已保存的 JSON 重建。
 
