@@ -1,0 +1,35 @@
+{
+  "split": "train",
+  "manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+  "unaugmented_reviewed_positive_count": 1721,
+  "square_crop_count": 1721,
+  "crop_aspect_ratio_quantiles": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "crop_gt_iou_quantiles": [
+    0.21365224402042463,
+    0.4736639753940792,
+    0.6330165664649021,
+    0.7253996248705243,
+    0.7561436672967864
+  ],
+  "iou_below_05_count": 241,
+  "crop_to_gt_max_side_quantiles": [
+    1.15,
+    1.1506849315068493,
+    1.1549295774647887,
+    1.1639344262295082,
+    1.1851851851851851
+  ],
+  "quantiles": [
+    0,
+    0.1,
+    0.5,
+    0.9,
+    1
+  ]
+}

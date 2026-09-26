@@ -5,16 +5,19 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import sys
 from pathlib import Path
 
 import numpy as np
+import cv2
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from src.cascade import cascade_to_dict, fit_cascade, stage_statistics  # noqa: E402
+from src.channels11 import compute_11_channels  # noqa: E402
 
 
 def load_reviewed_data(dataset: Path) -> dict[str, tuple[np.ndarray, np.ndarray, list[dict]]]:
@@ -58,7 +61,13 @@ def main() -> None:
     parser.add_argument("--target-stage-recall", type=float, default=0.99)
     parser.add_argument("--hard-negative-dir", type=Path)
     parser.add_argument("--hard-review-csv", type=Path)
+    parser.add_argument("--extra-reviewed-csv", type=Path,
+                        help="reviewed current-model train-page false positives")
+    parser.add_argument("--hard-negative-repeat", type=int, default=1,
+                        help="repeat each approved hard negative in train to increase its weight")
     args = parser.parse_args()
+    if args.hard_negative_repeat < 1:
+        parser.error("--hard-negative-repeat must be positive")
     data = load_reviewed_data(args.dataset)
     train_x, train_y, _ = data["train"]
     validation_x, validation_y, _ = data["validation"]
@@ -86,8 +95,35 @@ def main() -> None:
             raise ValueError("hard-negative cache does not match manifest")
         hard_ids = sorted(keep)
         hard_windows = np.asarray(channel_cache[[lookup[item] for item in hard_ids]])
+        hard_windows = np.repeat(hard_windows, args.hard_negative_repeat, axis=0)
         train_x = np.concatenate((train_x, hard_windows), axis=0)
-        train_y = np.concatenate((train_y, np.zeros(len(hard_ids), dtype=np.uint8)))
+        train_y = np.concatenate((train_y, np.zeros(len(hard_windows), dtype=np.uint8)))
+    extra_ids = []
+    if args.extra_reviewed_csv is not None:
+        with args.extra_reviewed_csv.open(newline="", encoding="utf-8-sig") as stream:
+            extra_review = list(csv.DictReader(stream))
+        if not extra_review or len({row["id"] for row in extra_review}) != len(extra_review):
+            raise ValueError("empty or duplicate extra review IDs")
+        if any(row["review_decision"] not in ("accept_negative", "reject") for row in extra_review):
+            raise ValueError("all extra candidates require explicit review")
+        extra_windows = []
+        for row in extra_review:
+            if row["review_decision"] != "accept_negative":
+                continue
+            if row["split"] != "train" or not row["parent_image_path"].startswith("raw/manga109/images/"):
+                raise ValueError("extra negatives must come from train Manga109 pages")
+            box = np.asarray(json.loads(row["bbox_xyxy"]), dtype=np.int32)
+            gray = cv2.imread(str(ROOT / "datasets" / row["parent_image_path"]), cv2.IMREAD_GRAYSCALE)
+            if gray is None or box.shape != (4,) or np.any(box[:2] < 0) or box[2] > gray.shape[1] or box[3] > gray.shape[0] or np.any(box[2:] <= box[:2]):
+                raise ValueError(f"invalid extra negative image or box: {row['id']}")
+            crop = cv2.resize(gray[box[1]:box[3], box[0]:box[2]], (24, 24), interpolation=cv2.INTER_AREA)
+            extra_windows.append(np.stack(compute_11_channels(crop)))
+            extra_ids.append(row["id"])
+        if not extra_windows:
+            raise ValueError("no accepted extra negatives")
+        repeated_extra = np.repeat(np.stack(extra_windows), args.hard_negative_repeat, axis=0)
+        train_x = np.concatenate((train_x, repeated_extra), axis=0)
+        train_y = np.concatenate((train_y, np.zeros(len(repeated_extra), dtype=np.uint8)))
     cascade = fit_cascade(
         train_x, train_y, validation_x, validation_y,
         seed=args.seed, num_stages=args.stages, num_trees=args.trees_per_stage,
@@ -103,6 +139,9 @@ def main() -> None:
         "fully_reviewed": True,
         "approved_hard_negative_ids": hard_ids,
         "hard_negative_dir": str(args.hard_negative_dir) if hard_ids else None,
+        "extra_approved_negative_ids": extra_ids,
+        "extra_review_sha256": hashlib.sha256(args.extra_reviewed_csv.read_bytes()).hexdigest() if args.extra_reviewed_csv else None,
+        "hard_negative_repeat": args.hard_negative_repeat,
     }
     report = {split: stage_statistics(cascade, windows, labels) for split, (windows, labels, _) in data.items()}
     args.model.parent.mkdir(parents=True, exist_ok=True)

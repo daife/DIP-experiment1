@@ -1,0 +1,50 @@
+[
+  {
+    "split": "train",
+    "seed": 20260925,
+    "margins": [
+      1.0,
+      1.15
+    ],
+    "samples": 10438,
+    "positive": 6884,
+    "negative": 3554,
+    "extra_reviewed_negatives": 0,
+    "rejected_negatives": 9,
+    "support_vectors": 2759,
+    "C": 1,
+    "gamma": "scale",
+    "class_weight": "balanced",
+    "input_manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+    "sha256": {
+      "datasets\\derived\\step8_multirange_training\\tight.npz": "946364a82bb6df9cf04c8612ddbbb1aabc108dd3d24cc357d38878b1d7c4f605",
+      "datasets\\derived\\step8_multirange_training\\area.npz": "33a3c7e9e42f3cc1fbc7b5553903131a579e3919a24dc032b6bc023145437fc4",
+      "datasets\\annotations\\corrected\\step8_false_positive_review_merged.csv": "5968197265ee3f89cda147878a5f900b8b19d6b0fad53dd981b45d473344f0be",
+      "datasets\\derived\\step8_multirange_training\\multirange.joblib": "71342068f71fbcd8fb85c786939fa272c4f76aab7f9b9ccf19e5ab1d5a1c1743"
+    }
+  },
+  {
+    "split": "train",
+    "seed": 20260925,
+    "margins": [
+      1.0,
+      1.15
+    ],
+    "samples": 10511,
+    "positive": 6884,
+    "negative": 3627,
+    "extra_reviewed_negatives": 73,
+    "rejected_negatives": 9,
+    "support_vectors": 2955,
+    "C": 1,
+    "gamma": "scale",
+    "class_weight": "balanced",
+    "input_manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+    "sha256": {
+      "datasets\\derived\\step8_multirange_training\\tight.npz": "946364a82bb6df9cf04c8612ddbbb1aabc108dd3d24cc357d38878b1d7c4f605",
+      "datasets\\derived\\step8_multirange_training\\area.npz": "33a3c7e9e42f3cc1fbc7b5553903131a579e3919a24dc032b6bc023145437fc4",
+      "datasets\\annotations\\corrected\\step8_false_positive_review_merged.csv": "5968197265ee3f89cda147878a5f900b8b19d6b0fad53dd981b45d473344f0be",
+      "datasets\\derived\\step8_multirange_training\\multirange_hardneg.joblib": "af4ba98773135ab736f8e5c37781c90fb583c690b5b5858ccea5f46b010950c5"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "seed": 20260925,
+  "samples": 7183,
+  "positive": 3601,
+  "negative": 3582,
+  "support_vectors": 1942,
+  "positive_proposals": 159,
+  "reviewed_candidate_negatives": 28,
+  "C": 1.0,
+  "gamma": "scale",
+  "kernel": "rbf",
+  "class_weight": "balanced",
+  "feature": "324-dimensional 24x24 grayscale HOG, same extractor as current verifier",
+  "manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+  "page_manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "reviewed_negative_sha256": "dcc3cb325f29fb2457a4dc34bab1e290b36762bf18263209acef0cfd49a9c695",
+  "model_sha256": "65456b31ec98fb09fe3bd50b854df32f303e04499a149cdc59a0151e73e84ad3"
+}

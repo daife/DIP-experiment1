@@ -1,0 +1,159 @@
+{
+  "split": "train",
+  "pages": [
+    {
+      "image_id": "manga109:YoumaKourin:083",
+      "gt": 5,
+      "nms_candidates": 6306,
+      "refiner_samples": 11
+    },
+    {
+      "image_id": "manga109:LoveHina_vol01:083",
+      "gt": 18,
+      "nms_candidates": 5123,
+      "refiner_samples": 48
+    },
+    {
+      "image_id": "manga109:MiraiSan:030",
+      "gt": 4,
+      "nms_candidates": 4667,
+      "refiner_samples": 9
+    },
+    {
+      "image_id": "manga109:SaladDays_vol18:070",
+      "gt": 6,
+      "nms_candidates": 3223,
+      "refiner_samples": 12
+    },
+    {
+      "image_id": "manga109:ParaisoRoad:057",
+      "gt": 13,
+      "nms_candidates": 4543,
+      "refiner_samples": 32
+    },
+    {
+      "image_id": "manga109:KarappoHighschool:119",
+      "gt": 3,
+      "nms_candidates": 1994,
+      "refiner_samples": 9
+    },
+    {
+      "image_id": "manga109:That'sIzumiko:033",
+      "gt": 10,
+      "nms_candidates": 4739,
+      "refiner_samples": 23
+    },
+    {
+      "image_id": "manga109:LoveHina_vol14:012",
+      "gt": 15,
+      "nms_candidates": 4960,
+      "refiner_samples": 37
+    },
+    {
+      "image_id": "manga109:HarukaRefrain:045",
+      "gt": 7,
+      "nms_candidates": 2647,
+      "refiner_samples": 18
+    },
+    {
+      "image_id": "manga109:HaruichibanNoFukukoro:071",
+      "gt": 13,
+      "nms_candidates": 3002,
+      "refiner_samples": 34
+    },
+    {
+      "image_id": "manga109:RisingGirl:110",
+      "gt": 13,
+      "nms_candidates": 2858,
+      "refiner_samples": 29
+    },
+    {
+      "image_id": "manga109:AppareKappore:066",
+      "gt": 3,
+      "nms_candidates": 4974,
+      "refiner_samples": 9
+    },
+    {
+      "image_id": "manga109:Donburakokko:024",
+      "gt": 4,
+      "nms_candidates": 4193,
+      "refiner_samples": 12
+    },
+    {
+      "image_id": "manga109:TotteokiNoABC:018",
+      "gt": 9,
+      "nms_candidates": 3720,
+      "refiner_samples": 27
+    },
+    {
+      "image_id": "manga109:YumeNoKayoiji:079",
+      "gt": 3,
+      "nms_candidates": 6281,
+      "refiner_samples": 8
+    },
+    {
+      "image_id": "manga109:YasasiiAkuma:022",
+      "gt": 16,
+      "nms_candidates": 3785,
+      "refiner_samples": 37
+    },
+    {
+      "image_id": "manga109:Hamlet:100",
+      "gt": 14,
+      "nms_candidates": 3869,
+      "refiner_samples": 35
+    },
+    {
+      "image_id": "manga109:PLANET7:029",
+      "gt": 15,
+      "nms_candidates": 4645,
+      "refiner_samples": 38
+    },
+    {
+      "image_id": "manga109:MisutenaideDaisy:105",
+      "gt": 27,
+      "nms_candidates": 4531,
+      "refiner_samples": 77
+    },
+    {
+      "image_id": "manga109:MemorySeijin:047",
+      "gt": 13,
+      "nms_candidates": 3921,
+      "refiner_samples": 25
+    },
+    {
+      "image_id": "manga109:HinagikuKenzan:018",
+      "gt": 6,
+      "nms_candidates": 2209,
+      "refiner_samples": 17
+    },
+    {
+      "image_id": "manga109:JangiriPonpon:021",
+      "gt": 13,
+      "nms_candidates": 4456,
+      "refiner_samples": 40
+    },
+    {
+      "image_id": "manga109:GakuenNoise:011",
+      "gt": 12,
+      "nms_candidates": 3125,
+      "refiner_samples": 34
+    },
+    {
+      "image_id": "manga109:ByebyeC-BOY:069",
+      "gt": 13,
+      "nms_candidates": 4073,
+      "refiner_samples": 32
+    }
+  ],
+  "page_count": 24,
+  "samples": 653,
+  "min_iou": 0.3,
+  "per_face": 5,
+  "alpha": 10.0,
+  "input": "324-dimensional 24x24 grayscale HOG; targets dx,dy,dlogw,dlogh normalized by proposal dimensions",
+  "seed": "none; fixed SHA-256 page ordering and deterministic top-IoU selection",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "model_sha256": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43"
+}

@@ -1,0 +1,79 @@
+{
+  "split": "validation",
+  "scope": "two visually audited pages only",
+  "metric": "IoU>=0.5 one-to-one score ordered matching",
+  "supplement_source": "10 human-confirmed face boxes proposed by pretrained YOLOv3; proposal boxes are coarse, not precision-edited ground truth",
+  "sha256": {
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "datasets\\derived\\step8_validation_label_audit\\prediction_review_template.csv": "79f0c8b0cf9968d9cd80e2e06efca869a18209fc06211bb695b298b0de9c8888",
+    "datasets\\annotations\\corrected\\step8_validation_reference_face_review.csv": "66e61553c72a764fd0246165eaf7d60d73831de7726c2fad06ff33bdcf5ea283"
+  },
+  "pages": [
+    {
+      "page_id": "manga109:NichijouSoup:009",
+      "original_gt": 5,
+      "supplemental_gt": 5,
+      "predictions": 12,
+      "results": {
+        "original_gt": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 3,
+          "precision": 0.16666666666666666,
+          "recall": 0.4,
+          "f1": 0.23529411764705882
+        },
+        "supplemented_gt": {
+          "tp": 6,
+          "fp": 6,
+          "fn": 4,
+          "precision": 0.5,
+          "recall": 0.6,
+          "f1": 0.5454545454545454
+        }
+      }
+    },
+    {
+      "page_id": "manga109:RinToSiteSippuNoNaka:004",
+      "original_gt": 9,
+      "supplemental_gt": 0,
+      "predictions": 6,
+      "results": {
+        "original_gt": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8,
+          "precision": 0.16666666666666666,
+          "recall": 0.1111111111111111,
+          "f1": 0.13333333333333333
+        },
+        "supplemented_gt": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8,
+          "precision": 0.16666666666666666,
+          "recall": 0.1111111111111111,
+          "f1": 0.13333333333333333
+        }
+      }
+    }
+  ],
+  "summary": {
+    "original_gt": {
+      "tp": 3,
+      "fp": 15,
+      "fn": 11,
+      "precision": 0.16666666666666666,
+      "recall": 0.21428571428571427,
+      "f1": 0.1875
+    },
+    "supplemented_gt": {
+      "tp": 7,
+      "fp": 11,
+      "fn": 12,
+      "precision": 0.3888888888888889,
+      "recall": 0.3684210526315789,
+      "f1": 0.3783783783783784
+    }
+  }
+}

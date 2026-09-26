@@ -1,0 +1,2719 @@
+{
+  "split": "validation",
+  "page_selection": "step5-comparison SHA-256 order, eight distinct source groups",
+  "iou_threshold": 0.5,
+  "source_box_convention": "xyxy half-open; expansion about box center and clipped to image",
+  "sha256": {
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "models\\step4_cascade.json": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+    "models\\candidate_hog_svm.npz": "75376b297d58539a65797234d84ab9f83dda8de733f50edb57e1004027cf34bb",
+    "models\\candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39"
+  },
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "source_group": "NichijouSoup",
+      "gt": 5,
+      "nms_candidates": 3749,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 47913,
+          "seconds": 0.598467099989648
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 33321,
+          "seconds": 0.3384431000013137
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 25219,
+          "seconds": 0.24374799999350216
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 18927,
+          "seconds": 0.1478235999966273
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 14272,
+          "seconds": 0.07881629999610595
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 10691,
+          "seconds": 0.053125100006582215
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 7932,
+          "seconds": 0.034153900007368065
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 5694,
+          "seconds": 0.024266399996122345
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4190,
+          "seconds": 0.018001700009335764
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3010,
+          "seconds": 0.014125899993814528
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2178,
+          "seconds": 0.011132400002679788
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1617,
+          "seconds": 0.009080499992705882
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1175,
+          "seconds": 0.0077126000105636194
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 857,
+          "seconds": 0.006595099999685772
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 623,
+          "seconds": 0.006016199986333959
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 432,
+          "seconds": 0.005701399990357459
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 316,
+          "seconds": 0.005264300009002909
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 200,
+          "seconds": 0.005047599988756701
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 126,
+          "seconds": 0.005044000005000271
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 73,
+          "seconds": 0.005146800001966767
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 27,
+          "seconds": 0.005273599992506206
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 6,
+          "seconds": 0.005662299998220988
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 4
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 4
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 5
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 2,
+            "fp": 15,
+            "fn": 3
+          },
+          "1.25x1.25": {
+            "tp": 2,
+            "fp": 15,
+            "fn": 3
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 5
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 2,
+            "fp": 10,
+            "fn": 3
+          },
+          "1.25x1.25": {
+            "tp": 2,
+            "fp": 10,
+            "fn": 3
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 5
+          }
+        }
+      },
+      "seconds": 6.1216187000100035
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "source_group": "RinToSiteSippuNoNaka",
+      "gt": 9,
+      "nms_candidates": 3433,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 42716,
+          "seconds": 0.5539317000075243
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 30320,
+          "seconds": 0.339099000004353
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 22948,
+          "seconds": 0.2344026000064332
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 17174,
+          "seconds": 0.14903729999787174
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 12725,
+          "seconds": 0.07270210000569932
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 9450,
+          "seconds": 0.05031310000049416
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 7079,
+          "seconds": 0.03200889998697676
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 5304,
+          "seconds": 0.02300729999842588
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4114,
+          "seconds": 0.01687350000429433
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3028,
+          "seconds": 0.013502100002369843
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2203,
+          "seconds": 0.01092169999901671
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1583,
+          "seconds": 0.009047700004884973
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1212,
+          "seconds": 0.00785629999882076
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 839,
+          "seconds": 0.006707699998514727
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 595,
+          "seconds": 0.00623900000937283
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 406,
+          "seconds": 0.005929399994784035
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 287,
+          "seconds": 0.0055678000062471256
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 179,
+          "seconds": 0.005228299996815622
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 108,
+          "seconds": 0.005374999993364327
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 54,
+          "seconds": 0.005390400008764118
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 25,
+          "seconds": 0.005386500008171424
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 6,
+          "seconds": 0.0054792000009911135
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.25x1.25": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 17,
+            "fn": 9
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 8
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 11,
+            "fn": 8
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 12,
+            "fn": 9
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 1,
+            "fp": 5,
+            "fn": 8
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 5,
+            "fn": 8
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 6,
+            "fn": 9
+          }
+        }
+      },
+      "seconds": 5.446497500000987
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "source_group": "HisokaReturns",
+      "gt": 8,
+      "nms_candidates": 2826,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 38419,
+          "seconds": 0.4870066000003135
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 28660,
+          "seconds": 0.3142665999912424
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 21743,
+          "seconds": 0.22194950000266545
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 16166,
+          "seconds": 0.15364819999376778
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 11964,
+          "seconds": 0.07326450000982732
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 8901,
+          "seconds": 0.04433450000942685
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 6488,
+          "seconds": 0.030252500000642613
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 4759,
+          "seconds": 0.023020199994789436
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 3452,
+          "seconds": 0.01619520000531338
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 2566,
+          "seconds": 0.013387200000579469
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 1922,
+          "seconds": 0.010683100001187995
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1344,
+          "seconds": 0.008645599998999387
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 971,
+          "seconds": 0.007399000009172596
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 666,
+          "seconds": 0.006511200001114048
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 471,
+          "seconds": 0.005943800002569333
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 305,
+          "seconds": 0.005670400001690723
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 190,
+          "seconds": 0.005319000003510155
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 118,
+          "seconds": 0.005050599997048266
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 74,
+          "seconds": 0.0050974000041605905
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 36,
+          "seconds": 0.005245299995294772
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 19,
+          "seconds": 0.005328500003088266
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 3,
+          "seconds": 0.005381800001487136
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 4,
+            "fp": 9,
+            "fn": 4
+          },
+          "1.25x1.25": {
+            "tp": 3,
+            "fp": 10,
+            "fn": 5
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 5,
+            "fp": 8,
+            "fn": 3
+          },
+          "1.25x1.25": {
+            "tp": 4,
+            "fp": 9,
+            "fn": 4
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 12,
+            "fn": 7
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 13,
+            "fn": 8
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 4,
+            "fp": 3,
+            "fn": 4
+          },
+          "1.25x1.25": {
+            "tp": 3,
+            "fp": 4,
+            "fn": 5
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 7,
+            "fn": 8
+          }
+        }
+      },
+      "seconds": 4.211460300008184
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "source_group": "TensiNoHaneToAkumaNoShippo",
+      "gt": 11,
+      "nms_candidates": 4363,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 60598,
+          "seconds": 0.6042038000014145
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 41353,
+          "seconds": 0.3919647000002442
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 29791,
+          "seconds": 0.2595312999910675
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 21445,
+          "seconds": 0.17531269999744836
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 15216,
+          "seconds": 0.07425900000089314
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 11166,
+          "seconds": 0.05640940000012051
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 8214,
+          "seconds": 0.03470469999592751
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 6215,
+          "seconds": 0.025470400010817684
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4759,
+          "seconds": 0.01865909999469295
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3706,
+          "seconds": 0.014544400008162484
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2784,
+          "seconds": 0.011691499996231869
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2084,
+          "seconds": 0.009277100005419925
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1532,
+          "seconds": 0.008019699991564266
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1102,
+          "seconds": 0.006858999986434355
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 756,
+          "seconds": 0.0061963000043760985
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 540,
+          "seconds": 0.005835600008140318
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 325,
+          "seconds": 0.005421800000476651
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 207,
+          "seconds": 0.005053699991549365
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 131,
+          "seconds": 0.00505820001126267
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 64,
+          "seconds": 0.00518339998961892
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 22,
+          "seconds": 0.005252000002656132
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 7,
+          "seconds": 0.005315600006724708
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 2,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 10
+          },
+          "1.5x1.5": {
+            "tp": 2,
+            "fp": 12,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 2,
+            "fp": 12,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 10
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 10
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 10
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 13,
+            "fn": 10
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 5,
+            "fp": 17,
+            "fn": 6
+          },
+          "1.25x1.25": {
+            "tp": 3,
+            "fp": 19,
+            "fn": 8
+          },
+          "1.5x1.5": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 1,
+            "fp": 21,
+            "fn": 10
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 11
+          },
+          "1.25x1.75": {
+            "tp": 2,
+            "fp": 20,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 21,
+            "fn": 10
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 21,
+            "fn": 10
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 4,
+            "fp": 11,
+            "fn": 7
+          },
+          "1.25x1.25": {
+            "tp": 2,
+            "fp": 13,
+            "fn": 9
+          },
+          "1.5x1.5": {
+            "tp": 2,
+            "fp": 13,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 10
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 15,
+            "fn": 11
+          },
+          "1.25x1.75": {
+            "tp": 2,
+            "fp": 13,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 10
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 14,
+            "fn": 10
+          }
+        }
+      },
+      "seconds": 8.691355000002659
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "source_group": "OhWareraRettouSeitokai",
+      "gt": 9,
+      "nms_candidates": 3763,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 49972,
+          "seconds": 0.590968000004068
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 39174,
+          "seconds": 0.3469764000037685
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 29694,
+          "seconds": 0.23810070000763517
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 22147,
+          "seconds": 0.163654799995129
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 16782,
+          "seconds": 0.07706460000190418
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 12509,
+          "seconds": 0.049457500004791655
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 9484,
+          "seconds": 0.03258229998755269
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 7129,
+          "seconds": 0.0235194999986561
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 5242,
+          "seconds": 0.017370700006722473
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3853,
+          "seconds": 0.013932500005466864
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2686,
+          "seconds": 0.011007799999788404
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1864,
+          "seconds": 0.008979699996416457
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1214,
+          "seconds": 0.007790899995598011
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 814,
+          "seconds": 0.006795799999963492
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 496,
+          "seconds": 0.006121400001575239
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 319,
+          "seconds": 0.005788100010249764
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 195,
+          "seconds": 0.00543160000233911
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 126,
+          "seconds": 0.005137600004673004
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 71,
+          "seconds": 0.005134200007887557
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 33,
+          "seconds": 0.005195200006710365
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 15,
+          "seconds": 0.005283699996653013
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 2,
+          "seconds": 0.005328400002326816
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 3,
+            "fp": 31,
+            "fn": 6
+          },
+          "1.25x1.25": {
+            "tp": 2,
+            "fp": 32,
+            "fn": 7
+          },
+          "1.5x1.5": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          },
+          "1.75x1.75": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 33,
+            "fn": 8
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 3,
+            "fp": 35,
+            "fn": 6
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 37,
+            "fn": 8
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 38,
+            "fn": 9
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 3,
+            "fp": 19,
+            "fn": 6
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 21,
+            "fn": 8
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 22,
+            "fn": 9
+          }
+        }
+      },
+      "seconds": 7.526389999999083
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "source_group": "TapkunNoTanteisitsu",
+      "gt": 11,
+      "nms_candidates": 4540,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 59710,
+          "seconds": 0.6994711999868741
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 46112,
+          "seconds": 0.3374564999976428
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 35647,
+          "seconds": 0.2426421999989543
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 27708,
+          "seconds": 0.16477329999906942
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 21830,
+          "seconds": 0.10999199999787379
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 16892,
+          "seconds": 0.053136199989239685
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 12956,
+          "seconds": 0.03487890001269989
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 9770,
+          "seconds": 0.026125199990929104
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 7168,
+          "seconds": 0.01877070000045933
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 5128,
+          "seconds": 0.015057999989949167
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 3557,
+          "seconds": 0.011592299997573718
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2391,
+          "seconds": 0.00958369999716524
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1608,
+          "seconds": 0.008048000003327616
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1033,
+          "seconds": 0.006826099997851998
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 639,
+          "seconds": 0.006293200000072829
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 385,
+          "seconds": 0.006215399989741854
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 233,
+          "seconds": 0.005551200010813773
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 151,
+          "seconds": 0.005352799998945557
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 73,
+          "seconds": 0.0052589000115403906
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 43,
+          "seconds": 0.005338499991921708
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 17,
+          "seconds": 0.0053635000076610595
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 3,
+          "seconds": 0.005493799995747395
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "1.5x1.5": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "1.75x1.75": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 11
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 27,
+            "fn": 10
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 11
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          },
+          "1.5x1.5": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 11
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 11
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 23,
+            "fn": 10
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "1.25x1.25": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 10
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 11
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 10
+          }
+        }
+      },
+      "seconds": 11.249910999991698
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "source_group": "LancelotFullThrottle",
+      "gt": 14,
+      "nms_candidates": 4425,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 52606,
+          "seconds": 0.5330790000007255
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 40945,
+          "seconds": 0.32925300000351854
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 31426,
+          "seconds": 0.23224009999830741
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 23902,
+          "seconds": 0.1681830000015907
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 18119,
+          "seconds": 0.08110989999840967
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 13873,
+          "seconds": 0.0746796000021277
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 10586,
+          "seconds": 0.03317359999346081
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 8004,
+          "seconds": 0.024680699993041344
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 5921,
+          "seconds": 0.0182994999922812
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 4442,
+          "seconds": 0.014797900003031828
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 3236,
+          "seconds": 0.01160840000375174
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2372,
+          "seconds": 0.009395500004757196
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1577,
+          "seconds": 0.007926999998744577
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1081,
+          "seconds": 0.00684210000326857
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 724,
+          "seconds": 0.006320100001175888
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 487,
+          "seconds": 0.006047799994121306
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 303,
+          "seconds": 0.005487299989908934
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 170,
+          "seconds": 0.005114899991895072
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 96,
+          "seconds": 0.005297900002915412
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 38,
+          "seconds": 0.0053596999932779
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 13,
+          "seconds": 0.005420000001322478
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 1,
+          "seconds": 0.005498900005477481
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 4,
+            "fp": 26,
+            "fn": 10
+          },
+          "1.25x1.25": {
+            "tp": 2,
+            "fp": 28,
+            "fn": 12
+          },
+          "1.5x1.5": {
+            "tp": 1,
+            "fp": 29,
+            "fn": 13
+          },
+          "1.75x1.75": {
+            "tp": 2,
+            "fp": 28,
+            "fn": 12
+          },
+          "2x2": {
+            "tp": 3,
+            "fp": 27,
+            "fn": 11
+          },
+          "1.25x1.75": {
+            "tp": 1,
+            "fp": 29,
+            "fn": 13
+          },
+          "1.5x2": {
+            "tp": 2,
+            "fp": 28,
+            "fn": 12
+          },
+          "1.75x2.25": {
+            "tp": 2,
+            "fp": 28,
+            "fn": 12
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 3,
+            "fp": 23,
+            "fn": 11
+          },
+          "1.25x1.25": {
+            "tp": 0,
+            "fp": 26,
+            "fn": 14
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 26,
+            "fn": 14
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 26,
+            "fn": 14
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 25,
+            "fn": 13
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 26,
+            "fn": 14
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 25,
+            "fn": 13
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 25,
+            "fn": 13
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 2,
+            "fp": 14,
+            "fn": 12
+          },
+          "1.25x1.25": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 14
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 14
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 14
+          },
+          "2x2": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 13
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 16,
+            "fn": 14
+          },
+          "1.5x2": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 13
+          },
+          "1.75x2.25": {
+            "tp": 1,
+            "fp": 15,
+            "fn": 13
+          }
+        }
+      },
+      "seconds": 8.959449000001769
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "source_group": "MukoukizuNoChonbo",
+      "gt": 6,
+      "nms_candidates": 4781,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 94885,
+          "seconds": 0.5963088999997126
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 61288,
+          "seconds": 0.34980429999995977
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 41580,
+          "seconds": 0.24597499999799766
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 28037,
+          "seconds": 0.16210200000205077
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 19530,
+          "seconds": 0.08393829999840818
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 13490,
+          "seconds": 0.07511029999295715
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 9335,
+          "seconds": 0.03289339999901131
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 6548,
+          "seconds": 0.024131999991368502
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4747,
+          "seconds": 0.01737789998878725
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3476,
+          "seconds": 0.014470599999185652
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2490,
+          "seconds": 0.011179699999047443
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1808,
+          "seconds": 0.009518699996988289
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1272,
+          "seconds": 0.007806599998730235
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 931,
+          "seconds": 0.006767400001990609
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 652,
+          "seconds": 0.006037400002242066
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 424,
+          "seconds": 0.005733400001190603
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 265,
+          "seconds": 0.005369200007407926
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 161,
+          "seconds": 0.005047600003308617
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 99,
+          "seconds": 0.00506630000018049
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 53,
+          "seconds": 0.005180099993594922
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 18,
+          "seconds": 0.005277200005366467
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 4,
+          "seconds": 0.0053222999995341524
+        }
+      ],
+      "rules": {
+        "linear0.75": {
+          "1x1": {
+            "tp": 1,
+            "fp": 40,
+            "fn": 5
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 40,
+            "fn": 5
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 41,
+            "fn": 6
+          }
+        },
+        "rbf1.25": {
+          "1x1": {
+            "tp": 1,
+            "fp": 41,
+            "fn": 5
+          },
+          "1.25x1.25": {
+            "tp": 1,
+            "fp": 41,
+            "fn": 5
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 42,
+            "fn": 6
+          }
+        },
+        "rbf1.5": {
+          "1x1": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.25x1.25": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.5x1.5": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.75x1.75": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "2x2": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.25x1.75": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.5x2": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          },
+          "1.75x2.25": {
+            "tp": 0,
+            "fp": 24,
+            "fn": 6
+          }
+        }
+      },
+      "seconds": 14.182459899995592
+    }
+  ],
+  "summary": {
+    "linear0.75": {
+      "1x1": {
+        "tp": 16,
+        "fp": 177,
+        "fn": 57,
+        "precision": 0.08290155440414508,
+        "recall": 0.2191780821917808,
+        "f1": 0.12030075187969924
+      },
+      "1.25x1.25": {
+        "tp": 11,
+        "fp": 182,
+        "fn": 62,
+        "precision": 0.05699481865284974,
+        "recall": 0.1506849315068493,
+        "f1": 0.08270676691729323
+      },
+      "1.5x1.5": {
+        "tp": 5,
+        "fp": 188,
+        "fn": 68,
+        "precision": 0.025906735751295335,
+        "recall": 0.0684931506849315,
+        "f1": 0.03759398496240601
+      },
+      "1.75x1.75": {
+        "tp": 6,
+        "fp": 187,
+        "fn": 67,
+        "precision": 0.031088082901554404,
+        "recall": 0.0821917808219178,
+        "f1": 0.045112781954887216
+      },
+      "2x2": {
+        "tp": 5,
+        "fp": 188,
+        "fn": 68,
+        "precision": 0.025906735751295335,
+        "recall": 0.0684931506849315,
+        "f1": 0.03759398496240601
+      },
+      "1.25x1.75": {
+        "tp": 4,
+        "fp": 189,
+        "fn": 69,
+        "precision": 0.02072538860103627,
+        "recall": 0.0547945205479452,
+        "f1": 0.03007518796992481
+      },
+      "1.5x2": {
+        "tp": 5,
+        "fp": 188,
+        "fn": 68,
+        "precision": 0.025906735751295335,
+        "recall": 0.0684931506849315,
+        "f1": 0.03759398496240601
+      },
+      "1.75x2.25": {
+        "tp": 4,
+        "fp": 189,
+        "fn": 69,
+        "precision": 0.02072538860103627,
+        "recall": 0.0547945205479452,
+        "f1": 0.03007518796992481
+      }
+    },
+    "rbf1.25": {
+      "1x1": {
+        "tp": 21,
+        "fp": 173,
+        "fn": 52,
+        "precision": 0.10824742268041238,
+        "recall": 0.2876712328767123,
+        "f1": 0.15730337078651685
+      },
+      "1.25x1.25": {
+        "tp": 13,
+        "fp": 181,
+        "fn": 60,
+        "precision": 0.06701030927835051,
+        "recall": 0.1780821917808219,
+        "f1": 0.09737827715355805
+      },
+      "1.5x1.5": {
+        "tp": 3,
+        "fp": 191,
+        "fn": 70,
+        "precision": 0.015463917525773196,
+        "recall": 0.0410958904109589,
+        "f1": 0.02247191011235955
+      },
+      "1.75x1.75": {
+        "tp": 1,
+        "fp": 193,
+        "fn": 72,
+        "precision": 0.005154639175257732,
+        "recall": 0.0136986301369863,
+        "f1": 0.00749063670411985
+      },
+      "2x2": {
+        "tp": 2,
+        "fp": 192,
+        "fn": 71,
+        "precision": 0.010309278350515464,
+        "recall": 0.0273972602739726,
+        "f1": 0.0149812734082397
+      },
+      "1.25x1.75": {
+        "tp": 4,
+        "fp": 190,
+        "fn": 69,
+        "precision": 0.020618556701030927,
+        "recall": 0.0547945205479452,
+        "f1": 0.0299625468164794
+      },
+      "1.5x2": {
+        "tp": 2,
+        "fp": 192,
+        "fn": 71,
+        "precision": 0.010309278350515464,
+        "recall": 0.0273972602739726,
+        "f1": 0.0149812734082397
+      },
+      "1.75x2.25": {
+        "tp": 3,
+        "fp": 191,
+        "fn": 70,
+        "precision": 0.015463917525773196,
+        "recall": 0.0410958904109589,
+        "f1": 0.02247191011235955
+      }
+    },
+    "rbf1.5": {
+      "1x1": {
+        "tp": 16,
+        "fp": 102,
+        "fn": 57,
+        "precision": 0.13559322033898305,
+        "recall": 0.2191780821917808,
+        "f1": 0.16753926701570682
+      },
+      "1.25x1.25": {
+        "tp": 9,
+        "fp": 109,
+        "fn": 64,
+        "precision": 0.07627118644067797,
+        "recall": 0.1232876712328767,
+        "f1": 0.09424083769633508
+      },
+      "1.5x1.5": {
+        "tp": 2,
+        "fp": 116,
+        "fn": 71,
+        "precision": 0.01694915254237288,
+        "recall": 0.0273972602739726,
+        "f1": 0.020942408376963352
+      },
+      "1.75x1.75": {
+        "tp": 1,
+        "fp": 117,
+        "fn": 72,
+        "precision": 0.00847457627118644,
+        "recall": 0.0136986301369863,
+        "f1": 0.010471204188481676
+      },
+      "2x2": {
+        "tp": 2,
+        "fp": 116,
+        "fn": 71,
+        "precision": 0.01694915254237288,
+        "recall": 0.0273972602739726,
+        "f1": 0.020942408376963352
+      },
+      "1.25x1.75": {
+        "tp": 2,
+        "fp": 116,
+        "fn": 71,
+        "precision": 0.01694915254237288,
+        "recall": 0.0273972602739726,
+        "f1": 0.020942408376963352
+      },
+      "1.5x2": {
+        "tp": 2,
+        "fp": 116,
+        "fn": 71,
+        "precision": 0.01694915254237288,
+        "recall": 0.0273972602739726,
+        "f1": 0.020942408376963352
+      },
+      "1.75x2.25": {
+        "tp": 3,
+        "fp": 115,
+        "fn": 70,
+        "precision": 0.025423728813559324,
+        "recall": 0.0410958904109589,
+        "f1": 0.031413612565445025
+      }
+    }
+  },
+  "mean_seconds": 8.298642675001247
+}

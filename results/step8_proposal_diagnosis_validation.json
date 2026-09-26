@@ -1,0 +1,5055 @@
+{
+  "split": "validation",
+  "selection": "step5-comparison SHA-256 order",
+  "source_groups_distinct": true,
+  "iou_threshold": 0.5,
+  "config": {
+    "search": {
+      "scale_factor": 1.2,
+      "step": 2,
+      "nms_iou": 0.3,
+      "box_convention": "xyxy_half_open_original_pixels",
+      "score": "final_cascade_stage_sum"
+    },
+    "candidate_verifier": {
+      "model": "candidate_hog_svm.npz",
+      "feature": "324-dimensional grayscale HOG (24x24, 6x6 cell, 2x2 block, 9 orientation bins)",
+      "threshold": 0.75,
+      "min_side": 36,
+      "training": "24 distinct Manga109 train source groups; 414 positive and 2880 negative samples; validation selection on eight distinct groups"
+    }
+  },
+  "sha256": {
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "models\\config.json": "e0b5cc872465a48d33fff61d56eb6f08607fa89a3039eb60ab0768c2bd849223",
+    "models\\step4_cascade.json": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+    "models\\candidate_hog_svm.npz": "75376b297d58539a65797234d84ab9f83dda8de733f50edb57e1004027cf34bb"
+  },
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "source_group": "NichijouSoup",
+      "image_path": "raw/manga109/images/NichijouSoup/009.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 5,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 47913,
+          "seconds": 0.5971132999984547
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 33321,
+          "seconds": 0.34631130000343546
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 25219,
+          "seconds": 0.2287380000052508
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 18927,
+          "seconds": 0.15120720000413712
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 14272,
+          "seconds": 0.07975050000823103
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 10691,
+          "seconds": 0.05715310000232421
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 7932,
+          "seconds": 0.03395959999761544
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 5694,
+          "seconds": 0.02537929998652544
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4190,
+          "seconds": 0.018222799990326166
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3010,
+          "seconds": 0.013956199996755458
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2178,
+          "seconds": 0.011022099992260337
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1617,
+          "seconds": 0.009042200006661005
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1175,
+          "seconds": 0.007703499999479391
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 857,
+          "seconds": 0.006637500002398156
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 623,
+          "seconds": 0.006083300002501346
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 432,
+          "seconds": 0.005703300004824996
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 316,
+          "seconds": 0.005323699995642528
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 200,
+          "seconds": 0.005064400000264868
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 126,
+          "seconds": 0.0051367999985814095
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 73,
+          "seconds": 0.005321699994965456
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 27,
+          "seconds": 0.005573000002186745
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 6,
+          "seconds": 0.005531900009373203
+        }
+      ],
+      "pre_nms_candidates": 178799,
+      "candidate_counts": {
+        "post_nms": 3749,
+        "hog_pass": 55,
+        "side_pass": 926,
+        "final": 16
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            1241,
+            285,
+            1404,
+            384
+          ],
+          "pre_nms_best": {
+            "iou": 0.6381452409419348,
+            "score": -0.3169166907997055,
+            "bbox": [
+              1247,
+              268,
+              1371,
+              392
+            ],
+            "index": 168620,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.494852624574314,
+            "score": -0.26156747965329596,
+            "bbox": [
+              1239,
+              223,
+              1388,
+              371
+            ],
+            "index": 2978
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5637131243604279,
+            "bbox": [
+              1422,
+              465,
+              1472,
+              514
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            1423,
+            459,
+            1463,
+            514
+          ],
+          "pre_nms_best": {
+            "iou": 0.7421431276031806,
+            "score": 0.6979081630348288,
+            "bbox": [
+              1414,
+              461,
+              1463,
+              510
+            ],
+            "index": 129336,
+            "level": 4
+          },
+          "post_nms_best": {
+            "iou": 0.7286245353159851,
+            "score": 1.5637131243604279,
+            "bbox": [
+              1422,
+              465,
+              1472,
+              514
+            ],
+            "index": 19
+          },
+          "post_filter_best": {
+            "iou": 0.7286245353159851,
+            "score": 1.5637131243604279,
+            "bbox": [
+              1422,
+              465,
+              1472,
+              514
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            891,
+            384,
+            960,
+            481
+          ],
+          "pre_nms_best": {
+            "iou": 0.7276517473942367,
+            "score": 0.45449291902822864,
+            "bbox": [
+              881,
+              386,
+              967,
+              472
+            ],
+            "index": 159586,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.7276517473942367,
+            "score": 1.4543444395908427,
+            "bbox": [
+              888,
+              386,
+              974,
+              472
+            ],
+            "index": 42
+          },
+          "post_filter_best": {
+            "iou": 0.01146590098857264,
+            "score": -0.04021285792205203,
+            "bbox": [
+              925,
+              464,
+              1138,
+              679
+            ],
+            "index": 13
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            1103,
+            301,
+            1231,
+            560
+          ],
+          "pre_nms_best": {
+            "iou": 0.5442021756686143,
+            "score": -0.260574498624182,
+            "bbox": [
+              1053,
+              313,
+              1231,
+              492
+            ],
+            "index": 173676,
+            "level": 11
+          },
+          "post_nms_best": {
+            "iou": 0.5442021756686143,
+            "score": 1.6524887028075235,
+            "bbox": [
+              1083,
+              343,
+              1261,
+              522
+            ],
+            "index": 10
+          },
+          "post_filter_best": {
+            "iou": 0.06313581541688516,
+            "score": 1.464531971052653,
+            "bbox": [
+              1045,
+              422,
+              1131,
+              508
+            ],
+            "index": 4
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            1066,
+            439,
+            1102,
+            499
+          ],
+          "pre_nms_best": {
+            "iou": 0.6379746835443038,
+            "score": -0.027797226845294024,
+            "bbox": [
+              1065,
+              442,
+              1106,
+              484
+            ],
+            "index": 111297,
+            "level": 3
+          },
+          "post_nms_best": {
+            "iou": 0.38935185185185184,
+            "score": 0.7509738238571807,
+            "bbox": [
+              1068,
+              458,
+              1097,
+              487
+            ],
+            "index": 784
+          },
+          "post_filter_best": {
+            "iou": 0.2920497566252028,
+            "score": 1.464531971052653,
+            "bbox": [
+              1045,
+              422,
+              1131,
+              508
+            ],
+            "index": 4
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        }
+      ],
+      "seconds": 5.022064499993576
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "source_group": "RinToSiteSippuNoNaka",
+      "image_path": "raw/manga109/images/RinToSiteSippuNoNaka/004.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 9,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 42716,
+          "seconds": 0.5639968999894336
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 30320,
+          "seconds": 0.3631034999998519
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 22948,
+          "seconds": 0.23618600000918377
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 17174,
+          "seconds": 0.1631574999919394
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 12725,
+          "seconds": 0.07075179999810643
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 9450,
+          "seconds": 0.048541199997998774
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 7079,
+          "seconds": 0.03076120000332594
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 5304,
+          "seconds": 0.023860200002673082
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4114,
+          "seconds": 0.017293400000198744
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3028,
+          "seconds": 0.013576600002124906
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2203,
+          "seconds": 0.011174500003107823
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1583,
+          "seconds": 0.008924800000386313
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1212,
+          "seconds": 0.007473299992852844
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 839,
+          "seconds": 0.006540100002894178
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 595,
+          "seconds": 0.0060855999909108505
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 406,
+          "seconds": 0.0056757999991532415
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 287,
+          "seconds": 0.005300999997416511
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 179,
+          "seconds": 0.005029899999499321
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 108,
+          "seconds": 0.0049882000021170825
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 54,
+          "seconds": 0.005352699998184107
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 25,
+          "seconds": 0.005301600001985207
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 6,
+          "seconds": 0.00532559999555815
+        }
+      ],
+      "pre_nms_candidates": 162355,
+      "candidate_counts": {
+        "post_nms": 3433,
+        "hog_pass": 46,
+        "side_pass": 979,
+        "final": 17
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            454,
+            103,
+            531,
+            208
+          ],
+          "pre_nms_best": {
+            "iou": 0.747488429845355,
+            "score": -0.5481015045566545,
+            "bbox": [
+              451,
+              114,
+              537,
+              200
+            ],
+            "index": 142939,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.46965408805031444,
+            "score": 1.0738694300131706,
+            "bbox": [
+              473,
+              103,
+              576,
+              206
+            ],
+            "index": 246
+          },
+          "post_filter_best": {
+            "iou": 0.08972770451662389,
+            "score": 1.0324149225258277,
+            "bbox": [
+              384,
+              129,
+              640,
+              386
+            ],
+            "index": 5
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            415,
+            331,
+            744,
+            581
+          ],
+          "pre_nms_best": {
+            "iou": 0.7691231995525102,
+            "score": -0.2951367828066096,
+            "bbox": [
+              436,
+              283,
+              744,
+              591
+            ],
+            "index": 160913,
+            "level": 14
+          },
+          "post_nms_best": {
+            "iou": 0.5484235028567398,
+            "score": 1.0419280847406966,
+            "bbox": [
+              433,
+              246,
+              804,
+              616
+            ],
+            "index": 276
+          },
+          "post_filter_best": {
+            "iou": 0.09121599209829952,
+            "score": 1.0324149225258277,
+            "bbox": [
+              384,
+              129,
+              640,
+              386
+            ],
+            "index": 5
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            183,
+            149,
+            260,
+            233
+          ],
+          "pre_nms_best": {
+            "iou": 0.855212096882109,
+            "score": -0.18432087162519686,
+            "bbox": [
+              179,
+              150,
+              265,
+              236
+            ],
+            "index": 143140,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.7953897953897954,
+            "score": 0.81528763663975,
+            "bbox": [
+              186,
+              150,
+              272,
+              236
+            ],
+            "index": 571
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5654394466095563,
+            "bbox": [
+              1054,
+              304,
+              1096,
+              346
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            1267,
+            120,
+            1524,
+            367
+          ],
+          "pre_nms_best": {
+            "iou": 0.8835633370657437,
+            "score": -0.3059043214400994,
+            "bbox": [
+              1259,
+              107,
+              1515,
+              365
+            ],
+            "index": 159976,
+            "level": 13
+          },
+          "post_nms_best": {
+            "iou": 0.4624389888540832,
+            "score": 1.0965054619061578,
+            "bbox": [
+              1237,
+              92,
+              1608,
+              462
+            ],
+            "index": 225
+          },
+          "post_filter_best": {
+            "iou": 0.02927808785585508,
+            "score": -0.001272825840220572,
+            "bbox": [
+              1202,
+              343,
+              1380,
+              522
+            ],
+            "index": 12
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            1231,
+            710,
+            1308,
+            821
+          ],
+          "pre_nms_best": {
+            "iou": 0.7104387941208025,
+            "score": -0.021165690386465326,
+            "bbox": [
+              1224,
+              723,
+              1310,
+              809
+            ],
+            "index": 146555,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.45117598608950304,
+            "score": 1.1359045412722018,
+            "bbox": [
+              1203,
+              716,
+              1289,
+              801
+            ],
+            "index": 197
+          },
+          "post_filter_best": {
+            "iou": 0.00367369698560042,
+            "score": 0.4948801254559906,
+            "bbox": [
+              1301,
+              805,
+              1450,
+              953
+            ],
+            "index": 10
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            1441,
+            791,
+            1573,
+            1030
+          ],
+          "pre_nms_best": {
+            "iou": 0.5939369564124478,
+            "score": 0.02160192974623701,
+            "bbox": [
+              1409,
+              805,
+              1587,
+              984
+            ],
+            "index": 158519,
+            "level": 11
+          },
+          "post_nms_best": {
+            "iou": 0.4984805821182637,
+            "score": 0.2760188407158497,
+            "bbox": [
+              1412,
+              817,
+              1561,
+              966
+            ],
+            "index": 1585
+          },
+          "post_filter_best": {
+            "iou": 0.02548404377439351,
+            "score": 0.4948801254559906,
+            "bbox": [
+              1301,
+              805,
+              1450,
+              953
+            ],
+            "index": 10
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            1318,
+            425,
+            1427,
+            549
+          ],
+          "pre_nms_best": {
+            "iou": 0.853325569358178,
+            "score": 0.4973642587563606,
+            "bbox": [
+              1309,
+              423,
+              1432,
+              546
+            ],
+            "index": 153311,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.4299685851461087,
+            "score": 0.6856095539908845,
+            "bbox": [
+              1349,
+              456,
+              1452,
+              559
+            ],
+            "index": 776
+          },
+          "post_filter_best": {
+            "iou": 0.15505553151593826,
+            "score": 0.1669862837466698,
+            "bbox": [
+              1343,
+              506,
+              1393,
+              556
+            ],
+            "index": 11
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            114,
+            321,
+            203,
+            417
+          ],
+          "pre_nms_best": {
+            "iou": 0.8555711610486891,
+            "score": -0.5725941210743279,
+            "bbox": [
+              115,
+              322,
+              200,
+              408
+            ],
+            "index": 144116,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.6393905674912266,
+            "score": 0.3323718311137317,
+            "bbox": [
+              120,
+              327,
+              223,
+              430
+            ],
+            "index": 1455
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5654394466095563,
+            "bbox": [
+              1054,
+              304,
+              1096,
+              346
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 8,
+          "gt_bbox": [
+            296,
+            753,
+            528,
+            1036
+          ],
+          "pre_nms_best": {
+            "iou": 0.7405101690891345,
+            "score": -0.4100120071618292,
+            "bbox": [
+              277,
+              794,
+              534,
+              1052
+            ],
+            "index": 160648,
+            "level": 13
+          },
+          "post_nms_best": {
+            "iou": 0.40637500473204036,
+            "score": 1.045149651100559,
+            "bbox": [
+              249,
+              732,
+              462,
+              947
+            ],
+            "index": 272
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5654394466095563,
+            "bbox": [
+              1054,
+              304,
+              1096,
+              346
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        }
+      ],
+      "seconds": 4.354197499997099
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "source_group": "HisokaReturns",
+      "image_path": "raw/manga109/images/HisokaReturns/075.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 8,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 38419,
+          "seconds": 0.4827422999951523
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 28660,
+          "seconds": 0.3180216000037035
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 21743,
+          "seconds": 0.2251338000060059
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 16166,
+          "seconds": 0.1539174999925308
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 11964,
+          "seconds": 0.09828269999707118
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 8901,
+          "seconds": 0.043778600011137314
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 6488,
+          "seconds": 0.029154699994251132
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 4759,
+          "seconds": 0.024512700008926913
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 3452,
+          "seconds": 0.016593699998338707
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 2566,
+          "seconds": 0.0133479000069201
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 1922,
+          "seconds": 0.01064300000143703
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1344,
+          "seconds": 0.008527199999662116
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 971,
+          "seconds": 0.007358100003330037
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 666,
+          "seconds": 0.006404100000509061
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 471,
+          "seconds": 0.0059016000013798475
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 305,
+          "seconds": 0.005665099990437739
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 190,
+          "seconds": 0.005251499998848885
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 118,
+          "seconds": 0.005027700011851266
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 74,
+          "seconds": 0.005639599999994971
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 36,
+          "seconds": 0.005120500005432405
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 19,
+          "seconds": 0.005226100009167567
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 3,
+          "seconds": 0.005406800002674572
+        }
+      ],
+      "pre_nms_candidates": 149237,
+      "candidate_counts": {
+        "post_nms": 2826,
+        "hog_pass": 35,
+        "side_pass": 852,
+        "final": 13
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            326,
+            759,
+            444,
+            889
+          ],
+          "pre_nms_best": {
+            "iou": 0.8951135241855873,
+            "score": -0.6885058860191382,
+            "bbox": [
+              319,
+              763,
+              443,
+              887
+            ],
+            "index": 142317,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.4786597526924611,
+            "score": 1.237567620874791,
+            "bbox": [
+              344,
+              740,
+              447,
+              843
+            ],
+            "index": 152
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            59,
+            107,
+            160,
+            231
+          ],
+          "pre_nms_best": {
+            "iou": 0.8102212527267061,
+            "score": 0.20825681142043553,
+            "bbox": [
+              60,
+              120,
+              163,
+              224
+            ],
+            "index": 137379,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.7132987910189983,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 8
+          },
+          "post_filter_best": {
+            "iou": 0.7132987910189983,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            542,
+            301,
+            710,
+            532
+          ],
+          "pre_nms_best": {
+            "iou": 0.7422271770097857,
+            "score": 0.2132743400301366,
+            "bbox": [
+              498,
+              304,
+              711,
+              518
+            ],
+            "index": 146711,
+            "level": 12
+          },
+          "post_nms_best": {
+            "iou": 0.549440912080684,
+            "score": 0.4262529131864306,
+            "bbox": [
+              504,
+              313,
+              682,
+              492
+            ],
+            "index": 1160
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            557,
+            931,
+            700,
+            1026
+          ],
+          "pre_nms_best": {
+            "iou": 0.6861823947383875,
+            "score": 0.3202506798212923,
+            "bbox": [
+              567,
+              928,
+              690,
+              1051
+            ],
+            "index": 142827,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.6812616604477612,
+            "score": 1.4746517974126796,
+            "bbox": [
+              567,
+              917,
+              690,
+              1041
+            ],
+            "index": 29
+          },
+          "post_filter_best": {
+            "iou": 0.6812616604477612,
+            "score": 1.4746517974126796,
+            "bbox": [
+              567,
+              917,
+              690,
+              1041
+            ],
+            "index": 1
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            1452,
+            231,
+            1498,
+            275
+          ],
+          "pre_nms_best": {
+            "iou": 0.8507905138339921,
+            "score": 1.0595955288691645,
+            "bbox": [
+              1455,
+              232,
+              1497,
+              273
+            ],
+            "index": 91435,
+            "level": 3
+          },
+          "post_nms_best": {
+            "iou": 0.7969639468690702,
+            "score": 1.361241020449072,
+            "bbox": [
+              1455,
+              235,
+              1497,
+              277
+            ],
+            "index": 81
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            1364,
+            281,
+            1409,
+            306
+          ],
+          "pre_nms_best": {
+            "iou": 0.6076388888888888,
+            "score": 1.3929794005521225,
+            "bbox": [
+              1370,
+              274,
+              1405,
+              308
+            ],
+            "index": 71511,
+            "level": 2
+          },
+          "post_nms_best": {
+            "iou": 0.5324959038776624,
+            "score": 1.4629123485965738,
+            "bbox": [
+              1362,
+              270,
+              1403,
+              311
+            ],
+            "index": 33
+          },
+          "post_filter_best": {
+            "iou": 0.5324959038776624,
+            "score": 1.4629123485965738,
+            "bbox": [
+              1362,
+              270,
+              1403,
+              311
+            ],
+            "index": 2
+          },
+          "post_nms_iou50_candidates": 2,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            1152,
+            254,
+            1192,
+            288
+          ],
+          "pre_nms_best": {
+            "iou": 0.875,
+            "score": 0.5687540502108206,
+            "bbox": [
+              1154,
+              254,
+              1189,
+              288
+            ],
+            "index": 71034,
+            "level": 2
+          },
+          "post_nms_best": {
+            "iou": 0.7055524397083567,
+            "score": 1.7437251843596648,
+            "bbox": [
+              1155,
+              249,
+              1196,
+              290
+            ],
+            "index": 3
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5933263154389334,
+            "bbox": [
+              62,
+              113,
+              185,
+              237
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            1477,
+            609,
+            1607,
+            794
+          ],
+          "pre_nms_best": {
+            "iou": 0.7205833116327518,
+            "score": -0.22467859003856697,
+            "bbox": [
+              1462,
+              619,
+              1611,
+              768
+            ],
+            "index": 144124,
+            "level": 10
+          },
+          "post_nms_best": {
+            "iou": 0.5356072213709946,
+            "score": 0.945641644156208,
+            "bbox": [
+              1487,
+              594,
+              1635,
+              743
+            ],
+            "index": 451
+          },
+          "post_filter_best": {
+            "iou": 0.5356072213709946,
+            "score": 0.945641644156208,
+            "bbox": [
+              1487,
+              594,
+              1635,
+              743
+            ],
+            "index": 6
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        }
+      ],
+      "seconds": 3.4705939999985276
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "source_group": "TensiNoHaneToAkumaNoShippo",
+      "image_path": "raw/manga109/images/TensiNoHaneToAkumaNoShippo/056.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 11,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 60598,
+          "seconds": 0.6252763000084087
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 41353,
+          "seconds": 0.4125902999949176
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 29791,
+          "seconds": 0.23686810000799596
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 21445,
+          "seconds": 0.17118799999298062
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 15216,
+          "seconds": 0.06882119999499992
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 11166,
+          "seconds": 0.06986940000206232
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 8214,
+          "seconds": 0.03459520000615157
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 6215,
+          "seconds": 0.024461699998937547
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4759,
+          "seconds": 0.017882700005429797
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3706,
+          "seconds": 0.014707399997860193
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2784,
+          "seconds": 0.01155879998987075
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2084,
+          "seconds": 0.009281400009058416
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1532,
+          "seconds": 0.007915499998489395
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1102,
+          "seconds": 0.006806200006394647
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 756,
+          "seconds": 0.006164799997350201
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 540,
+          "seconds": 0.005804100001114421
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 325,
+          "seconds": 0.005355300003429875
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 207,
+          "seconds": 0.005047399987233803
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 131,
+          "seconds": 0.005124900009832345
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 64,
+          "seconds": 0.005232600000454113
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 22,
+          "seconds": 0.005292300003929995
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 7,
+          "seconds": 0.005367900012061
+        }
+      ],
+      "pre_nms_candidates": 212017,
+      "candidate_counts": {
+        "post_nms": 4363,
+        "hog_pass": 77,
+        "side_pass": 1117,
+        "final": 14
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            382,
+            149,
+            484,
+            251
+          ],
+          "pre_nms_best": {
+            "iou": 0.8908485557455232,
+            "score": -0.5759434786459995,
+            "bbox": [
+              378,
+              146,
+              481,
+              249
+            ],
+            "index": 194908,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.5832073290047141,
+            "score": 1.815637764944003,
+            "bbox": [
+              379,
+              172,
+              465,
+              258
+            ],
+            "index": 1
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            1385,
+            451,
+            1480,
+            524
+          ],
+          "pre_nms_best": {
+            "iou": 0.7795852477337638,
+            "score": -0.6586364684753571,
+            "bbox": [
+              1389,
+              451,
+              1475,
+              537
+            ],
+            "index": 190920,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.34969720396856074,
+            "score": 1.084487725304518,
+            "bbox": [
+              1413,
+              478,
+              1472,
+              538
+            ],
+            "index": 275
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            150,
+            976,
+            308,
+            1135
+          ],
+          "pre_nms_best": {
+            "iou": 0.8667247042064026,
+            "score": 0.5653624062693762,
+            "bbox": [
+              149,
+              978,
+              297,
+              1127
+            ],
+            "index": 205151,
+            "level": 10
+          },
+          "post_nms_best": {
+            "iou": 0.5345991078577147,
+            "score": 1.5795529684181002,
+            "bbox": [
+              155,
+              1021,
+              278,
+              1144
+            ],
+            "index": 15
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            1279,
+            452,
+            1363,
+            520
+          ],
+          "pre_nms_best": {
+            "iou": 0.7933622414943295,
+            "score": 0.6361851934872221,
+            "bbox": [
+              1284,
+              448,
+              1355,
+              519
+            ],
+            "index": 183449,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.5038759689922481,
+            "score": 1.20467283635686,
+            "bbox": [
+              1298,
+              468,
+              1358,
+              528
+            ],
+            "index": 152
+          },
+          "post_filter_best": {
+            "iou": 0.5038759689922481,
+            "score": 1.20467283635686,
+            "bbox": [
+              1298,
+              468,
+              1358,
+              528
+            ],
+            "index": 2
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            407,
+            886,
+            444,
+            920
+          ],
+          "pre_nms_best": {
+            "iou": 0.868421052631579,
+            "score": -0.5198809830945728,
+            "bbox": [
+              409,
+              885,
+              443,
+              919
+            ],
+            "index": 123705,
+            "level": 2
+          },
+          "post_nms_best": {
+            "iou": 0.7178947368421053,
+            "score": 1.0826505057665692,
+            "bbox": [
+              403,
+              885,
+              438,
+              919
+            ],
+            "index": 280
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            662,
+            134,
+            751,
+            231
+          ],
+          "pre_nms_best": {
+            "iou": 0.8383988989563024,
+            "score": 0.9665694090207513,
+            "bbox": [
+              666,
+              136,
+              752,
+              222
+            ],
+            "index": 188842,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.5614594172736732,
+            "score": 1.7589116124371378,
+            "bbox": [
+              639,
+              113,
+              763,
+              237
+            ],
+            "index": 4
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            696,
+            981,
+            728,
+            1022
+          ],
+          "pre_nms_best": {
+            "iou": 0.7884057971014493,
+            "score": -0.15448334559282578,
+            "bbox": [
+              694,
+              986,
+              728,
+              1020
+            ],
+            "index": 126903,
+            "level": 2
+          },
+          "post_nms_best": {
+            "iou": 0.5214899713467048,
+            "score": 1.0103355164133123,
+            "bbox": [
+              699,
+              996,
+              727,
+              1025
+            ],
+            "index": 375
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            1117,
+            116,
+            1305,
+            304
+          ],
+          "pre_nms_best": {
+            "iou": 0.9014825712992304,
+            "score": 0.08150139263511755,
+            "bbox": [
+              1127,
+              119,
+              1305,
+              298
+            ],
+            "index": 205652,
+            "level": 11
+          },
+          "post_nms_best": {
+            "iou": 0.5627305204209713,
+            "score": 1.4590708362621077,
+            "bbox": [
+              1085,
+              143,
+              1298,
+              357
+            ],
+            "index": 37
+          },
+          "post_filter_best": {
+            "iou": 0.07073336351290177,
+            "score": -0.3977206318740536,
+            "bbox": [
+              1169,
+              199,
+              1219,
+              249
+            ],
+            "index": 13
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 8,
+          "gt_bbox": [
+            356,
+            494,
+            429,
+            560
+          ],
+          "pre_nms_best": {
+            "iou": 0.8566920363838871,
+            "score": 0.20563639673015377,
+            "bbox": [
+              358,
+              495,
+              430,
+              567
+            ],
+            "index": 183775,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.651433207138994,
+            "score": 0.644677669735349,
+            "bbox": [
+              351,
+              494,
+              437,
+              580
+            ],
+            "index": 1120
+          },
+          "post_filter_best": {
+            "iou": 0.651433207138994,
+            "score": 0.644677669735349,
+            "bbox": [
+              351,
+              494,
+              437,
+              580
+            ],
+            "index": 6
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 9,
+          "gt_bbox": [
+            1271,
+            774,
+            1299,
+            806
+          ],
+          "pre_nms_best": {
+            "iou": 0.8778378378378379,
+            "score": 0.5343089971083531,
+            "bbox": [
+              1270,
+              775,
+              1299,
+              804
+            ],
+            "index": 87277,
+            "level": 1
+          },
+          "post_nms_best": {
+            "iou": 0.6486486486486487,
+            "score": 1.4828345492572452,
+            "bbox": [
+              1275,
+              778,
+              1304,
+              806
+            ],
+            "index": 33
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 10,
+          "gt_bbox": [
+            935,
+            699,
+            1060,
+            839
+          ],
+          "pre_nms_best": {
+            "iou": 0.8583749432591921,
+            "score": 0.4327958890189816,
+            "bbox": [
+              938,
+              701,
+              1061,
+              825
+            ],
+            "index": 201556,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.657808701483779,
+            "score": 0.8030468238683625,
+            "bbox": [
+              904,
+              706,
+              1053,
+              854
+            ],
+            "index": 754
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.566523663030931,
+            "bbox": [
+              962,
+              1015,
+              1065,
+              1118
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        }
+      ],
+      "seconds": 7.346537899997202
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "source_group": "OhWareraRettouSeitokai",
+      "image_path": "raw/manga109/images/OhWareraRettouSeitokai/068.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 9,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 49972,
+          "seconds": 0.5017978000105359
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 39174,
+          "seconds": 0.32869290000235196
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 29694,
+          "seconds": 0.2387802000012016
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 22147,
+          "seconds": 0.15881629999785218
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 16782,
+          "seconds": 0.11012769999797456
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 12509,
+          "seconds": 0.04899150000710506
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 9484,
+          "seconds": 0.03354020000551827
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 7129,
+          "seconds": 0.024674400003277697
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 5242,
+          "seconds": 0.017363899998599663
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3853,
+          "seconds": 0.014176700002280995
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2686,
+          "seconds": 0.011101600000984035
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1864,
+          "seconds": 0.009053700006916188
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1214,
+          "seconds": 0.0077803999884054065
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 814,
+          "seconds": 0.006705299994791858
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 496,
+          "seconds": 0.006072800009860657
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 319,
+          "seconds": 0.005683699986548163
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 195,
+          "seconds": 0.005376700006308965
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 126,
+          "seconds": 0.005171400000108406
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 71,
+          "seconds": 0.005131800004164688
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 33,
+          "seconds": 0.0055121000041253865
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 15,
+          "seconds": 0.005395000000135042
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 2,
+          "seconds": 0.005410700003267266
+        }
+      ],
+      "pre_nms_candidates": 203821,
+      "candidate_counts": {
+        "post_nms": 3763,
+        "hog_pass": 64,
+        "side_pass": 1067,
+        "final": 34
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            545,
+            618,
+            609,
+            678
+          ],
+          "pre_nms_best": {
+            "iou": 0.9076923076923077,
+            "score": 0.28625505337565116,
+            "bbox": [
+              547,
+              617,
+              607,
+              677
+            ],
+            "index": 163457,
+            "level": 5
+          },
+          "post_nms_best": {
+            "iou": 0.7407407407407407,
+            "score": 0.7731340146034585,
+            "bbox": [
+              543,
+              609,
+              615,
+              681
+            ],
+            "index": 969
+          },
+          "post_filter_best": {
+            "iou": 0.7407407407407407,
+            "score": 0.7731340146034585,
+            "bbox": [
+              543,
+              609,
+              615,
+              681
+            ],
+            "index": 16
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            1095,
+            324,
+            1193,
+            405
+          ],
+          "pre_nms_best": {
+            "iou": 0.8324569789674953,
+            "score": -0.15798145506601108,
+            "bbox": [
+              1103,
+              322,
+              1189,
+              408
+            ],
+            "index": 181290,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.5204563335955941,
+            "score": 0.9088607263909746,
+            "bbox": [
+              1092,
+              289,
+              1216,
+              412
+            ],
+            "index": 689
+          },
+          "post_filter_best": {
+            "iou": 0.4138950480413895,
+            "score": 1.1687572752371487,
+            "bbox": [
+              1119,
+              349,
+              1179,
+              408
+            ],
+            "index": 9
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            446,
+            122,
+            510,
+            213
+          ],
+          "pre_nms_best": {
+            "iou": 0.72,
+            "score": -0.28602275325458026,
+            "bbox": [
+              442,
+              125,
+              514,
+              197
+            ],
+            "index": 170565,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.4204339182297519,
+            "score": 1.4394703015420793,
+            "bbox": [
+              421,
+              95,
+              524,
+              198
+            ],
+            "index": 59
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.5931985293653264,
+            "bbox": [
+              1120,
+              563,
+              1161,
+              605
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            1182,
+            734,
+            1382,
+            899
+          ],
+          "pre_nms_best": {
+            "iou": 0.827510424884481,
+            "score": 0.06838418067680796,
+            "bbox": [
+              1187,
+              730,
+              1365,
+              909
+            ],
+            "index": 200048,
+            "level": 11
+          },
+          "post_nms_best": {
+            "iou": 0.663744918699187,
+            "score": 1.4423817862135615,
+            "bbox": [
+              1192,
+              697,
+              1405,
+              911
+            ],
+            "index": 57
+          },
+          "post_filter_best": {
+            "iou": 0.663744918699187,
+            "score": 1.4423817862135615,
+            "bbox": [
+              1192,
+              697,
+              1405,
+              911
+            ],
+            "index": 2
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            691,
+            993,
+            750,
+            1051
+          ],
+          "pre_nms_best": {
+            "iou": 0.9505555555555556,
+            "score": 0.3062139414021062,
+            "bbox": [
+              691,
+              991,
+              751,
+              1051
+            ],
+            "index": 168682,
+            "level": 5
+          },
+          "post_nms_best": {
+            "iou": 0.3958709677419355,
+            "score": 1.3195217498959226,
+            "bbox": [
+              680,
+              959,
+              766,
+              1045
+            ],
+            "index": 130
+          },
+          "post_filter_best": {
+            "iou": 0.004092136449192694,
+            "score": -0.27422874698515776,
+            "bbox": [
+              0,
+              226,
+              923,
+              1132
+            ],
+            "index": 30
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            221,
+            943,
+            337,
+            1038
+          ],
+          "pre_nms_best": {
+            "iou": 0.8336145798177523,
+            "score": 0.655329164506577,
+            "bbox": [
+              223,
+              938,
+              327,
+              1041
+            ],
+            "index": 191281,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.3566644340254521,
+            "score": 0.7697634641999423,
+            "bbox": [
+              209,
+              967,
+              281,
+              1039
+            ],
+            "index": 979
+          },
+          "post_filter_best": {
+            "iou": 0.013178066531298506,
+            "score": -0.27422874698515776,
+            "bbox": [
+              0,
+              226,
+              923,
+              1132
+            ],
+            "index": 30
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            565,
+            947,
+            641,
+            1007
+          ],
+          "pre_nms_best": {
+            "iou": 0.7964601769911505,
+            "score": 1.1820424969781427,
+            "bbox": [
+              567,
+              937,
+              639,
+              1009
+            ],
+            "index": 177840,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.4573804573804574,
+            "score": -0.05948239641936542,
+            "bbox": [
+              572,
+              963,
+              622,
+              1012
+            ],
+            "index": 2725
+          },
+          "post_filter_best": {
+            "iou": 0.008571428571428572,
+            "score": 1.2663832010820322,
+            "bbox": [
+              638,
+              987,
+              688,
+              1037
+            ],
+            "index": 6
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            257,
+            385,
+            348,
+            469
+          ],
+          "pre_nms_best": {
+            "iou": 0.9033156162996709,
+            "score": 0.07743483274952953,
+            "bbox": [
+              258,
+              386,
+              344,
+              472
+            ],
+            "index": 181784,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.5011801730920535,
+            "score": 1.5416373128583771,
+            "bbox": [
+              247,
+              361,
+              371,
+              484
+            ],
+            "index": 33
+          },
+          "post_filter_best": {
+            "iou": 0.00914093834530361,
+            "score": -0.27422874698515776,
+            "bbox": [
+              0,
+              226,
+              923,
+              1132
+            ],
+            "index": 30
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 8,
+          "gt_bbox": [
+            980,
+            938,
+            1062,
+            1019
+          ],
+          "pre_nms_best": {
+            "iou": 0.8774909723150996,
+            "score": 0.2957532992634629,
+            "bbox": [
+              981,
+              937,
+              1067,
+              1023
+            ],
+            "index": 185661,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.7451516658378916,
+            "score": 1.23295255975651,
+            "bbox": [
+              988,
+              937,
+              1074,
+              1023
+            ],
+            "index": 202
+          },
+          "post_filter_best": {
+            "iou": 0.7451516658378916,
+            "score": 1.23295255975651,
+            "bbox": [
+              988,
+              937,
+              1074,
+              1023
+            ],
+            "index": 7
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        }
+      ],
+      "seconds": 6.694749100002809
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "source_group": "TapkunNoTanteisitsu",
+      "image_path": "raw/manga109/images/TapkunNoTanteisitsu/099.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 11,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 59710,
+          "seconds": 0.5766211000009207
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 46112,
+          "seconds": 0.34860629998729564
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 35647,
+          "seconds": 0.25840010000683833
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 27708,
+          "seconds": 0.16131020001193974
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 21830,
+          "seconds": 0.11444550000305753
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 16892,
+          "seconds": 0.05374810000648722
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 12956,
+          "seconds": 0.037471200004802085
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 9770,
+          "seconds": 0.027556300003197975
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 7168,
+          "seconds": 0.019311199997900985
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 5128,
+          "seconds": 0.015489299999899231
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 3557,
+          "seconds": 0.012495899994974025
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2391,
+          "seconds": 0.009707000004709698
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1608,
+          "seconds": 0.007980900001712143
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1033,
+          "seconds": 0.006723200000124052
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 639,
+          "seconds": 0.006109099995228462
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 385,
+          "seconds": 0.005720799992559478
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 233,
+          "seconds": 0.005339299998013303
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 151,
+          "seconds": 0.005098699999507517
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 73,
+          "seconds": 0.0050543000106699765
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 43,
+          "seconds": 0.005173000012291595
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 17,
+          "seconds": 0.005316800001310185
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 3,
+          "seconds": 0.00534489999699872
+        }
+      ],
+      "pre_nms_candidates": 253054,
+      "candidate_counts": {
+        "post_nms": 4540,
+        "hog_pass": 43,
+        "side_pass": 1259,
+        "final": 28
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            153,
+            389,
+            210,
+            466
+          ],
+          "pre_nms_best": {
+            "iou": 0.750411409764125,
+            "score": 0.9020211130195622,
+            "bbox": [
+              143,
+              394,
+              215,
+              466
+            ],
+            "index": 211997,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.5558264261335933,
+            "score": 0.6348374511812788,
+            "bbox": [
+              149,
+              406,
+              221,
+              478
+            ],
+            "index": 1459
+          },
+          "post_filter_best": {
+            "iou": 0.5558264261335933,
+            "score": 0.6348374511812788,
+            "bbox": [
+              149,
+              406,
+              221,
+              478
+            ],
+            "index": 16
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            1408,
+            583,
+            1500,
+            713
+          ],
+          "pre_nms_best": {
+            "iou": 0.7237455128694722,
+            "score": -0.37251622035823473,
+            "bbox": [
+              1401,
+              585,
+              1504,
+              688
+            ],
+            "index": 234564,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.5214372387757854,
+            "score": 0.6288941232617618,
+            "bbox": [
+              1409,
+              628,
+              1512,
+              731
+            ],
+            "index": 1479
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.590292668110704,
+            "bbox": [
+              945,
+              163,
+              1048,
+              267
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            978,
+            194,
+            1038,
+            270
+          ],
+          "pre_nms_best": {
+            "iou": 0.7964601769911505,
+            "score": 0.7900377506946178,
+            "bbox": [
+              967,
+              197,
+              1039,
+              269
+            ],
+            "index": 209491,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.4831932773109244,
+            "score": 1.015105413152929,
+            "bbox": [
+              974,
+              207,
+              1024,
+              257
+            ],
+            "index": 562
+          },
+          "post_filter_best": {
+            "iou": 0.4831932773109244,
+            "score": 1.015105413152929,
+            "bbox": [
+              974,
+              207,
+              1024,
+              257
+            ],
+            "index": 9
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            390,
+            995,
+            473,
+            1085
+          ],
+          "pre_nms_best": {
+            "iou": 0.9236542443064182,
+            "score": -0.47103752148795797,
+            "bbox": [
+              387,
+              995,
+              473,
+              1081
+            ],
+            "index": 230246,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.4858220603537981,
+            "score": 1.4595963531656537,
+            "bbox": [
+              381,
+              979,
+              505,
+              1103
+            ],
+            "index": 60
+          },
+          "post_filter_best": {
+            "iou": 0.4858220603537981,
+            "score": 1.4595963531656537,
+            "bbox": [
+              381,
+              979,
+              505,
+              1103
+            ],
+            "index": 2
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            1543,
+            887,
+            1584,
+            936
+          ],
+          "pre_nms_best": {
+            "iou": 0.8191126279863481,
+            "score": -0.6314330865802932,
+            "bbox": [
+              1542,
+              888,
+              1583,
+              930
+            ],
+            "index": 164187,
+            "level": 3
+          },
+          "post_nms_best": {
+            "iou": 0.4601393188854489,
+            "score": 1.3282635586901663,
+            "bbox": [
+              1555,
+              895,
+              1597,
+              937
+            ],
+            "index": 145
+          },
+          "post_filter_best": {
+            "iou": 0.0904914193054367,
+            "score": 0.5244199576966613,
+            "bbox": [
+              1474,
+              854,
+              1623,
+              1003
+            ],
+            "index": 18
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            252,
+            955,
+            324,
+            1042
+          ],
+          "pre_nms_best": {
+            "iou": 0.7954545454545454,
+            "score": -0.6598397864687994,
+            "bbox": [
+              251,
+              961,
+              322,
+              1033
+            ],
+            "index": 219774,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.4014040883749742,
+            "score": 0.28953687004516804,
+            "bbox": [
+              251,
+              988,
+              337,
+              1073
+            ],
+            "index": 2379
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.590292668110704,
+            "bbox": [
+              945,
+              163,
+              1048,
+              267
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            1493,
+            513,
+            1542,
+            573
+          ],
+          "pre_nms_best": {
+            "iou": 0.8193979933110368,
+            "score": 0.020730102680026313,
+            "bbox": [
+              1492,
+              514,
+              1542,
+              564
+            ],
+            "index": 178923,
+            "level": 4
+          },
+          "post_nms_best": {
+            "iou": 0.6137724550898204,
+            "score": 1.321948157717584,
+            "bbox": [
+              1501,
+              523,
+              1550,
+              573
+            ],
+            "index": 149
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.590292668110704,
+            "bbox": [
+              945,
+              163,
+              1048,
+              267
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            227,
+            353,
+            281,
+            410
+          ],
+          "pre_nms_best": {
+            "iou": 0.855,
+            "score": 0.9768764574347605,
+            "bbox": [
+              224,
+              353,
+              284,
+              413
+            ],
+            "index": 195692,
+            "level": 5
+          },
+          "post_nms_best": {
+            "iou": 0.7678285897025904,
+            "score": 1.3646871275566577,
+            "bbox": [
+              232,
+              353,
+              282,
+              402
+            ],
+            "index": 116
+          },
+          "post_filter_best": {
+            "iou": 0.16418175363862264,
+            "score": 0.6863449229852105,
+            "bbox": [
+              244,
+              319,
+              303,
+              378
+            ],
+            "index": 15
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 8,
+          "gt_bbox": [
+            1082,
+            632,
+            1132,
+            685
+          ],
+          "pre_nms_best": {
+            "iou": 0.9433962264150944,
+            "score": 0.517415614955179,
+            "bbox": [
+              1082,
+              635,
+              1132,
+              685
+            ],
+            "index": 181205,
+            "level": 4
+          },
+          "post_nms_best": {
+            "iou": 0.8888888888888888,
+            "score": 1.2254199729513233,
+            "bbox": [
+              1082,
+              631,
+              1132,
+              680
+            ],
+            "index": 234
+          },
+          "post_filter_best": {
+            "iou": 0.12098246895544193,
+            "score": 0.4431453307382457,
+            "bbox": [
+              1041,
+              570,
+              1189,
+              718
+            ],
+            "index": 21
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 9,
+          "gt_bbox": [
+            1431,
+            931,
+            1502,
+            1068
+          ],
+          "pre_nms_best": {
+            "iou": 0.5656070471083876,
+            "score": -0.1330903678144373,
+            "bbox": [
+              1401,
+              946,
+              1504,
+              1050
+            ],
+            "index": 237281,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.45162782628809345,
+            "score": 1.5321696310164832,
+            "bbox": [
+              1422,
+              917,
+              1546,
+              1041
+            ],
+            "index": 34
+          },
+          "post_filter_best": {
+            "iou": 0.06739769991976464,
+            "score": 0.5244199576966613,
+            "bbox": [
+              1474,
+              854,
+              1623,
+              1003
+            ],
+            "index": 18
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 10,
+          "gt_bbox": [
+            560,
+            171,
+            647,
+            258
+          ],
+          "pre_nms_best": {
+            "iou": 0.9332127632088877,
+            "score": 0.38019824110709555,
+            "bbox": [
+              558,
+              172,
+              644,
+              258
+            ],
+            "index": 221918,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.4922606659729448,
+            "score": 1.3055694825346265,
+            "bbox": [
+              536,
+              165,
+              660,
+              289
+            ],
+            "index": 161
+          },
+          "post_filter_best": {
+            "iou": 0.02838988779234825,
+            "score": 1.3047819605294615,
+            "bbox": [
+              629,
+              82,
+              752,
+              206
+            ],
+            "index": 3
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        }
+      ],
+      "seconds": 10.33943239999644
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "source_group": "LancelotFullThrottle",
+      "image_path": "raw/manga109/images/LancelotFullThrottle/031.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 14,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 52606,
+          "seconds": 0.5127508000005037
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 40945,
+          "seconds": 0.35055329999886453
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 31426,
+          "seconds": 0.22621530000469647
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 23902,
+          "seconds": 0.15084370000113267
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 18119,
+          "seconds": 0.07684129998960998
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 13873,
+          "seconds": 0.05551669999840669
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 10586,
+          "seconds": 0.035695700003998354
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 8004,
+          "seconds": 0.02714939998986665
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 5921,
+          "seconds": 0.018367200013017282
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 4442,
+          "seconds": 0.01511610001034569
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 3236,
+          "seconds": 0.011926899998798035
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 2372,
+          "seconds": 0.009655800007749349
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1577,
+          "seconds": 0.00812959999893792
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 1081,
+          "seconds": 0.006835099993622862
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 724,
+          "seconds": 0.006349900009809062
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 487,
+          "seconds": 0.005883599995286204
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 303,
+          "seconds": 0.005564699997194111
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 170,
+          "seconds": 0.005407700009527616
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 96,
+          "seconds": 0.005659800008288585
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 38,
+          "seconds": 0.005368700003600679
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 13,
+          "seconds": 0.0054093999933684245
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 1,
+          "seconds": 0.005694000006769784
+        }
+      ],
+      "pre_nms_candidates": 219922,
+      "candidate_counts": {
+        "post_nms": 4425,
+        "hog_pass": 64,
+        "side_pass": 1281,
+        "final": 30
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            1499,
+            399,
+            1534,
+            425
+          ],
+          "pre_nms_best": {
+            "iou": 0.7562688064192578,
+            "score": 0.09298766577480813,
+            "bbox": [
+              1503,
+              396,
+              1532,
+              425
+            ],
+            "index": 70617,
+            "level": 1
+          },
+          "post_nms_best": {
+            "iou": 0.5158730158730159,
+            "score": 0.7392484573760862,
+            "bbox": [
+              1493,
+              394,
+              1535,
+              436
+            ],
+            "index": 1012
+          },
+          "post_filter_best": {
+            "iou": 0.5158730158730159,
+            "score": 0.7392484573760862,
+            "bbox": [
+              1493,
+              394,
+              1535,
+              436
+            ],
+            "index": 14
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            338,
+            712,
+            481,
+            822
+          ],
+          "pre_nms_best": {
+            "iou": 0.7809458376273903,
+            "score": 0.5326889953324239,
+            "bbox": [
+              340,
+              701,
+              464,
+              825
+            ],
+            "index": 208443,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.4936915447868935,
+            "score": 0.11299836661478549,
+            "bbox": [
+              326,
+              671,
+              504,
+              850
+            ],
+            "index": 2662
+          },
+          "post_filter_best": {
+            "iou": 0.470184361093452,
+            "score": 1.2475338695501443,
+            "bbox": [
+              358,
+              723,
+              444,
+              809
+            ],
+            "index": 5
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            258,
+            114,
+            357,
+            211
+          ],
+          "pre_nms_best": {
+            "iou": 0.9051748515411443,
+            "score": 0.3841606263049441,
+            "bbox": [
+              258,
+              112,
+              361,
+              215
+            ],
+            "index": 200168,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.624544745057232,
+            "score": 1.135342279033993,
+            "bbox": [
+              247,
+              103,
+              371,
+              227
+            ],
+            "index": 291
+          },
+          "post_filter_best": {
+            "iou": 0.624544745057232,
+            "score": 1.135342279033993,
+            "bbox": [
+              247,
+              103,
+              371,
+              227
+            ],
+            "index": 6
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            331,
+            429,
+            665,
+            600
+          ],
+          "pre_nms_best": {
+            "iou": 0.552980257445925,
+            "score": 0.5424193623368954,
+            "bbox": [
+              341,
+              343,
+              598,
+              601
+            ],
+            "index": 217432,
+            "level": 13
+          },
+          "post_nms_best": {
+            "iou": 0.43542617024095703,
+            "score": 1.6427794554304365,
+            "bbox": [
+              308,
+              283,
+              615,
+              591
+            ],
+            "index": 6
+          },
+          "post_filter_best": {
+            "iou": 0.43542617024095703,
+            "score": 1.6427794554304365,
+            "bbox": [
+              308,
+              283,
+              615,
+              591
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            1527,
+            945,
+            1571,
+            987
+          ],
+          "pre_nms_best": {
+            "iou": 0.8497409326424871,
+            "score": 0.285540226839197,
+            "bbox": [
+              1528,
+              947,
+              1569,
+              989
+            ],
+            "index": 145384,
+            "level": 3
+          },
+          "post_nms_best": {
+            "iou": 0.4915590863952334,
+            "score": 1.0073647462254007,
+            "bbox": [
+              1526,
+              957,
+              1560,
+              991
+            ],
+            "index": 477
+          },
+          "post_filter_best": {
+            "iou": 0.16772034213462253,
+            "score": 1.1147926797752319,
+            "bbox": [
+              1504,
+              946,
+              1607,
+              1050
+            ],
+            "index": 9
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            347,
+            983,
+            541,
+            1108
+          ],
+          "pre_nms_best": {
+            "iou": 0.6693380291813412,
+            "score": 0.28323546851364223,
+            "bbox": [
+              347,
+              978,
+              496,
+              1127
+            ],
+            "index": 212927,
+            "level": 10
+          },
+          "post_nms_best": {
+            "iou": 0.5104825798581993,
+            "score": 1.3948325964764934,
+            "bbox": [
+              381,
+              1000,
+              505,
+              1124
+            ],
+            "index": 74
+          },
+          "post_filter_best": {
+            "iou": 0.14597938144329897,
+            "score": -0.06010371556738145,
+            "bbox": [
+              348,
+              1026,
+              408,
+              1085
+            ],
+            "index": 28
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 6,
+          "gt_bbox": [
+            1286,
+            725,
+            1420,
+            833
+          ],
+          "pre_nms_best": {
+            "iou": 0.7087477858018804,
+            "score": -0.34535476841626955,
+            "bbox": [
+              1315,
+              723,
+              1418,
+              826
+            ],
+            "index": 203600,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.41846814602720117,
+            "score": 0.8465445234689072,
+            "bbox": [
+              1309,
+              680,
+              1432,
+              804
+            ],
+            "index": 790
+          },
+          "post_filter_best": {
+            "iou": 0.026118500604594922,
+            "score": 0.675878641585647,
+            "bbox": [
+              1260,
+              693,
+              1310,
+              743
+            ],
+            "index": 16
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 7,
+          "gt_bbox": [
+            1048,
+            459,
+            1365,
+            644
+          ],
+          "pre_nms_best": {
+            "iou": 0.6144504845803547,
+            "score": -0.7184738869638801,
+            "bbox": [
+              1067,
+              451,
+              1323,
+              708
+            ],
+            "index": 217571,
+            "level": 13
+          },
+          "post_nms_best": {
+            "iou": 0.49895732961327716,
+            "score": 0.6785070881217141,
+            "bbox": [
+              1156,
+              411,
+              1369,
+              625
+            ],
+            "index": 1145
+          },
+          "post_filter_best": {
+            "iou": 0.18265836814732714,
+            "score": 1.3799123980050547,
+            "bbox": [
+              1220,
+              490,
+              1323,
+              594
+            ],
+            "index": 3
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 8,
+          "gt_bbox": [
+            1063,
+            885,
+            1132,
+            959
+          ],
+          "pre_nms_best": {
+            "iou": 0.8846153846153846,
+            "score": 0.9791060896302545,
+            "bbox": [
+              1063,
+              883,
+              1135,
+              955
+            ],
+            "index": 189725,
+            "level": 6
+          },
+          "post_nms_best": {
+            "iou": 0.690373174689021,
+            "score": 1.5789020601446015,
+            "bbox": [
+              1060,
+              873,
+              1146,
+              959
+            ],
+            "index": 14
+          },
+          "post_filter_best": {
+            "iou": 0.690373174689021,
+            "score": 1.5789020601446015,
+            "bbox": [
+              1060,
+              873,
+              1146,
+              959
+            ],
+            "index": 2
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 9,
+          "gt_bbox": [
+            233,
+            573,
+            262,
+            604
+          ],
+          "pre_nms_best": {
+            "iou": 0.9032258064516129,
+            "score": 0.0017631598153849196,
+            "bbox": [
+              233,
+              574,
+              262,
+              602
+            ],
+            "index": 75254,
+            "level": 1
+          },
+          "post_nms_best": {
+            "iou": 0.6407119021134594,
+            "score": 0.9365918214392287,
+            "bbox": [
+              238,
+              574,
+              262,
+              598
+            ],
+            "index": 605
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.6427794554304365,
+            "bbox": [
+              308,
+              283,
+              615,
+              591
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 10,
+          "gt_bbox": [
+            516,
+            697,
+            689,
+            792
+          ],
+          "pre_nms_best": {
+            "iou": 0.5917516451499473,
+            "score": -0.4805247538551334,
+            "bbox": [
+              546,
+              691,
+              670,
+              814
+            ],
+            "index": 208394,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.45001521143900214,
+            "score": 1.2202040477542,
+            "bbox": [
+              587,
+              701,
+              673,
+              787
+            ],
+            "index": 206
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.6427794554304365,
+            "bbox": [
+              308,
+              283,
+              615,
+              591
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        },
+        {
+          "annotation_index": 11,
+          "gt_bbox": [
+            1207,
+            65,
+            1324,
+            167
+          ],
+          "pre_nms_best": {
+            "iou": 0.8108281789701984,
+            "score": 0.49321761907817085,
+            "bbox": [
+              1212,
+              60,
+              1315,
+              163
+            ],
+            "index": 199819,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.563409899708832,
+            "score": 1.0456872309928844,
+            "bbox": [
+              1224,
+              86,
+              1310,
+              172
+            ],
+            "index": 406
+          },
+          "post_filter_best": {
+            "iou": 0.22309461050978632,
+            "score": 0.7427858698415046,
+            "bbox": [
+              1246,
+              60,
+              1424,
+              238
+            ],
+            "index": 13
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 12,
+          "gt_bbox": [
+            592,
+            185,
+            692,
+            284
+          ],
+          "pre_nms_best": {
+            "iou": 0.9152969742248785,
+            "score": -0.48829176977492306,
+            "bbox": [
+              593,
+              181,
+              696,
+              284
+            ],
+            "index": 200586,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.5612785941524011,
+            "score": 0.3090437437844126,
+            "bbox": [
+              584,
+              206,
+              687,
+              310
+            ],
+            "index": 2119
+          },
+          "post_filter_best": {
+            "iou": 0.5612785941524011,
+            "score": 0.3090437437844126,
+            "bbox": [
+              584,
+              206,
+              687,
+              310
+            ],
+            "index": 22
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 1,
+          "side_pass_count": 1,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 13,
+          "gt_bbox": [
+            54,
+            973,
+            274,
+            1159
+          ],
+          "pre_nms_best": {
+            "iou": 0.6428603674777662,
+            "score": -0.5733968232990138,
+            "bbox": [
+              59,
+              954,
+              237,
+              1133
+            ],
+            "index": 215349,
+            "level": 11
+          },
+          "post_nms_best": {
+            "iou": 0.3564184294407418,
+            "score": 0.29168331803853154,
+            "bbox": [
+              93,
+              969,
+              216,
+              1093
+            ],
+            "index": 2164
+          },
+          "post_filter_best": {
+            "iou": 0.22533469669226927,
+            "score": 1.6308868301467292,
+            "bbox": [
+              146,
+              1067,
+              249,
+              1170
+            ],
+            "index": 1
+          },
+          "post_nms_iou50_candidates": 0,
+          "hog_pass_count": 0,
+          "side_pass_count": 0,
+          "reason": "nms_suppressed"
+        }
+      ],
+      "seconds": 8.33258860000933
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "source_group": "MukoukizuNoChonbo",
+      "image_path": "raw/manga109/images/MukoukizuNoChonbo/050.jpg",
+      "image_size": [
+        1654,
+        1170
+      ],
+      "ground_truth": 6,
+      "layers": [
+        {
+          "level": 0,
+          "width": 1654,
+          "height": 1170,
+          "windows": 468384,
+          "candidates": 94885,
+          "seconds": 0.6132381999923382
+        },
+        {
+          "level": 1,
+          "width": 1378,
+          "height": 975,
+          "windows": 322728,
+          "candidates": 61288,
+          "seconds": 0.3615215000027092
+        },
+        {
+          "level": 2,
+          "width": 1149,
+          "height": 812,
+          "windows": 222385,
+          "candidates": 41580,
+          "seconds": 0.25669599999673665
+        },
+        {
+          "level": 3,
+          "width": 957,
+          "height": 677,
+          "windows": 152709,
+          "candidates": 28037,
+          "seconds": 0.1671755999996094
+        },
+        {
+          "level": 4,
+          "width": 798,
+          "height": 564,
+          "windows": 105148,
+          "candidates": 19530,
+          "seconds": 0.0715838000032818
+        },
+        {
+          "level": 5,
+          "width": 665,
+          "height": 470,
+          "windows": 71904,
+          "candidates": 13490,
+          "seconds": 0.049891000002389774
+        },
+        {
+          "level": 6,
+          "width": 554,
+          "height": 392,
+          "windows": 49210,
+          "candidates": 9335,
+          "seconds": 0.034813199992640875
+        },
+        {
+          "level": 7,
+          "width": 462,
+          "height": 327,
+          "windows": 33440,
+          "candidates": 6548,
+          "seconds": 0.024759000007179566
+        },
+        {
+          "level": 8,
+          "width": 385,
+          "height": 272,
+          "windows": 22625,
+          "candidates": 4747,
+          "seconds": 0.018339699992793612
+        },
+        {
+          "level": 9,
+          "width": 321,
+          "height": 227,
+          "windows": 15198,
+          "candidates": 3476,
+          "seconds": 0.014508099993690848
+        },
+        {
+          "level": 10,
+          "width": 267,
+          "height": 189,
+          "windows": 10126,
+          "candidates": 2490,
+          "seconds": 0.011358999996446073
+        },
+        {
+          "level": 11,
+          "width": 223,
+          "height": 157,
+          "windows": 6700,
+          "candidates": 1808,
+          "seconds": 0.009158999993815087
+        },
+        {
+          "level": 12,
+          "width": 186,
+          "height": 131,
+          "windows": 4428,
+          "candidates": 1272,
+          "seconds": 0.007997099994099699
+        },
+        {
+          "level": 13,
+          "width": 155,
+          "height": 109,
+          "windows": 2838,
+          "candidates": 931,
+          "seconds": 0.0069202000013319775
+        },
+        {
+          "level": 14,
+          "width": 129,
+          "height": 91,
+          "windows": 1802,
+          "candidates": 652,
+          "seconds": 0.006271200007176958
+        },
+        {
+          "level": 15,
+          "width": 107,
+          "height": 76,
+          "windows": 1134,
+          "candidates": 424,
+          "seconds": 0.005782400010502897
+        },
+        {
+          "level": 16,
+          "width": 89,
+          "height": 63,
+          "windows": 660,
+          "candidates": 265,
+          "seconds": 0.005397800006903708
+        },
+        {
+          "level": 17,
+          "width": 75,
+          "height": 53,
+          "windows": 390,
+          "candidates": 161,
+          "seconds": 0.005169099997146986
+        },
+        {
+          "level": 18,
+          "width": 62,
+          "height": 44,
+          "windows": 220,
+          "candidates": 99,
+          "seconds": 0.00515599999926053
+        },
+        {
+          "level": 19,
+          "width": 52,
+          "height": 37,
+          "windows": 105,
+          "candidates": 53,
+          "seconds": 0.005196099999011494
+        },
+        {
+          "level": 20,
+          "width": 43,
+          "height": 31,
+          "windows": 40,
+          "candidates": 18,
+          "seconds": 0.005304500009515323
+        },
+        {
+          "level": 21,
+          "width": 36,
+          "height": 25,
+          "windows": 7,
+          "candidates": 4,
+          "seconds": 0.005379800000810064
+        }
+      ],
+      "pre_nms_candidates": 291093,
+      "candidate_counts": {
+        "post_nms": 4781,
+        "hog_pass": 131,
+        "side_pass": 1097,
+        "final": 41
+      },
+      "faces": [
+        {
+          "annotation_index": 0,
+          "gt_bbox": [
+            552,
+            420,
+            679,
+            511
+          ],
+          "pre_nms_best": {
+            "iou": 0.7390862944162436,
+            "score": -0.15033171780845309,
+            "bbox": [
+              558,
+              413,
+              662,
+              516
+            ],
+            "index": 276443,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.6166581576836117,
+            "score": 1.065632966925973,
+            "bbox": [
+              584,
+              422,
+              687,
+              525
+            ],
+            "index": 529
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 1,
+          "gt_bbox": [
+            82,
+            993,
+            215,
+            1109
+          ],
+          "pre_nms_best": {
+            "iou": 0.8826705940108002,
+            "score": 0.48360538289990485,
+            "bbox": [
+              82,
+              990,
+              206,
+              1113
+            ],
+            "index": 282803,
+            "level": 9
+          },
+          "post_nms_best": {
+            "iou": 0.5919902170590033,
+            "score": 1.299026930253033,
+            "bbox": [
+              112,
+              1015,
+              215,
+              1118
+            ],
+            "index": 135
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 2,
+          "gt_bbox": [
+            122,
+            738,
+            247,
+            817
+          ],
+          "pre_nms_best": {
+            "iou": 0.6641338614501657,
+            "score": 0.5123006272710374,
+            "bbox": [
+              137,
+              714,
+              241,
+              817
+            ],
+            "index": 277771,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.6350468616870207,
+            "score": 1.4803601751523905,
+            "bbox": [
+              129,
+              730,
+              215,
+              816
+            ],
+            "index": 33
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 3,
+          "gt_bbox": [
+            573,
+            713,
+            683,
+            802
+          ],
+          "pre_nms_best": {
+            "iou": 0.8087340097044552,
+            "score": -0.10766324036219546,
+            "bbox": [
+              576,
+              705,
+              679,
+              809
+            ],
+            "index": 277739,
+            "level": 8
+          },
+          "post_nms_best": {
+            "iou": 0.799647110719012,
+            "score": 0.6758584119072831,
+            "bbox": [
+              576,
+              714,
+              679,
+              817
+            ],
+            "index": 1739
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        },
+        {
+          "annotation_index": 4,
+          "gt_bbox": [
+            122,
+            488,
+            240,
+            556
+          ],
+          "pre_nms_best": {
+            "iou": 0.6164874551971327,
+            "score": 0.6365033741058693,
+            "bbox": [
+              122,
+              487,
+              208,
+              572
+            ],
+            "index": 270828,
+            "level": 7
+          },
+          "post_nms_best": {
+            "iou": 0.5416916616676665,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 2
+          },
+          "post_filter_best": {
+            "iou": 0.5416916616676665,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 2,
+          "hog_pass_count": 1,
+          "side_pass_count": 2,
+          "reason": "candidate_retained"
+        },
+        {
+          "annotation_index": 5,
+          "gt_bbox": [
+            531,
+            975,
+            717,
+            1104
+          ],
+          "pre_nms_best": {
+            "iou": 0.712228605536074,
+            "score": -0.6095225901298216,
+            "bbox": [
+              533,
+              966,
+              681,
+              1114
+            ],
+            "index": 285297,
+            "level": 10
+          },
+          "post_nms_best": {
+            "iou": 0.6897614678899082,
+            "score": 0.8025379247958911,
+            "bbox": [
+              558,
+              953,
+              706,
+              1102
+            ],
+            "index": 1302
+          },
+          "post_filter_best": {
+            "iou": 0.0,
+            "score": 1.8183910384266075,
+            "bbox": [
+              122,
+              465,
+              208,
+              551
+            ],
+            "index": 0
+          },
+          "post_nms_iou50_candidates": 1,
+          "hog_pass_count": 0,
+          "side_pass_count": 1,
+          "reason": "hog_or_side_filtered"
+        }
+      ],
+      "seconds": 12.784726899990346
+    }
+  ],
+  "summary": {
+    "pages": 8,
+    "faces": 73,
+    "reasons": {
+      "nms_suppressed": 27,
+      "candidate_retained": 16,
+      "hog_or_side_filtered": 30
+    },
+    "seconds": 58.34489089998533
+  }
+}

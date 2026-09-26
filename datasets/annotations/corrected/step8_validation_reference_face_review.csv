@@ -1,0 +1,11 @@
+﻿page_id,parent_image_path,proposal_id,bbox_xyxy,reference_confidence,max_original_gt_iou,review_decision,review_note
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,R0,"[445, 491, 497, 547]",0.9762004613876343,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,R1,"[349, 485, 411, 554]",0.9614531397819519,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,R2,"[284, 565, 338, 622]",0.9462265968322754,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,R3,"[484, 599, 534, 652]",0.9201249480247498,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,R4,"[310, 434, 360, 489]",0.8993167877197266,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:OhWareraRettouSeitokai:068,raw/manga109/images/OhWareraRettouSeitokai/068.jpg,R2,"[590, 348, 638, 396]",0.8683106899261475,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:OhWareraRettouSeitokai:068,raw/manga109/images/OhWareraRettouSeitokai/068.jpg,R4,"[235, 555, 271, 593]",0.7769322991371155,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:OhWareraRettouSeitokai:068,raw/manga109/images/OhWareraRettouSeitokai/068.jpg,R6,"[460, 842, 534, 935]",0.7072924375534058,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:OhWareraRettouSeitokai:068,raw/manga109/images/OhWareraRettouSeitokai/068.jpg,R8,"[696, 290, 757, 372]",0.6147181391716003,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框
+manga109:OhWareraRettouSeitokai:068,raw/manga109/images/OhWareraRettouSeitokai/068.jpg,R9,"[415, 690, 466, 743]",0.5956060886383057,0.0,visible_face_missing_from_original_gt,人工查看原始页覆盖图与局部图，框内确为可见人物脸；不覆盖原始清单，作为补充核查框

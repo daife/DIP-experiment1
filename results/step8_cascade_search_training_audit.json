@@ -1,0 +1,152 @@
+[
+  {
+    "model": "models\\step4_cascade.json",
+    "model_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+    "train_manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+    "hard_cache_sha256": "5f6dc126f8db78f26c06d632f8e9a6bb592fe0fcf95a872f99cbb141e31d164e",
+    "samples": 7020,
+    "hard_negative_count": 24,
+    "stages": [
+      {
+        "stage": 0,
+        "trees": 18,
+        "threshold": -1.268692053881135,
+        "positive_entering": 3442,
+        "positive_passing": 3408,
+        "negative_entering": 3578,
+        "negative_passing": 1789,
+        "negative_rejected": 1789
+      },
+      {
+        "stage": 1,
+        "trees": 18,
+        "threshold": -0.6324337566689955,
+        "positive_entering": 3408,
+        "positive_passing": 3255,
+        "negative_entering": 1789,
+        "negative_passing": 891,
+        "negative_rejected": 898
+      },
+      {
+        "stage": 2,
+        "trees": 18,
+        "threshold": -0.738530153845427,
+        "positive_entering": 3255,
+        "positive_passing": 3213,
+        "negative_entering": 891,
+        "negative_passing": 676,
+        "negative_rejected": 215
+      }
+    ]
+  },
+  {
+    "model": "datasets\\derived\\step8_cascade_search128\\model.json",
+    "model_sha256": "dccac3e24b030e5c3ebef4bf8fbe6cf65d06292d5d7b2744e3484fc941931ca8",
+    "train_manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+    "hard_cache_sha256": "5f6dc126f8db78f26c06d632f8e9a6bb592fe0fcf95a872f99cbb141e31d164e",
+    "samples": 7020,
+    "hard_negative_count": 24,
+    "stages": [
+      {
+        "stage": 0,
+        "trees": 18,
+        "threshold": -1.2525052859569663,
+        "positive_entering": 3442,
+        "positive_passing": 3421,
+        "negative_entering": 3578,
+        "negative_passing": 1640,
+        "negative_rejected": 1938
+      },
+      {
+        "stage": 1,
+        "trees": 18,
+        "threshold": -0.9624622851620098,
+        "positive_entering": 3421,
+        "positive_passing": 3370,
+        "negative_entering": 1640,
+        "negative_passing": 1127,
+        "negative_rejected": 513
+      },
+      {
+        "stage": 2,
+        "trees": 18,
+        "threshold": -0.9371279032181643,
+        "positive_entering": 3370,
+        "positive_passing": 3335,
+        "negative_entering": 1127,
+        "negative_passing": 934,
+        "negative_rejected": 193
+      }
+    ]
+  },
+  {
+    "model": "datasets\\derived\\step8_cascade_search128_stage6\\model.json",
+    "model_sha256": "0b29510560a8871dd03df9a753eb873effa59c1724087ec1195410dbba596708",
+    "train_manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+    "hard_cache_sha256": "5f6dc126f8db78f26c06d632f8e9a6bb592fe0fcf95a872f99cbb141e31d164e",
+    "samples": 7020,
+    "hard_negative_count": 24,
+    "stages": [
+      {
+        "stage": 0,
+        "trees": 18,
+        "threshold": -1.2525052859569663,
+        "positive_entering": 3442,
+        "positive_passing": 3421,
+        "negative_entering": 3578,
+        "negative_passing": 1640,
+        "negative_rejected": 1938
+      },
+      {
+        "stage": 1,
+        "trees": 18,
+        "threshold": -0.9624622851620098,
+        "positive_entering": 3421,
+        "positive_passing": 3370,
+        "negative_entering": 1640,
+        "negative_passing": 1127,
+        "negative_rejected": 513
+      },
+      {
+        "stage": 2,
+        "trees": 18,
+        "threshold": -0.9371279032181643,
+        "positive_entering": 3370,
+        "positive_passing": 3335,
+        "negative_entering": 1127,
+        "negative_passing": 934,
+        "negative_rejected": 193
+      },
+      {
+        "stage": 3,
+        "trees": 18,
+        "threshold": -0.686160118427974,
+        "positive_entering": 3335,
+        "positive_passing": 3255,
+        "negative_entering": 934,
+        "negative_passing": 682,
+        "negative_rejected": 252
+      },
+      {
+        "stage": 4,
+        "trees": 18,
+        "threshold": -0.923107049672353,
+        "positive_entering": 3255,
+        "positive_passing": 3241,
+        "negative_entering": 682,
+        "negative_passing": 609,
+        "negative_rejected": 73
+      },
+      {
+        "stage": 5,
+        "trees": 18,
+        "threshold": -0.8870402672967483,
+        "positive_entering": 3241,
+        "positive_passing": 3226,
+        "negative_entering": 609,
+        "negative_passing": 540,
+        "negative_rejected": 69
+      }
+    ]
+  }
+]

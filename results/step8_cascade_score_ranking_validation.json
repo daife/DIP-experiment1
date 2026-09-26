@@ -1,0 +1,369 @@
+{
+  "split": "validation",
+  "score_definitions": {
+    "last": "sixth stage",
+    "sum": "sum of six stage scores",
+    "stage3": "third stage scores on six-stage survivors"
+  },
+  "step": 2,
+  "scale_factor": 1.2,
+  "nms_iou": 0.3,
+  "thresholds": [
+    1.5,
+    1.75
+  ],
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "identical_passed_candidates": 166970,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 5
+        },
+        "last_rbf1.75": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 5
+        },
+        "sum_rbf1.5": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 3
+        },
+        "sum_rbf1.75": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 3
+        },
+        "stage3_rbf1.5": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 3
+        },
+        "stage3_rbf1.75": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 3
+        }
+      },
+      "seconds_all_variants": 14.23644599999534
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "identical_passed_candidates": 145274,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 9
+        },
+        "last_rbf1.75": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 9
+        },
+        "sum_rbf1.5": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 7
+        },
+        "sum_rbf1.75": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 8
+        },
+        "stage3_rbf1.5": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 8
+        },
+        "stage3_rbf1.75": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        }
+      },
+      "seconds_all_variants": 12.391975399979856
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "identical_passed_candidates": 128964,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 7
+        },
+        "last_rbf1.75": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 7
+        },
+        "sum_rbf1.5": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 4
+        },
+        "sum_rbf1.75": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 4
+        },
+        "stage3_rbf1.5": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 4
+        },
+        "stage3_rbf1.75": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 4
+        }
+      },
+      "seconds_all_variants": 12.906620699999621
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "identical_passed_candidates": 208296,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 8
+        },
+        "last_rbf1.75": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 10
+        },
+        "sum_rbf1.5": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 8
+        },
+        "sum_rbf1.75": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 9
+        },
+        "stage3_rbf1.5": {
+          "tp": 2,
+          "fp": 15,
+          "fn": 9
+        },
+        "stage3_rbf1.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 9
+        }
+      },
+      "seconds_all_variants": 22.660979400010547
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "identical_passed_candidates": 176723,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 2,
+          "fp": 21,
+          "fn": 7
+        },
+        "last_rbf1.75": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 7
+        },
+        "sum_rbf1.5": {
+          "tp": 6,
+          "fp": 26,
+          "fn": 3
+        },
+        "sum_rbf1.75": {
+          "tp": 6,
+          "fp": 15,
+          "fn": 3
+        },
+        "stage3_rbf1.5": {
+          "tp": 5,
+          "fp": 18,
+          "fn": 4
+        },
+        "stage3_rbf1.75": {
+          "tp": 5,
+          "fp": 11,
+          "fn": 4
+        }
+      },
+      "seconds_all_variants": 16.214885599998524
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "identical_passed_candidates": 217978,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 3,
+          "fp": 11,
+          "fn": 8
+        },
+        "last_rbf1.75": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 8
+        },
+        "sum_rbf1.5": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 8
+        },
+        "sum_rbf1.75": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 8
+        },
+        "stage3_rbf1.5": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        },
+        "stage3_rbf1.75": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 7
+        }
+      },
+      "seconds_all_variants": 25.707076299993787
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "identical_passed_candidates": 191977,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 4,
+          "fp": 12,
+          "fn": 10
+        },
+        "last_rbf1.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 12
+        },
+        "sum_rbf1.5": {
+          "tp": 3,
+          "fp": 16,
+          "fn": 11
+        },
+        "sum_rbf1.75": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 11
+        },
+        "stage3_rbf1.5": {
+          "tp": 3,
+          "fp": 16,
+          "fn": 11
+        },
+        "stage3_rbf1.75": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 11
+        }
+      },
+      "seconds_all_variants": 27.63612660000217
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "identical_passed_candidates": 262901,
+      "results": {
+        "last_rbf1.5": {
+          "tp": 0,
+          "fp": 18,
+          "fn": 6
+        },
+        "last_rbf1.75": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 6
+        },
+        "sum_rbf1.5": {
+          "tp": 0,
+          "fp": 31,
+          "fn": 6
+        },
+        "sum_rbf1.75": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 6
+        },
+        "stage3_rbf1.5": {
+          "tp": 0,
+          "fp": 20,
+          "fn": 6
+        },
+        "stage3_rbf1.75": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 6
+        }
+      },
+      "seconds_all_variants": 48.325135299994145
+    }
+  ],
+  "summary": {
+    "last_rbf1.5": {
+      "tp": 13,
+      "fp": 89,
+      "fn": 60,
+      "precision": 0.12745098039215685,
+      "recall": 0.1780821917808219,
+      "f1": 0.14857142857142858
+    },
+    "last_rbf1.75": {
+      "tp": 9,
+      "fp": 43,
+      "fn": 64,
+      "precision": 0.17307692307692307,
+      "recall": 0.1232876712328767,
+      "f1": 0.144
+    },
+    "sum_rbf1.5": {
+      "tp": 23,
+      "fp": 124,
+      "fn": 50,
+      "precision": 0.1564625850340136,
+      "recall": 0.3150684931506849,
+      "f1": 0.20909090909090908
+    },
+    "sum_rbf1.75": {
+      "tp": 21,
+      "fp": 61,
+      "fn": 52,
+      "precision": 0.25609756097560976,
+      "recall": 0.2876712328767123,
+      "f1": 0.2709677419354839
+    },
+    "stage3_rbf1.5": {
+      "tp": 21,
+      "fp": 101,
+      "fn": 52,
+      "precision": 0.1721311475409836,
+      "recall": 0.2876712328767123,
+      "f1": 0.2153846153846154
+    },
+    "stage3_rbf1.75": {
+      "tp": 21,
+      "fp": 57,
+      "fn": 52,
+      "precision": 0.2692307692307692,
+      "recall": 0.2876712328767123,
+      "f1": 0.2781456953642384
+    }
+  },
+  "scanner_check": "production scan_page boxes/last scores identical on seeded 64x70 image",
+  "sha256": {
+    "datasets\\derived\\step8_cascade_search128_stage6\\model.json": "0b29510560a8871dd03df9a753eb873effa59c1724087ec1195410dbba596708",
+    "models\\candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39",
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3"
+  }
+}

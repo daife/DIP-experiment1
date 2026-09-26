@@ -1,0 +1,249 @@
+{
+  "split": "validation",
+  "threshold": 1.5,
+  "final_nms_iou": 0.3,
+  "training_samples": 653,
+  "kernel_alpha": 1.0,
+  "kernel_gamma": [
+    0.1,
+    0.5
+  ],
+  "selection": "fixed step5-comparison SHA-256 order; eight distinct validation groups",
+  "sha256": {
+    "datasets\\derived\\step8_box_refiner_training\\samples.npz": "ef891bf5dafa09d6d1a710a3d89f0e0322aa30d0e103ab651c5a503e1d6f4a94",
+    "datasets\\derived\\step8_box_refiner_training\\samples.json": "7accab3a8d50d8739c1de8a089a76f9b9090b4ad4987960b9d2629a0ade41c31",
+    "models\\box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43",
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "models\\step4_cascade.json": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+    "models\\candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39"
+  },
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "results": {
+        "ridge": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 3
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 3
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 3
+        }
+      },
+      "seconds_all_variants": 7.349505999998655
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "results": {
+        "ridge": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        }
+      },
+      "seconds_all_variants": 6.832071200013161
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "results": {
+        "ridge": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 4
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 4
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 4
+        }
+      },
+      "seconds_all_variants": 5.259650599997258
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "results": {
+        "ridge": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        }
+      },
+      "seconds_all_variants": 9.596291099995142
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "results": {
+        "ridge": {
+          "tp": 4,
+          "fp": 18,
+          "fn": 5
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 4,
+          "fp": 18,
+          "fn": 5
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 7
+        }
+      },
+      "seconds_all_variants": 7.322644600004423
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "results": {
+        "ridge": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 4,
+          "fp": 12,
+          "fn": 7
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 8
+        }
+      },
+      "seconds_all_variants": 12.255634200002532
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "results": {
+        "ridge": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 12
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 12
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 2,
+          "fp": 13,
+          "fn": 12
+        }
+      },
+      "seconds_all_variants": 9.03500720000011
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "results": {
+        "ridge": {
+          "tp": 0,
+          "fp": 23,
+          "fn": 6
+        },
+        "kernel_ridge_gamma0.1": {
+          "tp": 0,
+          "fp": 23,
+          "fn": 6
+        },
+        "kernel_ridge_gamma0.5": {
+          "tp": 0,
+          "fp": 23,
+          "fn": 6
+        }
+      },
+      "seconds_all_variants": 15.316835900011938
+    }
+  ],
+  "summary": {
+    "ridge": {
+      "tp": 21,
+      "fp": 92,
+      "fn": 52,
+      "precision": 0.18584070796460178,
+      "recall": 0.2876712328767123,
+      "f1": 0.22580645161290322
+    },
+    "kernel_ridge_gamma0.1": {
+      "tp": 21,
+      "fp": 93,
+      "fn": 52,
+      "precision": 0.18421052631578946,
+      "recall": 0.2876712328767123,
+      "f1": 0.22459893048128343
+    },
+    "kernel_ridge_gamma0.5": {
+      "tp": 18,
+      "fp": 98,
+      "fn": 55,
+      "precision": 0.15517241379310345,
+      "recall": 0.2465753424657534,
+      "f1": 0.19047619047619047
+    }
+  },
+  "training_coverage": {
+    "annotated_faces": 255,
+    "represented_faces": 252,
+    "size_ratio_quantiles": [
+      [
+        0.36688311688311687,
+        0.32432432432432434
+      ],
+      [
+        0.6525286497259591,
+        0.6679279279279279
+      ],
+      [
+        1.125,
+        1.1666666666666667
+      ],
+      [
+        1.6594285714285715,
+        1.6895882156009374
+      ],
+      [
+        2.3472222222222223,
+        2.52
+      ]
+    ],
+    "quantile_levels": [
+      0,
+      0.1,
+      0.5,
+      0.9,
+      1
+    ]
+  }
+}

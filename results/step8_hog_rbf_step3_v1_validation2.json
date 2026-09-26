@@ -1,0 +1,119 @@
+{
+  "split": "validation",
+  "step": 2,
+  "scale_factor": 1.2,
+  "nms_iou": 0.3,
+  "post_filter_nms": null,
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "verifier_sha256": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "selection": "step5-comparison SHA-256 order, 2 distinct source groups",
+  "pages": [
+    {
+      "id": "manga109:NichijouSoup:009",
+      "gt": 5,
+      "candidates": 3749,
+      "rules": {
+        "baseline": {
+          "tp": 3,
+          "fp": 3746,
+          "fn": 2
+        },
+        "rbf-0.5_side36": {
+          "tp": 3,
+          "fp": 259,
+          "fn": 2
+        },
+        "rbf0_side36": {
+          "tp": 3,
+          "fp": 128,
+          "fn": 2
+        },
+        "rbf0.5_side36": {
+          "tp": 2,
+          "fp": 60,
+          "fn": 3
+        },
+        "rbf1_side36": {
+          "tp": 2,
+          "fp": 27,
+          "fn": 3
+        }
+      }
+    },
+    {
+      "id": "manga109:RinToSiteSippuNoNaka:004",
+      "gt": 9,
+      "candidates": 3433,
+      "rules": {
+        "baseline": {
+          "tp": 3,
+          "fp": 3430,
+          "fn": 6
+        },
+        "rbf-0.5_side36": {
+          "tp": 2,
+          "fp": 210,
+          "fn": 7
+        },
+        "rbf0_side36": {
+          "tp": 2,
+          "fp": 111,
+          "fn": 7
+        },
+        "rbf0.5_side36": {
+          "tp": 1,
+          "fp": 55,
+          "fn": 8
+        },
+        "rbf1_side36": {
+          "tp": 1,
+          "fp": 23,
+          "fn": 8
+        }
+      }
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "tp": 6,
+      "fp": 7176,
+      "fn": 8,
+      "precision": 0.000835421888053467,
+      "recall": 0.42857142857142855,
+      "f1": 0.0016675931072818232
+    },
+    "rbf-0.5_side36": {
+      "tp": 5,
+      "fp": 469,
+      "fn": 9,
+      "precision": 0.010548523206751054,
+      "recall": 0.35714285714285715,
+      "f1": 0.020491803278688523
+    },
+    "rbf0_side36": {
+      "tp": 5,
+      "fp": 239,
+      "fn": 9,
+      "precision": 0.020491803278688523,
+      "recall": 0.35714285714285715,
+      "f1": 0.03875968992248062
+    },
+    "rbf0.5_side36": {
+      "tp": 3,
+      "fp": 115,
+      "fn": 11,
+      "precision": 0.025423728813559324,
+      "recall": 0.21428571428571427,
+      "f1": 0.045454545454545456
+    },
+    "rbf1_side36": {
+      "tp": 3,
+      "fp": 50,
+      "fn": 11,
+      "precision": 0.05660377358490566,
+      "recall": 0.21428571428571427,
+      "f1": 0.08955223880597014
+    }
+  }
+}

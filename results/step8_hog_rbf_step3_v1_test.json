@@ -1,0 +1,194 @@
+{
+  "split": "test",
+  "step": 2,
+  "scale_factor": 1.2,
+  "nms_iou": 0.3,
+  "post_filter_nms": null,
+  "cascade_sha256": "595983a793aa40ba1dfcaec704f24b15ac65ba7069887cdc9bc7d69630554194",
+  "verifier_sha256": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "selection": "step8-test SHA-256 order, 8 distinct source groups",
+  "pages": [
+    {
+      "id": "manga109:AisazuNihaIrarenai:026",
+      "gt": 8,
+      "candidates": 3317,
+      "scan_seconds": 4.143528699991293,
+      "verifier_seconds": 1.02309589998913,
+      "rules": {
+        "baseline": {
+          "tp": 5,
+          "fp": 3312,
+          "fn": 3
+        },
+        "rbf1.5_side36": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 7
+        }
+      },
+      "total_seconds": 5.215806499996688
+    },
+    {
+      "id": "manga109:ShimatteIkouze_vol01:002",
+      "gt": 21,
+      "candidates": 4055,
+      "scan_seconds": 7.433633399996324,
+      "verifier_seconds": 1.256688599998597,
+      "rules": {
+        "baseline": {
+          "tp": 11,
+          "fp": 4044,
+          "fn": 10
+        },
+        "rbf1.5_side36": {
+          "tp": 3,
+          "fp": 16,
+          "fn": 18
+        }
+      },
+      "total_seconds": 8.754794199994649
+    },
+    {
+      "id": "manga109:GarakutayaManta:043",
+      "gt": 10,
+      "candidates": 5252,
+      "scan_seconds": 17.591721799995867,
+      "verifier_seconds": 1.620927500000107,
+      "rules": {
+        "baseline": {
+          "tp": 5,
+          "fp": 5247,
+          "fn": 5
+        },
+        "rbf1.5_side36": {
+          "tp": 2,
+          "fp": 11,
+          "fn": 8
+        }
+      },
+      "total_seconds": 19.290718899996136
+    },
+    {
+      "id": "manga109:TasogareTsushin:010",
+      "gt": 8,
+      "candidates": 4017,
+      "scan_seconds": 6.9496140999981435,
+      "verifier_seconds": 1.2592525000072783,
+      "rules": {
+        "baseline": {
+          "tp": 7,
+          "fp": 4010,
+          "fn": 1
+        },
+        "rbf1.5_side36": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 5
+        }
+      },
+      "total_seconds": 8.267665600011242
+    },
+    {
+      "id": "manga109:SeisinkiVulnus:028",
+      "gt": 9,
+      "candidates": 5224,
+      "scan_seconds": 18.560905200007255,
+      "verifier_seconds": 1.625884799999767,
+      "rules": {
+        "baseline": {
+          "tp": 6,
+          "fp": 5218,
+          "fn": 3
+        },
+        "rbf1.5_side36": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 9
+        }
+      },
+      "total_seconds": 20.268315499997698
+    },
+    {
+      "id": "manga109:BakuretsuKungFuGirl:031",
+      "gt": 8,
+      "candidates": 3211,
+      "scan_seconds": 2.977105699988897,
+      "verifier_seconds": 1.011977999994997,
+      "rules": {
+        "baseline": {
+          "tp": 7,
+          "fp": 3204,
+          "fn": 1
+        },
+        "rbf1.5_side36": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 7
+        }
+      },
+      "total_seconds": 4.03662319999421
+    },
+    {
+      "id": "manga109:BEMADER_P:078",
+      "gt": 12,
+      "candidates": 5348,
+      "scan_seconds": 18.98559519999253,
+      "verifier_seconds": 1.6902609000098892,
+      "rules": {
+        "baseline": {
+          "tp": 6,
+          "fp": 5342,
+          "fn": 6
+        },
+        "rbf1.5_side36": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 10
+        }
+      },
+      "total_seconds": 20.755537299992284
+    },
+    {
+      "id": "manga109:GOOD_KISS_Ver2:087",
+      "gt": 9,
+      "candidates": 4481,
+      "scan_seconds": 7.844918700007838,
+      "verifier_seconds": 1.4133368999900995,
+      "rules": {
+        "baseline": {
+          "tp": 8,
+          "fp": 4473,
+          "fn": 1
+        },
+        "rbf1.5_side36": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 7
+        }
+      },
+      "total_seconds": 9.32495629999903
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "tp": 55,
+      "fp": 34850,
+      "fn": 30,
+      "precision": 0.0015757054863200115,
+      "recall": 0.6470588235294118,
+      "f1": 0.003143755358673907
+    },
+    "rbf1.5_side36": {
+      "tp": 14,
+      "fp": 77,
+      "fn": 71,
+      "precision": 0.15384615384615385,
+      "recall": 0.16470588235294117,
+      "f1": 0.1590909090909091
+    }
+  },
+  "mean_scan_seconds": 10.560877849997269,
+  "mean_verifier_seconds": 1.3626781374987331,
+  "mean_total_seconds": 11.989302187497742
+}

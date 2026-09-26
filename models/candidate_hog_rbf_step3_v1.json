@@ -1,0 +1,15 @@
+{
+  "split": "train",
+  "seed": 20260925,
+  "samples": 6996,
+  "positive": 3442,
+  "negative": 3554,
+  "support_vectors": 1802,
+  "C": 1.0,
+  "gamma": "scale",
+  "kernel": "rbf",
+  "class_weight": "balanced",
+  "feature": "324-dimensional 24x24 grayscale HOG, same extractor as current verifier",
+  "manifest_sha256": "318fc00bbbc272adc279cbc42da1141b44734da67d856c05455065b19792ef8d",
+  "model_sha256": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39"
+}

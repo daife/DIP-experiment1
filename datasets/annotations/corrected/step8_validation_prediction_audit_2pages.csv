@@ -1,0 +1,19 @@
+﻿page_id,parent_image_path,prediction_id,bbox_xyxy,cascade_score,verifier_score,max_original_gt_iou,matched_original_gt,visual_decision,review_note
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P0,"[460, 501, 501, 543]",1.774238805672696,2.0799822286647105,0.0,0,unannotated_face,左页金发人物脸部小框；与 P8 同一人物
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P1,"[1422, 465, 1472, 514]",1.5637131243604279,2.596241901574655,0.7286245353159851,1,matched_original_gt,匹配 G1
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P2,"[299, 424, 370, 495]",1.558220799129838,2.9050776469875323,0.0,0,unannotated_face,左页上方黑发人物脸部
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P3,"[484, 585, 555, 657]",1.5356438539158106,2.418283018611673,0.0,0,unannotated_face,左页右下黑发人物脸部
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P4,"[287, 577, 328, 619]",1.50735878588845,2.1864161839665437,0.0,0,unannotated_face,左页中间人物脸部；与 P9 同一人物
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P5,"[1045, 422, 1131, 508]",1.464531971052653,1.9685987174704775,0.2920497566252028,0,partial_annotated_face,只覆盖 G3/G4 附近的鼻眼局部，框定位不足
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P6,"[888, 386, 974, 472]",1.4543444395908427,2.156691134114312,0.7276517473942367,1,matched_original_gt,匹配 G2
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P7,"[404, 615, 446, 657]",1.3940659210018251,1.8606236983804514,0.0,0,nonface,人物衣服/手部线条
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P8,"[430, 482, 533, 585]",1.3600376319948524,1.5743792426388328,0.0,0,duplicate_unannotated_face,左页金发人物脸部较大框，与 P0 重复
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P9,"[265, 551, 351, 637]",1.2360051668984204,3.398494362657302,0.0,0,duplicate_unannotated_face,左页中间人物脸部较大框，与 P4 重复
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P10,"[1462, 755, 1611, 904]",0.8465261554995988,2.466248560717408,0.0,0,nonface,对白框文字
+manga109:NichijouSoup:009,raw/manga109/images/NichijouSoup/009.jpg,P11,"[1505, 191, 1576, 263]",0.7985701045360191,2.81774330670222,0.0,0,nonface,人物后脑头发，未见正面脸
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P0,"[980, 433, 1040, 493]",1.209074002584117,1.8178554308345782,0.0,0,nonface,树干/场景纹理
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P1,"[974, 386, 1282, 694]",1.1818865003737398,1.669973669402849,0.0,0,nonface,大框覆盖场景与小人物，不能作为脸框
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P2,"[186, 150, 272, 236]",0.81528763663975,1.626916551480768,0.7953897953897954,1,matched_original_gt,匹配 G2
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P3,"[1334, 964, 1376, 1006]",0.6423364397245998,2.1430229948831947,0.0,0,nonface,人物衣物纹理
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P4,"[1210, 473, 1260, 523]",0.574834507667013,1.6707041834557705,0.0,0,nonface,树干/场景线条
+manga109:RinToSiteSippuNoNaka:004,raw/manga109/images/RinToSiteSippuNoNaka/004.jpg,P5,"[1372, 232, 1422, 282]",-0.4889415090762761,2.3128565338800904,0.03938310307345736,0,partial_annotated_face,G3 眉鼻局部，框定位不足
