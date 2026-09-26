@@ -10,14 +10,15 @@ import numpy as np
 
 from .cascade import cascade_from_dict
 from .candidate_verifier import CandidateVerifier
+from .box_refiner import BoxRefiner
 from .landmark_regression import LandmarkRegressor
-from .multiscale import PyramidConfig, detect_multiscale
+from .multiscale import PyramidConfig, detect_multiscale, nms
 
 
 class AnimeFaceDetector:
-    def __init__(self, model_path: str | Path):
+    def __init__(self, model_path: str | Path, *, config_name: str = 'config.json'):
         root = Path(model_path)
-        config = json.loads((root / "config.json").read_text(encoding="utf-8"))
+        config = json.loads((root / config_name).read_text(encoding="utf-8"))
         if config.get("format") != "experiment1-demo-v1":
             raise ValueError("unsupported detector config")
         self.config = config
@@ -27,6 +28,11 @@ class AnimeFaceDetector:
         self.verifier = CandidateVerifier(root / verifier["model"]) if verifier else None
         self.verifier_threshold = verifier["threshold"] if verifier else None
         self.verifier_min_side = verifier["min_side"] if verifier else None
+        refinement = config.get('box_refiner')
+        if refinement and not verifier:
+            raise ValueError('box refinement requires verifier scores')
+        self.box_refiner = BoxRefiner(root/refinement['model']) if refinement else None
+        self.final_nms_iou = refinement['nms_iou'] if refinement else None
         search = config["search"]
         self.pyramid = PyramidConfig(search["scale_factor"], search["step"], search["nms_iou"])
 
@@ -39,6 +45,11 @@ class AnimeFaceDetector:
             verifier_scores = self.verifier.scores(gray, boxes)
             keep = (verifier_scores >= self.verifier_threshold) & (boxes[:, 2] - boxes[:, 0] >= self.verifier_min_side)
             boxes, scores = boxes[keep], scores[keep]
+            if self.box_refiner is not None and len(boxes):
+                boxes, valid = self.box_refiner.refine(gray,boxes)
+                boxes, scores = boxes[valid], verifier_scores[keep][valid]
+                indices = nms(boxes,scores,self.final_nms_iou)
+                boxes, scores = boxes[indices], scores[indices]
         return [
             {"bbox": box.tolist(), "score": float(score),
              "landmarks": self.regressor.predict_image(image, box).tolist()}

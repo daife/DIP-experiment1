@@ -3,6 +3,7 @@
 from pathlib import Path
 
 import cv2
+import joblib
 import numpy as np
 
 
@@ -38,11 +39,23 @@ def features(gray: np.ndarray, boxes: np.ndarray) -> np.ndarray:
 
 class CandidateVerifier:
     def __init__(self, path: str | Path):
-        with np.load(path) as data:
-            self.coefficients = data["coefficients"]
-            self.intercept = float(data["intercept"])
-        if self.coefficients.shape != (324,):
-            raise ValueError("invalid HOG verifier coefficients")
+        path = Path(path)
+        self.model = None
+        if path.suffix == ".joblib":
+            self.model = joblib.load(path)
+            if getattr(self.model, "n_features_in_", None) != 324:
+                raise ValueError("invalid HOG verifier feature width")
+        else:
+            with np.load(path) as data:
+                self.coefficients = data["coefficients"]
+                self.intercept = float(data["intercept"])
+            if self.coefficients.shape != (324,):
+                raise ValueError("invalid HOG verifier coefficients")
 
     def scores(self, gray: np.ndarray, boxes: np.ndarray) -> np.ndarray:
-        return features(gray, boxes) @ self.coefficients + self.intercept
+        x = features(gray, boxes)
+        if self.model is not None:
+            if not len(x):
+                return np.empty(0, dtype=np.float64)
+            return self.model.decision_function(x)
+        return x @ self.coefficients + self.intercept

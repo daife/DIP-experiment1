@@ -70,7 +70,8 @@ def nms(boxes: np.ndarray, scores: np.ndarray, iou_threshold: float = 0.3) -> np
     return np.asarray(kept, dtype=np.int64)
 
 
-def detect_multiscale(gray: np.ndarray, cascade: Cascade, config: PyramidConfig = PyramidConfig()) -> tuple[np.ndarray, np.ndarray, list[dict]]:
+def detect_multiscale(gray: np.ndarray, cascade: Cascade, config: PyramidConfig = PyramidConfig(),
+                      *, return_pre_nms: bool = False) -> tuple:
     """Return original-image boxes, last-stage scores, and per-level timings.
 
     Each layer is resized directly from the input. Coordinates are rounded to
@@ -79,7 +80,7 @@ def detect_multiscale(gray: np.ndarray, cascade: Cascade, config: PyramidConfig 
     if not isinstance(gray, np.ndarray) or gray.ndim != 2 or gray.dtype != np.uint8 or not gray.size:
         raise ValueError("gray must be a nonempty uint8 grayscale image")
     height, width = gray.shape
-    all_boxes, all_scores, layers = [], [], []
+    all_boxes, all_scores, all_levels, layers = [], [], [], []
     for level, (layer_width, layer_height) in enumerate(pyramid_sizes(width, height, config.scale_factor)):
         start = perf_counter()
         layer = gray if (layer_width, layer_height) == (width, height) else cv2.resize(gray, (layer_width, layer_height), interpolation=cv2.INTER_AREA)
@@ -94,9 +95,18 @@ def detect_multiscale(gray: np.ndarray, cascade: Cascade, config: PyramidConfig 
             mapped[:, [1, 3]] = np.clip(mapped[:, [1, 3]], 0, height)
             all_boxes.append(mapped)
             all_scores.append(scores)
+            all_levels.append(np.full(len(boxes), level, dtype=np.int32))
     if not all_boxes:
-        return np.empty((0, 4), dtype=np.int32), np.empty(0, dtype=np.float64), layers
+        empty_boxes = np.empty((0, 4), dtype=np.int32)
+        empty_scores = np.empty(0, dtype=np.float64)
+        if return_pre_nms:
+            return empty_boxes, empty_scores, layers, {"boxes": empty_boxes, "scores": empty_scores,
+                                                        "levels": np.empty(0, dtype=np.int32), "kept_indices": np.empty(0, dtype=np.int64)}
+        return empty_boxes, empty_scores, layers
     boxes = np.concatenate(all_boxes)
     scores = np.concatenate(all_scores)
     kept = nms(boxes, scores, config.nms_iou)
+    if return_pre_nms:
+        return boxes[kept], scores[kept], layers, {"boxes": boxes, "scores": scores,
+                                                   "levels": np.concatenate(all_levels), "kept_indices": kept}
     return boxes[kept], scores[kept], layers

@@ -14,11 +14,12 @@ def main() -> None:
     parser.add_argument("--image", type=Path, required=True)
     parser.add_argument("--model-dir", type=Path, default=Path("models"))
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument('--config', default='config.json', help='configuration filename within model directory')
     args = parser.parse_args()
     image = cv2.imread(str(args.image), cv2.IMREAD_COLOR)
     if image is None:
         parser.error(f"cannot read image: {args.image}")
-    detections = AnimeFaceDetector(args.model_dir).detect(image)
+    detections = AnimeFaceDetector(args.model_dir, config_name=args.config).detect(image)
     canvas = image.copy()
     for result in detections:
         x1, y1, x2, y2 = result["bbox"]

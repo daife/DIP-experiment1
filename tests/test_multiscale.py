@@ -40,6 +40,18 @@ class MultiscaleTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             PyramidConfig(step=0)
 
+    def test_pre_nms_trace_preserves_suppressed_proposal(self) -> None:
+        gray = np.zeros((24, 24), dtype=np.uint8)
+        proposals = (np.array([[0, 0, 24, 24], [0, 0, 24, 24]], dtype=np.int32), np.array([0.4, 0.8]))
+        with patch("src.multiscale.scan_page", return_value=proposals):
+            boxes, scores, layers, trace = detect_multiscale(gray, object(), return_pre_nms=True)
+        self.assertEqual(layers[0]["candidates"], 2)
+        np.testing.assert_array_equal(trace["kept_indices"], [1])
+        np.testing.assert_array_equal(trace["scores"], [0.4, 0.8])
+        np.testing.assert_array_equal(trace["levels"], [0, 0])
+        np.testing.assert_array_equal(boxes, trace["boxes"][trace["kept_indices"]])
+        np.testing.assert_array_equal(scores, [0.8])
+
 
 if __name__ == "__main__":
     unittest.main()
