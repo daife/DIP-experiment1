@@ -1,0 +1,11 @@
+{
+  "samples": 12817,
+  "pages": 243,
+  "all_train_GT_targets_exact": true,
+  "all_source_HOG_exact": true,
+  "saved_artifact_hashes_match": true,
+  "provenance_sha256": "c07ce3e1292e28dfd49ba353ed28ef6ec344166973f4217d6aec811db6a4ccef",
+  "manifest_sha256": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+  "script_sha256": "d170748c296d433646b2ef02a9c7d9c3aa2181e8ef1da2eb154652e2b0f0caf3",
+  "limitation": "Numerical provenance audit; no new visual review or detector acceptance."
+}

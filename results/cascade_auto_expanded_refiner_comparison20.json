@@ -1,0 +1,31 @@
+{
+  "same20_page_order_config_shared_model_GT_hashes": true,
+  "all_page_caches_and_unrefined_results_exact": true,
+  "old_best": [
+    "tight_refined_1.25",
+    {
+      "tp": 98,
+      "fp": 114,
+      "fn": 154,
+      "precision": 0.46226415094339623,
+      "recall": 0.3888888888888889,
+      "f1": 0.4224137931034483
+    }
+  ],
+  "expanded_best": [
+    "tight_refined_1.25",
+    {
+      "tp": 101,
+      "fp": 111,
+      "fn": 151,
+      "precision": 0.47641509433962265,
+      "recall": 0.4007936507936508,
+      "f1": 0.4353448275862069
+    }
+  ],
+  "report_sha256": {
+    "results\\cascade_auto_scan_positive_nms05_v5_combined20.json": "0bb72267b4176069c122583d90d662aff7e117fb8e6ec2d5f097f3ededb3be49",
+    "results\\cascade_auto_nms05_expanded_refiner_v1_combined20.json": "31ec5aa516023eaa3eb5bc20cf967432149920e6f58a13de13e651b664842710"
+  },
+  "limitation": "Explored validation20,252GT, IoU50; modest improvement not excellent acceptance; no deployment update."
+}
