@@ -1,0 +1,12 @@
+{
+  "positive": 18785,
+  "negative": 24660,
+  "base_and_proposal_positive_indices_unchanged": true,
+  "calibration_721_identical": true,
+  "background": 4680,
+  "fresh_background": 630,
+  "localization_negative": 19980,
+  "removed_localization_negative": 20,
+  "all_negative_pages_nonquarantined": true,
+  "provenance_sha256": "b5fdc51fa70520bfe83a5507bb477d604ca3f22ecc94bfd0996dd7bfd2839373"
+}

@@ -1,0 +1,88 @@
+{
+  "all20_page_ids_config_except_first_nms_and_common_shas_identical": true,
+  "nms05_old_HOG_control_identical": true,
+  "comparisons": [
+    {
+      "source": "cascade_auto_pipeline_verifier_v5_control20",
+      "report_sha256": "3cc07f4c7df87b56aa764786a0eb72292ba63af8e4193812977020f300b9783f",
+      "first_nms": 0.3,
+      "best_refined": [
+        "tight_refined_1.25",
+        {
+          "tp": 77,
+          "fp": 50,
+          "fn": 175,
+          "precision": 0.6062992125984252,
+          "recall": 0.3055555555555556,
+          "f1": 0.40633245382585753
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 72,
+          "fp": 55,
+          "fn": 180,
+          "precision": 0.5669291338582677,
+          "recall": 0.2857142857142857,
+          "f1": 0.37994722955145116
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_scan_positive_nms05_v5_combined20",
+      "report_sha256": "0bb72267b4176069c122583d90d662aff7e117fb8e6ec2d5f097f3ededb3be49",
+      "first_nms": 0.5,
+      "best_refined": [
+        "tight_refined_1.25",
+        {
+          "tp": 98,
+          "fp": 114,
+          "fn": 154,
+          "precision": 0.46226415094339623,
+          "recall": 0.3888888888888889,
+          "f1": 0.4224137931034483
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 85,
+          "fp": 130,
+          "fn": 167,
+          "precision": 0.3953488372093023,
+          "recall": 0.3373015873015873,
+          "f1": 0.3640256959314775
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_scan_positive_nms05_v4_combined20",
+      "report_sha256": "77dcb09e4a1081d80a57f26b07f979a5a6233c44329dec0ed5b2ab1c3eca26cc",
+      "first_nms": 0.5,
+      "best_refined": [
+        "tight_refined_1.75",
+        {
+          "tp": 87,
+          "fp": 103,
+          "fn": 165,
+          "precision": 0.45789473684210524,
+          "recall": 0.34523809523809523,
+          "f1": 0.3936651583710407
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.75",
+        {
+          "tp": 79,
+          "fp": 112,
+          "fn": 173,
+          "precision": 0.41361256544502617,
+          "recall": 0.3134920634920635,
+          "f1": 0.35665914221218964
+        }
+      ]
+    }
+  ],
+  "limitation": "Explored validation; candidate coverage not final recall; cached timing not measured"
+}

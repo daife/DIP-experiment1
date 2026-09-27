@@ -1,0 +1,48 @@
+{
+  "quarantined_pages": [
+    "manga109:MiraiSan:031",
+    "manga109:MoeruOnisan_vol19:022",
+    "manga109:YumeNoKayoiji:054"
+  ],
+  "reviewed_crop_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "context_indices": [
+    4,
+    9,
+    10,
+    23
+  ],
+  "observations": {
+    "4": "clear small unannotated human face",
+    "9": "roof face-like icon, uncertain; conservative exclusion",
+    "10": "hair/background outside annotated face, no page exclusion",
+    "23": "floating cartoon faces, conservative exclusion"
+  },
+  "source": "results/cascade_auto_pipeline_backgrounds_accepted24.json",
+  "context_image": "datasets/derived/cascade_auto_pipeline_backgrounds_merged_v1/accepted_contexts4.png",
+  "limitation": "24 selected crops and four contexts only; not all accepted windows reviewed"
+}

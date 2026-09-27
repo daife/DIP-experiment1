@@ -1,0 +1,656 @@
+{
+  "completed_page_snapshot": 31,
+  "samples_checked": 372,
+  "selection_sha256": "f639e12bcddde1dd5e6d246d7cd6ee2f735642f4b2a69a2f2757762a2a36a3d4",
+  "script_sha256": "a83f6caaf52e08f43496116c2c149d290ad14fbb773553d9c2e93712d9120e57",
+  "geometry_channels_hog_recomputed": true,
+  "shards": [
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_000.json",
+      "metadata_sha256": "79bd52d958e58368aeebe5739fb91aaba0838c0710c15391ebe99e520d63cf85",
+      "shard_sha256": "f63e2f49582ae8b0c95296234ef17466cbc59e5194a4b4220baadec5ef790c45",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_001.json",
+      "metadata_sha256": "339f4a0d44ba04a9a5430683d3748c8a41143f3ccf6ec401a5911d756bc4f037",
+      "shard_sha256": "a3881d03ad18b24b51e4ffd763d50ffd7df196cea92be4acf51cf3976d414329",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_002.json",
+      "metadata_sha256": "92e5c0f72230a93bc72ec2a442f15b0f07e67a982d6607130d1701fd230b652c",
+      "shard_sha256": "6fe50d4420b0614387195c42bd2e24fa674db885b78fdcd17d327a3726c352b3",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_003.json",
+      "metadata_sha256": "10bfa7d6e95cd37cac05602459d613779607f323806a080f4140491e22d27f11",
+      "shard_sha256": "048825fbe00723b3686f66b48f39b9bfa1a402926208c72b0cc9614b9b40e0c5",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_004.json",
+      "metadata_sha256": "12acc3bd34f022746a27a847e7c7fe6da37673f421e2f3443c9fbaca6abfda1e",
+      "shard_sha256": "f945d3a68df719f776c1f2f5e95c5764aee8474e18435338172950a3f7553cea",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_005.json",
+      "metadata_sha256": "b69e347e2687f67e2cc9c9d3a40cc11da02847129775fe0fd240fc519a85019b",
+      "shard_sha256": "97302a97d3c4e1939c4358217c2aa3bf15a7189080492ba6264a263fb4215f96",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_006.json",
+      "metadata_sha256": "40ae45a320d32aed7e11e58c90ca7a566685c9547fb1cb71cfd86c90bac7b7df",
+      "shard_sha256": "a7cbaac7a19b2f9a1bf2aa1ed36444f631e2498354c30433c908178c8926e6a3",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_007.json",
+      "metadata_sha256": "d3e7ebeeb926b4f31ac56354164592e05acf6de96280dcb8cbd1d8857f2301bb",
+      "shard_sha256": "6ae2326ae4cb7af94603656f2661a869dad2e21bbe5d196e09db13f85f636a47",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_008.json",
+      "metadata_sha256": "fbb1325d06196d3ed7c39ab9e84b772decc8a429caac97adb72b8ebdff59b07e",
+      "shard_sha256": "2c654e6844ce4d46ebff538f4cd84deee28a0e7f521ac8b8e189e2ca9f489082",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_009.json",
+      "metadata_sha256": "145877274046480390991b9ebd284ded8e1efda51843694e55cc67a05a20e7d1",
+      "shard_sha256": "da02c2afa6ff41a572772a888bbf02b1bdf953e09b8a1be70fd76b34e3511120",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_010.json",
+      "metadata_sha256": "e3c44c7c078811269da1c2b0ed1f3b7f529653f301bf984a6aefb6d23707e524",
+      "shard_sha256": "4d4014c8e737eac7932715ba188b3978d920693b5ad342274dbf68df6ac56b63",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_011.json",
+      "metadata_sha256": "c2f4ef2a138bafafa14169974ff6a1d3fde26311cd14b7adbebb2a82608a9a15",
+      "shard_sha256": "496ddc747c2c1bc96362165543be108a4d2198cb245d8afb0f97bc9a6b0b8e40",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_012.json",
+      "metadata_sha256": "b5ebe5eb1ee6bb996d6000b2648e8bf19611b665792ace6e2e57bb614053fc2f",
+      "shard_sha256": "85f8570606ce78ff91c14caec0146b7ba3b6f2bdfc253e5814bd4b3dc4313af6",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_013.json",
+      "metadata_sha256": "b1b6c05350453317c941c907629628595ff91f5d53647dc1ba1840e18b310a94",
+      "shard_sha256": "d0429147390bf368ab6f4eb2cb7eb5e9d8269b1f9f9002c08c07a6db7256f4e8",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_014.json",
+      "metadata_sha256": "255f0f954228902631b4a74ff1b7ee265e1cfd053c6e6f1173525dc0e7e3489a",
+      "shard_sha256": "d9f7f1b9cc6d947269cef863f77e00ef2ab6b7450971fbd043a545c85cd04a04",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_015.json",
+      "metadata_sha256": "c2063737bd2196df1b37350512b609294eb37d04411d5ae82940b0451b2f1795",
+      "shard_sha256": "24b0f4eaaf05a169498145032f1ab3f7810a3a2198d1a294a12680223c023e27",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_016.json",
+      "metadata_sha256": "d3f9c5772090addea0f29c5dcc8f22113012e7d88d60890b3284fa5df8de7209",
+      "shard_sha256": "ba2179164e163cd27801f3a612b3d986bfbdf296bec5a56dc5e42614fca22443",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_017.json",
+      "metadata_sha256": "41f226f1be1f63c5ea088500fdd4af2579fd6e66a0816a9a3634d0fb66e01386",
+      "shard_sha256": "04252f2499c8a4290f8ce7b9e559e036aa0d0f19cccf218f1060270e27cec6e7",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_018.json",
+      "metadata_sha256": "4f00d147f9516f1144970fb6dc5824824dc4dc367aa586d280c19f6705b0a019",
+      "shard_sha256": "1ae31fb669d4f8c64fb144921bd65691bbaa690e027d19067d4147f88ae8687a",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_019.json",
+      "metadata_sha256": "537fe11d32f9ee963116d9c67129c5e5f21d4a17aaec9b878fdae5bcd7486171",
+      "shard_sha256": "df2a33e9751f5c0966b6bd20f28e5301b334b2a4c007013bb59ec6cfc2d359de",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_020.json",
+      "metadata_sha256": "2e18593cb3783497b042f466803faf39a13fdb862c85847e1165e5ee6ba73b95",
+      "shard_sha256": "3556eb35126228c67f1c00083aaa15a384e23d1e27a11a1a1697b56251e6fddb",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_021.json",
+      "metadata_sha256": "4f4448a35df62bc431e202230bc14996bfb79d76e987ddfdad59994af8406ec7",
+      "shard_sha256": "c2612af6843cbea4f2867bed95e8f08f994b9f91e754780d37904ed9e349191f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_022.json",
+      "metadata_sha256": "56bf95b78e09effdbe1023e7a1b0f95a4db7b5ef5806972957a3aa1be5b4d867",
+      "shard_sha256": "88fb69dd9746e19550126b9f34dbd20b7cbd65f9713d2167bce68a086e385645",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_023.json",
+      "metadata_sha256": "a7db6d2798cf1a6f50df89c536d83229457f922acc9456ce0fb9c2ff6b4280fb",
+      "shard_sha256": "3241c7e074c94e4cd4a7b15a401d971cbd620014d86b38f212dcb0f2ce2bb008",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_024.json",
+      "metadata_sha256": "c9cca4a2340e7207c8c8c41b7cb2cf12a5489b09afbffb2147e85702eefbf102",
+      "shard_sha256": "781201c0c93c475a693e1682f8d754b6bf0ca3f6eddfa388c4a0c8e62e635616",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_025.json",
+      "metadata_sha256": "d7205651e73e96e744376980e3824788e1b2390e9bb79305c826380e3cd8e84b",
+      "shard_sha256": "c295317b999750249a36cf6bfdfbc6e4d145c70b752c7f4e5936db589e68aa5f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_026.json",
+      "metadata_sha256": "76579ef02aff0cbe233f969f14fa763de1547fcccf6d8af3fd7159ab8417b05b",
+      "shard_sha256": "8c76799956aea47d3178f06612bfd72dcad9fc7966da221a964139319e4edee9",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_027.json",
+      "metadata_sha256": "12a619ed2f398e6696f742a8d58d98018ea1492ba076397b9ef3560ed474d4e5",
+      "shard_sha256": "7d13f3b5b574bef9c7859f3a7b21b2d9acf84289e9ed6193a3f3b48e44865e3b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_028.json",
+      "metadata_sha256": "e324823d5e6a801e8fb2e108b47f11e1f72181124e6bfb3a63655ebfa51516fa",
+      "shard_sha256": "43d278b62845494e05ac57f867a5946791224ae72e3c6050c0ab01aabbd7546b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_029.json",
+      "metadata_sha256": "7ace9645d40911673add9308df577769beed6311ad6513a94833450db08995f9",
+      "shard_sha256": "3cb759a0efe3f171a379c5e7aefbb6fce58c112d5cf3739143f431efc6977360",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_030.json",
+      "metadata_sha256": "6266e32120a0ab71fe8b0cea99986e4906cac255d18eadddedc7540c21e37bdb",
+      "shard_sha256": "51d330454a27747cff4a15c2139c585ab145540a5b9bade6b201b0441bcbc56a",
+      "rows": 12
+    }
+  ],
+  "contact_rows": [
+    {
+      "id": "pipeline_background:000:000",
+      "page_id": "manga109:ARMS:070",
+      "source_group": "ARMS",
+      "parent_image_path": "raw/manga109/images/ARMS/070.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1204,
+        174,
+        1264,
+        234
+      ],
+      "cascade_score": 1.821031146433331,
+      "verifier_margin": 2.767626417073464,
+      "crop_sha256": "03941f09000a475bb432837be23cf6837f8e8badacb61b01e1f34b2bced40278",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:000:001",
+      "page_id": "manga109:ARMS:070",
+      "source_group": "ARMS",
+      "parent_image_path": "raw/manga109/images/ARMS/070.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1216,
+        708,
+        1240,
+        732
+      ],
+      "cascade_score": 2.0936252547006036,
+      "verifier_margin": 2.222609914051381,
+      "crop_sha256": "316e01d501ca09c5076696af7328baf9f6de47dd4409fc79b8a987668b741316",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:001:000",
+      "page_id": "manga109:AkkeraKanjinchou:009",
+      "source_group": "AkkeraKanjinchou",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/009.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1452,
+        408,
+        1476,
+        432
+      ],
+      "cascade_score": -0.3282197193133488,
+      "verifier_margin": 1.734811394269721,
+      "crop_sha256": "830a56f0258cb09b08f21631d28fabf332c24e7cc12fcc4caffe6f1c0014981e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:001:001",
+      "page_id": "manga109:AkkeraKanjinchou:009",
+      "source_group": "AkkeraKanjinchou",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/009.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        638,
+        816,
+        662,
+        840
+      ],
+      "cascade_score": 0.6881190288306231,
+      "verifier_margin": 1.7305363632814648,
+      "crop_sha256": "05fa0ab8c3c3f5cdb9fae0ec477bf1991785732505ab0cab77dbd7106b9ecabb",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:002:000",
+      "page_id": "manga109:AosugiruHaru:017",
+      "source_group": "AosugiruHaru",
+      "parent_image_path": "raw/manga109/images/AosugiruHaru/017.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        974,
+        122,
+        998,
+        146
+      ],
+      "cascade_score": 1.4750549640555113,
+      "verifier_margin": 2.261844142503127,
+      "crop_sha256": "52819902b74636a1a08a22e5913e8468a31b141b9ca9a0c9ca90873a51a6744a",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:002:001",
+      "page_id": "manga109:AosugiruHaru:017",
+      "source_group": "AosugiruHaru",
+      "parent_image_path": "raw/manga109/images/AosugiruHaru/017.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1468,
+        1018,
+        1492,
+        1042
+      ],
+      "cascade_score": 0.03860189234125122,
+      "verifier_margin": 1.8827691186451263,
+      "crop_sha256": "752de854750c53cb01c0418caa641b276deda1cee3397730ae654b456bda304e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:003:000",
+      "page_id": "manga109:AppareKappore:073",
+      "source_group": "AppareKappore",
+      "parent_image_path": "raw/manga109/images/AppareKappore/073.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        610,
+        784,
+        634,
+        808
+      ],
+      "cascade_score": 0.14150659702285673,
+      "verifier_margin": 2.4694604190605935,
+      "crop_sha256": "ce5983575abe773619d38716f22846634bedd9cdbb7a17464225d8787c91fd2c",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:003:001",
+      "page_id": "manga109:AppareKappore:073",
+      "source_group": "AppareKappore",
+      "parent_image_path": "raw/manga109/images/AppareKappore/073.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        664,
+        756,
+        688,
+        780
+      ],
+      "cascade_score": -0.12989800075596142,
+      "verifier_margin": 2.2384922528658486,
+      "crop_sha256": "fef05526c7c89468bf3cb0c62a25611170c419e2ce93be7a0c50cff7770b242c",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:004:000",
+      "page_id": "manga109:Arisa:003",
+      "source_group": "Arisa",
+      "parent_image_path": "raw/manga109/images/Arisa/003.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        301,
+        146,
+        404,
+        249
+      ],
+      "cascade_score": 0.5054247183354097,
+      "verifier_margin": 2.4367112138119764,
+      "crop_sha256": "d2fb8ba02f7885cbb46effc797cb543daac8464fd8bd303741a47983a3afece4",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:004:001",
+      "page_id": "manga109:Arisa:003",
+      "source_group": "Arisa",
+      "parent_image_path": "raw/manga109/images/Arisa/003.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        540,
+        330,
+        564,
+        354
+      ],
+      "cascade_score": 0.7600898010517347,
+      "verifier_margin": 1.5854548209246744,
+      "crop_sha256": "348c50585f7bf7e52c839d710657161a65c11308698fbbea2e6381adcb8a22a6",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:005:000",
+      "page_id": "manga109:Belmondo:092",
+      "source_group": "Belmondo",
+      "parent_image_path": "raw/manga109/images/Belmondo/092.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        951,
+        954,
+        992,
+        995
+      ],
+      "cascade_score": 1.447573510700083,
+      "verifier_margin": 2.2638386121339553,
+      "crop_sha256": "a5e07a6493d9a9fe2cabed99887732390f360ddb5986a4ea07158b4f2e82ec35",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:005:001",
+      "page_id": "manga109:Belmondo:092",
+      "source_group": "Belmondo",
+      "parent_image_path": "raw/manga109/images/Belmondo/092.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        200,
+        492,
+        224,
+        516
+      ],
+      "cascade_score": 0.6105768200080683,
+      "verifier_margin": 1.9422305618990294,
+      "crop_sha256": "aa1dd1aa4469cdeddc5514926e12e7808b7af803ce4aaf5f93d0ace5fddb151a",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:006:000",
+      "page_id": "manga109:BokuHaSitatakaKun:067",
+      "source_group": "BokuHaSitatakaKun",
+      "parent_image_path": "raw/manga109/images/BokuHaSitatakaKun/067.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1514,
+        110,
+        1538,
+        134
+      ],
+      "cascade_score": 1.0985899104350287,
+      "verifier_margin": 2.5181903667393457,
+      "crop_sha256": "3727f18b4f9b48c3e013ef541307ee5b21796a10113b437fe56e4b2e5e7c78c1",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:006:001",
+      "page_id": "manga109:BokuHaSitatakaKun:067",
+      "source_group": "BokuHaSitatakaKun",
+      "parent_image_path": "raw/manga109/images/BokuHaSitatakaKun/067.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        700,
+        730,
+        724,
+        754
+      ],
+      "cascade_score": 1.070093967496271,
+      "verifier_margin": 2.505637607065768,
+      "crop_sha256": "e6d46bc1a8862bf4ae2e40d9f5c6897b16dc8ffa9b1922fcaffe2b2a45add774",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:007:000",
+      "page_id": "manga109:BurariTessenTorimonocho:024",
+      "source_group": "BurariTessenTorimonocho",
+      "parent_image_path": "raw/manga109/images/BurariTessenTorimonocho/024.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1456,
+        174,
+        1480,
+        198
+      ],
+      "cascade_score": 1.2261683408917392,
+      "verifier_margin": 2.7702944835166403,
+      "crop_sha256": "bd080221ffc33be0893c02be79d5458fb80deba6d2232bedb46a0d4f1e6da9e3",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:007:001",
+      "page_id": "manga109:BurariTessenTorimonocho:024",
+      "source_group": "BurariTessenTorimonocho",
+      "parent_image_path": "raw/manga109/images/BurariTessenTorimonocho/024.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1014,
+        750,
+        1038,
+        774
+      ],
+      "cascade_score": 1.6568239180479818,
+      "verifier_margin": 2.2217689547243533,
+      "crop_sha256": "969824c4e426cb5eb1df9531b938abb2a050a62470b4517d2d84a3f1ac045a62",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:008:000",
+      "page_id": "manga109:ByebyeC-BOY:034",
+      "source_group": "ByebyeC-BOY",
+      "parent_image_path": "raw/manga109/images/ByebyeC-BOY/034.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1503,
+        850,
+        1537,
+        885
+      ],
+      "cascade_score": 0.7398504280767512,
+      "verifier_margin": 1.6988467928893534,
+      "crop_sha256": "9663090c2e09af7ab77270df61f7faa8df6c1f10032db1c5b1f119a827943b36",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:008:001",
+      "page_id": "manga109:ByebyeC-BOY:034",
+      "source_group": "ByebyeC-BOY",
+      "parent_image_path": "raw/manga109/images/ByebyeC-BOY/034.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1168,
+        1132,
+        1192,
+        1156
+      ],
+      "cascade_score": 0.77683721397084,
+      "verifier_margin": 1.4273655773069591,
+      "crop_sha256": "81cb55dd4d2c28620e130962f0e81dc98422f1006423242ca19b9e8a6b3dd1fa",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:009:000",
+      "page_id": "manga109:Count3DeKimeteAgeru:077",
+      "source_group": "Count3DeKimeteAgeru",
+      "parent_image_path": "raw/manga109/images/Count3DeKimeteAgeru/077.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1414,
+        319,
+        1463,
+        369
+      ],
+      "cascade_score": 2.033560650773122,
+      "verifier_margin": 2.7862373295918963,
+      "crop_sha256": "1603edd995d8d47a960b8683992e7cb7322d5171c3738db4a26d47e280b2c28e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:009:001",
+      "page_id": "manga109:Count3DeKimeteAgeru:077",
+      "source_group": "Count3DeKimeteAgeru",
+      "parent_image_path": "raw/manga109/images/Count3DeKimeteAgeru/077.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1517,
+        234,
+        1577,
+        294
+      ],
+      "cascade_score": 1.7362283325892272,
+      "verifier_margin": 2.7470836939135483,
+      "crop_sha256": "aef7f6531994bf059d93b2dfc408de2c6f48416e92262aaff8d277c4127f3374",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:010:000",
+      "page_id": "manga109:DollGun:031",
+      "source_group": "DollGun",
+      "parent_image_path": "raw/manga109/images/DollGun/031.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        204,
+        598,
+        228,
+        622
+      ],
+      "cascade_score": 1.6332953258129874,
+      "verifier_margin": 1.9652410781672147,
+      "crop_sha256": "670cb9120d1d907f817eb83d048f9d2b8be4454b4c4833839fd1c5778ffa11f5",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:010:001",
+      "page_id": "manga109:DollGun:031",
+      "source_group": "DollGun",
+      "parent_image_path": "raw/manga109/images/DollGun/031.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        200,
+        1127,
+        242,
+        1168
+      ],
+      "cascade_score": 0.9092034404108315,
+      "verifier_margin": 1.9296093914824204,
+      "crop_sha256": "0a76fa5e7305bd77e778abc2d72697cafeff2a7a0d8dcbc0b09c45f2aeffadad",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:011:000",
+      "page_id": "manga109:Donburakokko:063",
+      "source_group": "Donburakokko",
+      "parent_image_path": "raw/manga109/images/Donburakokko/063.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        416,
+        720,
+        440,
+        744
+      ],
+      "cascade_score": 1.776471568447608,
+      "verifier_margin": 2.160670374300721,
+      "crop_sha256": "6bac0a5ebd38a4429ba3bd64c30ea6033acd4899efda763dc5d5a89dec2c296f",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "pipeline_background:011:001",
+      "page_id": "manga109:Donburakokko:063",
+      "source_group": "Donburakokko",
+      "parent_image_path": "raw/manga109/images/Donburakokko/063.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "zero_overlap_expanded_annotations",
+      "bbox_xyxy": [
+        1194,
+        852,
+        1297,
+        955
+      ],
+      "cascade_score": 1.9788197205663771,
+      "verifier_margin": 2.043384883541896,
+      "crop_sha256": "123b07829017716ed74e498ed01884f40183b0e582cf04c8d801b8bb722aab63",
+      "review_decision": "unreviewed"
+    }
+  ],
+  "limitation": "No independent replay of Cascade/HOG scores or visual certification; unfinished pool snapshot.",
+  "contact_path": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\progress_background24.png",
+  "contact_sha256": "8073dd6542f1344ad2cef473e68d8270d9eaad03685d78b1231c06d1df06895d"
+}

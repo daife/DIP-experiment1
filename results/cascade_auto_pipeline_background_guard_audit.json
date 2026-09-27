@@ -1,0 +1,59 @@
+{
+  "samples": 972,
+  "whole_accepted": 897,
+  "local_accepted": 691,
+  "teacher_pages": 81,
+  "all_saved_decisions_replayed": true,
+  "local_acceptance_subset_of_whole": true,
+  "suspects": [
+    {
+      "id": "pipeline_background:000:000",
+      "page": "manga109:ARMS:070",
+      "whole_keep": false,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    },
+    {
+      "id": "pipeline_background:005:000",
+      "page": "manga109:Belmondo:092",
+      "whole_keep": false,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    },
+    {
+      "id": "pipeline_background:009:000",
+      "page": "manga109:Count3DeKimeteAgeru:077",
+      "whole_keep": false,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    },
+    {
+      "id": "pipeline_background:009:001",
+      "page": "manga109:Count3DeKimeteAgeru:077",
+      "whole_keep": true,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    },
+    {
+      "id": "pipeline_background:010:000",
+      "page": "manga109:DollGun:031",
+      "whole_keep": true,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    },
+    {
+      "id": "pipeline_background:011:001",
+      "page": "manga109:Donburakokko:063",
+      "whole_keep": false,
+      "local_keep": false,
+      "forced_page_quarantine": true
+    }
+  ],
+  "source_sha256": "f64892726851dd03e59a5c479c29fd8eba4efb2b14d969cbd2e9970a81bd1e7b",
+  "script_sha256": "35c9e5b23c07d1593017424e3943341cc4bcfb020839a488e3604ebf411e0c7a",
+  "guard_shas": {
+    "cascade_auto_pipeline_backgrounds_v1_guard": "2d6591b4bd77aa774d35f284664633d2a3c463410d28b55af86bd9fee575e2c6",
+    "cascade_auto_pipeline_backgrounds_v1_context_guard": "36aa742483d17c25f736b40bdc8c9c1b5f540986d3919b2acee73b70350fba2a"
+  },
+  "limitation": "Replays saved predictions and verifies source image hashes; does not independently rerun neural teachers or certify all accepted windows."
+}

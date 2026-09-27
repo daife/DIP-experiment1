@@ -1,0 +1,5984 @@
+{
+  "split": "validation",
+  "selection": "fixed step5-comparison SHA-256 order; round robin 20 pages, max 2 per work",
+  "step": 2,
+  "scale_factor": 1.2,
+  "first_nms": 0.5,
+  "final_nms": 0.3,
+  "thresholds": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "timing": "reused cached proposals/features; deployment latency not measured",
+  "refiner_training_limitation": "refiner trained on old Cascade proposals; transfer to specified Cascade evaluated here",
+  "sha256": {
+    "datasets\\derived\\cascade_auto_scan_positive_localization_v1\\model.json": "b965e16dcbd2ee99a6e4a135a65603faf488b2839819aab94baf7c3ab981695f",
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "models\\box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43",
+    "models\\candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39",
+    "datasets\\derived\\cascade_auto_proposal_verifier_v4\\model.joblib": "886de38376630096051257d13fe17f37f06a3e1ce41bf45358b0c7f4d31b056e"
+  },
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "cache_sha256": "99239234df64b77eab5b619e2e718c0f129032689bac08add79c9c31e1948868",
+      "results": {
+        "old_raw_0": {
+          "tp": 4,
+          "fp": 447,
+          "fn": 1
+        },
+        "old_postnms_0": {
+          "tp": 3,
+          "fp": 204,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 3,
+          "fp": 175,
+          "fn": 2
+        },
+        "old_raw_0.25": {
+          "tp": 3,
+          "fp": 301,
+          "fn": 2
+        },
+        "old_postnms_0.25": {
+          "tp": 1,
+          "fp": 150,
+          "fn": 4
+        },
+        "old_refined_0.25": {
+          "tp": 2,
+          "fp": 136,
+          "fn": 3
+        },
+        "old_raw_0.5": {
+          "tp": 3,
+          "fp": 183,
+          "fn": 2
+        },
+        "old_postnms_0.5": {
+          "tp": 1,
+          "fp": 104,
+          "fn": 4
+        },
+        "old_refined_0.5": {
+          "tp": 2,
+          "fp": 95,
+          "fn": 3
+        },
+        "old_raw_0.75": {
+          "tp": 3,
+          "fp": 120,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 1,
+          "fp": 74,
+          "fn": 4
+        },
+        "old_refined_0.75": {
+          "tp": 2,
+          "fp": 70,
+          "fn": 3
+        },
+        "old_raw_1": {
+          "tp": 3,
+          "fp": 77,
+          "fn": 2
+        },
+        "old_postnms_1": {
+          "tp": 1,
+          "fp": 54,
+          "fn": 4
+        },
+        "old_refined_1": {
+          "tp": 2,
+          "fp": 49,
+          "fn": 3
+        },
+        "old_raw_1.25": {
+          "tp": 1,
+          "fp": 42,
+          "fn": 4
+        },
+        "old_postnms_1.25": {
+          "tp": 1,
+          "fp": 33,
+          "fn": 4
+        },
+        "old_refined_1.25": {
+          "tp": 2,
+          "fp": 30,
+          "fn": 3
+        },
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 26,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 21,
+          "fn": 4
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 3
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 18,
+          "fn": 4
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 14,
+          "fn": 4
+        },
+        "old_refined_1.75": {
+          "tp": 2,
+          "fp": 13,
+          "fn": 3
+        },
+        "old_raw_2": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 4
+        },
+        "old_postnms_2": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 4
+        },
+        "old_refined_2": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 3
+        },
+        "tight_raw_0": {
+          "tp": 4,
+          "fp": 279,
+          "fn": 1
+        },
+        "tight_postnms_0": {
+          "tp": 4,
+          "fp": 141,
+          "fn": 1
+        },
+        "tight_refined_0": {
+          "tp": 4,
+          "fp": 130,
+          "fn": 1
+        },
+        "tight_raw_0.25": {
+          "tp": 4,
+          "fp": 184,
+          "fn": 1
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 103,
+          "fn": 1
+        },
+        "tight_refined_0.25": {
+          "tp": 4,
+          "fp": 96,
+          "fn": 1
+        },
+        "tight_raw_0.5": {
+          "tp": 4,
+          "fp": 119,
+          "fn": 1
+        },
+        "tight_postnms_0.5": {
+          "tp": 4,
+          "fp": 68,
+          "fn": 1
+        },
+        "tight_refined_0.5": {
+          "tp": 4,
+          "fp": 64,
+          "fn": 1
+        },
+        "tight_raw_0.75": {
+          "tp": 4,
+          "fp": 74,
+          "fn": 1
+        },
+        "tight_postnms_0.75": {
+          "tp": 4,
+          "fp": 46,
+          "fn": 1
+        },
+        "tight_refined_0.75": {
+          "tp": 4,
+          "fp": 42,
+          "fn": 1
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 50,
+          "fn": 2
+        },
+        "tight_postnms_1": {
+          "tp": 3,
+          "fp": 28,
+          "fn": 2
+        },
+        "tight_refined_1": {
+          "tp": 3,
+          "fp": 26,
+          "fn": 2
+        },
+        "tight_raw_1.25": {
+          "tp": 3,
+          "fp": 33,
+          "fn": 2
+        },
+        "tight_postnms_1.25": {
+          "tp": 2,
+          "fp": 19,
+          "fn": 3
+        },
+        "tight_refined_1.25": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 2
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 18,
+          "fn": 3
+        },
+        "tight_postnms_1.5": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 4
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 3
+        },
+        "tight_raw_1.75": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 3
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 4
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 3
+        },
+        "tight_raw_2": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 4
+        },
+        "tight_postnms_2": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 4
+        },
+        "tight_refined_2": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 4
+        }
+      }
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "cache_sha256": "e647255ad1ecae8e7618f295ac11989d4f8a91bfc12283e5f86dadc1b29a3a0a",
+      "results": {
+        "old_raw_0": {
+          "tp": 5,
+          "fp": 376,
+          "fn": 4
+        },
+        "old_postnms_0": {
+          "tp": 4,
+          "fp": 181,
+          "fn": 5
+        },
+        "old_refined_0": {
+          "tp": 6,
+          "fp": 163,
+          "fn": 3
+        },
+        "old_raw_0.25": {
+          "tp": 5,
+          "fp": 263,
+          "fn": 4
+        },
+        "old_postnms_0.25": {
+          "tp": 4,
+          "fp": 141,
+          "fn": 5
+        },
+        "old_refined_0.25": {
+          "tp": 6,
+          "fp": 131,
+          "fn": 3
+        },
+        "old_raw_0.5": {
+          "tp": 5,
+          "fp": 172,
+          "fn": 4
+        },
+        "old_postnms_0.5": {
+          "tp": 4,
+          "fp": 95,
+          "fn": 5
+        },
+        "old_refined_0.5": {
+          "tp": 6,
+          "fp": 90,
+          "fn": 3
+        },
+        "old_raw_0.75": {
+          "tp": 4,
+          "fp": 112,
+          "fn": 5
+        },
+        "old_postnms_0.75": {
+          "tp": 3,
+          "fp": 69,
+          "fn": 6
+        },
+        "old_refined_0.75": {
+          "tp": 5,
+          "fp": 65,
+          "fn": 4
+        },
+        "old_raw_1": {
+          "tp": 4,
+          "fp": 72,
+          "fn": 5
+        },
+        "old_postnms_1": {
+          "tp": 3,
+          "fp": 50,
+          "fn": 6
+        },
+        "old_refined_1": {
+          "tp": 5,
+          "fp": 46,
+          "fn": 4
+        },
+        "old_raw_1.25": {
+          "tp": 4,
+          "fp": 43,
+          "fn": 5
+        },
+        "old_postnms_1.25": {
+          "tp": 3,
+          "fp": 33,
+          "fn": 6
+        },
+        "old_refined_1.25": {
+          "tp": 5,
+          "fp": 31,
+          "fn": 4
+        },
+        "old_raw_1.5": {
+          "tp": 3,
+          "fp": 23,
+          "fn": 6
+        },
+        "old_postnms_1.5": {
+          "tp": 3,
+          "fp": 20,
+          "fn": 6
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 18,
+          "fn": 4
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 15,
+          "fn": 8
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 8
+        },
+        "old_refined_1.75": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 6
+        },
+        "old_raw_2": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 8
+        },
+        "old_postnms_2": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 8
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 6
+        },
+        "tight_raw_0": {
+          "tp": 8,
+          "fp": 207,
+          "fn": 1
+        },
+        "tight_postnms_0": {
+          "tp": 4,
+          "fp": 107,
+          "fn": 5
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 100,
+          "fn": 2
+        },
+        "tight_raw_0.25": {
+          "tp": 6,
+          "fp": 141,
+          "fn": 3
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 78,
+          "fn": 5
+        },
+        "tight_refined_0.25": {
+          "tp": 6,
+          "fp": 73,
+          "fn": 3
+        },
+        "tight_raw_0.5": {
+          "tp": 5,
+          "fp": 91,
+          "fn": 4
+        },
+        "tight_postnms_0.5": {
+          "tp": 4,
+          "fp": 50,
+          "fn": 5
+        },
+        "tight_refined_0.5": {
+          "tp": 6,
+          "fp": 46,
+          "fn": 3
+        },
+        "tight_raw_0.75": {
+          "tp": 5,
+          "fp": 57,
+          "fn": 4
+        },
+        "tight_postnms_0.75": {
+          "tp": 4,
+          "fp": 34,
+          "fn": 5
+        },
+        "tight_refined_0.75": {
+          "tp": 6,
+          "fp": 32,
+          "fn": 3
+        },
+        "tight_raw_1": {
+          "tp": 5,
+          "fp": 36,
+          "fn": 4
+        },
+        "tight_postnms_1": {
+          "tp": 4,
+          "fp": 26,
+          "fn": 5
+        },
+        "tight_refined_1": {
+          "tp": 6,
+          "fp": 23,
+          "fn": 3
+        },
+        "tight_raw_1.25": {
+          "tp": 4,
+          "fp": 23,
+          "fn": 5
+        },
+        "tight_postnms_1.25": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 6
+        },
+        "tight_refined_1.25": {
+          "tp": 5,
+          "fp": 15,
+          "fn": 4
+        },
+        "tight_raw_1.5": {
+          "tp": 3,
+          "fp": 11,
+          "fn": 6
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 7
+        },
+        "tight_refined_1.5": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 5
+        },
+        "tight_raw_1.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 7
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 6
+        },
+        "tight_raw_2": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 7
+        },
+        "tight_postnms_2": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 8
+        },
+        "tight_refined_2": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 7
+        }
+      }
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "cache_sha256": "e3c670a13192d94b18168c52afb2fccceda76fe17ccda8bf26a55fac4ab4b6d6",
+      "results": {
+        "old_raw_0": {
+          "tp": 8,
+          "fp": 284,
+          "fn": 0
+        },
+        "old_postnms_0": {
+          "tp": 8,
+          "fp": 136,
+          "fn": 0
+        },
+        "old_refined_0": {
+          "tp": 7,
+          "fp": 127,
+          "fn": 1
+        },
+        "old_raw_0.25": {
+          "tp": 8,
+          "fp": 185,
+          "fn": 0
+        },
+        "old_postnms_0.25": {
+          "tp": 8,
+          "fp": 95,
+          "fn": 0
+        },
+        "old_refined_0.25": {
+          "tp": 7,
+          "fp": 92,
+          "fn": 1
+        },
+        "old_raw_0.5": {
+          "tp": 7,
+          "fp": 115,
+          "fn": 1
+        },
+        "old_postnms_0.5": {
+          "tp": 7,
+          "fp": 66,
+          "fn": 1
+        },
+        "old_refined_0.5": {
+          "tp": 7,
+          "fp": 66,
+          "fn": 1
+        },
+        "old_raw_0.75": {
+          "tp": 6,
+          "fp": 68,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 6,
+          "fp": 44,
+          "fn": 2
+        },
+        "old_refined_0.75": {
+          "tp": 6,
+          "fp": 45,
+          "fn": 2
+        },
+        "old_raw_1": {
+          "tp": 6,
+          "fp": 43,
+          "fn": 2
+        },
+        "old_postnms_1": {
+          "tp": 6,
+          "fp": 28,
+          "fn": 2
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 29,
+          "fn": 2
+        },
+        "old_raw_1.25": {
+          "tp": 6,
+          "fp": 22,
+          "fn": 2
+        },
+        "old_postnms_1.25": {
+          "tp": 6,
+          "fp": 17,
+          "fn": 2
+        },
+        "old_refined_1.25": {
+          "tp": 6,
+          "fp": 17,
+          "fn": 2
+        },
+        "old_raw_1.5": {
+          "tp": 5,
+          "fp": 9,
+          "fn": 3
+        },
+        "old_postnms_1.5": {
+          "tp": 5,
+          "fp": 6,
+          "fn": 3
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 5,
+          "fn": 3
+        },
+        "old_raw_1.75": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 4
+        },
+        "old_postnms_1.75": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 4
+        },
+        "old_refined_1.75": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 4
+        },
+        "old_raw_2": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 6
+        },
+        "old_refined_2": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_raw_0": {
+          "tp": 8,
+          "fp": 182,
+          "fn": 0
+        },
+        "tight_postnms_0": {
+          "tp": 8,
+          "fp": 103,
+          "fn": 0
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 101,
+          "fn": 1
+        },
+        "tight_raw_0.25": {
+          "tp": 8,
+          "fp": 109,
+          "fn": 0
+        },
+        "tight_postnms_0.25": {
+          "tp": 8,
+          "fp": 67,
+          "fn": 0
+        },
+        "tight_refined_0.25": {
+          "tp": 6,
+          "fp": 66,
+          "fn": 2
+        },
+        "tight_raw_0.5": {
+          "tp": 8,
+          "fp": 62,
+          "fn": 0
+        },
+        "tight_postnms_0.5": {
+          "tp": 8,
+          "fp": 40,
+          "fn": 0
+        },
+        "tight_refined_0.5": {
+          "tp": 6,
+          "fp": 41,
+          "fn": 2
+        },
+        "tight_raw_0.75": {
+          "tp": 8,
+          "fp": 37,
+          "fn": 0
+        },
+        "tight_postnms_0.75": {
+          "tp": 8,
+          "fp": 24,
+          "fn": 0
+        },
+        "tight_refined_0.75": {
+          "tp": 6,
+          "fp": 25,
+          "fn": 2
+        },
+        "tight_raw_1": {
+          "tp": 8,
+          "fp": 17,
+          "fn": 0
+        },
+        "tight_postnms_1": {
+          "tp": 8,
+          "fp": 10,
+          "fn": 0
+        },
+        "tight_refined_1": {
+          "tp": 6,
+          "fp": 11,
+          "fn": 2
+        },
+        "tight_raw_1.25": {
+          "tp": 6,
+          "fp": 9,
+          "fn": 2
+        },
+        "tight_postnms_1.25": {
+          "tp": 6,
+          "fp": 6,
+          "fn": 2
+        },
+        "tight_refined_1.25": {
+          "tp": 6,
+          "fp": 6,
+          "fn": 2
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 2
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 2
+        },
+        "tight_refined_1.5": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 2
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2
+        },
+        "tight_postnms_1.75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2
+        },
+        "tight_refined_1.75": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 2
+        },
+        "tight_raw_2": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 5
+        },
+        "tight_postnms_2": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 5
+        },
+        "tight_refined_2": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 5
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "cache_sha256": "f365ff31df544694dcbffc61fef33e2ab90f71573a8d740158a9d2d482cc1116",
+      "results": {
+        "old_raw_0": {
+          "tp": 9,
+          "fp": 530,
+          "fn": 2
+        },
+        "old_postnms_0": {
+          "tp": 9,
+          "fp": 242,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 8,
+          "fp": 222,
+          "fn": 3
+        },
+        "old_raw_0.25": {
+          "tp": 9,
+          "fp": 358,
+          "fn": 2
+        },
+        "old_postnms_0.25": {
+          "tp": 9,
+          "fp": 178,
+          "fn": 2
+        },
+        "old_refined_0.25": {
+          "tp": 8,
+          "fp": 167,
+          "fn": 3
+        },
+        "old_raw_0.5": {
+          "tp": 9,
+          "fp": 243,
+          "fn": 2
+        },
+        "old_postnms_0.5": {
+          "tp": 9,
+          "fp": 133,
+          "fn": 2
+        },
+        "old_refined_0.5": {
+          "tp": 8,
+          "fp": 127,
+          "fn": 3
+        },
+        "old_raw_0.75": {
+          "tp": 9,
+          "fp": 151,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 8,
+          "fp": 92,
+          "fn": 3
+        },
+        "old_refined_0.75": {
+          "tp": 8,
+          "fp": 91,
+          "fn": 3
+        },
+        "old_raw_1": {
+          "tp": 7,
+          "fp": 86,
+          "fn": 4
+        },
+        "old_postnms_1": {
+          "tp": 6,
+          "fp": 61,
+          "fn": 5
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 61,
+          "fn": 5
+        },
+        "old_raw_1.25": {
+          "tp": 6,
+          "fp": 46,
+          "fn": 5
+        },
+        "old_postnms_1.25": {
+          "tp": 6,
+          "fp": 35,
+          "fn": 5
+        },
+        "old_refined_1.25": {
+          "tp": 6,
+          "fp": 35,
+          "fn": 5
+        },
+        "old_raw_1.5": {
+          "tp": 5,
+          "fp": 32,
+          "fn": 6
+        },
+        "old_postnms_1.5": {
+          "tp": 5,
+          "fp": 26,
+          "fn": 6
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 26,
+          "fn": 6
+        },
+        "old_raw_1.75": {
+          "tp": 5,
+          "fp": 18,
+          "fn": 6
+        },
+        "old_postnms_1.75": {
+          "tp": 5,
+          "fp": 16,
+          "fn": 6
+        },
+        "old_refined_1.75": {
+          "tp": 5,
+          "fp": 16,
+          "fn": 6
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 8
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 8
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 8
+        },
+        "tight_raw_0": {
+          "tp": 9,
+          "fp": 276,
+          "fn": 2
+        },
+        "tight_postnms_0": {
+          "tp": 9,
+          "fp": 151,
+          "fn": 2
+        },
+        "tight_refined_0": {
+          "tp": 9,
+          "fp": 141,
+          "fn": 2
+        },
+        "tight_raw_0.25": {
+          "tp": 9,
+          "fp": 167,
+          "fn": 2
+        },
+        "tight_postnms_0.25": {
+          "tp": 9,
+          "fp": 97,
+          "fn": 2
+        },
+        "tight_refined_0.25": {
+          "tp": 9,
+          "fp": 95,
+          "fn": 2
+        },
+        "tight_raw_0.5": {
+          "tp": 7,
+          "fp": 112,
+          "fn": 4
+        },
+        "tight_postnms_0.5": {
+          "tp": 7,
+          "fp": 69,
+          "fn": 4
+        },
+        "tight_refined_0.5": {
+          "tp": 7,
+          "fp": 67,
+          "fn": 4
+        },
+        "tight_raw_0.75": {
+          "tp": 7,
+          "fp": 58,
+          "fn": 4
+        },
+        "tight_postnms_0.75": {
+          "tp": 7,
+          "fp": 37,
+          "fn": 4
+        },
+        "tight_refined_0.75": {
+          "tp": 7,
+          "fp": 36,
+          "fn": 4
+        },
+        "tight_raw_1": {
+          "tp": 7,
+          "fp": 37,
+          "fn": 4
+        },
+        "tight_postnms_1": {
+          "tp": 7,
+          "fp": 23,
+          "fn": 4
+        },
+        "tight_refined_1": {
+          "tp": 7,
+          "fp": 22,
+          "fn": 4
+        },
+        "tight_raw_1.25": {
+          "tp": 6,
+          "fp": 20,
+          "fn": 5
+        },
+        "tight_postnms_1.25": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 5
+        },
+        "tight_refined_1.25": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 5
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 14,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 9,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 6,
+          "fp": 9,
+          "fn": 5
+        },
+        "tight_raw_1.75": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 8
+        },
+        "tight_raw_2": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 10
+        },
+        "tight_postnms_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 10
+        },
+        "tight_refined_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 10
+        }
+      }
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "cache_sha256": "e579d175125508acdfae01df236f40482743f3894aa31cd84b470ff9d88c4f5f",
+      "results": {
+        "old_raw_0": {
+          "tp": 9,
+          "fp": 725,
+          "fn": 0
+        },
+        "old_postnms_0": {
+          "tp": 7,
+          "fp": 308,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 7,
+          "fp": 271,
+          "fn": 2
+        },
+        "old_raw_0.25": {
+          "tp": 8,
+          "fp": 513,
+          "fn": 1
+        },
+        "old_postnms_0.25": {
+          "tp": 6,
+          "fp": 232,
+          "fn": 3
+        },
+        "old_refined_0.25": {
+          "tp": 7,
+          "fp": 220,
+          "fn": 2
+        },
+        "old_raw_0.5": {
+          "tp": 8,
+          "fp": 353,
+          "fn": 1
+        },
+        "old_postnms_0.5": {
+          "tp": 6,
+          "fp": 175,
+          "fn": 3
+        },
+        "old_refined_0.5": {
+          "tp": 7,
+          "fp": 162,
+          "fn": 2
+        },
+        "old_raw_0.75": {
+          "tp": 7,
+          "fp": 222,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 5,
+          "fp": 119,
+          "fn": 4
+        },
+        "old_refined_0.75": {
+          "tp": 7,
+          "fp": 105,
+          "fn": 2
+        },
+        "old_raw_1": {
+          "tp": 6,
+          "fp": 140,
+          "fn": 3
+        },
+        "old_postnms_1": {
+          "tp": 4,
+          "fp": 84,
+          "fn": 5
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 75,
+          "fn": 3
+        },
+        "old_raw_1.25": {
+          "tp": 6,
+          "fp": 71,
+          "fn": 3
+        },
+        "old_postnms_1.25": {
+          "tp": 4,
+          "fp": 49,
+          "fn": 5
+        },
+        "old_refined_1.25": {
+          "tp": 5,
+          "fp": 45,
+          "fn": 4
+        },
+        "old_raw_1.5": {
+          "tp": 6,
+          "fp": 50,
+          "fn": 3
+        },
+        "old_postnms_1.5": {
+          "tp": 4,
+          "fp": 37,
+          "fn": 5
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 34,
+          "fn": 4
+        },
+        "old_raw_1.75": {
+          "tp": 5,
+          "fp": 27,
+          "fn": 4
+        },
+        "old_postnms_1.75": {
+          "tp": 4,
+          "fp": 22,
+          "fn": 5
+        },
+        "old_refined_1.75": {
+          "tp": 5,
+          "fp": 20,
+          "fn": 4
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 14,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 11,
+          "fn": 6
+        },
+        "old_refined_2": {
+          "tp": 4,
+          "fp": 10,
+          "fn": 5
+        },
+        "tight_raw_0": {
+          "tp": 9,
+          "fp": 421,
+          "fn": 0
+        },
+        "tight_postnms_0": {
+          "tp": 8,
+          "fp": 204,
+          "fn": 1
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 190,
+          "fn": 2
+        },
+        "tight_raw_0.25": {
+          "tp": 7,
+          "fp": 275,
+          "fn": 2
+        },
+        "tight_postnms_0.25": {
+          "tp": 6,
+          "fp": 141,
+          "fn": 3
+        },
+        "tight_refined_0.25": {
+          "tp": 7,
+          "fp": 129,
+          "fn": 2
+        },
+        "tight_raw_0.5": {
+          "tp": 7,
+          "fp": 180,
+          "fn": 2
+        },
+        "tight_postnms_0.5": {
+          "tp": 6,
+          "fp": 96,
+          "fn": 3
+        },
+        "tight_refined_0.5": {
+          "tp": 6,
+          "fp": 92,
+          "fn": 3
+        },
+        "tight_raw_0.75": {
+          "tp": 7,
+          "fp": 121,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 6,
+          "fp": 74,
+          "fn": 3
+        },
+        "tight_refined_0.75": {
+          "tp": 6,
+          "fp": 70,
+          "fn": 3
+        },
+        "tight_raw_1": {
+          "tp": 7,
+          "fp": 75,
+          "fn": 2
+        },
+        "tight_postnms_1": {
+          "tp": 6,
+          "fp": 47,
+          "fn": 3
+        },
+        "tight_refined_1": {
+          "tp": 5,
+          "fp": 45,
+          "fn": 4
+        },
+        "tight_raw_1.25": {
+          "tp": 7,
+          "fp": 49,
+          "fn": 2
+        },
+        "tight_postnms_1.25": {
+          "tp": 5,
+          "fp": 31,
+          "fn": 4
+        },
+        "tight_refined_1.25": {
+          "tp": 5,
+          "fp": 30,
+          "fn": 4
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 27,
+          "fn": 3
+        },
+        "tight_postnms_1.5": {
+          "tp": 4,
+          "fp": 18,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 5,
+          "fp": 17,
+          "fn": 4
+        },
+        "tight_raw_1.75": {
+          "tp": 5,
+          "fp": 22,
+          "fn": 4
+        },
+        "tight_postnms_1.75": {
+          "tp": 4,
+          "fp": 15,
+          "fn": 5
+        },
+        "tight_refined_1.75": {
+          "tp": 5,
+          "fp": 14,
+          "fn": 4
+        },
+        "tight_raw_2": {
+          "tp": 5,
+          "fp": 12,
+          "fn": 4
+        },
+        "tight_postnms_2": {
+          "tp": 4,
+          "fp": 10,
+          "fn": 5
+        },
+        "tight_refined_2": {
+          "tp": 5,
+          "fp": 9,
+          "fn": 4
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "cache_sha256": "70d4788faa76d170ff92c95cd7134c80d236f08ce8562453bf249c47e337d136",
+      "results": {
+        "old_raw_0": {
+          "tp": 11,
+          "fp": 583,
+          "fn": 0
+        },
+        "old_postnms_0": {
+          "tp": 9,
+          "fp": 268,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 11,
+          "fp": 226,
+          "fn": 0
+        },
+        "old_raw_0.25": {
+          "tp": 11,
+          "fp": 376,
+          "fn": 0
+        },
+        "old_postnms_0.25": {
+          "tp": 9,
+          "fp": 184,
+          "fn": 2
+        },
+        "old_refined_0.25": {
+          "tp": 11,
+          "fp": 161,
+          "fn": 0
+        },
+        "old_raw_0.5": {
+          "tp": 10,
+          "fp": 247,
+          "fn": 1
+        },
+        "old_postnms_0.5": {
+          "tp": 9,
+          "fp": 136,
+          "fn": 2
+        },
+        "old_refined_0.5": {
+          "tp": 9,
+          "fp": 122,
+          "fn": 2
+        },
+        "old_raw_0.75": {
+          "tp": 9,
+          "fp": 154,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 8,
+          "fp": 86,
+          "fn": 3
+        },
+        "old_refined_0.75": {
+          "tp": 6,
+          "fp": 80,
+          "fn": 5
+        },
+        "old_raw_1": {
+          "tp": 8,
+          "fp": 99,
+          "fn": 3
+        },
+        "old_postnms_1": {
+          "tp": 7,
+          "fp": 57,
+          "fn": 4
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 53,
+          "fn": 5
+        },
+        "old_raw_1.25": {
+          "tp": 8,
+          "fp": 50,
+          "fn": 3
+        },
+        "old_postnms_1.25": {
+          "tp": 7,
+          "fp": 34,
+          "fn": 4
+        },
+        "old_refined_1.25": {
+          "tp": 6,
+          "fp": 33,
+          "fn": 5
+        },
+        "old_raw_1.5": {
+          "tp": 7,
+          "fp": 26,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 6,
+          "fp": 17,
+          "fn": 5
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 17,
+          "fn": 6
+        },
+        "old_raw_1.75": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 5
+        },
+        "old_postnms_1.75": {
+          "tp": 5,
+          "fp": 11,
+          "fn": 6
+        },
+        "old_refined_1.75": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 7
+        },
+        "old_raw_2": {
+          "tp": 5,
+          "fp": 7,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 7
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 8
+        },
+        "tight_raw_0": {
+          "tp": 11,
+          "fp": 316,
+          "fn": 0
+        },
+        "tight_postnms_0": {
+          "tp": 10,
+          "fp": 159,
+          "fn": 1
+        },
+        "tight_refined_0": {
+          "tp": 10,
+          "fp": 145,
+          "fn": 1
+        },
+        "tight_raw_0.25": {
+          "tp": 11,
+          "fp": 196,
+          "fn": 0
+        },
+        "tight_postnms_0.25": {
+          "tp": 10,
+          "fp": 106,
+          "fn": 1
+        },
+        "tight_refined_0.25": {
+          "tp": 10,
+          "fp": 98,
+          "fn": 1
+        },
+        "tight_raw_0.5": {
+          "tp": 10,
+          "fp": 130,
+          "fn": 1
+        },
+        "tight_postnms_0.5": {
+          "tp": 10,
+          "fp": 71,
+          "fn": 1
+        },
+        "tight_refined_0.5": {
+          "tp": 8,
+          "fp": 68,
+          "fn": 3
+        },
+        "tight_raw_0.75": {
+          "tp": 9,
+          "fp": 86,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 9,
+          "fp": 51,
+          "fn": 2
+        },
+        "tight_refined_0.75": {
+          "tp": 7,
+          "fp": 49,
+          "fn": 4
+        },
+        "tight_raw_1": {
+          "tp": 9,
+          "fp": 39,
+          "fn": 2
+        },
+        "tight_postnms_1": {
+          "tp": 9,
+          "fp": 24,
+          "fn": 2
+        },
+        "tight_refined_1": {
+          "tp": 7,
+          "fp": 21,
+          "fn": 4
+        },
+        "tight_raw_1.25": {
+          "tp": 6,
+          "fp": 23,
+          "fn": 5
+        },
+        "tight_postnms_1.25": {
+          "tp": 6,
+          "fp": 14,
+          "fn": 5
+        },
+        "tight_refined_1.25": {
+          "tp": 5,
+          "fp": 13,
+          "fn": 6
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 7,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 5,
+          "fp": 5,
+          "fn": 6
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 4,
+          "fn": 5
+        },
+        "tight_postnms_1.75": {
+          "tp": 6,
+          "fp": 2,
+          "fn": 5
+        },
+        "tight_refined_1.75": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 6
+        },
+        "tight_raw_2": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 7
+        },
+        "tight_postnms_2": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 7
+        },
+        "tight_refined_2": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 8
+        }
+      }
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "cache_sha256": "46099fdf1b374d74abd33ba6283e9374523fa7724787169045ac4c296721261c",
+      "results": {
+        "old_raw_0": {
+          "tp": 8,
+          "fp": 643,
+          "fn": 6
+        },
+        "old_postnms_0": {
+          "tp": 5,
+          "fp": 295,
+          "fn": 9
+        },
+        "old_refined_0": {
+          "tp": 9,
+          "fp": 241,
+          "fn": 5
+        },
+        "old_raw_0.25": {
+          "tp": 8,
+          "fp": 434,
+          "fn": 6
+        },
+        "old_postnms_0.25": {
+          "tp": 5,
+          "fp": 216,
+          "fn": 9
+        },
+        "old_refined_0.25": {
+          "tp": 8,
+          "fp": 181,
+          "fn": 6
+        },
+        "old_raw_0.5": {
+          "tp": 8,
+          "fp": 275,
+          "fn": 6
+        },
+        "old_postnms_0.5": {
+          "tp": 5,
+          "fp": 137,
+          "fn": 9
+        },
+        "old_refined_0.5": {
+          "tp": 7,
+          "fp": 116,
+          "fn": 7
+        },
+        "old_raw_0.75": {
+          "tp": 7,
+          "fp": 192,
+          "fn": 7
+        },
+        "old_postnms_0.75": {
+          "tp": 5,
+          "fp": 100,
+          "fn": 9
+        },
+        "old_refined_0.75": {
+          "tp": 7,
+          "fp": 83,
+          "fn": 7
+        },
+        "old_raw_1": {
+          "tp": 6,
+          "fp": 135,
+          "fn": 8
+        },
+        "old_postnms_1": {
+          "tp": 5,
+          "fp": 78,
+          "fn": 9
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 67,
+          "fn": 8
+        },
+        "old_raw_1.25": {
+          "tp": 6,
+          "fp": 76,
+          "fn": 8
+        },
+        "old_postnms_1.25": {
+          "tp": 5,
+          "fp": 45,
+          "fn": 9
+        },
+        "old_refined_1.25": {
+          "tp": 6,
+          "fp": 45,
+          "fn": 8
+        },
+        "old_raw_1.5": {
+          "tp": 5,
+          "fp": 40,
+          "fn": 9
+        },
+        "old_postnms_1.5": {
+          "tp": 4,
+          "fp": 28,
+          "fn": 10
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 28,
+          "fn": 9
+        },
+        "old_raw_1.75": {
+          "tp": 5,
+          "fp": 22,
+          "fn": 9
+        },
+        "old_postnms_1.75": {
+          "tp": 4,
+          "fp": 19,
+          "fn": 10
+        },
+        "old_refined_1.75": {
+          "tp": 5,
+          "fp": 18,
+          "fn": 9
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 11
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 11
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 11
+        },
+        "tight_raw_0": {
+          "tp": 10,
+          "fp": 360,
+          "fn": 4
+        },
+        "tight_postnms_0": {
+          "tp": 7,
+          "fp": 182,
+          "fn": 7
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 159,
+          "fn": 7
+        },
+        "tight_raw_0.25": {
+          "tp": 10,
+          "fp": 224,
+          "fn": 4
+        },
+        "tight_postnms_0.25": {
+          "tp": 7,
+          "fp": 121,
+          "fn": 7
+        },
+        "tight_refined_0.25": {
+          "tp": 7,
+          "fp": 105,
+          "fn": 7
+        },
+        "tight_raw_0.5": {
+          "tp": 9,
+          "fp": 163,
+          "fn": 5
+        },
+        "tight_postnms_0.5": {
+          "tp": 6,
+          "fp": 87,
+          "fn": 8
+        },
+        "tight_refined_0.5": {
+          "tp": 6,
+          "fp": 79,
+          "fn": 8
+        },
+        "tight_raw_0.75": {
+          "tp": 8,
+          "fp": 109,
+          "fn": 6
+        },
+        "tight_postnms_0.75": {
+          "tp": 6,
+          "fp": 59,
+          "fn": 8
+        },
+        "tight_refined_0.75": {
+          "tp": 4,
+          "fp": 57,
+          "fn": 10
+        },
+        "tight_raw_1": {
+          "tp": 7,
+          "fp": 72,
+          "fn": 7
+        },
+        "tight_postnms_1": {
+          "tp": 6,
+          "fp": 40,
+          "fn": 8
+        },
+        "tight_refined_1": {
+          "tp": 4,
+          "fp": 42,
+          "fn": 10
+        },
+        "tight_raw_1.25": {
+          "tp": 6,
+          "fp": 38,
+          "fn": 8
+        },
+        "tight_postnms_1.25": {
+          "tp": 5,
+          "fp": 23,
+          "fn": 9
+        },
+        "tight_refined_1.25": {
+          "tp": 4,
+          "fp": 22,
+          "fn": 10
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 24,
+          "fn": 8
+        },
+        "tight_postnms_1.5": {
+          "tp": 5,
+          "fp": 17,
+          "fn": 9
+        },
+        "tight_refined_1.5": {
+          "tp": 4,
+          "fp": 17,
+          "fn": 10
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 16,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 5,
+          "fp": 12,
+          "fn": 9
+        },
+        "tight_refined_1.75": {
+          "tp": 4,
+          "fp": 13,
+          "fn": 10
+        },
+        "tight_raw_2": {
+          "tp": 4,
+          "fp": 10,
+          "fn": 10
+        },
+        "tight_postnms_2": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 10
+        },
+        "tight_refined_2": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 11
+        }
+      }
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "cache_sha256": "0b6cc864fd58163da800ed1f25f43c25f289dc666f78cb0fe762decf125c332e",
+      "results": {
+        "old_raw_0": {
+          "tp": 5,
+          "fp": 1336,
+          "fn": 1
+        },
+        "old_postnms_0": {
+          "tp": 4,
+          "fp": 465,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 5,
+          "fp": 473,
+          "fn": 1
+        },
+        "old_raw_0.25": {
+          "tp": 5,
+          "fp": 1021,
+          "fn": 1
+        },
+        "old_postnms_0.25": {
+          "tp": 4,
+          "fp": 397,
+          "fn": 2
+        },
+        "old_refined_0.25": {
+          "tp": 5,
+          "fp": 411,
+          "fn": 1
+        },
+        "old_raw_0.5": {
+          "tp": 4,
+          "fp": 709,
+          "fn": 2
+        },
+        "old_postnms_0.5": {
+          "tp": 4,
+          "fp": 322,
+          "fn": 2
+        },
+        "old_refined_0.5": {
+          "tp": 5,
+          "fp": 335,
+          "fn": 1
+        },
+        "old_raw_0.75": {
+          "tp": 4,
+          "fp": 465,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 3,
+          "fp": 245,
+          "fn": 3
+        },
+        "old_refined_0.75": {
+          "tp": 5,
+          "fp": 264,
+          "fn": 1
+        },
+        "old_raw_1": {
+          "tp": 3,
+          "fp": 257,
+          "fn": 3
+        },
+        "old_postnms_1": {
+          "tp": 2,
+          "fp": 165,
+          "fn": 4
+        },
+        "old_refined_1": {
+          "tp": 4,
+          "fp": 169,
+          "fn": 2
+        },
+        "old_raw_1.25": {
+          "tp": 2,
+          "fp": 144,
+          "fn": 4
+        },
+        "old_postnms_1.25": {
+          "tp": 2,
+          "fp": 103,
+          "fn": 4
+        },
+        "old_refined_1.25": {
+          "tp": 4,
+          "fp": 104,
+          "fn": 2
+        },
+        "old_raw_1.5": {
+          "tp": 2,
+          "fp": 77,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 2,
+          "fp": 63,
+          "fn": 4
+        },
+        "old_refined_1.5": {
+          "tp": 4,
+          "fp": 58,
+          "fn": 2
+        },
+        "old_raw_1.75": {
+          "tp": 0,
+          "fp": 35,
+          "fn": 6
+        },
+        "old_postnms_1.75": {
+          "tp": 0,
+          "fp": 32,
+          "fn": 6
+        },
+        "old_refined_1.75": {
+          "tp": 0,
+          "fp": 31,
+          "fn": 6
+        },
+        "old_raw_2": {
+          "tp": 0,
+          "fp": 15,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 0,
+          "fp": 14,
+          "fn": 6
+        },
+        "old_refined_2": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 6
+        },
+        "tight_raw_0": {
+          "tp": 4,
+          "fp": 526,
+          "fn": 2
+        },
+        "tight_postnms_0": {
+          "tp": 4,
+          "fp": 274,
+          "fn": 2
+        },
+        "tight_refined_0": {
+          "tp": 5,
+          "fp": 286,
+          "fn": 1
+        },
+        "tight_raw_0.25": {
+          "tp": 4,
+          "fp": 322,
+          "fn": 2
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 193,
+          "fn": 2
+        },
+        "tight_refined_0.25": {
+          "tp": 5,
+          "fp": 208,
+          "fn": 1
+        },
+        "tight_raw_0.5": {
+          "tp": 4,
+          "fp": 178,
+          "fn": 2
+        },
+        "tight_postnms_0.5": {
+          "tp": 4,
+          "fp": 119,
+          "fn": 2
+        },
+        "tight_refined_0.5": {
+          "tp": 5,
+          "fp": 122,
+          "fn": 1
+        },
+        "tight_raw_0.75": {
+          "tp": 4,
+          "fp": 94,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 4,
+          "fp": 66,
+          "fn": 2
+        },
+        "tight_refined_0.75": {
+          "tp": 5,
+          "fp": 66,
+          "fn": 1
+        },
+        "tight_raw_1": {
+          "tp": 4,
+          "fp": 52,
+          "fn": 2
+        },
+        "tight_postnms_1": {
+          "tp": 4,
+          "fp": 43,
+          "fn": 2
+        },
+        "tight_refined_1": {
+          "tp": 5,
+          "fp": 40,
+          "fn": 1
+        },
+        "tight_raw_1.25": {
+          "tp": 3,
+          "fp": 26,
+          "fn": 3
+        },
+        "tight_postnms_1.25": {
+          "tp": 3,
+          "fp": 23,
+          "fn": 3
+        },
+        "tight_refined_1.25": {
+          "tp": 4,
+          "fp": 21,
+          "fn": 2
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 4
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 4
+        },
+        "tight_refined_1.5": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 3
+        },
+        "tight_raw_1.75": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 6
+        },
+        "tight_postnms_1.75": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 6
+        },
+        "tight_refined_1.75": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 6
+        },
+        "tight_raw_2": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_postnms_2": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_refined_2": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 6
+        }
+      }
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "cache_sha256": "f770310331f63db33eeadb17839b706e368cc7d1bad0045cfb16e3bc30f4f428",
+      "results": {
+        "old_raw_0": {
+          "tp": 15,
+          "fp": 1092,
+          "fn": 6
+        },
+        "old_postnms_0": {
+          "tp": 11,
+          "fp": 444,
+          "fn": 10
+        },
+        "old_refined_0": {
+          "tp": 14,
+          "fp": 425,
+          "fn": 7
+        },
+        "old_raw_0.25": {
+          "tp": 14,
+          "fp": 769,
+          "fn": 7
+        },
+        "old_postnms_0.25": {
+          "tp": 10,
+          "fp": 341,
+          "fn": 11
+        },
+        "old_refined_0.25": {
+          "tp": 13,
+          "fp": 335,
+          "fn": 8
+        },
+        "old_raw_0.5": {
+          "tp": 12,
+          "fp": 492,
+          "fn": 9
+        },
+        "old_postnms_0.5": {
+          "tp": 10,
+          "fp": 245,
+          "fn": 11
+        },
+        "old_refined_0.5": {
+          "tp": 13,
+          "fp": 246,
+          "fn": 8
+        },
+        "old_raw_0.75": {
+          "tp": 11,
+          "fp": 312,
+          "fn": 10
+        },
+        "old_postnms_0.75": {
+          "tp": 9,
+          "fp": 183,
+          "fn": 12
+        },
+        "old_refined_0.75": {
+          "tp": 10,
+          "fp": 183,
+          "fn": 11
+        },
+        "old_raw_1": {
+          "tp": 11,
+          "fp": 188,
+          "fn": 10
+        },
+        "old_postnms_1": {
+          "tp": 9,
+          "fp": 125,
+          "fn": 12
+        },
+        "old_refined_1": {
+          "tp": 10,
+          "fp": 123,
+          "fn": 11
+        },
+        "old_raw_1.25": {
+          "tp": 10,
+          "fp": 98,
+          "fn": 11
+        },
+        "old_postnms_1.25": {
+          "tp": 8,
+          "fp": 78,
+          "fn": 13
+        },
+        "old_refined_1.25": {
+          "tp": 9,
+          "fp": 74,
+          "fn": 12
+        },
+        "old_raw_1.5": {
+          "tp": 9,
+          "fp": 50,
+          "fn": 12
+        },
+        "old_postnms_1.5": {
+          "tp": 8,
+          "fp": 43,
+          "fn": 13
+        },
+        "old_refined_1.5": {
+          "tp": 9,
+          "fp": 40,
+          "fn": 12
+        },
+        "old_raw_1.75": {
+          "tp": 7,
+          "fp": 19,
+          "fn": 14
+        },
+        "old_postnms_1.75": {
+          "tp": 7,
+          "fp": 16,
+          "fn": 14
+        },
+        "old_refined_1.75": {
+          "tp": 8,
+          "fp": 15,
+          "fn": 13
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 8,
+          "fn": 18
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 18
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 18
+        },
+        "tight_raw_0": {
+          "tp": 17,
+          "fp": 574,
+          "fn": 4
+        },
+        "tight_postnms_0": {
+          "tp": 11,
+          "fp": 289,
+          "fn": 10
+        },
+        "tight_refined_0": {
+          "tp": 15,
+          "fp": 273,
+          "fn": 6
+        },
+        "tight_raw_0.25": {
+          "tp": 15,
+          "fp": 338,
+          "fn": 6
+        },
+        "tight_postnms_0.25": {
+          "tp": 10,
+          "fp": 201,
+          "fn": 11
+        },
+        "tight_refined_0.25": {
+          "tp": 13,
+          "fp": 192,
+          "fn": 8
+        },
+        "tight_raw_0.5": {
+          "tp": 12,
+          "fp": 210,
+          "fn": 9
+        },
+        "tight_postnms_0.5": {
+          "tp": 9,
+          "fp": 133,
+          "fn": 12
+        },
+        "tight_refined_0.5": {
+          "tp": 12,
+          "fp": 124,
+          "fn": 9
+        },
+        "tight_raw_0.75": {
+          "tp": 10,
+          "fp": 118,
+          "fn": 11
+        },
+        "tight_postnms_0.75": {
+          "tp": 8,
+          "fp": 73,
+          "fn": 13
+        },
+        "tight_refined_0.75": {
+          "tp": 9,
+          "fp": 69,
+          "fn": 12
+        },
+        "tight_raw_1": {
+          "tp": 9,
+          "fp": 62,
+          "fn": 12
+        },
+        "tight_postnms_1": {
+          "tp": 7,
+          "fp": 35,
+          "fn": 14
+        },
+        "tight_refined_1": {
+          "tp": 8,
+          "fp": 34,
+          "fn": 13
+        },
+        "tight_raw_1.25": {
+          "tp": 9,
+          "fp": 31,
+          "fn": 12
+        },
+        "tight_postnms_1.25": {
+          "tp": 7,
+          "fp": 20,
+          "fn": 14
+        },
+        "tight_refined_1.25": {
+          "tp": 8,
+          "fp": 20,
+          "fn": 13
+        },
+        "tight_raw_1.5": {
+          "tp": 8,
+          "fp": 16,
+          "fn": 13
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 12,
+          "fn": 15
+        },
+        "tight_refined_1.5": {
+          "tp": 7,
+          "fp": 12,
+          "fn": 14
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 11,
+          "fn": 15
+        },
+        "tight_postnms_1.75": {
+          "tp": 5,
+          "fp": 10,
+          "fn": 16
+        },
+        "tight_refined_1.75": {
+          "tp": 6,
+          "fp": 9,
+          "fn": 15
+        },
+        "tight_raw_2": {
+          "tp": 5,
+          "fp": 6,
+          "fn": 16
+        },
+        "tight_postnms_2": {
+          "tp": 5,
+          "fp": 6,
+          "fn": 16
+        },
+        "tight_refined_2": {
+          "tp": 6,
+          "fp": 5,
+          "fn": 15
+        }
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "cache_sha256": "e36b58ac806b5ce34dba92f21db2f54c7f5faa29f1bee829333ee1bdbec5883a",
+      "results": {
+        "old_raw_0": {
+          "tp": 11,
+          "fp": 466,
+          "fn": 3
+        },
+        "old_postnms_0": {
+          "tp": 9,
+          "fp": 200,
+          "fn": 5
+        },
+        "old_refined_0": {
+          "tp": 9,
+          "fp": 178,
+          "fn": 5
+        },
+        "old_raw_0.25": {
+          "tp": 11,
+          "fp": 321,
+          "fn": 3
+        },
+        "old_postnms_0.25": {
+          "tp": 9,
+          "fp": 153,
+          "fn": 5
+        },
+        "old_refined_0.25": {
+          "tp": 9,
+          "fp": 143,
+          "fn": 5
+        },
+        "old_raw_0.5": {
+          "tp": 11,
+          "fp": 189,
+          "fn": 3
+        },
+        "old_postnms_0.5": {
+          "tp": 8,
+          "fp": 102,
+          "fn": 6
+        },
+        "old_refined_0.5": {
+          "tp": 8,
+          "fp": 95,
+          "fn": 6
+        },
+        "old_raw_0.75": {
+          "tp": 11,
+          "fp": 106,
+          "fn": 3
+        },
+        "old_postnms_0.75": {
+          "tp": 7,
+          "fp": 62,
+          "fn": 7
+        },
+        "old_refined_0.75": {
+          "tp": 8,
+          "fp": 55,
+          "fn": 6
+        },
+        "old_raw_1": {
+          "tp": 10,
+          "fp": 63,
+          "fn": 4
+        },
+        "old_postnms_1": {
+          "tp": 7,
+          "fp": 36,
+          "fn": 7
+        },
+        "old_refined_1": {
+          "tp": 7,
+          "fp": 31,
+          "fn": 7
+        },
+        "old_raw_1.25": {
+          "tp": 9,
+          "fp": 40,
+          "fn": 5
+        },
+        "old_postnms_1.25": {
+          "tp": 7,
+          "fp": 23,
+          "fn": 7
+        },
+        "old_refined_1.25": {
+          "tp": 7,
+          "fp": 21,
+          "fn": 7
+        },
+        "old_raw_1.5": {
+          "tp": 9,
+          "fp": 22,
+          "fn": 5
+        },
+        "old_postnms_1.5": {
+          "tp": 7,
+          "fp": 13,
+          "fn": 7
+        },
+        "old_refined_1.5": {
+          "tp": 7,
+          "fp": 12,
+          "fn": 7
+        },
+        "old_raw_1.75": {
+          "tp": 9,
+          "fp": 12,
+          "fn": 5
+        },
+        "old_postnms_1.75": {
+          "tp": 7,
+          "fp": 6,
+          "fn": 7
+        },
+        "old_refined_1.75": {
+          "tp": 7,
+          "fp": 5,
+          "fn": 7
+        },
+        "old_raw_2": {
+          "tp": 7,
+          "fp": 9,
+          "fn": 7
+        },
+        "old_postnms_2": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 7
+        },
+        "old_refined_2": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 7
+        },
+        "tight_raw_0": {
+          "tp": 11,
+          "fp": 268,
+          "fn": 3
+        },
+        "tight_postnms_0": {
+          "tp": 9,
+          "fp": 129,
+          "fn": 5
+        },
+        "tight_refined_0": {
+          "tp": 10,
+          "fp": 107,
+          "fn": 4
+        },
+        "tight_raw_0.25": {
+          "tp": 11,
+          "fp": 181,
+          "fn": 3
+        },
+        "tight_postnms_0.25": {
+          "tp": 9,
+          "fp": 84,
+          "fn": 5
+        },
+        "tight_refined_0.25": {
+          "tp": 10,
+          "fp": 72,
+          "fn": 4
+        },
+        "tight_raw_0.5": {
+          "tp": 11,
+          "fp": 113,
+          "fn": 3
+        },
+        "tight_postnms_0.5": {
+          "tp": 9,
+          "fp": 60,
+          "fn": 5
+        },
+        "tight_refined_0.5": {
+          "tp": 10,
+          "fp": 53,
+          "fn": 4
+        },
+        "tight_raw_0.75": {
+          "tp": 10,
+          "fp": 73,
+          "fn": 4
+        },
+        "tight_postnms_0.75": {
+          "tp": 9,
+          "fp": 41,
+          "fn": 5
+        },
+        "tight_refined_0.75": {
+          "tp": 10,
+          "fp": 34,
+          "fn": 4
+        },
+        "tight_raw_1": {
+          "tp": 10,
+          "fp": 49,
+          "fn": 4
+        },
+        "tight_postnms_1": {
+          "tp": 9,
+          "fp": 26,
+          "fn": 5
+        },
+        "tight_refined_1": {
+          "tp": 9,
+          "fp": 22,
+          "fn": 5
+        },
+        "tight_raw_1.25": {
+          "tp": 9,
+          "fp": 29,
+          "fn": 5
+        },
+        "tight_postnms_1.25": {
+          "tp": 9,
+          "fp": 12,
+          "fn": 5
+        },
+        "tight_refined_1.25": {
+          "tp": 9,
+          "fp": 11,
+          "fn": 5
+        },
+        "tight_raw_1.5": {
+          "tp": 9,
+          "fp": 19,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 9,
+          "fp": 6,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 9,
+          "fp": 5,
+          "fn": 5
+        },
+        "tight_raw_1.75": {
+          "tp": 8,
+          "fp": 8,
+          "fn": 6
+        },
+        "tight_postnms_1.75": {
+          "tp": 8,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_refined_1.75": {
+          "tp": 8,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_raw_2": {
+          "tp": 7,
+          "fp": 3,
+          "fn": 7
+        },
+        "tight_postnms_2": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 7
+        },
+        "tight_refined_2": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 7
+        }
+      }
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "cache_sha256": "b5c4bb70fcede2e4533f8b48790a93f988d1e8e22f5467d33f1ff92ad8f914a5",
+      "results": {
+        "old_raw_0": {
+          "tp": 11,
+          "fp": 535,
+          "fn": 1
+        },
+        "old_postnms_0": {
+          "tp": 10,
+          "fp": 232,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 9,
+          "fp": 215,
+          "fn": 3
+        },
+        "old_raw_0.25": {
+          "tp": 10,
+          "fp": 380,
+          "fn": 2
+        },
+        "old_postnms_0.25": {
+          "tp": 9,
+          "fp": 171,
+          "fn": 3
+        },
+        "old_refined_0.25": {
+          "tp": 8,
+          "fp": 164,
+          "fn": 4
+        },
+        "old_raw_0.5": {
+          "tp": 10,
+          "fp": 262,
+          "fn": 2
+        },
+        "old_postnms_0.5": {
+          "tp": 8,
+          "fp": 131,
+          "fn": 4
+        },
+        "old_refined_0.5": {
+          "tp": 8,
+          "fp": 128,
+          "fn": 4
+        },
+        "old_raw_0.75": {
+          "tp": 10,
+          "fp": 169,
+          "fn": 2
+        },
+        "old_postnms_0.75": {
+          "tp": 8,
+          "fp": 99,
+          "fn": 4
+        },
+        "old_refined_0.75": {
+          "tp": 8,
+          "fp": 99,
+          "fn": 4
+        },
+        "old_raw_1": {
+          "tp": 9,
+          "fp": 97,
+          "fn": 3
+        },
+        "old_postnms_1": {
+          "tp": 7,
+          "fp": 66,
+          "fn": 5
+        },
+        "old_refined_1": {
+          "tp": 8,
+          "fp": 67,
+          "fn": 4
+        },
+        "old_raw_1.25": {
+          "tp": 9,
+          "fp": 55,
+          "fn": 3
+        },
+        "old_postnms_1.25": {
+          "tp": 7,
+          "fp": 41,
+          "fn": 5
+        },
+        "old_refined_1.25": {
+          "tp": 8,
+          "fp": 40,
+          "fn": 4
+        },
+        "old_raw_1.5": {
+          "tp": 8,
+          "fp": 30,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 7,
+          "fp": 25,
+          "fn": 5
+        },
+        "old_refined_1.5": {
+          "tp": 8,
+          "fp": 23,
+          "fn": 4
+        },
+        "old_raw_1.75": {
+          "tp": 7,
+          "fp": 14,
+          "fn": 5
+        },
+        "old_postnms_1.75": {
+          "tp": 6,
+          "fp": 12,
+          "fn": 6
+        },
+        "old_refined_1.75": {
+          "tp": 7,
+          "fp": 11,
+          "fn": 5
+        },
+        "old_raw_2": {
+          "tp": 4,
+          "fp": 10,
+          "fn": 8
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 9
+        },
+        "old_refined_2": {
+          "tp": 4,
+          "fp": 9,
+          "fn": 8
+        },
+        "tight_raw_0": {
+          "tp": 11,
+          "fp": 270,
+          "fn": 1
+        },
+        "tight_postnms_0": {
+          "tp": 9,
+          "fp": 137,
+          "fn": 3
+        },
+        "tight_refined_0": {
+          "tp": 10,
+          "fp": 135,
+          "fn": 2
+        },
+        "tight_raw_0.25": {
+          "tp": 10,
+          "fp": 169,
+          "fn": 2
+        },
+        "tight_postnms_0.25": {
+          "tp": 9,
+          "fp": 91,
+          "fn": 3
+        },
+        "tight_refined_0.25": {
+          "tp": 10,
+          "fp": 91,
+          "fn": 2
+        },
+        "tight_raw_0.5": {
+          "tp": 10,
+          "fp": 94,
+          "fn": 2
+        },
+        "tight_postnms_0.5": {
+          "tp": 9,
+          "fp": 51,
+          "fn": 3
+        },
+        "tight_refined_0.5": {
+          "tp": 10,
+          "fp": 49,
+          "fn": 2
+        },
+        "tight_raw_0.75": {
+          "tp": 10,
+          "fp": 58,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 9,
+          "fp": 31,
+          "fn": 3
+        },
+        "tight_refined_0.75": {
+          "tp": 10,
+          "fp": 29,
+          "fn": 2
+        },
+        "tight_raw_1": {
+          "tp": 10,
+          "fp": 35,
+          "fn": 2
+        },
+        "tight_postnms_1": {
+          "tp": 9,
+          "fp": 19,
+          "fn": 3
+        },
+        "tight_refined_1": {
+          "tp": 10,
+          "fp": 17,
+          "fn": 2
+        },
+        "tight_raw_1.25": {
+          "tp": 10,
+          "fp": 20,
+          "fn": 2
+        },
+        "tight_postnms_1.25": {
+          "tp": 9,
+          "fp": 14,
+          "fn": 3
+        },
+        "tight_refined_1.25": {
+          "tp": 10,
+          "fp": 12,
+          "fn": 2
+        },
+        "tight_raw_1.5": {
+          "tp": 9,
+          "fp": 9,
+          "fn": 3
+        },
+        "tight_postnms_1.5": {
+          "tp": 8,
+          "fp": 5,
+          "fn": 4
+        },
+        "tight_refined_1.5": {
+          "tp": 9,
+          "fp": 4,
+          "fn": 3
+        },
+        "tight_raw_1.75": {
+          "tp": 9,
+          "fp": 2,
+          "fn": 3
+        },
+        "tight_postnms_1.75": {
+          "tp": 8,
+          "fp": 1,
+          "fn": 4
+        },
+        "tight_refined_1.75": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 3
+        },
+        "tight_raw_2": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_postnms_2": {
+          "tp": 6,
+          "fp": 1,
+          "fn": 6
+        },
+        "tight_refined_2": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 5
+        }
+      }
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "cache_sha256": "8e0d0ea48b63944dc768515581093574cd827082e6c078d166f70cb316a6e047",
+      "results": {
+        "old_raw_0": {
+          "tp": 15,
+          "fp": 439,
+          "fn": 3
+        },
+        "old_postnms_0": {
+          "tp": 12,
+          "fp": 187,
+          "fn": 6
+        },
+        "old_refined_0": {
+          "tp": 12,
+          "fp": 179,
+          "fn": 6
+        },
+        "old_raw_0.25": {
+          "tp": 15,
+          "fp": 291,
+          "fn": 3
+        },
+        "old_postnms_0.25": {
+          "tp": 12,
+          "fp": 137,
+          "fn": 6
+        },
+        "old_refined_0.25": {
+          "tp": 12,
+          "fp": 134,
+          "fn": 6
+        },
+        "old_raw_0.5": {
+          "tp": 15,
+          "fp": 194,
+          "fn": 3
+        },
+        "old_postnms_0.5": {
+          "tp": 12,
+          "fp": 96,
+          "fn": 6
+        },
+        "old_refined_0.5": {
+          "tp": 12,
+          "fp": 99,
+          "fn": 6
+        },
+        "old_raw_0.75": {
+          "tp": 14,
+          "fp": 140,
+          "fn": 4
+        },
+        "old_postnms_0.75": {
+          "tp": 11,
+          "fp": 78,
+          "fn": 7
+        },
+        "old_refined_0.75": {
+          "tp": 11,
+          "fp": 79,
+          "fn": 7
+        },
+        "old_raw_1": {
+          "tp": 14,
+          "fp": 91,
+          "fn": 4
+        },
+        "old_postnms_1": {
+          "tp": 11,
+          "fp": 58,
+          "fn": 7
+        },
+        "old_refined_1": {
+          "tp": 11,
+          "fp": 57,
+          "fn": 7
+        },
+        "old_raw_1.25": {
+          "tp": 12,
+          "fp": 53,
+          "fn": 6
+        },
+        "old_postnms_1.25": {
+          "tp": 9,
+          "fp": 32,
+          "fn": 9
+        },
+        "old_refined_1.25": {
+          "tp": 10,
+          "fp": 29,
+          "fn": 8
+        },
+        "old_raw_1.5": {
+          "tp": 12,
+          "fp": 37,
+          "fn": 6
+        },
+        "old_postnms_1.5": {
+          "tp": 9,
+          "fp": 23,
+          "fn": 9
+        },
+        "old_refined_1.5": {
+          "tp": 10,
+          "fp": 20,
+          "fn": 8
+        },
+        "old_raw_1.75": {
+          "tp": 11,
+          "fp": 22,
+          "fn": 7
+        },
+        "old_postnms_1.75": {
+          "tp": 7,
+          "fp": 17,
+          "fn": 11
+        },
+        "old_refined_1.75": {
+          "tp": 9,
+          "fp": 13,
+          "fn": 9
+        },
+        "old_raw_2": {
+          "tp": 8,
+          "fp": 12,
+          "fn": 10
+        },
+        "old_postnms_2": {
+          "tp": 6,
+          "fp": 10,
+          "fn": 12
+        },
+        "old_refined_2": {
+          "tp": 7,
+          "fp": 8,
+          "fn": 11
+        },
+        "tight_raw_0": {
+          "tp": 15,
+          "fp": 300,
+          "fn": 3
+        },
+        "tight_postnms_0": {
+          "tp": 15,
+          "fp": 147,
+          "fn": 3
+        },
+        "tight_refined_0": {
+          "tp": 14,
+          "fp": 136,
+          "fn": 4
+        },
+        "tight_raw_0.25": {
+          "tp": 15,
+          "fp": 187,
+          "fn": 3
+        },
+        "tight_postnms_0.25": {
+          "tp": 15,
+          "fp": 97,
+          "fn": 3
+        },
+        "tight_refined_0.25": {
+          "tp": 13,
+          "fp": 93,
+          "fn": 5
+        },
+        "tight_raw_0.5": {
+          "tp": 15,
+          "fp": 119,
+          "fn": 3
+        },
+        "tight_postnms_0.5": {
+          "tp": 15,
+          "fp": 67,
+          "fn": 3
+        },
+        "tight_refined_0.5": {
+          "tp": 13,
+          "fp": 62,
+          "fn": 5
+        },
+        "tight_raw_0.75": {
+          "tp": 14,
+          "fp": 79,
+          "fn": 4
+        },
+        "tight_postnms_0.75": {
+          "tp": 14,
+          "fp": 48,
+          "fn": 4
+        },
+        "tight_refined_0.75": {
+          "tp": 12,
+          "fp": 46,
+          "fn": 6
+        },
+        "tight_raw_1": {
+          "tp": 13,
+          "fp": 50,
+          "fn": 5
+        },
+        "tight_postnms_1": {
+          "tp": 13,
+          "fp": 28,
+          "fn": 5
+        },
+        "tight_refined_1": {
+          "tp": 11,
+          "fp": 29,
+          "fn": 7
+        },
+        "tight_raw_1.25": {
+          "tp": 12,
+          "fp": 31,
+          "fn": 6
+        },
+        "tight_postnms_1.25": {
+          "tp": 12,
+          "fp": 15,
+          "fn": 6
+        },
+        "tight_refined_1.25": {
+          "tp": 11,
+          "fp": 16,
+          "fn": 7
+        },
+        "tight_raw_1.5": {
+          "tp": 11,
+          "fp": 19,
+          "fn": 7
+        },
+        "tight_postnms_1.5": {
+          "tp": 11,
+          "fp": 8,
+          "fn": 7
+        },
+        "tight_refined_1.5": {
+          "tp": 10,
+          "fp": 8,
+          "fn": 8
+        },
+        "tight_raw_1.75": {
+          "tp": 10,
+          "fp": 10,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 10,
+          "fp": 3,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 9
+        },
+        "tight_raw_2": {
+          "tp": 10,
+          "fp": 5,
+          "fn": 8
+        },
+        "tight_postnms_2": {
+          "tp": 10,
+          "fp": 2,
+          "fn": 8
+        },
+        "tight_refined_2": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 9
+        }
+      }
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "cache_sha256": "3bd39e485a93ffb429cb8883de1e5bea95a627f2359a50d1c846a63da8f925e0",
+      "results": {
+        "old_raw_0": {
+          "tp": 14,
+          "fp": 502,
+          "fn": 2
+        },
+        "old_postnms_0": {
+          "tp": 8,
+          "fp": 237,
+          "fn": 8
+        },
+        "old_refined_0": {
+          "tp": 8,
+          "fp": 211,
+          "fn": 8
+        },
+        "old_raw_0.25": {
+          "tp": 14,
+          "fp": 356,
+          "fn": 2
+        },
+        "old_postnms_0.25": {
+          "tp": 8,
+          "fp": 187,
+          "fn": 8
+        },
+        "old_refined_0.25": {
+          "tp": 8,
+          "fp": 167,
+          "fn": 8
+        },
+        "old_raw_0.5": {
+          "tp": 13,
+          "fp": 236,
+          "fn": 3
+        },
+        "old_postnms_0.5": {
+          "tp": 6,
+          "fp": 135,
+          "fn": 10
+        },
+        "old_refined_0.5": {
+          "tp": 8,
+          "fp": 120,
+          "fn": 8
+        },
+        "old_raw_0.75": {
+          "tp": 12,
+          "fp": 151,
+          "fn": 4
+        },
+        "old_postnms_0.75": {
+          "tp": 6,
+          "fp": 93,
+          "fn": 10
+        },
+        "old_refined_0.75": {
+          "tp": 8,
+          "fp": 81,
+          "fn": 8
+        },
+        "old_raw_1": {
+          "tp": 9,
+          "fp": 98,
+          "fn": 7
+        },
+        "old_postnms_1": {
+          "tp": 4,
+          "fp": 66,
+          "fn": 12
+        },
+        "old_refined_1": {
+          "tp": 7,
+          "fp": 55,
+          "fn": 9
+        },
+        "old_raw_1.25": {
+          "tp": 7,
+          "fp": 57,
+          "fn": 9
+        },
+        "old_postnms_1.25": {
+          "tp": 4,
+          "fp": 43,
+          "fn": 12
+        },
+        "old_refined_1.25": {
+          "tp": 7,
+          "fp": 35,
+          "fn": 9
+        },
+        "old_raw_1.5": {
+          "tp": 6,
+          "fp": 29,
+          "fn": 10
+        },
+        "old_postnms_1.5": {
+          "tp": 4,
+          "fp": 22,
+          "fn": 12
+        },
+        "old_refined_1.5": {
+          "tp": 6,
+          "fp": 20,
+          "fn": 10
+        },
+        "old_raw_1.75": {
+          "tp": 5,
+          "fp": 19,
+          "fn": 11
+        },
+        "old_postnms_1.75": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 13
+        },
+        "old_refined_1.75": {
+          "tp": 6,
+          "fp": 15,
+          "fn": 10
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 13
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 10,
+          "fn": 13
+        },
+        "old_refined_2": {
+          "tp": 4,
+          "fp": 9,
+          "fn": 12
+        },
+        "tight_raw_0": {
+          "tp": 14,
+          "fp": 353,
+          "fn": 2
+        },
+        "tight_postnms_0": {
+          "tp": 10,
+          "fp": 171,
+          "fn": 6
+        },
+        "tight_refined_0": {
+          "tp": 12,
+          "fp": 152,
+          "fn": 4
+        },
+        "tight_raw_0.25": {
+          "tp": 13,
+          "fp": 236,
+          "fn": 3
+        },
+        "tight_postnms_0.25": {
+          "tp": 10,
+          "fp": 130,
+          "fn": 6
+        },
+        "tight_refined_0.25": {
+          "tp": 12,
+          "fp": 119,
+          "fn": 4
+        },
+        "tight_raw_0.5": {
+          "tp": 11,
+          "fp": 136,
+          "fn": 5
+        },
+        "tight_postnms_0.5": {
+          "tp": 9,
+          "fp": 87,
+          "fn": 7
+        },
+        "tight_refined_0.5": {
+          "tp": 12,
+          "fp": 79,
+          "fn": 4
+        },
+        "tight_raw_0.75": {
+          "tp": 11,
+          "fp": 88,
+          "fn": 5
+        },
+        "tight_postnms_0.75": {
+          "tp": 9,
+          "fp": 57,
+          "fn": 7
+        },
+        "tight_refined_0.75": {
+          "tp": 11,
+          "fp": 50,
+          "fn": 5
+        },
+        "tight_raw_1": {
+          "tp": 8,
+          "fp": 50,
+          "fn": 8
+        },
+        "tight_postnms_1": {
+          "tp": 8,
+          "fp": 33,
+          "fn": 8
+        },
+        "tight_refined_1": {
+          "tp": 9,
+          "fp": 31,
+          "fn": 7
+        },
+        "tight_raw_1.25": {
+          "tp": 8,
+          "fp": 30,
+          "fn": 8
+        },
+        "tight_postnms_1.25": {
+          "tp": 8,
+          "fp": 20,
+          "fn": 8
+        },
+        "tight_refined_1.25": {
+          "tp": 9,
+          "fp": 19,
+          "fn": 7
+        },
+        "tight_raw_1.5": {
+          "tp": 8,
+          "fp": 17,
+          "fn": 8
+        },
+        "tight_postnms_1.5": {
+          "tp": 8,
+          "fp": 13,
+          "fn": 8
+        },
+        "tight_refined_1.5": {
+          "tp": 9,
+          "fp": 12,
+          "fn": 7
+        },
+        "tight_raw_1.75": {
+          "tp": 8,
+          "fp": 11,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 8,
+          "fp": 9,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 9,
+          "fp": 8,
+          "fn": 7
+        },
+        "tight_raw_2": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 9
+        },
+        "tight_postnms_2": {
+          "tp": 7,
+          "fp": 3,
+          "fn": 9
+        },
+        "tight_refined_2": {
+          "tp": 8,
+          "fp": 2,
+          "fn": 8
+        }
+      }
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "cache_sha256": "76e25b37dd485c41fa9c92870bde57b8f930dac89644705e429b63a2c0f18bd2",
+      "results": {
+        "old_raw_0": {
+          "tp": 8,
+          "fp": 283,
+          "fn": 2
+        },
+        "old_postnms_0": {
+          "tp": 5,
+          "fp": 123,
+          "fn": 5
+        },
+        "old_refined_0": {
+          "tp": 6,
+          "fp": 120,
+          "fn": 4
+        },
+        "old_raw_0.25": {
+          "tp": 6,
+          "fp": 200,
+          "fn": 4
+        },
+        "old_postnms_0.25": {
+          "tp": 5,
+          "fp": 94,
+          "fn": 5
+        },
+        "old_refined_0.25": {
+          "tp": 5,
+          "fp": 91,
+          "fn": 5
+        },
+        "old_raw_0.5": {
+          "tp": 6,
+          "fp": 111,
+          "fn": 4
+        },
+        "old_postnms_0.5": {
+          "tp": 5,
+          "fp": 60,
+          "fn": 5
+        },
+        "old_refined_0.5": {
+          "tp": 5,
+          "fp": 53,
+          "fn": 5
+        },
+        "old_raw_0.75": {
+          "tp": 4,
+          "fp": 65,
+          "fn": 6
+        },
+        "old_postnms_0.75": {
+          "tp": 3,
+          "fp": 46,
+          "fn": 7
+        },
+        "old_refined_0.75": {
+          "tp": 4,
+          "fp": 42,
+          "fn": 6
+        },
+        "old_raw_1": {
+          "tp": 2,
+          "fp": 38,
+          "fn": 8
+        },
+        "old_postnms_1": {
+          "tp": 2,
+          "fp": 29,
+          "fn": 8
+        },
+        "old_refined_1": {
+          "tp": 2,
+          "fp": 27,
+          "fn": 8
+        },
+        "old_raw_1.25": {
+          "tp": 1,
+          "fp": 17,
+          "fn": 9
+        },
+        "old_postnms_1.25": {
+          "tp": 1,
+          "fp": 15,
+          "fn": 9
+        },
+        "old_refined_1.25": {
+          "tp": 1,
+          "fp": 15,
+          "fn": 9
+        },
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 9
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 9
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 9
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 9
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 9
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 9
+        },
+        "old_raw_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 10
+        },
+        "old_postnms_2": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "old_refined_2": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_raw_0": {
+          "tp": 6,
+          "fp": 146,
+          "fn": 4
+        },
+        "tight_postnms_0": {
+          "tp": 3,
+          "fp": 86,
+          "fn": 7
+        },
+        "tight_refined_0": {
+          "tp": 5,
+          "fp": 77,
+          "fn": 5
+        },
+        "tight_raw_0.25": {
+          "tp": 6,
+          "fp": 88,
+          "fn": 4
+        },
+        "tight_postnms_0.25": {
+          "tp": 3,
+          "fp": 58,
+          "fn": 7
+        },
+        "tight_refined_0.25": {
+          "tp": 5,
+          "fp": 54,
+          "fn": 5
+        },
+        "tight_raw_0.5": {
+          "tp": 5,
+          "fp": 59,
+          "fn": 5
+        },
+        "tight_postnms_0.5": {
+          "tp": 3,
+          "fp": 43,
+          "fn": 7
+        },
+        "tight_refined_0.5": {
+          "tp": 5,
+          "fp": 37,
+          "fn": 5
+        },
+        "tight_raw_0.75": {
+          "tp": 3,
+          "fp": 35,
+          "fn": 7
+        },
+        "tight_postnms_0.75": {
+          "tp": 2,
+          "fp": 25,
+          "fn": 8
+        },
+        "tight_refined_0.75": {
+          "tp": 3,
+          "fp": 21,
+          "fn": 7
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 24,
+          "fn": 7
+        },
+        "tight_postnms_1": {
+          "tp": 2,
+          "fp": 17,
+          "fn": 8
+        },
+        "tight_refined_1": {
+          "tp": 3,
+          "fp": 15,
+          "fn": 7
+        },
+        "tight_raw_1.25": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 8
+        },
+        "tight_postnms_1.25": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 8
+        },
+        "tight_refined_1.25": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 7
+        },
+        "tight_raw_1.5": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 9
+        },
+        "tight_postnms_1.5": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 9
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 8
+        },
+        "tight_raw_1.75": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_postnms_1.75": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_refined_1.75": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_raw_2": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_postnms_2": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        },
+        "tight_refined_2": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 10
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "cache_sha256": "612f0e526b602363a9bda696ef8e06cff2d8779fb467af310017d69437e3fb31",
+      "results": {
+        "old_raw_0": {
+          "tp": 7,
+          "fp": 639,
+          "fn": 0
+        },
+        "old_postnms_0": {
+          "tp": 5,
+          "fp": 291,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 6,
+          "fp": 258,
+          "fn": 1
+        },
+        "old_raw_0.25": {
+          "tp": 7,
+          "fp": 443,
+          "fn": 0
+        },
+        "old_postnms_0.25": {
+          "tp": 5,
+          "fp": 222,
+          "fn": 2
+        },
+        "old_refined_0.25": {
+          "tp": 6,
+          "fp": 208,
+          "fn": 1
+        },
+        "old_raw_0.5": {
+          "tp": 6,
+          "fp": 301,
+          "fn": 1
+        },
+        "old_postnms_0.5": {
+          "tp": 4,
+          "fp": 160,
+          "fn": 3
+        },
+        "old_refined_0.5": {
+          "tp": 5,
+          "fp": 152,
+          "fn": 2
+        },
+        "old_raw_0.75": {
+          "tp": 4,
+          "fp": 186,
+          "fn": 3
+        },
+        "old_postnms_0.75": {
+          "tp": 4,
+          "fp": 106,
+          "fn": 3
+        },
+        "old_refined_0.75": {
+          "tp": 5,
+          "fp": 98,
+          "fn": 2
+        },
+        "old_raw_1": {
+          "tp": 3,
+          "fp": 109,
+          "fn": 4
+        },
+        "old_postnms_1": {
+          "tp": 3,
+          "fp": 70,
+          "fn": 4
+        },
+        "old_refined_1": {
+          "tp": 4,
+          "fp": 65,
+          "fn": 3
+        },
+        "old_raw_1.25": {
+          "tp": 2,
+          "fp": 71,
+          "fn": 5
+        },
+        "old_postnms_1.25": {
+          "tp": 2,
+          "fp": 46,
+          "fn": 5
+        },
+        "old_refined_1.25": {
+          "tp": 2,
+          "fp": 45,
+          "fn": 5
+        },
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 37,
+          "fn": 6
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 28,
+          "fn": 6
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 28,
+          "fn": 6
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 20,
+          "fn": 6
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 16,
+          "fn": 6
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 16,
+          "fn": 6
+        },
+        "old_raw_2": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 6
+        },
+        "old_refined_2": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 6
+        },
+        "tight_raw_0": {
+          "tp": 7,
+          "fp": 330,
+          "fn": 0
+        },
+        "tight_postnms_0": {
+          "tp": 4,
+          "fp": 164,
+          "fn": 3
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 153,
+          "fn": 0
+        },
+        "tight_raw_0.25": {
+          "tp": 7,
+          "fp": 206,
+          "fn": 0
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 107,
+          "fn": 3
+        },
+        "tight_refined_0.25": {
+          "tp": 7,
+          "fp": 101,
+          "fn": 0
+        },
+        "tight_raw_0.5": {
+          "tp": 6,
+          "fp": 136,
+          "fn": 1
+        },
+        "tight_postnms_0.5": {
+          "tp": 4,
+          "fp": 73,
+          "fn": 3
+        },
+        "tight_refined_0.5": {
+          "tp": 5,
+          "fp": 68,
+          "fn": 2
+        },
+        "tight_raw_0.75": {
+          "tp": 5,
+          "fp": 81,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 4,
+          "fp": 50,
+          "fn": 3
+        },
+        "tight_refined_0.75": {
+          "tp": 4,
+          "fp": 47,
+          "fn": 3
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 53,
+          "fn": 4
+        },
+        "tight_postnms_1": {
+          "tp": 2,
+          "fp": 36,
+          "fn": 5
+        },
+        "tight_refined_1": {
+          "tp": 2,
+          "fp": 34,
+          "fn": 5
+        },
+        "tight_raw_1.25": {
+          "tp": 3,
+          "fp": 35,
+          "fn": 4
+        },
+        "tight_postnms_1.25": {
+          "tp": 2,
+          "fp": 25,
+          "fn": 5
+        },
+        "tight_refined_1.25": {
+          "tp": 2,
+          "fp": 24,
+          "fn": 5
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 14,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 14,
+          "fn": 5
+        },
+        "tight_raw_1.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 5
+        },
+        "tight_postnms_1.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 5
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 5
+        },
+        "tight_raw_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 7
+        },
+        "tight_postnms_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 7
+        },
+        "tight_refined_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 7
+        }
+      }
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "cache_sha256": "2f700f42a90af7d52d19dbdc401279fa3fd17459246a283624ae63352ce3d25a",
+      "results": {
+        "old_raw_0": {
+          "tp": 5,
+          "fp": 340,
+          "fn": 9
+        },
+        "old_postnms_0": {
+          "tp": 2,
+          "fp": 182,
+          "fn": 12
+        },
+        "old_refined_0": {
+          "tp": 3,
+          "fp": 170,
+          "fn": 11
+        },
+        "old_raw_0.25": {
+          "tp": 4,
+          "fp": 210,
+          "fn": 10
+        },
+        "old_postnms_0.25": {
+          "tp": 2,
+          "fp": 124,
+          "fn": 12
+        },
+        "old_refined_0.25": {
+          "tp": 2,
+          "fp": 116,
+          "fn": 12
+        },
+        "old_raw_0.5": {
+          "tp": 3,
+          "fp": 122,
+          "fn": 11
+        },
+        "old_postnms_0.5": {
+          "tp": 2,
+          "fp": 82,
+          "fn": 12
+        },
+        "old_refined_0.5": {
+          "tp": 2,
+          "fp": 76,
+          "fn": 12
+        },
+        "old_raw_0.75": {
+          "tp": 3,
+          "fp": 70,
+          "fn": 11
+        },
+        "old_postnms_0.75": {
+          "tp": 2,
+          "fp": 51,
+          "fn": 12
+        },
+        "old_refined_0.75": {
+          "tp": 2,
+          "fp": 50,
+          "fn": 12
+        },
+        "old_raw_1": {
+          "tp": 2,
+          "fp": 41,
+          "fn": 12
+        },
+        "old_postnms_1": {
+          "tp": 2,
+          "fp": 33,
+          "fn": 12
+        },
+        "old_refined_1": {
+          "tp": 2,
+          "fp": 31,
+          "fn": 12
+        },
+        "old_raw_1.25": {
+          "tp": 2,
+          "fp": 23,
+          "fn": 12
+        },
+        "old_postnms_1.25": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 12
+        },
+        "old_refined_1.25": {
+          "tp": 1,
+          "fp": 19,
+          "fn": 13
+        },
+        "old_raw_1.5": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 12
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 13
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 13
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 13
+        },
+        "old_postnms_1.75": {
+          "tp": 0,
+          "fp": 8,
+          "fn": 14
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 13
+        },
+        "old_raw_2": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 13
+        },
+        "old_postnms_2": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 14
+        },
+        "old_refined_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 13
+        },
+        "tight_raw_0": {
+          "tp": 6,
+          "fp": 259,
+          "fn": 8
+        },
+        "tight_postnms_0": {
+          "tp": 4,
+          "fp": 142,
+          "fn": 10
+        },
+        "tight_refined_0": {
+          "tp": 5,
+          "fp": 133,
+          "fn": 9
+        },
+        "tight_raw_0.25": {
+          "tp": 6,
+          "fp": 150,
+          "fn": 8
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 93,
+          "fn": 10
+        },
+        "tight_refined_0.25": {
+          "tp": 5,
+          "fp": 89,
+          "fn": 9
+        },
+        "tight_raw_0.5": {
+          "tp": 4,
+          "fp": 87,
+          "fn": 10
+        },
+        "tight_postnms_0.5": {
+          "tp": 3,
+          "fp": 58,
+          "fn": 11
+        },
+        "tight_refined_0.5": {
+          "tp": 4,
+          "fp": 54,
+          "fn": 10
+        },
+        "tight_raw_0.75": {
+          "tp": 4,
+          "fp": 51,
+          "fn": 10
+        },
+        "tight_postnms_0.75": {
+          "tp": 3,
+          "fp": 37,
+          "fn": 11
+        },
+        "tight_refined_0.75": {
+          "tp": 4,
+          "fp": 36,
+          "fn": 10
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 27,
+          "fn": 11
+        },
+        "tight_postnms_1": {
+          "tp": 2,
+          "fp": 20,
+          "fn": 12
+        },
+        "tight_refined_1": {
+          "tp": 2,
+          "fp": 19,
+          "fn": 12
+        },
+        "tight_raw_1.25": {
+          "tp": 2,
+          "fp": 17,
+          "fn": 12
+        },
+        "tight_postnms_1.25": {
+          "tp": 1,
+          "fp": 13,
+          "fn": 13
+        },
+        "tight_refined_1.25": {
+          "tp": 2,
+          "fp": 12,
+          "fn": 12
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 11,
+          "fn": 12
+        },
+        "tight_postnms_1.5": {
+          "tp": 1,
+          "fp": 9,
+          "fn": 13
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 12
+        },
+        "tight_raw_1.75": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 13
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 13
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 12
+        },
+        "tight_raw_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 13
+        },
+        "tight_postnms_2": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 13
+        },
+        "tight_refined_2": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 12
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "cache_sha256": "efca862b0e4e6f60c96b0689750faf1181afac378b9ca0ab30268b2ea3352594",
+      "results": {
+        "old_raw_0": {
+          "tp": 9,
+          "fp": 449,
+          "fn": 0
+        },
+        "old_postnms_0": {
+          "tp": 7,
+          "fp": 220,
+          "fn": 2
+        },
+        "old_refined_0": {
+          "tp": 6,
+          "fp": 198,
+          "fn": 3
+        },
+        "old_raw_0.25": {
+          "tp": 9,
+          "fp": 311,
+          "fn": 0
+        },
+        "old_postnms_0.25": {
+          "tp": 7,
+          "fp": 165,
+          "fn": 2
+        },
+        "old_refined_0.25": {
+          "tp": 6,
+          "fp": 149,
+          "fn": 3
+        },
+        "old_raw_0.5": {
+          "tp": 9,
+          "fp": 212,
+          "fn": 0
+        },
+        "old_postnms_0.5": {
+          "tp": 7,
+          "fp": 125,
+          "fn": 2
+        },
+        "old_refined_0.5": {
+          "tp": 6,
+          "fp": 113,
+          "fn": 3
+        },
+        "old_raw_0.75": {
+          "tp": 8,
+          "fp": 123,
+          "fn": 1
+        },
+        "old_postnms_0.75": {
+          "tp": 7,
+          "fp": 72,
+          "fn": 2
+        },
+        "old_refined_0.75": {
+          "tp": 6,
+          "fp": 68,
+          "fn": 3
+        },
+        "old_raw_1": {
+          "tp": 7,
+          "fp": 85,
+          "fn": 2
+        },
+        "old_postnms_1": {
+          "tp": 6,
+          "fp": 58,
+          "fn": 3
+        },
+        "old_refined_1": {
+          "tp": 6,
+          "fp": 52,
+          "fn": 3
+        },
+        "old_raw_1.25": {
+          "tp": 5,
+          "fp": 46,
+          "fn": 4
+        },
+        "old_postnms_1.25": {
+          "tp": 5,
+          "fp": 35,
+          "fn": 4
+        },
+        "old_refined_1.25": {
+          "tp": 4,
+          "fp": 33,
+          "fn": 5
+        },
+        "old_raw_1.5": {
+          "tp": 5,
+          "fp": 29,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 5,
+          "fp": 23,
+          "fn": 4
+        },
+        "old_refined_1.5": {
+          "tp": 4,
+          "fp": 21,
+          "fn": 5
+        },
+        "old_raw_1.75": {
+          "tp": 4,
+          "fp": 15,
+          "fn": 5
+        },
+        "old_postnms_1.75": {
+          "tp": 4,
+          "fp": 14,
+          "fn": 5
+        },
+        "old_refined_1.75": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 6
+        },
+        "old_raw_2": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 6
+        },
+        "old_postnms_2": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 6
+        },
+        "old_refined_2": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 6
+        },
+        "tight_raw_0": {
+          "tp": 9,
+          "fp": 244,
+          "fn": 0
+        },
+        "tight_postnms_0": {
+          "tp": 9,
+          "fp": 137,
+          "fn": 0
+        },
+        "tight_refined_0": {
+          "tp": 8,
+          "fp": 124,
+          "fn": 1
+        },
+        "tight_raw_0.25": {
+          "tp": 9,
+          "fp": 146,
+          "fn": 0
+        },
+        "tight_postnms_0.25": {
+          "tp": 9,
+          "fp": 80,
+          "fn": 0
+        },
+        "tight_refined_0.25": {
+          "tp": 8,
+          "fp": 73,
+          "fn": 1
+        },
+        "tight_raw_0.5": {
+          "tp": 9,
+          "fp": 89,
+          "fn": 0
+        },
+        "tight_postnms_0.5": {
+          "tp": 9,
+          "fp": 52,
+          "fn": 0
+        },
+        "tight_refined_0.5": {
+          "tp": 8,
+          "fp": 48,
+          "fn": 1
+        },
+        "tight_raw_0.75": {
+          "tp": 7,
+          "fp": 56,
+          "fn": 2
+        },
+        "tight_postnms_0.75": {
+          "tp": 5,
+          "fp": 37,
+          "fn": 4
+        },
+        "tight_refined_0.75": {
+          "tp": 5,
+          "fp": 32,
+          "fn": 4
+        },
+        "tight_raw_1": {
+          "tp": 6,
+          "fp": 42,
+          "fn": 3
+        },
+        "tight_postnms_1": {
+          "tp": 5,
+          "fp": 27,
+          "fn": 4
+        },
+        "tight_refined_1": {
+          "tp": 5,
+          "fp": 24,
+          "fn": 4
+        },
+        "tight_raw_1.25": {
+          "tp": 5,
+          "fp": 23,
+          "fn": 4
+        },
+        "tight_postnms_1.25": {
+          "tp": 5,
+          "fp": 15,
+          "fn": 4
+        },
+        "tight_refined_1.25": {
+          "tp": 5,
+          "fp": 14,
+          "fn": 4
+        },
+        "tight_raw_1.5": {
+          "tp": 4,
+          "fp": 14,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 4,
+          "fp": 11,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 4,
+          "fp": 10,
+          "fn": 5
+        },
+        "tight_raw_1.75": {
+          "tp": 4,
+          "fp": 6,
+          "fn": 5
+        },
+        "tight_postnms_1.75": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 5
+        },
+        "tight_refined_1.75": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 5
+        },
+        "tight_raw_2": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 6
+        },
+        "tight_postnms_2": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 6
+        },
+        "tight_refined_2": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 6
+        }
+      }
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "cache_sha256": "5fddbed845b8e429bdb454c1d6f65d92aad5ece35507192125c5269964be4277",
+      "results": {
+        "old_raw_0": {
+          "tp": 8,
+          "fp": 912,
+          "fn": 8
+        },
+        "old_postnms_0": {
+          "tp": 5,
+          "fp": 450,
+          "fn": 11
+        },
+        "old_refined_0": {
+          "tp": 8,
+          "fp": 412,
+          "fn": 8
+        },
+        "old_raw_0.25": {
+          "tp": 7,
+          "fp": 618,
+          "fn": 9
+        },
+        "old_postnms_0.25": {
+          "tp": 4,
+          "fp": 334,
+          "fn": 12
+        },
+        "old_refined_0.25": {
+          "tp": 7,
+          "fp": 318,
+          "fn": 9
+        },
+        "old_raw_0.5": {
+          "tp": 7,
+          "fp": 367,
+          "fn": 9
+        },
+        "old_postnms_0.5": {
+          "tp": 4,
+          "fp": 220,
+          "fn": 12
+        },
+        "old_refined_0.5": {
+          "tp": 6,
+          "fp": 214,
+          "fn": 10
+        },
+        "old_raw_0.75": {
+          "tp": 5,
+          "fp": 222,
+          "fn": 11
+        },
+        "old_postnms_0.75": {
+          "tp": 3,
+          "fp": 149,
+          "fn": 13
+        },
+        "old_refined_0.75": {
+          "tp": 5,
+          "fp": 141,
+          "fn": 11
+        },
+        "old_raw_1": {
+          "tp": 3,
+          "fp": 137,
+          "fn": 13
+        },
+        "old_postnms_1": {
+          "tp": 2,
+          "fp": 107,
+          "fn": 14
+        },
+        "old_refined_1": {
+          "tp": 3,
+          "fp": 102,
+          "fn": 13
+        },
+        "old_raw_1.25": {
+          "tp": 2,
+          "fp": 70,
+          "fn": 14
+        },
+        "old_postnms_1.25": {
+          "tp": 1,
+          "fp": 59,
+          "fn": 15
+        },
+        "old_refined_1.25": {
+          "tp": 2,
+          "fp": 57,
+          "fn": 14
+        },
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 36,
+          "fn": 15
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 32,
+          "fn": 15
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 30,
+          "fn": 14
+        },
+        "old_raw_1.75": {
+          "tp": 0,
+          "fp": 15,
+          "fn": 16
+        },
+        "old_postnms_1.75": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 16
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 15
+        },
+        "old_raw_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 16
+        },
+        "old_postnms_2": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 16
+        },
+        "old_refined_2": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 15
+        },
+        "tight_raw_0": {
+          "tp": 7,
+          "fp": 391,
+          "fn": 9
+        },
+        "tight_postnms_0": {
+          "tp": 5,
+          "fp": 231,
+          "fn": 11
+        },
+        "tight_refined_0": {
+          "tp": 7,
+          "fp": 220,
+          "fn": 9
+        },
+        "tight_raw_0.25": {
+          "tp": 6,
+          "fp": 246,
+          "fn": 10
+        },
+        "tight_postnms_0.25": {
+          "tp": 4,
+          "fp": 159,
+          "fn": 12
+        },
+        "tight_refined_0.25": {
+          "tp": 6,
+          "fp": 155,
+          "fn": 10
+        },
+        "tight_raw_0.5": {
+          "tp": 5,
+          "fp": 145,
+          "fn": 11
+        },
+        "tight_postnms_0.5": {
+          "tp": 3,
+          "fp": 105,
+          "fn": 13
+        },
+        "tight_refined_0.5": {
+          "tp": 5,
+          "fp": 101,
+          "fn": 11
+        },
+        "tight_raw_0.75": {
+          "tp": 4,
+          "fp": 76,
+          "fn": 12
+        },
+        "tight_postnms_0.75": {
+          "tp": 2,
+          "fp": 63,
+          "fn": 14
+        },
+        "tight_refined_0.75": {
+          "tp": 4,
+          "fp": 61,
+          "fn": 12
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 42,
+          "fn": 13
+        },
+        "tight_postnms_1": {
+          "tp": 2,
+          "fp": 38,
+          "fn": 14
+        },
+        "tight_refined_1": {
+          "tp": 3,
+          "fp": 37,
+          "fn": 13
+        },
+        "tight_raw_1.25": {
+          "tp": 3,
+          "fp": 22,
+          "fn": 13
+        },
+        "tight_postnms_1.25": {
+          "tp": 2,
+          "fp": 19,
+          "fn": 14
+        },
+        "tight_refined_1.25": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 13
+        },
+        "tight_raw_1.5": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 13
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 10,
+          "fn": 14
+        },
+        "tight_refined_1.5": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 13
+        },
+        "tight_raw_1.75": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 13
+        },
+        "tight_postnms_1.75": {
+          "tp": 2,
+          "fp": 5,
+          "fn": 14
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 5,
+          "fn": 14
+        },
+        "tight_raw_2": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 15
+        },
+        "tight_postnms_2": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 15
+        },
+        "tight_refined_2": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 15
+        }
+      }
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "cache_sha256": "060bda473e466c08e21edb0bc65740d766ad6f1e3ba78a5bded004f155abe2e2",
+      "results": {
+        "old_raw_0": {
+          "tp": 17,
+          "fp": 455,
+          "fn": 2
+        },
+        "old_postnms_0": {
+          "tp": 11,
+          "fp": 251,
+          "fn": 8
+        },
+        "old_refined_0": {
+          "tp": 12,
+          "fp": 229,
+          "fn": 7
+        },
+        "old_raw_0.25": {
+          "tp": 14,
+          "fp": 293,
+          "fn": 5
+        },
+        "old_postnms_0.25": {
+          "tp": 10,
+          "fp": 187,
+          "fn": 9
+        },
+        "old_refined_0.25": {
+          "tp": 11,
+          "fp": 171,
+          "fn": 8
+        },
+        "old_raw_0.5": {
+          "tp": 11,
+          "fp": 159,
+          "fn": 8
+        },
+        "old_postnms_0.5": {
+          "tp": 8,
+          "fp": 107,
+          "fn": 11
+        },
+        "old_refined_0.5": {
+          "tp": 11,
+          "fp": 103,
+          "fn": 8
+        },
+        "old_raw_0.75": {
+          "tp": 10,
+          "fp": 88,
+          "fn": 9
+        },
+        "old_postnms_0.75": {
+          "tp": 6,
+          "fp": 63,
+          "fn": 13
+        },
+        "old_refined_0.75": {
+          "tp": 8,
+          "fp": 61,
+          "fn": 11
+        },
+        "old_raw_1": {
+          "tp": 4,
+          "fp": 51,
+          "fn": 15
+        },
+        "old_postnms_1": {
+          "tp": 4,
+          "fp": 41,
+          "fn": 15
+        },
+        "old_refined_1": {
+          "tp": 5,
+          "fp": 39,
+          "fn": 14
+        },
+        "old_raw_1.25": {
+          "tp": 2,
+          "fp": 25,
+          "fn": 17
+        },
+        "old_postnms_1.25": {
+          "tp": 2,
+          "fp": 19,
+          "fn": 17
+        },
+        "old_refined_1.25": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 16
+        },
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 18
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 18
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 17
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 18
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 18
+        },
+        "old_refined_1.75": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 17
+        },
+        "old_raw_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 18
+        },
+        "old_postnms_2": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 18
+        },
+        "old_refined_2": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 17
+        },
+        "tight_raw_0": {
+          "tp": 13,
+          "fp": 261,
+          "fn": 6
+        },
+        "tight_postnms_0": {
+          "tp": 11,
+          "fp": 145,
+          "fn": 8
+        },
+        "tight_refined_0": {
+          "tp": 11,
+          "fp": 133,
+          "fn": 8
+        },
+        "tight_raw_0.25": {
+          "tp": 12,
+          "fp": 153,
+          "fn": 7
+        },
+        "tight_postnms_0.25": {
+          "tp": 11,
+          "fp": 93,
+          "fn": 8
+        },
+        "tight_refined_0.25": {
+          "tp": 9,
+          "fp": 87,
+          "fn": 10
+        },
+        "tight_raw_0.5": {
+          "tp": 9,
+          "fp": 92,
+          "fn": 10
+        },
+        "tight_postnms_0.5": {
+          "tp": 8,
+          "fp": 62,
+          "fn": 11
+        },
+        "tight_refined_0.5": {
+          "tp": 6,
+          "fp": 57,
+          "fn": 13
+        },
+        "tight_raw_0.75": {
+          "tp": 7,
+          "fp": 41,
+          "fn": 12
+        },
+        "tight_postnms_0.75": {
+          "tp": 5,
+          "fp": 30,
+          "fn": 14
+        },
+        "tight_refined_0.75": {
+          "tp": 6,
+          "fp": 27,
+          "fn": 13
+        },
+        "tight_raw_1": {
+          "tp": 3,
+          "fp": 24,
+          "fn": 16
+        },
+        "tight_postnms_1": {
+          "tp": 3,
+          "fp": 18,
+          "fn": 16
+        },
+        "tight_refined_1": {
+          "tp": 4,
+          "fp": 16,
+          "fn": 15
+        },
+        "tight_raw_1.25": {
+          "tp": 3,
+          "fp": 15,
+          "fn": 16
+        },
+        "tight_postnms_1.25": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 16
+        },
+        "tight_refined_1.25": {
+          "tp": 4,
+          "fp": 12,
+          "fn": 15
+        },
+        "tight_raw_1.5": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 18
+        },
+        "tight_postnms_1.5": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 18
+        },
+        "tight_refined_1.5": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 18
+        },
+        "tight_raw_1.75": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 19
+        },
+        "tight_postnms_1.75": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 19
+        },
+        "tight_refined_1.75": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 18
+        },
+        "tight_raw_2": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 19
+        },
+        "tight_postnms_2": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 19
+        },
+        "tight_refined_2": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 18
+        }
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "cache_sha256": "457710e2a72263db1350bc575f9dad2fcc2e1a7b6a73d748df6118207d8ad39c",
+      "results": {
+        "old_raw_0": {
+          "tp": 15,
+          "fp": 675,
+          "fn": 8
+        },
+        "old_postnms_0": {
+          "tp": 10,
+          "fp": 301,
+          "fn": 13
+        },
+        "old_refined_0": {
+          "tp": 12,
+          "fp": 268,
+          "fn": 11
+        },
+        "old_raw_0.25": {
+          "tp": 15,
+          "fp": 456,
+          "fn": 8
+        },
+        "old_postnms_0.25": {
+          "tp": 10,
+          "fp": 216,
+          "fn": 13
+        },
+        "old_refined_0.25": {
+          "tp": 12,
+          "fp": 192,
+          "fn": 11
+        },
+        "old_raw_0.5": {
+          "tp": 15,
+          "fp": 298,
+          "fn": 8
+        },
+        "old_postnms_0.5": {
+          "tp": 10,
+          "fp": 153,
+          "fn": 13
+        },
+        "old_refined_0.5": {
+          "tp": 12,
+          "fp": 138,
+          "fn": 11
+        },
+        "old_raw_0.75": {
+          "tp": 14,
+          "fp": 182,
+          "fn": 9
+        },
+        "old_postnms_0.75": {
+          "tp": 10,
+          "fp": 104,
+          "fn": 13
+        },
+        "old_refined_0.75": {
+          "tp": 12,
+          "fp": 93,
+          "fn": 11
+        },
+        "old_raw_1": {
+          "tp": 12,
+          "fp": 104,
+          "fn": 11
+        },
+        "old_postnms_1": {
+          "tp": 9,
+          "fp": 70,
+          "fn": 14
+        },
+        "old_refined_1": {
+          "tp": 11,
+          "fp": 67,
+          "fn": 12
+        },
+        "old_raw_1.25": {
+          "tp": 11,
+          "fp": 61,
+          "fn": 12
+        },
+        "old_postnms_1.25": {
+          "tp": 7,
+          "fp": 41,
+          "fn": 16
+        },
+        "old_refined_1.25": {
+          "tp": 11,
+          "fp": 37,
+          "fn": 12
+        },
+        "old_raw_1.5": {
+          "tp": 9,
+          "fp": 38,
+          "fn": 14
+        },
+        "old_postnms_1.5": {
+          "tp": 6,
+          "fp": 27,
+          "fn": 17
+        },
+        "old_refined_1.5": {
+          "tp": 10,
+          "fp": 23,
+          "fn": 13
+        },
+        "old_raw_1.75": {
+          "tp": 9,
+          "fp": 19,
+          "fn": 14
+        },
+        "old_postnms_1.75": {
+          "tp": 6,
+          "fp": 18,
+          "fn": 17
+        },
+        "old_refined_1.75": {
+          "tp": 10,
+          "fp": 14,
+          "fn": 13
+        },
+        "old_raw_2": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 17
+        },
+        "old_postnms_2": {
+          "tp": 4,
+          "fp": 13,
+          "fn": 19
+        },
+        "old_refined_2": {
+          "tp": 7,
+          "fp": 10,
+          "fn": 16
+        },
+        "tight_raw_0": {
+          "tp": 16,
+          "fp": 415,
+          "fn": 7
+        },
+        "tight_postnms_0": {
+          "tp": 13,
+          "fp": 195,
+          "fn": 10
+        },
+        "tight_refined_0": {
+          "tp": 14,
+          "fp": 189,
+          "fn": 9
+        },
+        "tight_raw_0.25": {
+          "tp": 16,
+          "fp": 249,
+          "fn": 7
+        },
+        "tight_postnms_0.25": {
+          "tp": 13,
+          "fp": 131,
+          "fn": 10
+        },
+        "tight_refined_0.25": {
+          "tp": 13,
+          "fp": 126,
+          "fn": 10
+        },
+        "tight_raw_0.5": {
+          "tp": 16,
+          "fp": 159,
+          "fn": 7
+        },
+        "tight_postnms_0.5": {
+          "tp": 13,
+          "fp": 88,
+          "fn": 10
+        },
+        "tight_refined_0.5": {
+          "tp": 13,
+          "fp": 81,
+          "fn": 10
+        },
+        "tight_raw_0.75": {
+          "tp": 15,
+          "fp": 95,
+          "fn": 8
+        },
+        "tight_postnms_0.75": {
+          "tp": 12,
+          "fp": 61,
+          "fn": 11
+        },
+        "tight_refined_0.75": {
+          "tp": 12,
+          "fp": 54,
+          "fn": 11
+        },
+        "tight_raw_1": {
+          "tp": 13,
+          "fp": 56,
+          "fn": 10
+        },
+        "tight_postnms_1": {
+          "tp": 9,
+          "fp": 38,
+          "fn": 14
+        },
+        "tight_refined_1": {
+          "tp": 10,
+          "fp": 35,
+          "fn": 13
+        },
+        "tight_raw_1.25": {
+          "tp": 11,
+          "fp": 35,
+          "fn": 12
+        },
+        "tight_postnms_1.25": {
+          "tp": 7,
+          "fp": 26,
+          "fn": 16
+        },
+        "tight_refined_1.25": {
+          "tp": 9,
+          "fp": 22,
+          "fn": 14
+        },
+        "tight_raw_1.5": {
+          "tp": 9,
+          "fp": 18,
+          "fn": 14
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 17,
+          "fn": 17
+        },
+        "tight_refined_1.5": {
+          "tp": 7,
+          "fp": 15,
+          "fn": 16
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 17
+        },
+        "tight_postnms_1.75": {
+          "tp": 5,
+          "fp": 12,
+          "fn": 18
+        },
+        "tight_refined_1.75": {
+          "tp": 7,
+          "fp": 10,
+          "fn": 16
+        },
+        "tight_raw_2": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 19
+        },
+        "tight_postnms_2": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 19
+        },
+        "tight_refined_2": {
+          "tp": 6,
+          "fp": 6,
+          "fn": 17
+        }
+      }
+    }
+  ],
+  "summary": {
+    "old_raw_0": {
+      "tp": 194,
+      "fp": 11711,
+      "fn": 58,
+      "precision": 0.01629567408651827,
+      "recall": 0.7698412698412699,
+      "f1": 0.03191576869293411
+    },
+    "old_raw_0.25": {
+      "tp": 183,
+      "fp": 8099,
+      "fn": 69,
+      "precision": 0.022096112050229412,
+      "recall": 0.7261904761904762,
+      "f1": 0.042887274431685024
+    },
+    "old_raw_0.5": {
+      "tp": 172,
+      "fp": 5240,
+      "fn": 80,
+      "precision": 0.031781226903178125,
+      "recall": 0.6825396825396826,
+      "f1": 0.06073446327683616
+    },
+    "old_raw_0.75": {
+      "tp": 155,
+      "fp": 3298,
+      "fn": 97,
+      "precision": 0.04488850275123081,
+      "recall": 0.6150793650793651,
+      "f1": 0.08367071524966262
+    },
+    "old_raw_1": {
+      "tp": 129,
+      "fp": 2011,
+      "fn": 123,
+      "precision": 0.0602803738317757,
+      "recall": 0.5119047619047619,
+      "f1": 0.10785953177257525
+    },
+    "old_raw_1.25": {
+      "tp": 111,
+      "fp": 1110,
+      "fn": 141,
+      "precision": 0.09090909090909091,
+      "recall": 0.44047619047619047,
+      "f1": 0.15071283095723015
+    },
+    "old_raw_1.5": {
+      "tp": 98,
+      "fp": 621,
+      "fn": 154,
+      "precision": 0.13630041724617525,
+      "recall": 0.3888888888888889,
+      "f1": 0.20185375901132852
+    },
+    "old_raw_1.75": {
+      "tp": 83,
+      "fp": 330,
+      "fn": 169,
+      "precision": 0.2009685230024213,
+      "recall": 0.32936507936507936,
+      "f1": 0.24962406015037594
+    },
+    "old_raw_2": {
+      "tp": 55,
+      "fp": 173,
+      "fn": 197,
+      "precision": 0.2412280701754386,
+      "recall": 0.21825396825396826,
+      "f1": 0.22916666666666666
+    },
+    "old_postnms_0": {
+      "tp": 144,
+      "fp": 5217,
+      "fn": 108,
+      "precision": 0.026860660324566313,
+      "recall": 0.5714285714285714,
+      "f1": 0.05130946018172101
+    },
+    "old_postnms_0.25": {
+      "tp": 137,
+      "fp": 3924,
+      "fn": 115,
+      "precision": 0.0337355331199212,
+      "recall": 0.5436507936507936,
+      "f1": 0.06352886621840946
+    },
+    "old_postnms_0.5": {
+      "tp": 129,
+      "fp": 2784,
+      "fn": 123,
+      "precision": 0.044284243048403706,
+      "recall": 0.5119047619047619,
+      "f1": 0.08151658767772511
+    },
+    "old_postnms_0.75": {
+      "tp": 115,
+      "fp": 1935,
+      "fn": 137,
+      "precision": 0.05609756097560976,
+      "recall": 0.45634920634920634,
+      "f1": 0.0999131190269331
+    },
+    "old_postnms_1": {
+      "tp": 100,
+      "fp": 1336,
+      "fn": 152,
+      "precision": 0.06963788300835655,
+      "recall": 0.3968253968253968,
+      "f1": 0.11848341232227488
+    },
+    "old_postnms_1.25": {
+      "tp": 89,
+      "fp": 801,
+      "fn": 163,
+      "precision": 0.1,
+      "recall": 0.3531746031746032,
+      "f1": 0.15586690017513136
+    },
+    "old_postnms_1.5": {
+      "tp": 81,
+      "fp": 480,
+      "fn": 171,
+      "precision": 0.1443850267379679,
+      "recall": 0.32142857142857145,
+      "f1": 0.1992619926199262
+    },
+    "old_postnms_1.75": {
+      "tp": 67,
+      "fp": 279,
+      "fn": 185,
+      "precision": 0.1936416184971098,
+      "recall": 0.26587301587301587,
+      "f1": 0.22408026755852842
+    },
+    "old_postnms_2": {
+      "tp": 48,
+      "fp": 149,
+      "fn": 204,
+      "precision": 0.2436548223350254,
+      "recall": 0.19047619047619047,
+      "f1": 0.21380846325167038
+    },
+    "old_refined_0": {
+      "tp": 161,
+      "fp": 4761,
+      "fn": 91,
+      "precision": 0.03271028037383177,
+      "recall": 0.6388888888888888,
+      "f1": 0.0622342481638964
+    },
+    "old_refined_0.25": {
+      "tp": 153,
+      "fp": 3687,
+      "fn": 99,
+      "precision": 0.03984375,
+      "recall": 0.6071428571428571,
+      "f1": 0.0747800586510264
+    },
+    "old_refined_0.5": {
+      "tp": 147,
+      "fp": 2650,
+      "fn": 105,
+      "precision": 0.05255631033249911,
+      "recall": 0.5833333333333334,
+      "f1": 0.0964250573958675
+    },
+    "old_refined_0.75": {
+      "tp": 133,
+      "fp": 1853,
+      "fn": 119,
+      "precision": 0.06696878147029205,
+      "recall": 0.5277777777777778,
+      "f1": 0.11885612153708669
+    },
+    "old_refined_1": {
+      "tp": 117,
+      "fp": 1265,
+      "fn": 135,
+      "precision": 0.08465991316931983,
+      "recall": 0.4642857142857143,
+      "f1": 0.14320685434516525
+    },
+    "old_refined_1.25": {
+      "tp": 105,
+      "fp": 763,
+      "fn": 147,
+      "precision": 0.12096774193548387,
+      "recall": 0.4166666666666667,
+      "f1": 0.1875
+    },
+    "old_refined_1.5": {
+      "tp": 97,
+      "fp": 447,
+      "fn": 155,
+      "precision": 0.17830882352941177,
+      "recall": 0.38492063492063494,
+      "f1": 0.24371859296482412
+    },
+    "old_refined_1.75": {
+      "tp": 84,
+      "fp": 255,
+      "fn": 168,
+      "precision": 0.24778761061946902,
+      "recall": 0.3333333333333333,
+      "f1": 0.28426395939086296
+    },
+    "old_refined_2": {
+      "tp": 60,
+      "fp": 134,
+      "fn": 192,
+      "precision": 0.30927835051546393,
+      "recall": 0.23809523809523808,
+      "f1": 0.26905829596412556
+    },
+    "tight_raw_0": {
+      "tp": 195,
+      "fp": 6378,
+      "fn": 57,
+      "precision": 0.029666818804198997,
+      "recall": 0.7738095238095238,
+      "f1": 0.05714285714285714
+    },
+    "tight_raw_0.25": {
+      "tp": 185,
+      "fp": 3967,
+      "fn": 67,
+      "precision": 0.044556840077071294,
+      "recall": 0.7341269841269841,
+      "f1": 0.08401453224341508
+    },
+    "tight_raw_0.5": {
+      "tp": 167,
+      "fp": 2474,
+      "fn": 85,
+      "precision": 0.06323362362741386,
+      "recall": 0.6626984126984127,
+      "f1": 0.11545108883511926
+    },
+    "tight_raw_0.75": {
+      "tp": 152,
+      "fp": 1487,
+      "fn": 100,
+      "precision": 0.09273947528981086,
+      "recall": 0.6031746031746031,
+      "f1": 0.16076150185087257
+    },
+    "tight_raw_1": {
+      "tp": 134,
+      "fp": 892,
+      "fn": 118,
+      "precision": 0.13060428849902533,
+      "recall": 0.5317460317460317,
+      "f1": 0.20970266040688576
+    },
+    "tight_raw_1.25": {
+      "tp": 118,
+      "fp": 521,
+      "fn": 134,
+      "precision": 0.18466353677621283,
+      "recall": 0.46825396825396826,
+      "f1": 0.2648709315375982
+    },
+    "tight_raw_1.5": {
+      "tp": 104,
+      "fp": 282,
+      "fn": 148,
+      "precision": 0.2694300518134715,
+      "recall": 0.4126984126984127,
+      "f1": 0.32601880877742945
+    },
+    "tight_raw_1.75": {
+      "tp": 87,
+      "fp": 158,
+      "fn": 165,
+      "precision": 0.3551020408163265,
+      "recall": 0.34523809523809523,
+      "f1": 0.3501006036217304
+    },
+    "tight_raw_2": {
+      "tp": 64,
+      "fp": 86,
+      "fn": 188,
+      "precision": 0.4266666666666667,
+      "recall": 0.25396825396825395,
+      "f1": 0.31840796019900497
+    },
+    "tight_postnms_0": {
+      "tp": 157,
+      "fp": 3294,
+      "fn": 95,
+      "precision": 0.045494059692842655,
+      "recall": 0.623015873015873,
+      "f1": 0.08479611126113962
+    },
+    "tight_postnms_0.25": {
+      "tp": 153,
+      "fp": 2230,
+      "fn": 99,
+      "precision": 0.06420478388585817,
+      "recall": 0.6071428571428571,
+      "f1": 0.11612903225806452
+    },
+    "tight_postnms_0.5": {
+      "tp": 143,
+      "fp": 1479,
+      "fn": 109,
+      "precision": 0.08816276202219482,
+      "recall": 0.5674603174603174,
+      "f1": 0.1526147278548559
+    },
+    "tight_postnms_0.75": {
+      "tp": 130,
+      "fp": 944,
+      "fn": 122,
+      "precision": 0.12104283054003724,
+      "recall": 0.5158730158730159,
+      "f1": 0.19607843137254902
+    },
+    "tight_postnms_1": {
+      "tp": 118,
+      "fp": 576,
+      "fn": 134,
+      "precision": 0.17002881844380405,
+      "recall": 0.46825396825396826,
+      "f1": 0.24947145877378435
+    },
+    "tight_postnms_1.25": {
+      "tp": 103,
+      "fp": 348,
+      "fn": 149,
+      "precision": 0.22838137472283815,
+      "recall": 0.4087301587301587,
+      "f1": 0.2930298719772404
+    },
+    "tight_postnms_1.5": {
+      "tp": 91,
+      "fp": 197,
+      "fn": 161,
+      "precision": 0.3159722222222222,
+      "recall": 0.3611111111111111,
+      "f1": 0.337037037037037
+    },
+    "tight_postnms_1.75": {
+      "tp": 79,
+      "fp": 112,
+      "fn": 173,
+      "precision": 0.41361256544502617,
+      "recall": 0.3134920634920635,
+      "f1": 0.35665914221218964
+    },
+    "tight_postnms_2": {
+      "tp": 62,
+      "fp": 67,
+      "fn": 190,
+      "precision": 0.4806201550387597,
+      "recall": 0.24603174603174602,
+      "f1": 0.32545931758530183
+    },
+    "tight_refined_0": {
+      "tp": 174,
+      "fp": 3084,
+      "fn": 78,
+      "precision": 0.053406998158379376,
+      "recall": 0.6904761904761905,
+      "f1": 0.09914529914529914
+    },
+    "tight_refined_0.25": {
+      "tp": 165,
+      "fp": 2122,
+      "fn": 87,
+      "precision": 0.07214691735898557,
+      "recall": 0.6547619047619048,
+      "f1": 0.12997243009058684
+    },
+    "tight_refined_0.5": {
+      "tp": 151,
+      "fp": 1392,
+      "fn": 101,
+      "precision": 0.09786130913804278,
+      "recall": 0.5992063492063492,
+      "f1": 0.16824512534818942
+    },
+    "tight_refined_0.75": {
+      "tp": 135,
+      "fp": 883,
+      "fn": 117,
+      "precision": 0.13261296660117877,
+      "recall": 0.5357142857142857,
+      "f1": 0.2125984251968504
+    },
+    "tight_refined_1": {
+      "tp": 119,
+      "fp": 543,
+      "fn": 133,
+      "precision": 0.1797583081570997,
+      "recall": 0.4722222222222222,
+      "f1": 0.2603938730853392
+    },
+    "tight_refined_1.25": {
+      "tp": 113,
+      "fp": 324,
+      "fn": 139,
+      "precision": 0.2585812356979405,
+      "recall": 0.44841269841269843,
+      "f1": 0.32801161103047893
+    },
+    "tight_refined_1.5": {
+      "tp": 100,
+      "fp": 183,
+      "fn": 152,
+      "precision": 0.35335689045936397,
+      "recall": 0.3968253968253968,
+      "f1": 0.37383177570093457
+    },
+    "tight_refined_1.75": {
+      "tp": 87,
+      "fp": 103,
+      "fn": 165,
+      "precision": 0.45789473684210524,
+      "recall": 0.34523809523809523,
+      "f1": 0.3936651583710407
+    },
+    "tight_refined_2": {
+      "tp": 68,
+      "fp": 61,
+      "fn": 184,
+      "precision": 0.5271317829457365,
+      "recall": 0.2698412698412698,
+      "f1": 0.3569553805774278
+    }
+  }
+}

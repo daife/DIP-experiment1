@@ -1,0 +1,499 @@
+{
+  "completed_page_snapshot": 81,
+  "samples_checked": 972,
+  "selection_sha256": "f639e12bcddde1dd5e6d246d7cd6ee2f735642f4b2a69a2f2757762a2a36a3d4",
+  "script_sha256": "a91eb02368aee18c87923eb6816a797e0b08de0fb97b6d1d65960209e4f2d56b",
+  "geometry_channels_hog_recomputed": true,
+  "shards": [
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_000.json",
+      "metadata_sha256": "79bd52d958e58368aeebe5739fb91aaba0838c0710c15391ebe99e520d63cf85",
+      "shard_sha256": "f63e2f49582ae8b0c95296234ef17466cbc59e5194a4b4220baadec5ef790c45",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_001.json",
+      "metadata_sha256": "339f4a0d44ba04a9a5430683d3748c8a41143f3ccf6ec401a5911d756bc4f037",
+      "shard_sha256": "a3881d03ad18b24b51e4ffd763d50ffd7df196cea92be4acf51cf3976d414329",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_002.json",
+      "metadata_sha256": "92e5c0f72230a93bc72ec2a442f15b0f07e67a982d6607130d1701fd230b652c",
+      "shard_sha256": "6fe50d4420b0614387195c42bd2e24fa674db885b78fdcd17d327a3726c352b3",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_003.json",
+      "metadata_sha256": "10bfa7d6e95cd37cac05602459d613779607f323806a080f4140491e22d27f11",
+      "shard_sha256": "048825fbe00723b3686f66b48f39b9bfa1a402926208c72b0cc9614b9b40e0c5",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_004.json",
+      "metadata_sha256": "12acc3bd34f022746a27a847e7c7fe6da37673f421e2f3443c9fbaca6abfda1e",
+      "shard_sha256": "f945d3a68df719f776c1f2f5e95c5764aee8474e18435338172950a3f7553cea",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_005.json",
+      "metadata_sha256": "b69e347e2687f67e2cc9c9d3a40cc11da02847129775fe0fd240fc519a85019b",
+      "shard_sha256": "97302a97d3c4e1939c4358217c2aa3bf15a7189080492ba6264a263fb4215f96",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_006.json",
+      "metadata_sha256": "40ae45a320d32aed7e11e58c90ca7a566685c9547fb1cb71cfd86c90bac7b7df",
+      "shard_sha256": "a7cbaac7a19b2f9a1bf2aa1ed36444f631e2498354c30433c908178c8926e6a3",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_007.json",
+      "metadata_sha256": "d3e7ebeeb926b4f31ac56354164592e05acf6de96280dcb8cbd1d8857f2301bb",
+      "shard_sha256": "6ae2326ae4cb7af94603656f2661a869dad2e21bbe5d196e09db13f85f636a47",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_008.json",
+      "metadata_sha256": "fbb1325d06196d3ed7c39ab9e84b772decc8a429caac97adb72b8ebdff59b07e",
+      "shard_sha256": "2c654e6844ce4d46ebff538f4cd84deee28a0e7f521ac8b8e189e2ca9f489082",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_009.json",
+      "metadata_sha256": "145877274046480390991b9ebd284ded8e1efda51843694e55cc67a05a20e7d1",
+      "shard_sha256": "da02c2afa6ff41a572772a888bbf02b1bdf953e09b8a1be70fd76b34e3511120",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_010.json",
+      "metadata_sha256": "e3c44c7c078811269da1c2b0ed1f3b7f529653f301bf984a6aefb6d23707e524",
+      "shard_sha256": "4d4014c8e737eac7932715ba188b3978d920693b5ad342274dbf68df6ac56b63",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_011.json",
+      "metadata_sha256": "c2f4ef2a138bafafa14169974ff6a1d3fde26311cd14b7adbebb2a82608a9a15",
+      "shard_sha256": "496ddc747c2c1bc96362165543be108a4d2198cb245d8afb0f97bc9a6b0b8e40",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_012.json",
+      "metadata_sha256": "b5ebe5eb1ee6bb996d6000b2648e8bf19611b665792ace6e2e57bb614053fc2f",
+      "shard_sha256": "85f8570606ce78ff91c14caec0146b7ba3b6f2bdfc253e5814bd4b3dc4313af6",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_013.json",
+      "metadata_sha256": "b1b6c05350453317c941c907629628595ff91f5d53647dc1ba1840e18b310a94",
+      "shard_sha256": "d0429147390bf368ab6f4eb2cb7eb5e9d8269b1f9f9002c08c07a6db7256f4e8",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_014.json",
+      "metadata_sha256": "255f0f954228902631b4a74ff1b7ee265e1cfd053c6e6f1173525dc0e7e3489a",
+      "shard_sha256": "d9f7f1b9cc6d947269cef863f77e00ef2ab6b7450971fbd043a545c85cd04a04",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_015.json",
+      "metadata_sha256": "c2063737bd2196df1b37350512b609294eb37d04411d5ae82940b0451b2f1795",
+      "shard_sha256": "24b0f4eaaf05a169498145032f1ab3f7810a3a2198d1a294a12680223c023e27",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_016.json",
+      "metadata_sha256": "d3f9c5772090addea0f29c5dcc8f22113012e7d88d60890b3284fa5df8de7209",
+      "shard_sha256": "ba2179164e163cd27801f3a612b3d986bfbdf296bec5a56dc5e42614fca22443",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_017.json",
+      "metadata_sha256": "41f226f1be1f63c5ea088500fdd4af2579fd6e66a0816a9a3634d0fb66e01386",
+      "shard_sha256": "04252f2499c8a4290f8ce7b9e559e036aa0d0f19cccf218f1060270e27cec6e7",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_018.json",
+      "metadata_sha256": "4f00d147f9516f1144970fb6dc5824824dc4dc367aa586d280c19f6705b0a019",
+      "shard_sha256": "1ae31fb669d4f8c64fb144921bd65691bbaa690e027d19067d4147f88ae8687a",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_019.json",
+      "metadata_sha256": "537fe11d32f9ee963116d9c67129c5e5f21d4a17aaec9b878fdae5bcd7486171",
+      "shard_sha256": "df2a33e9751f5c0966b6bd20f28e5301b334b2a4c007013bb59ec6cfc2d359de",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_020.json",
+      "metadata_sha256": "2e18593cb3783497b042f466803faf39a13fdb862c85847e1165e5ee6ba73b95",
+      "shard_sha256": "3556eb35126228c67f1c00083aaa15a384e23d1e27a11a1a1697b56251e6fddb",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_021.json",
+      "metadata_sha256": "4f4448a35df62bc431e202230bc14996bfb79d76e987ddfdad59994af8406ec7",
+      "shard_sha256": "c2612af6843cbea4f2867bed95e8f08f994b9f91e754780d37904ed9e349191f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_022.json",
+      "metadata_sha256": "56bf95b78e09effdbe1023e7a1b0f95a4db7b5ef5806972957a3aa1be5b4d867",
+      "shard_sha256": "88fb69dd9746e19550126b9f34dbd20b7cbd65f9713d2167bce68a086e385645",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_023.json",
+      "metadata_sha256": "a7db6d2798cf1a6f50df89c536d83229457f922acc9456ce0fb9c2ff6b4280fb",
+      "shard_sha256": "3241c7e074c94e4cd4a7b15a401d971cbd620014d86b38f212dcb0f2ce2bb008",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_024.json",
+      "metadata_sha256": "c9cca4a2340e7207c8c8c41b7cb2cf12a5489b09afbffb2147e85702eefbf102",
+      "shard_sha256": "781201c0c93c475a693e1682f8d754b6bf0ca3f6eddfa388c4a0c8e62e635616",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_025.json",
+      "metadata_sha256": "d7205651e73e96e744376980e3824788e1b2390e9bb79305c826380e3cd8e84b",
+      "shard_sha256": "c295317b999750249a36cf6bfdfbc6e4d145c70b752c7f4e5936db589e68aa5f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_026.json",
+      "metadata_sha256": "76579ef02aff0cbe233f969f14fa763de1547fcccf6d8af3fd7159ab8417b05b",
+      "shard_sha256": "8c76799956aea47d3178f06612bfd72dcad9fc7966da221a964139319e4edee9",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_027.json",
+      "metadata_sha256": "12a619ed2f398e6696f742a8d58d98018ea1492ba076397b9ef3560ed474d4e5",
+      "shard_sha256": "7d13f3b5b574bef9c7859f3a7b21b2d9acf84289e9ed6193a3f3b48e44865e3b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_028.json",
+      "metadata_sha256": "e324823d5e6a801e8fb2e108b47f11e1f72181124e6bfb3a63655ebfa51516fa",
+      "shard_sha256": "43d278b62845494e05ac57f867a5946791224ae72e3c6050c0ab01aabbd7546b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_029.json",
+      "metadata_sha256": "7ace9645d40911673add9308df577769beed6311ad6513a94833450db08995f9",
+      "shard_sha256": "3cb759a0efe3f171a379c5e7aefbb6fce58c112d5cf3739143f431efc6977360",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_030.json",
+      "metadata_sha256": "6266e32120a0ab71fe8b0cea99986e4906cac255d18eadddedc7540c21e37bdb",
+      "shard_sha256": "51d330454a27747cff4a15c2139c585ab145540a5b9bade6b201b0441bcbc56a",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_031.json",
+      "metadata_sha256": "f9be0ad3f43cb34aef05626ba4b0ba95e4e0c89bc834bd7b016d0184c09261b5",
+      "shard_sha256": "894f1affe2dd681c5c447df35350c9247600a60f99b23c5dfbdfbc84b14e8a2d",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_032.json",
+      "metadata_sha256": "38c914ea064fa7ac876764d8e6b2fc14295bf29e0e069064e262ec69180f30ab",
+      "shard_sha256": "a839fe8479170bfc6892e1e48889c0b71a1867c6596513ba0c51c678b5cbf2d7",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_033.json",
+      "metadata_sha256": "f18f1884321b48fbbf6fee3e66fc9e17c3e67b7b99e1ab020e44a91e0eec90a4",
+      "shard_sha256": "b3c5c51997121d552135d3699054b221d0a1c02c5ee7eed15565aa9f7312d1a5",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_034.json",
+      "metadata_sha256": "dd5abe216f155706b9c94b732f65fe56845abb84c5593c8300d8ff077b801a2f",
+      "shard_sha256": "bc7a60a56cc22648c17e626110f571bfd813a55cf836bb46e056be1679789a53",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_035.json",
+      "metadata_sha256": "6c3b36ab6952107d49d680ce89e6d0f2c97c52a24f89ccdfeacb673db2e1c612",
+      "shard_sha256": "6ef3e9612a0c9043e1e4a65de8ba78f2d50abd30f66bf63924fd43e6dd88fec9",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_036.json",
+      "metadata_sha256": "b7204caedac5d8e5cdc70aec1e723ecdb7dffa03e95b159cd899fde727130023",
+      "shard_sha256": "2292b10bf9620fd69cfbe8790d1206bbec53fc5cc155642161a8e13613abb81b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_037.json",
+      "metadata_sha256": "3438ff1d1c466da5ea34a0f8a45799c8ab1c7b144ee85a2173d089712f685b9e",
+      "shard_sha256": "4f27d437c3ea287b3db354ad2406795a4b8b81c1db56629644254bb8e9fe4a8b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_038.json",
+      "metadata_sha256": "60e90503911735d2fd567896a2d671b87514607eadf2841beed4933f1424c30c",
+      "shard_sha256": "07049b8766dc282337fb6fbc3cec44e05db480851e41a43fe36a921151648136",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_039.json",
+      "metadata_sha256": "64aa0510108cf49d44af044f7818e4258bde23702c9a3ab1474f1db129510bd3",
+      "shard_sha256": "8cc40668d6b0d1925d001ffd6cd74cc5d8d1b2c76c53f4820615a5c08a6c6027",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_040.json",
+      "metadata_sha256": "9886881c005a70aa50bd7034fdb344a8ef5d58ddca8aeca1f70116c96fd5085f",
+      "shard_sha256": "639eea7488f28c836df12efe33510ee4d7386efe2fde0a708190d3366c2e8b6c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_041.json",
+      "metadata_sha256": "239ed7fea40ab95380dbb373e2d1c01b86e0e0be5bff4eac228252afe15b4b57",
+      "shard_sha256": "325e86fc638208512083f3356b41aa902057d54735d1e704bc7df71fb1104583",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_042.json",
+      "metadata_sha256": "c207a7cee541a04b992443e11d4384ab9303d6ce7351f58c701f27bc5190efbb",
+      "shard_sha256": "02c479934f43972ca86051facb3cfc3bdba0166977307696cfa5c7d0939da73d",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_043.json",
+      "metadata_sha256": "ac02be64ce640a39dbe439fe15d0238b0897da094f2a7bc4e488778caed4b69d",
+      "shard_sha256": "ae9d7f8458f22cf4d3d8a71ab2dd7e011d11c73b488bd24e2c7d87d9ef123c13",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_044.json",
+      "metadata_sha256": "4bb8b02564239a40160494e515a1f3a98c230db1896b06dd12e4aafa4075bd33",
+      "shard_sha256": "a6032cbaec21a0283d616737b7e028a573fcdfb29ccbd6510bab90b996326b29",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_045.json",
+      "metadata_sha256": "63f1f2f1602def3a53ea37d05d73d8d0d9d7c27ebf8adfeb90a0babcdad5aecd",
+      "shard_sha256": "eab6a85949e38212bfb1a7fb26523d74eaa2945f005e54b43b2e03fdbeea4416",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_046.json",
+      "metadata_sha256": "7a432e3537b2ee78adba54eab2be3c58ec75038e818aa96d61bec1dabd32c9d6",
+      "shard_sha256": "06953ed4abef7af98f2bb58424a56f107c6d4095d484799c2b779565e6c7c0d7",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_047.json",
+      "metadata_sha256": "9dc248073c2ecb05fc254c63ebe1f2eadfa2c84598064d9aea70e36220e50750",
+      "shard_sha256": "df36910a38f108c764f6b2be112c8f48fb6471e79e8bd06c3d6a7dd83dee8a39",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_048.json",
+      "metadata_sha256": "c63238c7d5f370c30b6128f83f13d5086c11765c55dd3ed0a41f065ad0e3addc",
+      "shard_sha256": "ab56cceaff4670cb64453611891c6f25e34a785f0010605833444fa92c7cda7c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_049.json",
+      "metadata_sha256": "8369f6d6030ed2e6e8a911279576745aef9abd16b72d9e29e0e3f43e9d8de2ba",
+      "shard_sha256": "b5f3c585678171a25d07f37ab8cd12f1b2c3b2ce12e1b76041832294ca7c7825",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_050.json",
+      "metadata_sha256": "919c384f123c77658be42e49d37d2880b60482c07eabfc942b8fca38bc60cdd2",
+      "shard_sha256": "14118b90df0513f0c316d4d5c4cdcba1176b272ec0a591b74f205c0e4aa7e84d",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_051.json",
+      "metadata_sha256": "55f50acb988b478934faa9770d8a2a5466199c522a549ae9add68a35f9b02318",
+      "shard_sha256": "8cfa6f94e1c921df2b52c50940c45cead170727bb739a81f8c19bfc6043aac64",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_052.json",
+      "metadata_sha256": "4a240ea1170025173613f271c3fec4a99381eded312f6a5a64e4fcd0e8e29129",
+      "shard_sha256": "096e562a177be8a4c05a0948d18bde6dfdda63db15205e899e22c6ee0a00bbfe",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_053.json",
+      "metadata_sha256": "97b18b703f49797a5a5c725c9cf8f33d64e40d1e71679f9ed3c88c2927244396",
+      "shard_sha256": "fc3b56b426933f4c6617b8372d95b0470728ac96b2a649b782999e5c4de203c1",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_054.json",
+      "metadata_sha256": "01140165b4b6066888fb3a7d09e81496fa44412e8a5a3310f01fec0f430429fc",
+      "shard_sha256": "f3e3e8c2c634940cdcaa7108c771ade01f818931c99e4e26962f9d96423a3e0d",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_055.json",
+      "metadata_sha256": "ffe67414f6d9bc14b8d3dc55f9278035711b527e37c3383ba4ae341ccf6bbec0",
+      "shard_sha256": "99b1552c24a4962551311ba1ef1b4d04ce1611b6ef018b0b87ad8f5706c571ac",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_056.json",
+      "metadata_sha256": "c3dc9ca1615f19980d322724ca0e03a009594590ee1392d6526846045dee8a2a",
+      "shard_sha256": "8d82c2beb239b590464e342678a9e2d71277efb3685aef52f7bcb18e72b50a2c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_057.json",
+      "metadata_sha256": "d81ffe91cb8a4ec0a78bf463e1418d3366bcb2843cde027e9967a3774c457ed5",
+      "shard_sha256": "0b8b0758c58eb964d7239925b6fbf5a160507b27439bb77751e763b2e2f77d28",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_058.json",
+      "metadata_sha256": "d317a154d1148fe3b36c1b9a7d06eec959fa69dfbe533cc2d297a1c315efb0be",
+      "shard_sha256": "ce0a69fa2fcc05df63acec4bc2043947f002fc69b21b4a8b74139a424a02d688",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_059.json",
+      "metadata_sha256": "f6ea8d2d2f2e771a98163376ccf99bc518ad4b5b4ff13e11d24e0074601eeef3",
+      "shard_sha256": "71bd40606a1d970bf523d882baad6e474d7e4c050b9afe56cc0f73ab2265c41c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_060.json",
+      "metadata_sha256": "e57aae1cafafcd5671a728b0e64b093e1790768cb7848bcefb0e90d1340e6a3f",
+      "shard_sha256": "779a271d108c532a2ade8cf8520640dddf11b4ce0d5b08affbc41a33db44011c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_061.json",
+      "metadata_sha256": "6146a07005d5457352254b93d2793e0c335dca694213b350e79b00150752f4dd",
+      "shard_sha256": "ea4cbd77a5fb46cfbf005227ec0e5fb4803371260f262106654969af50cac558",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_062.json",
+      "metadata_sha256": "ddcc64a1df0258b5fe67d7ab2fe1bad8e609ba6d650bbc930fd46bd38023b11f",
+      "shard_sha256": "d09f7927d6b64bbef7f4b15c7df1d98ec2884c9ecdf507af1217ee12ef011225",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_063.json",
+      "metadata_sha256": "63eb13e52d038fd7de1a9e3901934d2badc86d3d6289f332459453a3523513db",
+      "shard_sha256": "d6fc2ee5483d5059ef72048c16b7cabe1c097be32b5fbfe5b89274041f3ef133",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_064.json",
+      "metadata_sha256": "99924742379aff8eb4c7d6fdc6b701ba82edb04aaceeaf1158de0c79b997113d",
+      "shard_sha256": "e21c231085d6c3e1b26a8e73be2cf7cdea64e3f912a1f71eebd792b5ef8a108f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_065.json",
+      "metadata_sha256": "bce6013f86e04f0320b8b9ec410c33eb61f348f531ee014983717c117aa6bd1c",
+      "shard_sha256": "801161d726d1a8a9d05513117abfb9c1869db02a9e2b32f3094dbdb0be837f5c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_066.json",
+      "metadata_sha256": "656d548d609520b3e3688a6567eb866262e5f813014ff7b7d2df286cd7455b95",
+      "shard_sha256": "7b4971f682347be5390d45f19b185296054537f172147c9818df33d8aabb2d26",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_067.json",
+      "metadata_sha256": "0561d530a0715a7a587806cefef0784aa0d9fa10e80b1696e62eaa59c4cdc08f",
+      "shard_sha256": "b2073bca7e44fee50b40117c09946ef71a044d71e5d81e44ace77f0eecfbb74f",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_068.json",
+      "metadata_sha256": "8de6785ab70688aa28f29504dce97a18b700fc488cd7d0defaa2ed723d83df2e",
+      "shard_sha256": "074d00715ffb92b1ecb3f816f25e0ab53987932a933d5b4de0bfa208a523c9e5",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_069.json",
+      "metadata_sha256": "fa705fa5faa0ebc94498887bcb0467597e275bb28c3b9a990976ef7c4dd975ee",
+      "shard_sha256": "e3b85e9f73fa2ba8f4b895674050fb0b108be092f005842fe3d664d117e391cf",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_070.json",
+      "metadata_sha256": "8c25e0d8641fe8ae37c192a1b005ffc507dd07d9d12d1173ceb20c791b392675",
+      "shard_sha256": "d91303626ac6ae4a45b8b73ee9138f25b6a28e428c6acd207196c3680152e23b",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_071.json",
+      "metadata_sha256": "978d31564dcccb1e08f860b3be68cdc4854a017c5875a97f43e8a6f614ad5ead",
+      "shard_sha256": "c0d64da5f395e50e6c1480bb595e0ec31c535404ce9b09b65e16cd5ce2b88694",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_072.json",
+      "metadata_sha256": "091444f79c87e617bae30b0e0b19728cfa53c6315e05d6a95e327aa37f4d8e08",
+      "shard_sha256": "079bc395cfa0fc834ee28a2b93d5a6353f5997b76b0967e0954906dd481f250a",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_073.json",
+      "metadata_sha256": "e6ffc584e74a88902491842333978c53471a58e98f8b682cd75d66d45f5e4c6b",
+      "shard_sha256": "466ad7ee776b1b73ed59810b87183097a33413353f2646c869e9ef66d7dc2090",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_074.json",
+      "metadata_sha256": "2948133db168efab87f4bb1ecf88cb88ec7eb3ec7a63b0f079a9410b8ddb718a",
+      "shard_sha256": "80951ab0a7d05eff08be459abe659c42cdaea0b23501e84a703003119ec5e092",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_075.json",
+      "metadata_sha256": "a2dc034277663f172e38c7126aa379e6b31bde590bf829e3bc467180aeeb1a16",
+      "shard_sha256": "c070efb5f611cc2b32fbeaba4791762b6f300ae83e187255c218c7525fd214b5",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_076.json",
+      "metadata_sha256": "ea75a87c566a0ed8ddbc2a5f500845dfc0afe8ab1bb435cec0102a6404af0ade",
+      "shard_sha256": "a04560179dc25db179bbc957557a3451b682ad8687d4514ec9a84207f102ad5c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_077.json",
+      "metadata_sha256": "0814bb8d64c69ba27f6e2cacb3ed733b1fa79503c0419fc6200c4977dc2405a9",
+      "shard_sha256": "0f5f6d95ff547434804e4f3b5107b165eba14f94209d98aa4c8292350a46e90c",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_078.json",
+      "metadata_sha256": "c28af9e2d3401f9562da362b4e74e6c97f1ea8c61c23c981db149c581bafc3a8",
+      "shard_sha256": "afeb88c908ccd109c3d4e947f24887b91c5cf34f3f4fe122fae3eb4da81350a3",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_079.json",
+      "metadata_sha256": "d4e4ae6435ba36b6a1fb76d8a7e1c52c546e72962252da05e1780ebaf4adafa4",
+      "shard_sha256": "353d08b5d78f8822213db374f85b4a95abba99fb73db7adf6daa254f5126e3c8",
+      "rows": 12
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_pipeline_backgrounds_v1\\page_080.json",
+      "metadata_sha256": "683075da7e958cec32982c31af07fa1dcbd47a9cfea55cb9af95e25c2f0d692d",
+      "shard_sha256": "6f822a24da6d32d10816acda985124baae636de467c687df3f30d3d60c1930cc",
+      "rows": 12
+    }
+  ],
+  "contact_rows": [],
+  "final_merged_arrays_checked": true,
+  "unique_samples": 972,
+  "limitation": "No independent replay of Cascade/HOG scores or visual certification; complete pool only if final_merged_arrays_checked is true."
+}

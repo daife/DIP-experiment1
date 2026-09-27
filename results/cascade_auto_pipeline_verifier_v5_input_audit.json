@@ -1,0 +1,8 @@
+{
+  "parent_selected_features_and_labels_exact": true,
+  "added_hog_features_recomputed": true,
+  "positive": 8245,
+  "negative": 12095,
+  "added_negative": 630,
+  "provenance_sha256": "3408a851304ca87acf21f29d6ddda7794e5dbaa2a3526f3df41a16bae33cf6b1"
+}

@@ -1,0 +1,31 @@
+{
+  "contact_indices": [
+    0,
+    10,
+    18,
+    19,
+    20,
+    23
+  ],
+  "suspect_ids": [
+    "pipeline_background:000:000",
+    "pipeline_background:005:000",
+    "pipeline_background:009:000",
+    "pipeline_background:009:001",
+    "pipeline_background:010:000",
+    "pipeline_background:011:001"
+  ],
+  "quarantined_pages": [
+    "manga109:ARMS:070",
+    "manga109:Belmondo:092",
+    "manga109:Count3DeKimeteAgeru:077",
+    "manga109:DollGun:031",
+    "manga109:Donburakokko:063"
+  ],
+  "review_scope": "24 crops and six native contexts; red candidate, blue existing GT",
+  "decision": "Conservatively quarantine all negative windows from these five train pages before any training. Five clear unannotated human faces and one masked soldier head; no claim about remaining pool.",
+  "contact_path": "datasets/derived/cascade_auto_pipeline_backgrounds_v1/progress_background24.png",
+  "context_path": "datasets/derived/cascade_auto_pipeline_backgrounds_v1/progress_contexts6.png",
+  "context_command": ".venv/Scripts/python.exe tmp/review_pipeline_background_contexts.py",
+  "source_audit": "results/cascade_auto_pipeline_backgrounds_progress_audit.json"
+}

@@ -1,0 +1,112 @@
+{
+  "all20_pages_same_order": true,
+  "config_and_shared_model_shas_identical": true,
+  "old_verifier_control_summaries_identical_per_cascade": true,
+  "comparisons": [
+    {
+      "source": "cascade_auto_scan_positive_localization_v1_v4_combined20",
+      "sha256": "775f3c48182c8cef37df1d154888a9e59c55a010b90888cb0949de3683875a59",
+      "best_refined": [
+        "tight_refined_1.5",
+        {
+          "tp": 81,
+          "fp": 72,
+          "fn": 171,
+          "precision": 0.5294117647058824,
+          "recall": 0.32142857142857145,
+          "f1": 0.4
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.5",
+        {
+          "tp": 76,
+          "fp": 77,
+          "fn": 176,
+          "precision": 0.49673202614379086,
+          "recall": 0.30158730158730157,
+          "f1": 0.37530864197530867
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_pipeline_verifier_v5_control20",
+      "sha256": "3cc07f4c7df87b56aa764786a0eb72292ba63af8e4193812977020f300b9783f",
+      "best_refined": [
+        "tight_refined_1.25",
+        {
+          "tp": 77,
+          "fp": 50,
+          "fn": 175,
+          "precision": 0.6062992125984252,
+          "recall": 0.3055555555555556,
+          "f1": 0.40633245382585753
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 72,
+          "fp": 55,
+          "fn": 180,
+          "precision": 0.5669291338582677,
+          "recall": 0.2857142857142857,
+          "f1": 0.37994722955145116
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_pipeline_background_localization_v1_v4_control20",
+      "sha256": "e6f2e12496e58e6edb840a0a9dbf9136d9d5a1ed524e2df0fd73b97af01d8ccf",
+      "best_refined": [
+        "tight_refined_1.5",
+        {
+          "tp": 73,
+          "fp": 78,
+          "fn": 179,
+          "precision": 0.48344370860927155,
+          "recall": 0.2896825396825397,
+          "f1": 0.36228287841191065
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.5",
+        {
+          "tp": 81,
+          "fp": 72,
+          "fn": 171,
+          "precision": 0.5294117647058824,
+          "recall": 0.32142857142857145,
+          "f1": 0.4
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_pipeline_background_localization_v1_v5_combined20",
+      "sha256": "67bfd892cd5a1c8797d600a71f48b9790a73caa2a2b32872070a0a5458f37c92",
+      "best_refined": [
+        "tight_refined_1",
+        {
+          "tp": 85,
+          "fp": 109,
+          "fn": 167,
+          "precision": 0.4381443298969072,
+          "recall": 0.3373015873015873,
+          "f1": 0.3811659192825112
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 75,
+          "fp": 46,
+          "fn": 177,
+          "precision": 0.6198347107438017,
+          "recall": 0.2976190476190476,
+          "f1": 0.40214477211796246
+        }
+      ]
+    }
+  ],
+  "limitation": "Explored validation; both fresh negatives and quarantine changed; old refiner transfer may hurt"
+}

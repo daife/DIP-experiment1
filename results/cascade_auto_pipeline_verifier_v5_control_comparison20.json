@@ -1,0 +1,34 @@
+{
+  "all20_page_ids_and_order_identical": true,
+  "common_source_model_and_config_sha_identical": true,
+  "old_HOG_summaries_identical": true,
+  "baseline_best": {
+    "tp": 81,
+    "fp": 72,
+    "fn": 171,
+    "precision": 0.5294117647058824,
+    "recall": 0.32142857142857145,
+    "f1": 0.4
+  },
+  "v5_best": {
+    "tp": 77,
+    "fp": 50,
+    "fn": 175,
+    "precision": 0.6062992125984252,
+    "recall": 0.3055555555555556,
+    "f1": 0.40633245382585753
+  },
+  "v5_same_threshold_1_5": {
+    "tp": 56,
+    "fp": 21,
+    "fn": 196,
+    "precision": 0.7272727272727273,
+    "recall": 0.2222222222222222,
+    "f1": 0.3404255319148936
+  },
+  "source_sha256": {
+    "v4": "775f3c48182c8cef37df1d154888a9e59c55a010b90888cb0949de3683875a59",
+    "v5": "3cc07f4c7df87b56aa764786a0eb72292ba63af8e4193812977020f300b9783f"
+  },
+  "limitation": "Explored validation thresholds; no blind test or deployment timing"
+}
