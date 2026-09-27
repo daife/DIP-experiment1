@@ -1,0 +1,113 @@
+{
+  "positive": 14758,
+  "uncertain_positive_excluded": 1044,
+  "pure_background": 4453,
+  "localization_negative": 20000,
+  "total": 39211,
+  "positive_train_works": 81,
+  "calibration": 721,
+  "checks": "teacher margin mask equals base selection; all selected base positives train; guarded index set matches admitted backgrounds; unique localization indices; calibration count/split match",
+  "sheet_ids": [
+    {
+      "id": "auto0000181",
+      "decision": "U"
+    },
+    {
+      "id": "auto0009211",
+      "decision": "U"
+    },
+    {
+      "id": "auto0021711",
+      "decision": "U"
+    },
+    {
+      "id": "auto0031568",
+      "decision": "U"
+    },
+    {
+      "id": "auto0040157",
+      "decision": "U"
+    },
+    {
+      "id": "auto0047295",
+      "decision": "U"
+    },
+    {
+      "id": "auto0048610",
+      "decision": "U"
+    },
+    {
+      "id": "auto0049852",
+      "decision": "U"
+    },
+    {
+      "id": "auto0051322",
+      "decision": "U"
+    },
+    {
+      "id": "auto0052707",
+      "decision": "U"
+    },
+    {
+      "id": "auto0054182",
+      "decision": "U"
+    },
+    {
+      "id": "auto0055773",
+      "decision": "U"
+    },
+    {
+      "id": "auto0000000",
+      "decision": "K"
+    },
+    {
+      "id": "auto0009850",
+      "decision": "K"
+    },
+    {
+      "id": "auto0019914",
+      "decision": "K"
+    },
+    {
+      "id": "auto0029555",
+      "decision": "K"
+    },
+    {
+      "id": "auto0039762",
+      "decision": "K"
+    },
+    {
+      "id": "auto0047172",
+      "decision": "K"
+    },
+    {
+      "id": "auto0048619",
+      "decision": "K"
+    },
+    {
+      "id": "auto0050065",
+      "decision": "K"
+    },
+    {
+      "id": "auto0051504",
+      "decision": "K"
+    },
+    {
+      "id": "auto0052940",
+      "decision": "K"
+    },
+    {
+      "id": "auto0054378",
+      "decision": "K"
+    },
+    {
+      "id": "auto0055801",
+      "decision": "K"
+    }
+  ],
+  "visual_review": {
+    "scope": "12 excluded uncertain positives and 12 retained positives, sampled evenly by saved indices; sheet opened directly",
+    "observation": "excluded includes poorly centered/partial crops and also actual profiles or sunglasses faces; retained includes varied drawings and profiles",
+    "limitation": "teacher-based selection is a curriculum candidate, not proof that excluded source labels are wrong; unviewed samples remain unreviewed"
+  }
+}

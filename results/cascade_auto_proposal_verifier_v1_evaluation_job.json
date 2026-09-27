@@ -1,0 +1,31 @@
+{
+  "status": "evaluation_finished_not_acceptance",
+  "trainer_pid": 6980,
+  "command": [
+    "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\.venv\\Scripts\\python.exe",
+    "-u",
+    "scripts/evaluate_combined_improvements.py",
+    "--pages",
+    "20",
+    "--pages-per-work",
+    "2",
+    "--cascade",
+    "datasets/derived/cascade_auto_curated_localization_v1/model.json",
+    "--reference",
+    "results/cascade_auto_curated_localization_v1_validation20.json",
+    "--tight-verifier",
+    "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\datasets\\derived\\cascade_auto_proposal_verifier_v1\\model.joblib",
+    "--extra-thresholds",
+    "0",
+    ".25",
+    ".5",
+    ".75",
+    "1",
+    "1.25",
+    "2",
+    "--output",
+    "results/cascade_auto_proposal_verifier_v1_validation20.json",
+    "--prediction-dir",
+    "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\datasets\\derived\\cascade_auto_proposal_verifier_v1\\validation20"
+  ]
+}

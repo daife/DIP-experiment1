@@ -1,0 +1,584 @@
+{
+  "source_sha256": "be76f5ae34ed8d49e52792cf9408b140ec9aa21d39724e7f7695b9a4b9b52a41",
+  "script_sha256": "9124c514114b6422dec645e9c029444ff76899a554980b5a142ea3c26c4812c3",
+  "scope": "fixed 20 explored validation pages; one-to-one match transitions, not independent face availability",
+  "counts": {
+    "1.5": {
+      "lost": 6,
+      "gained": 3
+    },
+    "1.75": {
+      "lost": 6,
+      "gained": 2
+    }
+  },
+  "transitions": [
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "image_path": "raw/manga109/images/TapkunNoTanteisitsu/099.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 5,
+      "gt": [
+        252,
+        955,
+        324,
+        1042
+      ],
+      "raw_best": {
+        "bbox": [
+          233,
+          961,
+          305,
+          1033
+        ],
+        "iou": 0.5
+      },
+      "refined_best": {
+        "bbox": [
+          235,
+          956,
+          304,
+          1027
+        ],
+        "iou": 0.49417748628028374
+      }
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "image_path": "raw/manga109/images/LancelotFullThrottle/031.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 12,
+      "gt": [
+        592,
+        185,
+        692,
+        284
+      ],
+      "raw_best": {
+        "bbox": [
+          609,
+          197,
+          681,
+          269
+        ],
+        "iou": 0.5236363636363637
+      },
+      "refined_best": {
+        "bbox": [
+          611,
+          193,
+          683,
+          258
+        ],
+        "iou": 0.4727272727272727
+      }
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "image_path": "raw/manga109/images/KyokugenCyclone/005.jpg",
+      "threshold": "1.5",
+      "category": "gained",
+      "annotation_index": 18,
+      "gt": [
+        1389,
+        63,
+        1437,
+        101
+      ],
+      "raw_best": {
+        "bbox": [
+          1379,
+          48,
+          1451,
+          119
+        ],
+        "iou": 0.3568075117370892
+      },
+      "refined_best": {
+        "bbox": [
+          1385,
+          52,
+          1439,
+          107
+        ],
+        "iou": 0.6141414141414141
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/068.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 8,
+      "gt": [
+        377,
+        441,
+        426,
+        499
+      ],
+      "raw_best": {
+        "bbox": [
+          370,
+          430,
+          442,
+          501
+        ],
+        "iou": 0.5559467918622848
+      },
+      "refined_best": {
+        "bbox": [
+          391,
+          441,
+          452,
+          498
+        ],
+        "iou": 0.46137835337650324
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/068.jpg",
+      "threshold": "1.5",
+      "category": "gained",
+      "annotation_index": 2,
+      "gt": [
+        1069,
+        684,
+        1111,
+        750
+      ],
+      "raw_best": {
+        "bbox": [
+          1055,
+          702,
+          1114,
+          762
+        ],
+        "iou": 0.4692737430167598
+      },
+      "refined_best": {
+        "bbox": [
+          1062,
+          693,
+          1117,
+          745
+        ],
+        "iou": 0.6334106728538283
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "image_path": "raw/manga109/images/TapkunNoTanteisitsu/018.jpg",
+      "threshold": "1.5",
+      "category": "gained",
+      "annotation_index": 6,
+      "gt": [
+        925,
+        959,
+        1040,
+        1045
+      ],
+      "raw_best": {
+        "bbox": [
+          917,
+          916,
+          1065,
+          1065
+        ],
+        "iou": 0.4484853981498277
+      },
+      "refined_best": {
+        "bbox": [
+          909,
+          930,
+          1060,
+          1052
+        ],
+        "iou": 0.5368581044403431
+      }
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "image_path": "raw/manga109/images/TensiNoHaneToAkumaNoShippo/036.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 2,
+      "gt": [
+        72,
+        1022,
+        158,
+        1070
+      ],
+      "raw_best": {
+        "bbox": [
+          78,
+          1015,
+          149,
+          1086
+        ],
+        "iou": 0.591563964589481
+      },
+      "refined_best": {
+        "bbox": [
+          86,
+          1033,
+          151,
+          1084
+        ],
+        "iou": 0.47737197300516077
+      }
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "image_path": "raw/manga109/images/KyokugenCyclone/050.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 13,
+      "gt": [
+        1286,
+        76,
+        1367,
+        187
+      ],
+      "raw_best": {
+        "bbox": [
+          1290,
+          113,
+          1361,
+          185
+        ],
+        "iou": 0.5685685685685685
+      },
+      "refined_best": {
+        "bbox": [
+          1300,
+          114,
+          1370,
+          176
+        ],
+        "iou": 0.4526533725618394
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/029.jpg",
+      "threshold": "1.5",
+      "category": "lost",
+      "annotation_index": 1,
+      "gt": [
+        625,
+        74,
+        657,
+        119
+      ],
+      "raw_best": {
+        "bbox": [
+          618,
+          75,
+          667,
+          124
+        ],
+        "iou": 0.5787094122482532
+      },
+      "refined_best": {
+        "bbox": [
+          623,
+          74,
+          676,
+          129
+        ],
+        "iou": 0.4939965694682676
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "image_path": "raw/manga109/images/TapkunNoTanteisitsu/099.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 5,
+      "gt": [
+        252,
+        955,
+        324,
+        1042
+      ],
+      "raw_best": {
+        "bbox": [
+          233,
+          961,
+          305,
+          1033
+        ],
+        "iou": 0.5
+      },
+      "refined_best": {
+        "bbox": [
+          235,
+          956,
+          304,
+          1027
+        ],
+        "iou": 0.49417748628028374
+      }
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "image_path": "raw/manga109/images/LancelotFullThrottle/031.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 12,
+      "gt": [
+        592,
+        185,
+        692,
+        284
+      ],
+      "raw_best": {
+        "bbox": [
+          609,
+          197,
+          681,
+          269
+        ],
+        "iou": 0.5236363636363637
+      },
+      "refined_best": {
+        "bbox": [
+          611,
+          193,
+          683,
+          258
+        ],
+        "iou": 0.4727272727272727
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/068.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 8,
+      "gt": [
+        377,
+        441,
+        426,
+        499
+      ],
+      "raw_best": {
+        "bbox": [
+          370,
+          430,
+          442,
+          501
+        ],
+        "iou": 0.5559467918622848
+      },
+      "refined_best": {
+        "bbox": [
+          391,
+          441,
+          452,
+          498
+        ],
+        "iou": 0.46137835337650324
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/068.jpg",
+      "threshold": "1.75",
+      "category": "gained",
+      "annotation_index": 2,
+      "gt": [
+        1069,
+        684,
+        1111,
+        750
+      ],
+      "raw_best": {
+        "bbox": [
+          1055,
+          702,
+          1114,
+          762
+        ],
+        "iou": 0.4692737430167598
+      },
+      "refined_best": {
+        "bbox": [
+          1062,
+          693,
+          1117,
+          745
+        ],
+        "iou": 0.6334106728538283
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "image_path": "raw/manga109/images/TapkunNoTanteisitsu/018.jpg",
+      "threshold": "1.75",
+      "category": "gained",
+      "annotation_index": 6,
+      "gt": [
+        925,
+        959,
+        1040,
+        1045
+      ],
+      "raw_best": {
+        "bbox": [
+          917,
+          916,
+          1065,
+          1065
+        ],
+        "iou": 0.4484853981498277
+      },
+      "refined_best": {
+        "bbox": [
+          909,
+          930,
+          1060,
+          1052
+        ],
+        "iou": 0.5368581044403431
+      }
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "image_path": "raw/manga109/images/TensiNoHaneToAkumaNoShippo/036.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 2,
+      "gt": [
+        72,
+        1022,
+        158,
+        1070
+      ],
+      "raw_best": {
+        "bbox": [
+          78,
+          1015,
+          149,
+          1086
+        ],
+        "iou": 0.591563964589481
+      },
+      "refined_best": {
+        "bbox": [
+          86,
+          1033,
+          151,
+          1084
+        ],
+        "iou": 0.47737197300516077
+      }
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "image_path": "raw/manga109/images/KyokugenCyclone/050.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 13,
+      "gt": [
+        1286,
+        76,
+        1367,
+        187
+      ],
+      "raw_best": {
+        "bbox": [
+          1290,
+          113,
+          1361,
+          185
+        ],
+        "iou": 0.5685685685685685
+      },
+      "refined_best": {
+        "bbox": [
+          1300,
+          114,
+          1370,
+          176
+        ],
+        "iou": 0.4526533725618394
+      }
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "image_path": "raw/manga109/images/HighschoolKimengumi_vol01/029.jpg",
+      "threshold": "1.75",
+      "category": "lost",
+      "annotation_index": 1,
+      "gt": [
+        625,
+        74,
+        657,
+        119
+      ],
+      "raw_best": {
+        "bbox": [
+          618,
+          75,
+          667,
+          124
+        ],
+        "iou": 0.5787094122482532
+      },
+      "refined_best": {
+        "bbox": [
+          623,
+          74,
+          676,
+          129
+        ],
+        "iou": 0.4939965694682676
+      }
+    }
+  ],
+  "sheet": "datasets\\derived\\cascade_auto_curated_localization_v1\\combined20\\refiner_losses.png",
+  "sheet_cases": [
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 5,
+      "threshold": "1.75"
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 12,
+      "threshold": "1.75"
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 8,
+      "threshold": "1.75"
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 2,
+      "threshold": "1.75"
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 13,
+      "threshold": "1.75"
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 1,
+      "threshold": "1.75"
+    }
+  ],
+  "colors": "red GT; green highest-IoU original post-NMS box; blue highest-IoU refined box",
+  "visual_review": {
+    "reviewer": "agent",
+    "inspected_cases": 6,
+    "scope": "all six threshold1.75 matched-face losses only",
+    "observations": "Several refined boxes shrink or shift away from the annotated face extent; all six displayed best IoUs drop below .5. GT on cartoon profiles and exaggerated open mouth also illustrates annotation geometry differences. Other 20-page images not visually reviewed by this sheet."
+  }
+}

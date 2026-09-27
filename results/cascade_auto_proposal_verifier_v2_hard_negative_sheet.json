@@ -1,0 +1,199 @@
+{
+  "cases": [
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 4117,
+      "id": "cascade_auto_windows_scale_v2:window0004757",
+      "page_id": "manga109:SaladDays_vol01:068",
+      "margin": 3.2209505666284266,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 2357,
+      "id": "cascade_auto_windows_scale_v2:window0002683",
+      "page_id": "manga109:MadouTaiga:073",
+      "margin": 2.7103758207280504,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 7,
+      "id": "cascade_auto_windows_scale_v2:window0000008",
+      "page_id": "manga109:ARMS:070",
+      "margin": 2.428046511170138,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 3427,
+      "id": "cascade_auto_windows_scale_v2:window0003925",
+      "page_id": "manga109:ParaisoRoad:034",
+      "margin": 2.2952847568650827,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 474,
+      "id": "cascade_auto_windows_scale_v2:window0000572",
+      "page_id": "manga109:BurariTessenTorimonocho:042",
+      "margin": 2.125232509460479,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 2510,
+      "id": "cascade_auto_windows_scale_v2:window0002910",
+      "page_id": "manga109:MariaSamaNihaNaisyo:061",
+      "margin": 2.0276562745954334,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 3796,
+      "id": "cascade_auto_windows_scale_v2:window0004329",
+      "page_id": "manga109:PsychoStaff:005",
+      "margin": 2.021971898832881,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 1019,
+      "id": "cascade_auto_windows_scale_v2:window0001155",
+      "page_id": "manga109:EvaLady:095",
+      "margin": 2.0214389285778815,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 1,
+      "id": "cascade_auto_windows_scale_v2:window0000001",
+      "page_id": "manga109:ARMS:070",
+      "margin": 2.0103839149441067,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 987,
+      "id": "cascade_auto_windows_scale_v2:window0001120",
+      "page_id": "manga109:EvaLady:095",
+      "margin": 1.9199339574715357,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 1968,
+      "id": "cascade_auto_windows_scale_v2:window0002243",
+      "page_id": "manga109:KimiHaBokuNoTaiyouDa:092",
+      "margin": 1.8968995419244217,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_auto_background_merged_v1",
+      "source_index": 3323,
+      "id": "cascade_auto_windows_scale_v2:window0003807",
+      "page_id": "manga109:OL_Lunch:026",
+      "margin": 1.8941608789500237,
+      "label_basis": "zero_overlap_expanded_annotations"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 238,
+      "id": "loc0000238",
+      "page_id": "manga109:TaiyouNiSmash:084",
+      "margin": 2.329096108409144,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 5141,
+      "id": "loc0005141",
+      "page_id": "manga109:TotteokiNoABC:067",
+      "margin": 2.31996190842657,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 7170,
+      "id": "loc0007170",
+      "page_id": "manga109:PikaruGenkiDesu:051",
+      "margin": 2.1636586875314303,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 10127,
+      "id": "loc0010127",
+      "page_id": "manga109:MoeruOnisan_vol01:038",
+      "margin": 1.9762988988824879,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 12544,
+      "id": "loc0012544",
+      "page_id": "manga109:YukiNoFuruMachi:032",
+      "margin": 1.9597243997195721,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 10590,
+      "id": "loc0010590",
+      "page_id": "manga109:DollGun:057",
+      "margin": 1.943353686486248,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 1879,
+      "id": "loc0001879",
+      "page_id": "manga109:MariaSamaNihaNaisyo:071",
+      "margin": 1.9325109006722196,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 13407,
+      "id": "loc0013407",
+      "page_id": "manga109:Nekodama:094",
+      "margin": 1.8692263111436938,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 12006,
+      "id": "loc0012006",
+      "page_id": "manga109:UltraEleven:031",
+      "margin": 1.842646408025527,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 5123,
+      "id": "loc0005123",
+      "page_id": "manga109:Belmondo:053",
+      "margin": 1.7876941138808227,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 14668,
+      "id": "loc0014668",
+      "page_id": "manga109:MemorySeijin:020",
+      "margin": 1.7824366863165295,
+      "label_basis": "nonmatching_localization_window"
+    },
+    {
+      "dataset": "cascade_localization_negatives_v1",
+      "source_index": 5377,
+      "id": "loc0005377",
+      "page_id": "manga109:PLANET7:009",
+      "margin": 1.7720268343413026,
+      "label_basis": "nonmatching_localization_window"
+    }
+  ],
+  "sheet": "datasets\\derived\\cascade_auto_proposal_verifier_v2\\hard_negatives24.png",
+  "selection": "top twelve mining margins per category; BG source/teacher-excluded background, LOC geometrically nonmatching windows, may contain partial face",
+  "visual_review": "pending; not human approved"
+}

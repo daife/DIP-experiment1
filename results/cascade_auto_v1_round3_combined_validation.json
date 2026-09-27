@@ -1,0 +1,649 @@
+{
+  "split": "validation",
+  "selection": "fixed step5-comparison SHA-256 order; eight distinct groups",
+  "step": 2,
+  "scale_factor": 1.2,
+  "first_nms": 0.3,
+  "final_nms": 0.3,
+  "thresholds": [
+    1.5,
+    1.75
+  ],
+  "timing": "reused cached proposals/features; deployment latency not measured",
+  "refiner_training_limitation": "refiner trained on old Cascade proposals; transfer to specified Cascade evaluated here",
+  "sha256": {
+    "datasets\\derived\\cascade_auto_v1\\round3_model.json": "3be7585d5ee2375ff190b9386d12e16505d1cae338566ba8d311cd676ba6646e",
+    "datasets\\manifests\\normalized\\manga109_faces.jsonl": "f35b78e7a1717a88b4d5f5bdd39c8e50c095880e5113e6e9b90be72f3e23fce3",
+    "models\\box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43",
+    "models\\candidate_hog_rbf_step3_v1.joblib": "83ca4e51eafbc0279ec6d922d65b2ed16ba62bdf612c45c2b75bf523de29ec39",
+    "datasets\\derived\\step8_tight_crop_verifier\\model.joblib": "e0dc3a4e94ecf541ce2631eaa2cca0d08d6e78ed0dd034b8ee22a62110843a01"
+  },
+  "pages": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "cache_sha256": "8f3b438198e50fff5ed05ce841abf0e57caff82ec2b30e5dc0582cea38479d73",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 4
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 11,
+          "fn": 4
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 4
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 4
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 7,
+          "fn": 4
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 4
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 17,
+          "fn": 3
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 17,
+          "fn": 3
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 16,
+          "fn": 3
+        },
+        "tight_raw_1.75": {
+          "tp": 1,
+          "fp": 14,
+          "fn": 4
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 14,
+          "fn": 4
+        },
+        "tight_refined_1.75": {
+          "tp": 1,
+          "fp": 13,
+          "fn": 4
+        }
+      }
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "cache_sha256": "203e3dec4ff8b20176517f78bb0b72c45b4d0b03950a40e14dbb7fd5b369150d",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 7
+        },
+        "old_raw_1.75": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 9
+        },
+        "old_postnms_1.75": {
+          "tp": 0,
+          "fp": 5,
+          "fn": 9
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 8
+        },
+        "tight_raw_1.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 6
+        },
+        "tight_postnms_1.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 6
+        },
+        "tight_refined_1.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 6
+        },
+        "tight_raw_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 7
+        }
+      }
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "cache_sha256": "f24789339c8ba3b76f32b423f625ea1fcf3dad91f7dd8769a09fe060586c5f0b",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "tight_raw_1.5": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 6
+        },
+        "tight_postnms_1.5": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 6
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 6
+        },
+        "tight_raw_1.75": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 6
+        },
+        "tight_postnms_1.75": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 6
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 6
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "cache_sha256": "834db54cea785c1eca418fee1ca8d6c32bc27611f3521f367805519820e46dd8",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 3,
+          "fp": 14,
+          "fn": 8
+        },
+        "old_postnms_1.5": {
+          "tp": 3,
+          "fp": 14,
+          "fn": 8
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 14,
+          "fn": 9
+        },
+        "old_raw_1.75": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 8
+        },
+        "old_postnms_1.75": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 8
+        },
+        "old_refined_1.75": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 9
+        },
+        "tight_raw_1.5": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 8
+        },
+        "tight_postnms_1.5": {
+          "tp": 3,
+          "fp": 17,
+          "fn": 8
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 17,
+          "fn": 9
+        },
+        "tight_raw_1.75": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 9
+        },
+        "tight_postnms_1.75": {
+          "tp": 2,
+          "fp": 9,
+          "fn": 9
+        },
+        "tight_refined_1.75": {
+          "tp": 1,
+          "fp": 10,
+          "fn": 10
+        }
+      }
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "cache_sha256": "362953ec54320684896a99b31f40fb891809a7d481cddea523e2f614bd3fa0dd",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 6,
+          "fp": 10,
+          "fn": 3
+        },
+        "old_postnms_1.5": {
+          "tp": 6,
+          "fp": 10,
+          "fn": 3
+        },
+        "old_refined_1.5": {
+          "tp": 5,
+          "fp": 11,
+          "fn": 4
+        },
+        "old_raw_1.75": {
+          "tp": 5,
+          "fp": 8,
+          "fn": 4
+        },
+        "old_postnms_1.75": {
+          "tp": 5,
+          "fp": 8,
+          "fn": 4
+        },
+        "old_refined_1.75": {
+          "tp": 5,
+          "fp": 8,
+          "fn": 4
+        },
+        "tight_raw_1.5": {
+          "tp": 6,
+          "fp": 20,
+          "fn": 3
+        },
+        "tight_postnms_1.5": {
+          "tp": 6,
+          "fp": 20,
+          "fn": 3
+        },
+        "tight_refined_1.5": {
+          "tp": 5,
+          "fp": 21,
+          "fn": 4
+        },
+        "tight_raw_1.75": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 3
+        },
+        "tight_postnms_1.75": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 3
+        },
+        "tight_refined_1.75": {
+          "tp": 5,
+          "fp": 14,
+          "fn": 4
+        }
+      }
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "cache_sha256": "99d0c33657a45bc9a7c73c1ff9323014a6f19c62289d1742be75d9780f264ef2",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 9
+        },
+        "old_postnms_1.5": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 9
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 10
+        },
+        "old_raw_1.75": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 9
+        },
+        "old_postnms_1.75": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 9
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 2,
+          "fn": 10
+        },
+        "tight_raw_1.5": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 7
+        },
+        "tight_postnms_1.5": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 7
+        },
+        "tight_refined_1.5": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 8
+        },
+        "tight_raw_1.75": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 8
+        },
+        "tight_postnms_1.75": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 8
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 9
+        }
+      }
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "cache_sha256": "e987e17865da26d13d4ea64c06ac6e04b8b3eaad76c04962569a9b809ef0ea7a",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 11
+        },
+        "old_postnms_1.5": {
+          "tp": 3,
+          "fp": 5,
+          "fn": 11
+        },
+        "old_refined_1.5": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 12
+        },
+        "old_raw_1.75": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 12
+        },
+        "old_postnms_1.75": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 12
+        },
+        "old_refined_1.75": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 12
+        },
+        "tight_raw_1.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 11
+        },
+        "tight_postnms_1.5": {
+          "tp": 3,
+          "fp": 13,
+          "fn": 11
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 14,
+          "fn": 12
+        },
+        "tight_raw_1.75": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 11
+        },
+        "tight_postnms_1.75": {
+          "tp": 3,
+          "fp": 7,
+          "fn": 11
+        },
+        "tight_refined_1.75": {
+          "tp": 2,
+          "fp": 8,
+          "fn": 12
+        }
+      }
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "cache_sha256": "683a184046f910560583a9b0d2adc4ad64ed8bab2db9bedd5d39f4033c587c89",
+      "results": {
+        "old_raw_1.5": {
+          "tp": 1,
+          "fp": 18,
+          "fn": 5
+        },
+        "old_postnms_1.5": {
+          "tp": 1,
+          "fp": 18,
+          "fn": 5
+        },
+        "old_refined_1.5": {
+          "tp": 1,
+          "fp": 18,
+          "fn": 5
+        },
+        "old_raw_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 5
+        },
+        "old_postnms_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 5
+        },
+        "old_refined_1.75": {
+          "tp": 1,
+          "fp": 8,
+          "fn": 5
+        },
+        "tight_raw_1.5": {
+          "tp": 1,
+          "fp": 24,
+          "fn": 5
+        },
+        "tight_postnms_1.5": {
+          "tp": 1,
+          "fp": 24,
+          "fn": 5
+        },
+        "tight_refined_1.5": {
+          "tp": 2,
+          "fp": 23,
+          "fn": 4
+        },
+        "tight_raw_1.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 5
+        },
+        "tight_postnms_1.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 5
+        },
+        "tight_refined_1.75": {
+          "tp": 1,
+          "fp": 12,
+          "fn": 5
+        }
+      }
+    }
+  ],
+  "summary": {
+    "old_raw_1.5": {
+      "tp": 18,
+      "fp": 64,
+      "fn": 55,
+      "precision": 0.21951219512195122,
+      "recall": 0.2465753424657534,
+      "f1": 0.23225806451612904
+    },
+    "old_raw_1.75": {
+      "tp": 15,
+      "fp": 42,
+      "fn": 58,
+      "precision": 0.2631578947368421,
+      "recall": 0.2054794520547945,
+      "f1": 0.23076923076923078
+    },
+    "old_postnms_1.5": {
+      "tp": 18,
+      "fp": 64,
+      "fn": 55,
+      "precision": 0.21951219512195122,
+      "recall": 0.2465753424657534,
+      "f1": 0.23225806451612904
+    },
+    "old_postnms_1.75": {
+      "tp": 15,
+      "fp": 42,
+      "fn": 58,
+      "precision": 0.2631578947368421,
+      "recall": 0.2054794520547945,
+      "f1": 0.23076923076923078
+    },
+    "old_refined_1.5": {
+      "tp": 15,
+      "fp": 65,
+      "fn": 58,
+      "precision": 0.1875,
+      "recall": 0.2054794520547945,
+      "f1": 0.19607843137254902
+    },
+    "old_refined_1.75": {
+      "tp": 14,
+      "fp": 41,
+      "fn": 59,
+      "precision": 0.2545454545454545,
+      "recall": 0.1917808219178082,
+      "f1": 0.21875
+    },
+    "tight_raw_1.5": {
+      "tp": 24,
+      "fp": 113,
+      "fn": 49,
+      "precision": 0.17518248175182483,
+      "recall": 0.3287671232876712,
+      "f1": 0.22857142857142856
+    },
+    "tight_raw_1.75": {
+      "tp": 19,
+      "fp": 67,
+      "fn": 54,
+      "precision": 0.22093023255813954,
+      "recall": 0.2602739726027397,
+      "f1": 0.2389937106918239
+    },
+    "tight_postnms_1.5": {
+      "tp": 24,
+      "fp": 113,
+      "fn": 49,
+      "precision": 0.17518248175182483,
+      "recall": 0.3287671232876712,
+      "f1": 0.22857142857142856
+    },
+    "tight_postnms_1.75": {
+      "tp": 19,
+      "fp": 67,
+      "fn": 54,
+      "precision": 0.22093023255813954,
+      "recall": 0.2602739726027397,
+      "f1": 0.2389937106918239
+    },
+    "tight_refined_1.5": {
+      "tp": 21,
+      "fp": 114,
+      "fn": 52,
+      "precision": 0.15555555555555556,
+      "recall": 0.2876712328767123,
+      "f1": 0.20192307692307693
+    },
+    "tight_refined_1.75": {
+      "tp": 16,
+      "fp": 69,
+      "fn": 57,
+      "precision": 0.18823529411764706,
+      "recall": 0.2191780821917808,
+      "f1": 0.20253164556962025
+    }
+  }
+}

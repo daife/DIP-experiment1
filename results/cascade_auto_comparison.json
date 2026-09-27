@@ -1,0 +1,761 @@
+{
+  "sources": [
+    {
+      "path": "results\\step8_cascade_search128_validation.json",
+      "sha256": "9837b943dae9bf3446084ad3666600d36c3adec67253f63029a731ac62990180",
+      "cascade_sha256": "dccac3e24b030e5c3ebef4bf8fbe6cf65d06292d5d7b2744e3484fc941931ca8"
+    },
+    {
+      "path": "results\\cascade_auto_v1_round1_validation.json",
+      "sha256": "c3433dfdbaa7cde0d7b796784925691adefa3912d18b1c28af074c62ac31ab81",
+      "cascade_sha256": "6067e70621e39bc51d9930b497ba0ffc5a1f517736d389a9f23fe18d558be05e"
+    },
+    {
+      "path": "results\\cascade_auto_v1_round2_validation.json",
+      "sha256": "bac267bfebc12734cf973a739d361406463727a2a909dda2e140af54899ac1b2",
+      "cascade_sha256": "34eb0d442887b305d731144b5e41343386e479e14200a06f990bdff21335008b"
+    },
+    {
+      "path": "results\\cascade_auto_v1_round3_validation.json",
+      "sha256": "d9bdd7851fb623391dd8f0212cbbfc94c8dd9028473290541da3396fc0102b9b",
+      "cascade_sha256": "3be7585d5ee2375ff190b9386d12e16505d1cae338566ba8d311cd676ba6646e"
+    },
+    {
+      "path": "datasets\\derived\\cascade_auto_mined_v1\\validation.json",
+      "sha256": "a4e16ac3a94511c60fe3a11f1dde4fac695f777f2a647a3504fa4e07c1eead84",
+      "cascade_sha256": "a9db25b66ff357b1da14fdb007e908b09d87f5cef9d5c9d95ae28bcdd92032f2"
+    },
+    {
+      "path": "datasets\\derived\\cascade_auto_mined_128trees\\validation.json",
+      "sha256": "dd673b0d5f730017cbbbfb84f350ba9430c55963661c5294a6f45d5aff16778c",
+      "cascade_sha256": "d177b366a2f0ee85eddecf8862dbce3cae676b9bd2bcb266dbd3b8d960d4d131"
+    },
+    {
+      "path": "results\\cascade_auto_recall098_validation.json",
+      "sha256": "2b49cac2127b86d60ad24a88676011da7e088ccf3803111c19f84d8a0b708aee",
+      "cascade_sha256": "64aa650067fd6cfb8779b25d00e515f8257e17087323a4bb7d1274d408fcba3d"
+    },
+    {
+      "path": "results\\cascade_auto_recall095_validation.json",
+      "sha256": "0d16c1f3a381efe40a4245c254500dea358cb7abd39284a4cd0d1f337a95b53c",
+      "cascade_sha256": "b6b01f194f70bab0f99f096db7136ee009a787d05000daed0493c346faba29c8"
+    },
+    {
+      "path": "datasets\\derived\\cascade_auto_curated_localization_v1\\validation.json",
+      "sha256": "438c9ec173c8e226dfa7eece5a5f652787e15a50b9322cdecd2c0f18fec1e8d7",
+      "cascade_sha256": "2b7f4cd4816efd65f5984cc941ca402e1e62c1a82e996d85698787133ed237ac"
+    },
+    {
+      "path": "datasets\\derived\\cascade_auto_curated_balanced_v1\\validation.json",
+      "sha256": "43b340f407fae5caf16cfca9af572795e47c89410b5c025757fb9f0fc904ed51",
+      "cascade_sha256": "1af446b9b97fd173adaec3de300aae00576395bce8391e2dd153c2ad629ff395"
+    }
+  ],
+  "pending": [],
+  "records": [
+    {
+      "model": "historical_search128",
+      "gate": "baseline",
+      "tp": 57,
+      "fp": 36587,
+      "fn": 16,
+      "precision": 0.001555507040716079,
+      "recall": 0.7808219178082192,
+      "f1": 0.0031048288258844676
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf0.75_side36",
+      "tp": 33,
+      "fp": 438,
+      "fn": 40,
+      "precision": 0.07006369426751592,
+      "recall": 0.4520547945205479,
+      "f1": 0.1213235294117647
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf1_side36",
+      "tp": 27,
+      "fp": 266,
+      "fn": 46,
+      "precision": 0.09215017064846416,
+      "recall": 0.3698630136986301,
+      "f1": 0.14754098360655737
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf1.25_side36",
+      "tp": 22,
+      "fp": 161,
+      "fn": 51,
+      "precision": 0.12021857923497267,
+      "recall": 0.3013698630136986,
+      "f1": 0.171875
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf1.5_side36",
+      "tp": 21,
+      "fp": 103,
+      "fn": 52,
+      "precision": 0.1693548387096774,
+      "recall": 0.2876712328767123,
+      "f1": 0.2131979695431472
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf1.75_side36",
+      "tp": 21,
+      "fp": 60,
+      "fn": 52,
+      "precision": 0.25925925925925924,
+      "recall": 0.2876712328767123,
+      "f1": 0.2727272727272727
+    },
+    {
+      "model": "historical_search128",
+      "gate": "rbf2_side36",
+      "tp": 15,
+      "fp": 38,
+      "fn": 58,
+      "precision": 0.2830188679245283,
+      "recall": 0.2054794520547945,
+      "f1": 0.23809523809523808
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "baseline",
+      "tp": 52,
+      "fp": 39747,
+      "fn": 21,
+      "precision": 0.0013065654915952662,
+      "recall": 0.7123287671232876,
+      "f1": 0.002608346709470305
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf0.75_side36",
+      "tp": 25,
+      "fp": 394,
+      "fn": 48,
+      "precision": 0.059665871121718374,
+      "recall": 0.3424657534246575,
+      "f1": 0.1016260162601626
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf1_side36",
+      "tp": 24,
+      "fp": 243,
+      "fn": 49,
+      "precision": 0.0898876404494382,
+      "recall": 0.3287671232876712,
+      "f1": 0.1411764705882353
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf1.25_side36",
+      "tp": 23,
+      "fp": 152,
+      "fn": 50,
+      "precision": 0.13142857142857142,
+      "recall": 0.3150684931506849,
+      "f1": 0.18548387096774194
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf1.5_side36",
+      "tp": 17,
+      "fp": 76,
+      "fn": 56,
+      "precision": 0.1827956989247312,
+      "recall": 0.2328767123287671,
+      "f1": 0.20481927710843373
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf1.75_side36",
+      "tp": 14,
+      "fp": 42,
+      "fn": 59,
+      "precision": 0.25,
+      "recall": 0.1917808219178082,
+      "f1": 0.21705426356589147
+    },
+    {
+      "model": "cascade_auto_v1_round1",
+      "gate": "rbf2_side36",
+      "tp": 11,
+      "fp": 23,
+      "fn": 62,
+      "precision": 0.3235294117647059,
+      "recall": 0.1506849315068493,
+      "f1": 0.205607476635514
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "baseline",
+      "tp": 54,
+      "fp": 43115,
+      "fn": 19,
+      "precision": 0.0012508976348768793,
+      "recall": 0.7397260273972602,
+      "f1": 0.002497571805189399
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf0.75_side36",
+      "tp": 29,
+      "fp": 393,
+      "fn": 44,
+      "precision": 0.06872037914691943,
+      "recall": 0.3972602739726027,
+      "f1": 0.11717171717171718
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf1_side36",
+      "tp": 24,
+      "fp": 229,
+      "fn": 49,
+      "precision": 0.09486166007905138,
+      "recall": 0.3287671232876712,
+      "f1": 0.147239263803681
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf1.25_side36",
+      "tp": 17,
+      "fp": 143,
+      "fn": 56,
+      "precision": 0.10625,
+      "recall": 0.2328767123287671,
+      "f1": 0.1459227467811159
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf1.5_side36",
+      "tp": 12,
+      "fp": 78,
+      "fn": 61,
+      "precision": 0.13333333333333333,
+      "recall": 0.1643835616438356,
+      "f1": 0.147239263803681
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf1.75_side36",
+      "tp": 12,
+      "fp": 49,
+      "fn": 61,
+      "precision": 0.19672131147540983,
+      "recall": 0.1643835616438356,
+      "f1": 0.1791044776119403
+    },
+    {
+      "model": "cascade_auto_v1_round2",
+      "gate": "rbf2_side36",
+      "tp": 8,
+      "fp": 26,
+      "fn": 65,
+      "precision": 0.23529411764705882,
+      "recall": 0.1095890410958904,
+      "f1": 0.14953271028037382
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "baseline",
+      "tp": 59,
+      "fp": 36510,
+      "fn": 14,
+      "precision": 0.0016133883890727119,
+      "recall": 0.8082191780821918,
+      "f1": 0.0032203482342666886
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf0.75_side36",
+      "tp": 34,
+      "fp": 400,
+      "fn": 39,
+      "precision": 0.07834101382488479,
+      "recall": 0.4657534246575342,
+      "f1": 0.1341222879684418
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf1_side36",
+      "tp": 29,
+      "fp": 238,
+      "fn": 44,
+      "precision": 0.10861423220973783,
+      "recall": 0.3972602739726027,
+      "f1": 0.17058823529411765
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf1.25_side36",
+      "tp": 22,
+      "fp": 142,
+      "fn": 51,
+      "precision": 0.13414634146341464,
+      "recall": 0.3013698630136986,
+      "f1": 0.18565400843881857
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf1.5_side36",
+      "tp": 18,
+      "fp": 64,
+      "fn": 55,
+      "precision": 0.21951219512195122,
+      "recall": 0.2465753424657534,
+      "f1": 0.23225806451612904
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf1.75_side36",
+      "tp": 15,
+      "fp": 42,
+      "fn": 58,
+      "precision": 0.2631578947368421,
+      "recall": 0.2054794520547945,
+      "f1": 0.23076923076923078
+    },
+    {
+      "model": "cascade_auto_v1_round3",
+      "gate": "rbf2_side36",
+      "tp": 10,
+      "fp": 24,
+      "fn": 63,
+      "precision": 0.29411764705882354,
+      "recall": 0.136986301369863,
+      "f1": 0.18691588785046728
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "baseline",
+      "tp": 55,
+      "fp": 35133,
+      "fn": 18,
+      "precision": 0.0015630328521086733,
+      "recall": 0.7534246575342466,
+      "f1": 0.003119593885595984
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf0.75_side36",
+      "tp": 25,
+      "fp": 347,
+      "fn": 48,
+      "precision": 0.06720430107526881,
+      "recall": 0.3424657534246575,
+      "f1": 0.11235955056179775
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf1_side36",
+      "tp": 20,
+      "fp": 220,
+      "fn": 53,
+      "precision": 0.08333333333333333,
+      "recall": 0.273972602739726,
+      "f1": 0.12779552715654952
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf1.25_side36",
+      "tp": 15,
+      "fp": 115,
+      "fn": 58,
+      "precision": 0.11538461538461539,
+      "recall": 0.2054794520547945,
+      "f1": 0.1477832512315271
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf1.5_side36",
+      "tp": 11,
+      "fp": 63,
+      "fn": 62,
+      "precision": 0.14864864864864866,
+      "recall": 0.1506849315068493,
+      "f1": 0.14965986394557823
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf1.75_side36",
+      "tp": 9,
+      "fp": 38,
+      "fn": 64,
+      "precision": 0.19148936170212766,
+      "recall": 0.1232876712328767,
+      "f1": 0.15
+    },
+    {
+      "model": "fresh_mined_geometry_capacity",
+      "gate": "rbf2_side36",
+      "tp": 5,
+      "fp": 16,
+      "fn": 68,
+      "precision": 0.23809523809523808,
+      "recall": 0.0684931506849315,
+      "f1": 0.10638297872340426
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "baseline",
+      "tp": 57,
+      "fp": 31895,
+      "fn": 16,
+      "precision": 0.0017839258888332498,
+      "recall": 0.7808219178082192,
+      "f1": 0.003559718969555035
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf0.75_side36",
+      "tp": 30,
+      "fp": 454,
+      "fn": 43,
+      "precision": 0.06198347107438017,
+      "recall": 0.410958904109589,
+      "f1": 0.10771992818671454
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf1_side36",
+      "tp": 25,
+      "fp": 278,
+      "fn": 48,
+      "precision": 0.08250825082508251,
+      "recall": 0.3424657534246575,
+      "f1": 0.13297872340425532
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf1.25_side36",
+      "tp": 17,
+      "fp": 162,
+      "fn": 56,
+      "precision": 0.09497206703910614,
+      "recall": 0.2328767123287671,
+      "f1": 0.1349206349206349
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf1.5_side36",
+      "tp": 12,
+      "fp": 98,
+      "fn": 61,
+      "precision": 0.10909090909090909,
+      "recall": 0.1643835616438356,
+      "f1": 0.13114754098360656
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf1.75_side36",
+      "tp": 9,
+      "fp": 52,
+      "fn": 64,
+      "precision": 0.14754098360655737,
+      "recall": 0.1232876712328767,
+      "f1": 0.13432835820895522
+    },
+    {
+      "model": "fresh_mined_128trees",
+      "gate": "rbf2_side36",
+      "tp": 2,
+      "fp": 28,
+      "fn": 71,
+      "precision": 0.06666666666666667,
+      "recall": 0.0273972602739726,
+      "f1": 0.038834951456310676
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "baseline",
+      "tp": 56,
+      "fp": 26807,
+      "fn": 17,
+      "precision": 0.0020846517514797303,
+      "recall": 0.7671232876712328,
+      "f1": 0.004158004158004158
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf0.75_side36",
+      "tp": 28,
+      "fp": 442,
+      "fn": 45,
+      "precision": 0.059574468085106386,
+      "recall": 0.3835616438356164,
+      "f1": 0.10313075506445672
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf1_side36",
+      "tp": 24,
+      "fp": 272,
+      "fn": 49,
+      "precision": 0.08108108108108109,
+      "recall": 0.3287671232876712,
+      "f1": 0.13008130081300814
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf1.25_side36",
+      "tp": 17,
+      "fp": 162,
+      "fn": 56,
+      "precision": 0.09497206703910614,
+      "recall": 0.2328767123287671,
+      "f1": 0.1349206349206349
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf1.5_side36",
+      "tp": 12,
+      "fp": 98,
+      "fn": 61,
+      "precision": 0.10909090909090909,
+      "recall": 0.1643835616438356,
+      "f1": 0.13114754098360656
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf1.75_side36",
+      "tp": 9,
+      "fp": 52,
+      "fn": 64,
+      "precision": 0.14754098360655737,
+      "recall": 0.1232876712328767,
+      "f1": 0.13432835820895522
+    },
+    {
+      "model": "cascade_auto_recall098",
+      "gate": "rbf2_side36",
+      "tp": 2,
+      "fp": 26,
+      "fn": 71,
+      "precision": 0.07142857142857142,
+      "recall": 0.0273972602739726,
+      "f1": 0.039603960396039604
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "baseline",
+      "tp": 57,
+      "fp": 21437,
+      "fn": 16,
+      "precision": 0.0026519028566111473,
+      "recall": 0.7808219178082192,
+      "f1": 0.00528585338711921
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf0.75_side36",
+      "tp": 28,
+      "fp": 441,
+      "fn": 45,
+      "precision": 0.05970149253731343,
+      "recall": 0.3835616438356164,
+      "f1": 0.1033210332103321
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf1_side36",
+      "tp": 24,
+      "fp": 271,
+      "fn": 49,
+      "precision": 0.08135593220338982,
+      "recall": 0.3287671232876712,
+      "f1": 0.13043478260869565
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf1.25_side36",
+      "tp": 17,
+      "fp": 160,
+      "fn": 56,
+      "precision": 0.096045197740113,
+      "recall": 0.2328767123287671,
+      "f1": 0.136
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf1.5_side36",
+      "tp": 12,
+      "fp": 99,
+      "fn": 61,
+      "precision": 0.10810810810810811,
+      "recall": 0.1643835616438356,
+      "f1": 0.13043478260869565
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf1.75_side36",
+      "tp": 9,
+      "fp": 52,
+      "fn": 64,
+      "precision": 0.14754098360655737,
+      "recall": 0.1232876712328767,
+      "f1": 0.13432835820895522
+    },
+    {
+      "model": "cascade_auto_recall095",
+      "gate": "rbf2_side36",
+      "tp": 2,
+      "fp": 25,
+      "fn": 71,
+      "precision": 0.07407407407407407,
+      "recall": 0.0273972602739726,
+      "f1": 0.04
+    },
+    {
+      "model": "curated_localization",
+      "gate": "baseline",
+      "tp": 57,
+      "fp": 27287,
+      "fn": 16,
+      "precision": 0.0020845523698069046,
+      "recall": 0.7808219178082192,
+      "f1": 0.004158004158004158
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf0.75_side36",
+      "tp": 35,
+      "fp": 410,
+      "fn": 38,
+      "precision": 0.07865168539325842,
+      "recall": 0.4794520547945205,
+      "f1": 0.13513513513513514
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf1_side36",
+      "tp": 33,
+      "fp": 240,
+      "fn": 40,
+      "precision": 0.12087912087912088,
+      "recall": 0.4520547945205479,
+      "f1": 0.1907514450867052
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf1.25_side36",
+      "tp": 29,
+      "fp": 143,
+      "fn": 44,
+      "precision": 0.1686046511627907,
+      "recall": 0.3972602739726027,
+      "f1": 0.23673469387755103
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf1.5_side36",
+      "tp": 24,
+      "fp": 81,
+      "fn": 49,
+      "precision": 0.22857142857142856,
+      "recall": 0.3287671232876712,
+      "f1": 0.2696629213483146
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf1.75_side36",
+      "tp": 16,
+      "fp": 44,
+      "fn": 57,
+      "precision": 0.26666666666666666,
+      "recall": 0.2191780821917808,
+      "f1": 0.24060150375939848
+    },
+    {
+      "model": "curated_localization",
+      "gate": "rbf2_side36",
+      "tp": 14,
+      "fp": 21,
+      "fn": 59,
+      "precision": 0.4,
+      "recall": 0.1917808219178082,
+      "f1": 0.25925925925925924
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "baseline",
+      "tp": 53,
+      "fp": 29872,
+      "fn": 20,
+      "precision": 0.0017710944026733501,
+      "recall": 0.726027397260274,
+      "f1": 0.0035335689045936395
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf0.75_side36",
+      "tp": 31,
+      "fp": 415,
+      "fn": 42,
+      "precision": 0.06950672645739911,
+      "recall": 0.4246575342465753,
+      "f1": 0.11946050096339114
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf1_side36",
+      "tp": 28,
+      "fp": 259,
+      "fn": 45,
+      "precision": 0.0975609756097561,
+      "recall": 0.3835616438356164,
+      "f1": 0.15555555555555556
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf1.25_side36",
+      "tp": 19,
+      "fp": 154,
+      "fn": 54,
+      "precision": 0.10982658959537572,
+      "recall": 0.2602739726027397,
+      "f1": 0.15447154471544716
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf1.5_side36",
+      "tp": 14,
+      "fp": 91,
+      "fn": 59,
+      "precision": 0.13333333333333333,
+      "recall": 0.1917808219178082,
+      "f1": 0.15730337078651685
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf1.75_side36",
+      "tp": 12,
+      "fp": 55,
+      "fn": 61,
+      "precision": 0.1791044776119403,
+      "recall": 0.1643835616438356,
+      "f1": 0.17142857142857143
+    },
+    {
+      "model": "curated_balanced",
+      "gate": "rbf2_side36",
+      "tp": 9,
+      "fp": 26,
+      "fn": 64,
+      "precision": 0.2571428571428571,
+      "recall": 0.1232876712328767,
+      "f1": 0.16666666666666666
+    }
+  ],
+  "comparison_scope": "identical explored validation works and HOG gates; no box regression; not blind test",
+  "plot": "results/cascade_auto_comparison.png",
+  "plot_legend": "color/legend identifies models; x=recall, y=precision; two panels fix HOG gates 1.5/1.75",
+  "command": ".venv/Scripts/python.exe scripts/summarize_auto_cascade.py"
+}

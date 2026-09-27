@@ -1,0 +1,4329 @@
+{
+  "summary": {
+    "faces": 252,
+    "reasons": {
+      "no_IoU50_postNMS_candidate": 56,
+      "candidate_available": 81,
+      "HOG_filtered": 106,
+      "min_side_filtered": 9
+    },
+    "size_groups": {
+      "gt128": {
+        "no_IoU50_postNMS_candidate": 20,
+        "HOG_filtered": 24,
+        "candidate_available": 14
+      },
+      "37to64": {
+        "candidate_available": 20,
+        "HOG_filtered": 29,
+        "no_IoU50_postNMS_candidate": 12
+      },
+      "65to128": {
+        "candidate_available": 46,
+        "no_IoU50_postNMS_candidate": 20,
+        "HOG_filtered": 40
+      },
+      "le36": {
+        "min_side_filtered": 9,
+        "HOG_filtered": 13,
+        "no_IoU50_postNMS_candidate": 4,
+        "candidate_available": 1
+      }
+    },
+    "square_geometry_cannot_reach_IoU50": 11
+  },
+  "faces": [
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "annotation_index": 0,
+      "gt": [
+        1241,
+        285,
+        1404,
+        384
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 163.0,
+      "gt_aspect_ratio": 0.6073619631901841,
+      "ideal_square_IoU_upper_bound": 0.63845024288767,
+      "best_postNMS_IoU": 0.4162154845695723,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "annotation_index": 1,
+      "gt": [
+        1423,
+        459,
+        1463,
+        514
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 55.0,
+      "gt_aspect_ratio": 0.7272727272727273,
+      "ideal_square_IoU_upper_bound": 0.74337952886927,
+      "best_postNMS_IoU": 0.7421431276031806,
+      "best_HOG_margin_of_IoU50_candidates": 3.27277160048315
+    },
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "annotation_index": 2,
+      "gt": [
+        891,
+        384,
+        960,
+        481
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 97.0,
+      "gt_aspect_ratio": 0.711340206185567,
+      "ideal_square_IoU_upper_bound": 0.7292210485196639,
+      "best_postNMS_IoU": 0.7206930449741952,
+      "best_HOG_margin_of_IoU50_candidates": 2.1144824353427447
+    },
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "annotation_index": 3,
+      "gt": [
+        1103,
+        301,
+        1231,
+        560
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 259.0,
+      "gt_aspect_ratio": 0.4942084942084942,
+      "ideal_square_IoU_upper_bound": 0.542019618563561,
+      "best_postNMS_IoU": 0.5442021756686143,
+      "best_HOG_margin_of_IoU50_candidates": 1.0806973391416803
+    },
+    {
+      "image_id": "manga109:NichijouSoup:009",
+      "annotation_index": 4,
+      "gt": [
+        1066,
+        439,
+        1102,
+        499
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 60.0,
+      "gt_aspect_ratio": 0.6,
+      "ideal_square_IoU_upper_bound": 0.6321156877891078,
+      "best_postNMS_IoU": 0.5472312703583062,
+      "best_HOG_margin_of_IoU50_candidates": 1.8626000232673943
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 0,
+      "gt": [
+        454,
+        103,
+        531,
+        208
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 105.0,
+      "gt_aspect_ratio": 0.7333333333333333,
+      "ideal_square_IoU_upper_bound": 0.7487850032108216,
+      "best_postNMS_IoU": 0.47090949621043243,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 1,
+      "gt": [
+        415,
+        331,
+        744,
+        581
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 329.0,
+      "gt_aspect_ratio": 0.7598784194528876,
+      "ideal_square_IoU_upper_bound": 0.7725940112457782,
+      "best_postNMS_IoU": 0.5160774863920292,
+      "best_HOG_margin_of_IoU50_candidates": -0.8502205999613297
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 2,
+      "gt": [
+        183,
+        149,
+        260,
+        233
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 84.0,
+      "gt_aspect_ratio": 0.9166666666666666,
+      "ideal_square_IoU_upper_bound": 0.91833109692303,
+      "best_postNMS_IoU": 0.7953897953897954,
+      "best_HOG_margin_of_IoU50_candidates": 1.8885796076873058
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 3,
+      "gt": [
+        1267,
+        120,
+        1524,
+        367
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 257.0,
+      "gt_aspect_ratio": 0.9610894941634242,
+      "ideal_square_IoU_upper_bound": 0.9614606707875568,
+      "best_postNMS_IoU": 0.4636922110460997,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 4,
+      "gt": [
+        1231,
+        710,
+        1308,
+        821
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 111.0,
+      "gt_aspect_ratio": 0.6936936936936937,
+      "ideal_square_IoU_upper_bound": 0.7136239045186754,
+      "best_postNMS_IoU": 0.5603855232100708,
+      "best_HOG_margin_of_IoU50_candidates": 2.5014219961024695
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 5,
+      "gt": [
+        1441,
+        791,
+        1573,
+        1030
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 239.0,
+      "gt_aspect_ratio": 0.5523012552301255,
+      "ideal_square_IoU_upper_bound": 0.5913047735407585,
+      "best_postNMS_IoU": 0.5886656311068797,
+      "best_HOG_margin_of_IoU50_candidates": 0.9630023788415443
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 6,
+      "gt": [
+        1318,
+        425,
+        1427,
+        549
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 124.0,
+      "gt_aspect_ratio": 0.8790322580645161,
+      "ideal_square_IoU_upper_bound": 0.8824720053471263,
+      "best_postNMS_IoU": 0.6056572379367721,
+      "best_HOG_margin_of_IoU50_candidates": 0.12346379788598005
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 7,
+      "gt": [
+        114,
+        321,
+        203,
+        417
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 96.0,
+      "gt_aspect_ratio": 0.9270833333333334,
+      "ideal_square_IoU_upper_bound": 0.9283644750259711,
+      "best_postNMS_IoU": 0.5601888276947286,
+      "best_HOG_margin_of_IoU50_candidates": 1.6853962152052544
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:004",
+      "annotation_index": 8,
+      "gt": [
+        296,
+        753,
+        528,
+        1036
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 283.0,
+      "gt_aspect_ratio": 0.8197879858657244,
+      "ideal_square_IoU_upper_bound": 0.8271872617994502,
+      "best_postNMS_IoU": 0.4310896643327987,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 0,
+      "gt": [
+        326,
+        759,
+        444,
+        889
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 130.0,
+      "gt_aspect_ratio": 0.9076923076923077,
+      "ideal_square_IoU_upper_bound": 0.9097251425031259,
+      "best_postNMS_IoU": 0.7003287070854638,
+      "best_HOG_margin_of_IoU50_candidates": 0.9634780802356584
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 1,
+      "gt": [
+        59,
+        107,
+        160,
+        231
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 124.0,
+      "gt_aspect_ratio": 0.8145161290322581,
+      "ideal_square_IoU_upper_bound": 0.8223325502192519,
+      "best_postNMS_IoU": 0.6701321204245181,
+      "best_HOG_margin_of_IoU50_candidates": 1.9891331107669492
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 2,
+      "gt": [
+        542,
+        301,
+        710,
+        532
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 231.0,
+      "gt_aspect_ratio": 0.7272727272727273,
+      "ideal_square_IoU_upper_bound": 0.74337952886927,
+      "best_postNMS_IoU": 0.6463599301106582,
+      "best_HOG_margin_of_IoU50_candidates": 1.716735177796616
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 3,
+      "gt": [
+        557,
+        931,
+        700,
+        1026
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 143.0,
+      "gt_aspect_ratio": 0.6643356643356644,
+      "ideal_square_IoU_upper_bound": 0.687860411675521,
+      "best_postNMS_IoU": 0.5001076889941848,
+      "best_HOG_margin_of_IoU50_candidates": 1.6819045882391301
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 4,
+      "gt": [
+        1452,
+        231,
+        1498,
+        275
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 46.0,
+      "gt_aspect_ratio": 0.9565217391304348,
+      "ideal_square_IoU_upper_bound": 0.9569841073829711,
+      "best_postNMS_IoU": 0.7969639468690702,
+      "best_HOG_margin_of_IoU50_candidates": 1.8419295242807845
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 5,
+      "gt": [
+        1364,
+        281,
+        1409,
+        306
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 45.0,
+      "gt_aspect_ratio": 0.5555555555555556,
+      "ideal_square_IoU_upper_bound": 0.5940776730644755,
+      "best_postNMS_IoU": 0.5208333333333334,
+      "best_HOG_margin_of_IoU50_candidates": 2.39732708710227
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 6,
+      "gt": [
+        1152,
+        254,
+        1192,
+        288
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 40.0,
+      "gt_aspect_ratio": 0.85,
+      "ideal_square_IoU_upper_bound": 0.8552091718916118,
+      "best_postNMS_IoU": 0.7317073170731707,
+      "best_HOG_margin_of_IoU50_candidates": 3.40041362835464
+    },
+    {
+      "image_id": "manga109:HisokaReturns:075",
+      "annotation_index": 7,
+      "gt": [
+        1477,
+        609,
+        1607,
+        794
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 185.0,
+      "gt_aspect_ratio": 0.7027027027027027,
+      "ideal_square_IoU_upper_bound": 0.7215758170252728,
+      "best_postNMS_IoU": 0.6998008996386698,
+      "best_HOG_margin_of_IoU50_candidates": 0.9911212302993229
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 0,
+      "gt": [
+        382,
+        149,
+        484,
+        251
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 102.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.4982698961937716,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 1,
+      "gt": [
+        1385,
+        451,
+        1480,
+        524
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 95.0,
+      "gt_aspect_ratio": 0.7684210526315789,
+      "ideal_square_IoU_upper_bound": 0.7803038917712541,
+      "best_postNMS_IoU": 0.462487495831944,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 2,
+      "gt": [
+        150,
+        976,
+        308,
+        1135
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 159.0,
+      "gt_aspect_ratio": 0.9937106918238994,
+      "ideal_square_IoU_upper_bound": 0.9937205496004387,
+      "best_postNMS_IoU": 0.5485631932919905,
+      "best_HOG_margin_of_IoU50_candidates": 2.32252658941278
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 3,
+      "gt": [
+        1279,
+        452,
+        1363,
+        520
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 84.0,
+      "gt_aspect_ratio": 0.8095238095238095,
+      "ideal_square_IoU_upper_bound": 0.8177445859012293,
+      "best_postNMS_IoU": 0.48606587043069127,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 4,
+      "gt": [
+        407,
+        886,
+        444,
+        920
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 37.0,
+      "gt_aspect_ratio": 0.918918918918919,
+      "ideal_square_IoU_upper_bound": 0.9204964158234457,
+      "best_postNMS_IoU": 0.5134693877551021,
+      "best_HOG_margin_of_IoU50_candidates": -0.1460186879993941
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 5,
+      "gt": [
+        662,
+        134,
+        751,
+        231
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 97.0,
+      "gt_aspect_ratio": 0.9175257731958762,
+      "ideal_square_IoU_upper_bound": 0.9191567804311233,
+      "best_postNMS_IoU": 0.5921464149194949,
+      "best_HOG_margin_of_IoU50_candidates": 0.9796678562632448
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 6,
+      "gt": [
+        696,
+        981,
+        728,
+        1022
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 41.0,
+      "gt_aspect_ratio": 0.7804878048780488,
+      "ideal_square_IoU_upper_bound": 0.7912354629174192,
+      "best_postNMS_IoU": 0.6189024390243902,
+      "best_HOG_margin_of_IoU50_candidates": 0.7497122553660978
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 7,
+      "gt": [
+        1117,
+        116,
+        1305,
+        304
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 188.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.5879739499972405,
+      "best_HOG_margin_of_IoU50_candidates": 2.3508280684354865
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 8,
+      "gt": [
+        356,
+        494,
+        429,
+        560
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 73.0,
+      "gt_aspect_ratio": 0.9041095890410958,
+      "ideal_square_IoU_upper_bound": 0.9062992438611779,
+      "best_postNMS_IoU": 0.7313484507529859,
+      "best_HOG_margin_of_IoU50_candidates": 1.494928004496729
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 9,
+      "gt": [
+        1271,
+        774,
+        1299,
+        806
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 32.0,
+      "gt_aspect_ratio": 0.875,
+      "ideal_square_IoU_upper_bound": 0.8786651818838307,
+      "best_postNMS_IoU": 0.7529411764705882,
+      "best_HOG_margin_of_IoU50_candidates": 3.029098141411538
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:056",
+      "annotation_index": 10,
+      "gt": [
+        935,
+        699,
+        1060,
+        839
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 140.0,
+      "gt_aspect_ratio": 0.8928571428571429,
+      "ideal_square_IoU_upper_bound": 0.895575014037837,
+      "best_postNMS_IoU": 0.43789227849948914,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 0,
+      "gt": [
+        545,
+        618,
+        609,
+        678
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 64.0,
+      "gt_aspect_ratio": 0.9375,
+      "ideal_square_IoU_upper_bound": 0.9384462606052925,
+      "best_postNMS_IoU": 0.6637168141592921,
+      "best_HOG_margin_of_IoU50_candidates": 1.488197338381049
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 1,
+      "gt": [
+        1095,
+        324,
+        1193,
+        405
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 98.0,
+      "gt_aspect_ratio": 0.826530612244898,
+      "ideal_square_IoU_upper_bound": 0.8334112825048552,
+      "best_postNMS_IoU": 0.5662921348314607,
+      "best_HOG_margin_of_IoU50_candidates": 1.7868259957735515
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 2,
+      "gt": [
+        446,
+        122,
+        510,
+        213
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 91.0,
+      "gt_aspect_ratio": 0.7032967032967034,
+      "ideal_square_IoU_upper_bound": 0.7221009074223711,
+      "best_postNMS_IoU": 0.4817204301075269,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 3,
+      "gt": [
+        1182,
+        734,
+        1382,
+        899
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 200.0,
+      "gt_aspect_ratio": 0.825,
+      "ideal_square_IoU_upper_bound": 0.8319969173097622,
+      "best_postNMS_IoU": 0.663744918699187,
+      "best_HOG_margin_of_IoU50_candidates": 3.026978302677083
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 4,
+      "gt": [
+        691,
+        993,
+        750,
+        1051
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 59.0,
+      "gt_aspect_ratio": 0.9830508474576272,
+      "ideal_square_IoU_upper_bound": 0.9831220585262772,
+      "best_postNMS_IoU": 0.5612879619465788,
+      "best_HOG_margin_of_IoU50_candidates": 0.290603382626744
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 5,
+      "gt": [
+        221,
+        943,
+        337,
+        1038
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 116.0,
+      "gt_aspect_ratio": 0.8189655172413793,
+      "ideal_square_IoU_upper_bound": 0.8264292020384048,
+      "best_postNMS_IoU": 0.7225281930238657,
+      "best_HOG_margin_of_IoU50_candidates": 3.024279690854857
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 6,
+      "gt": [
+        565,
+        947,
+        641,
+        1007
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 76.0,
+      "gt_aspect_ratio": 0.7894736842105263,
+      "ideal_square_IoU_upper_bound": 0.7994079677421027,
+      "best_postNMS_IoU": 0.6165494862087615,
+      "best_HOG_margin_of_IoU50_candidates": 1.2767234167383363
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 7,
+      "gt": [
+        257,
+        385,
+        348,
+        469
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 91.0,
+      "gt_aspect_ratio": 0.9230769230769231,
+      "ideal_square_IoU_upper_bound": 0.9244997998398399,
+      "best_postNMS_IoU": 0.7070045824371084,
+      "best_HOG_margin_of_IoU50_candidates": 2.4446928765155462
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:068",
+      "annotation_index": 8,
+      "gt": [
+        980,
+        938,
+        1062,
+        1019
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 82.0,
+      "gt_aspect_ratio": 0.9878048780487805,
+      "ideal_square_IoU_upper_bound": 0.9878418319290425,
+      "best_postNMS_IoU": 0.5420054200542005,
+      "best_HOG_margin_of_IoU50_candidates": 2.0649521936178097
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 0,
+      "gt": [
+        153,
+        389,
+        210,
+        466
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 77.0,
+      "gt_aspect_ratio": 0.7402597402597403,
+      "ideal_square_IoU_upper_bound": 0.7549763211171915,
+      "best_postNMS_IoU": 0.620815581253804,
+      "best_HOG_margin_of_IoU50_candidates": 0.1142322189960514
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 1,
+      "gt": [
+        1408,
+        583,
+        1500,
+        713
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 130.0,
+      "gt_aspect_ratio": 0.7076923076923077,
+      "ideal_square_IoU_upper_bound": 0.7259896491398997,
+      "best_postNMS_IoU": 0.6406637998909818,
+      "best_HOG_margin_of_IoU50_candidates": 1.6600794987609926
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 2,
+      "gt": [
+        978,
+        194,
+        1038,
+        270
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 76.0,
+      "gt_aspect_ratio": 0.7894736842105263,
+      "ideal_square_IoU_upper_bound": 0.7994079677421027,
+      "best_postNMS_IoU": 0.637922339889057,
+      "best_HOG_margin_of_IoU50_candidates": 1.3264578581052815
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 3,
+      "gt": [
+        390,
+        995,
+        473,
+        1085
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 90.0,
+      "gt_aspect_ratio": 0.9222222222222223,
+      "ideal_square_IoU_upper_bound": 0.9236762580890079,
+      "best_postNMS_IoU": 0.6682577565632458,
+      "best_HOG_margin_of_IoU50_candidates": 0.9096342655328709
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 4,
+      "gt": [
+        1543,
+        887,
+        1584,
+        936
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 49.0,
+      "gt_aspect_ratio": 0.8367346938775511,
+      "ideal_square_IoU_upper_bound": 0.8428628343487735,
+      "best_postNMS_IoU": 0.46474358974358976,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 5,
+      "gt": [
+        252,
+        955,
+        324,
+        1042
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 87.0,
+      "gt_aspect_ratio": 0.8275862068965517,
+      "ideal_square_IoU_upper_bound": 0.8343872155770835,
+      "best_postNMS_IoU": 0.5588268857697136,
+      "best_HOG_margin_of_IoU50_candidates": 2.434588294167474
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 6,
+      "gt": [
+        1493,
+        513,
+        1542,
+        573
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 60.0,
+      "gt_aspect_ratio": 0.8166666666666667,
+      "ideal_square_IoU_upper_bound": 0.8243116947319774,
+      "best_postNMS_IoU": 0.6029411764705882,
+      "best_HOG_margin_of_IoU50_candidates": 1.932656190974929
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 7,
+      "gt": [
+        227,
+        353,
+        281,
+        410
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 57.0,
+      "gt_aspect_ratio": 0.9473684210526315,
+      "ideal_square_IoU_upper_bound": 0.9480428278933424,
+      "best_postNMS_IoU": 0.59375,
+      "best_HOG_margin_of_IoU50_candidates": 2.638223381418495
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 8,
+      "gt": [
+        1082,
+        632,
+        1132,
+        685
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 53.0,
+      "gt_aspect_ratio": 0.9433962264150944,
+      "ideal_square_IoU_upper_bound": 0.9441747000609259,
+      "best_postNMS_IoU": 0.5183881064162754,
+      "best_HOG_margin_of_IoU50_candidates": -0.4809534556321995
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 9,
+      "gt": [
+        1431,
+        931,
+        1502,
+        1068
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 137.0,
+      "gt_aspect_ratio": 0.5182481751824818,
+      "ideal_square_IoU_upper_bound": 0.5623712976847275,
+      "best_postNMS_IoU": 0.5215475024485798,
+      "best_HOG_margin_of_IoU50_candidates": 1.5731740733822188
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:099",
+      "annotation_index": 10,
+      "gt": [
+        560,
+        171,
+        647,
+        258
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 87.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.6782550185039812,
+      "best_HOG_margin_of_IoU50_candidates": 2.0228114010390623
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 0,
+      "gt": [
+        1499,
+        399,
+        1534,
+        425
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 35.0,
+      "gt_aspect_ratio": 0.7428571428571429,
+      "ideal_square_IoU_upper_bound": 0.7573018641753809,
+      "best_postNMS_IoU": 0.7116324535679375,
+      "best_HOG_margin_of_IoU50_candidates": 0.9241208708908601
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 1,
+      "gt": [
+        338,
+        712,
+        481,
+        822
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 143.0,
+      "gt_aspect_ratio": 0.7692307692307693,
+      "ideal_square_IoU_upper_bound": 0.7810359167138753,
+      "best_postNMS_IoU": 0.7133139851260657,
+      "best_HOG_margin_of_IoU50_candidates": 2.12848954951244
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 2,
+      "gt": [
+        258,
+        114,
+        357,
+        211
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 99.0,
+      "gt_aspect_ratio": 0.9797979797979798,
+      "ideal_square_IoU_upper_bound": 0.9798989821161636,
+      "best_postNMS_IoU": 0.48588355763604446,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 3,
+      "gt": [
+        331,
+        429,
+        665,
+        600
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 334.0,
+      "gt_aspect_ratio": 0.5119760479041916,
+      "ideal_square_IoU_upper_bound": 0.557056403776572,
+      "best_postNMS_IoU": 0.43542617024095703,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 4,
+      "gt": [
+        1527,
+        945,
+        1571,
+        987
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 44.0,
+      "gt_aspect_ratio": 0.9545454545454546,
+      "ideal_square_IoU_upper_bound": 0.9550503062747665,
+      "best_postNMS_IoU": 0.5133333333333333,
+      "best_HOG_margin_of_IoU50_candidates": 2.3634701906270426
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 5,
+      "gt": [
+        347,
+        983,
+        541,
+        1108
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 194.0,
+      "gt_aspect_ratio": 0.6443298969072165,
+      "ideal_square_IoU_upper_bound": 0.6704273887065265,
+      "best_postNMS_IoU": 0.6211718479140182,
+      "best_HOG_margin_of_IoU50_candidates": 0.9428299707751875
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 6,
+      "gt": [
+        1286,
+        725,
+        1420,
+        833
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 134.0,
+      "gt_aspect_ratio": 0.8059701492537313,
+      "ideal_square_IoU_upper_bound": 0.8144842333391614,
+      "best_postNMS_IoU": 0.4007884362680683,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 7,
+      "gt": [
+        1048,
+        459,
+        1365,
+        644
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 317.0,
+      "gt_aspect_ratio": 0.583596214511041,
+      "ideal_square_IoU_upper_bound": 0.6180374839233367,
+      "best_postNMS_IoU": 0.604738555782917,
+      "best_HOG_margin_of_IoU50_candidates": 0.06648058742332896
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 8,
+      "gt": [
+        1063,
+        885,
+        1132,
+        959
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 74.0,
+      "gt_aspect_ratio": 0.9324324324324325,
+      "ideal_square_IoU_upper_bound": 0.9335355096017568,
+      "best_postNMS_IoU": 0.6984952120383037,
+      "best_HOG_margin_of_IoU50_candidates": 3.6973693095361
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 9,
+      "gt": [
+        233,
+        573,
+        262,
+        604
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 31.0,
+      "gt_aspect_ratio": 0.9354838709677419,
+      "ideal_square_IoU_upper_bound": 0.9364911305501031,
+      "best_postNMS_IoU": 0.6407119021134594,
+      "best_HOG_margin_of_IoU50_candidates": 0.7500038405509448
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 10,
+      "gt": [
+        516,
+        697,
+        689,
+        792
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 173.0,
+      "gt_aspect_ratio": 0.5491329479768786,
+      "ideal_square_IoU_upper_bound": 0.5886065794276091,
+      "best_postNMS_IoU": 0.4707830522669306,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 11,
+      "gt": [
+        1207,
+        65,
+        1324,
+        167
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 117.0,
+      "gt_aspect_ratio": 0.8717948717948718,
+      "ideal_square_IoU_upper_bound": 0.8756439821650205,
+      "best_postNMS_IoU": 0.6812615955473098,
+      "best_HOG_margin_of_IoU50_candidates": 1.9609102090552577
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 12,
+      "gt": [
+        592,
+        185,
+        692,
+        284
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 100.0,
+      "gt_aspect_ratio": 0.99,
+      "ideal_square_IoU_upper_bound": 0.9900248751539003,
+      "best_postNMS_IoU": 0.5236363636363637,
+      "best_HOG_margin_of_IoU50_candidates": 2.5804422630236648
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:031",
+      "annotation_index": 13,
+      "gt": [
+        54,
+        973,
+        274,
+        1159
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 220.0,
+      "gt_aspect_ratio": 0.8454545454545455,
+      "ideal_square_IoU_upper_bound": 0.8509709652329814,
+      "best_postNMS_IoU": 0.3829783191137629,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 0,
+      "gt": [
+        552,
+        420,
+        679,
+        511
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 127.0,
+      "gt_aspect_ratio": 0.7165354330708661,
+      "ideal_square_IoU_upper_bound": 0.7338296801702449,
+      "best_postNMS_IoU": 0.5258625573621891,
+      "best_HOG_margin_of_IoU50_candidates": 1.9662583904864022
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 1,
+      "gt": [
+        82,
+        993,
+        215,
+        1109
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 133.0,
+      "gt_aspect_ratio": 0.8721804511278195,
+      "ideal_square_IoU_upper_bound": 0.8760072136624707,
+      "best_postNMS_IoU": 0.47938812548612914,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 2,
+      "gt": [
+        122,
+        738,
+        247,
+        817
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 125.0,
+      "gt_aspect_ratio": 0.632,
+      "ideal_square_IoU_upper_bound": 0.6597293803884036,
+      "best_postNMS_IoU": 0.6350468616870207,
+      "best_HOG_margin_of_IoU50_candidates": -0.151039016885802
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 3,
+      "gt": [
+        573,
+        713,
+        683,
+        802
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 110.0,
+      "gt_aspect_ratio": 0.8090909090909091,
+      "ideal_square_IoU_upper_bound": 0.8173471729214375,
+      "best_postNMS_IoU": 0.6537721324095458,
+      "best_HOG_margin_of_IoU50_candidates": 0.9229887530342866
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 4,
+      "gt": [
+        122,
+        488,
+        240,
+        556
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 118.0,
+      "gt_aspect_ratio": 0.576271186440678,
+      "ideal_square_IoU_upper_bound": 0.6117662510209643,
+      "best_postNMS_IoU": 0.5803657362848893,
+      "best_HOG_margin_of_IoU50_candidates": 1.0173903550901828
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:050",
+      "annotation_index": 5,
+      "gt": [
+        531,
+        975,
+        717,
+        1104
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 186.0,
+      "gt_aspect_ratio": 0.6935483870967742,
+      "ideal_square_IoU_upper_bound": 0.7134958299873401,
+      "best_postNMS_IoU": 0.5069332100762654,
+      "best_HOG_margin_of_IoU50_candidates": -0.14079961979325106
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 0,
+      "gt": [
+        970,
+        568,
+        1094,
+        679
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 124.0,
+      "gt_aspect_ratio": 0.8951612903225806,
+      "ideal_square_IoU_upper_bound": 0.8977666234207777,
+      "best_postNMS_IoU": 0.3868194842406877,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 1,
+      "gt": [
+        1301,
+        429,
+        1405,
+        515
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 104.0,
+      "gt_aspect_ratio": 0.8269230769230769,
+      "ideal_square_IoU_upper_bound": 0.8337740808502733,
+      "best_postNMS_IoU": 0.7027027027027027,
+      "best_HOG_margin_of_IoU50_candidates": -0.678532612331932
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 2,
+      "gt": [
+        646,
+        175,
+        682,
+        190
+      ],
+      "size_group": "le36",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.4166666666666667,
+      "ideal_square_IoU_upper_bound": 0.4765565903448761,
+      "best_postNMS_IoU": 0.4743729552889858,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 3,
+      "gt": [
+        1487,
+        104,
+        1561,
+        157
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 74.0,
+      "gt_aspect_ratio": 0.7162162162162162,
+      "ideal_square_IoU_upper_bound": 0.7335462818716436,
+      "best_postNMS_IoU": 0.5185185185185185,
+      "best_HOG_margin_of_IoU50_candidates": -1.3159632575714884
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 4,
+      "gt": [
+        153,
+        579,
+        201,
+        617
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 48.0,
+      "gt_aspect_ratio": 0.7916666666666666,
+      "ideal_square_IoU_upper_bound": 0.8014066624431849,
+      "best_postNMS_IoU": 0.5402843601895735,
+      "best_HOG_margin_of_IoU50_candidates": 0.28494676162721344
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 5,
+      "gt": [
+        498,
+        576,
+        562,
+        611
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 64.0,
+      "gt_aspect_ratio": 0.546875,
+      "ideal_square_IoU_upper_bound": 0.5866845091836826,
+      "best_postNMS_IoU": 0.5852842809364549,
+      "best_HOG_margin_of_IoU50_candidates": 0.35792470918419905
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 6,
+      "gt": [
+        214,
+        871,
+        280,
+        942
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 71.0,
+      "gt_aspect_ratio": 0.9295774647887324,
+      "ideal_square_IoU_upper_bound": 0.9307739849587093,
+      "best_postNMS_IoU": 0.7682458386683739,
+      "best_HOG_margin_of_IoU50_candidates": 3.2308022490855066
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 7,
+      "gt": [
+        110,
+        909,
+        166,
+        947
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.6785714285714286,
+      "ideal_square_IoU_upper_bound": 0.7003252728890665,
+      "best_postNMS_IoU": 0.5592105263157895,
+      "best_HOG_margin_of_IoU50_candidates": 0.8688034997717913
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 8,
+      "gt": [
+        1261,
+        78,
+        1347,
+        156
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 86.0,
+      "gt_aspect_ratio": 0.9069767441860465,
+      "ideal_square_IoU_upper_bound": 0.909040458028369,
+      "best_postNMS_IoU": 0.5277280858676208,
+      "best_HOG_margin_of_IoU50_candidates": 1.0675151286963023
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 9,
+      "gt": [
+        255,
+        594,
+        308,
+        629
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 53.0,
+      "gt_aspect_ratio": 0.660377358490566,
+      "ideal_square_IoU_upper_bound": 0.6844035133866221,
+      "best_postNMS_IoU": 0.5657826313052522,
+      "best_HOG_margin_of_IoU50_candidates": -0.408242652229712
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 10,
+      "gt": [
+        610,
+        147,
+        635,
+        167
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 25.0,
+      "gt_aspect_ratio": 0.8,
+      "ideal_square_IoU_upper_bound": 0.8090169943749476,
+      "best_postNMS_IoU": 0.7354838709677419,
+      "best_HOG_margin_of_IoU50_candidates": 2.6194645883088308
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 11,
+      "gt": [
+        374,
+        322,
+        453,
+        378
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 79.0,
+      "gt_aspect_ratio": 0.7088607594936709,
+      "ideal_square_IoU_upper_bound": 0.7270242814866428,
+      "best_postNMS_IoU": 0.6858594411515665,
+      "best_HOG_margin_of_IoU50_candidates": 2.4816579088601607
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 12,
+      "gt": [
+        1113,
+        73,
+        1189,
+        169
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 96.0,
+      "gt_aspect_ratio": 0.7916666666666666,
+      "ideal_square_IoU_upper_bound": 0.8014066624431849,
+      "best_postNMS_IoU": 0.5403923222948745,
+      "best_HOG_margin_of_IoU50_candidates": 0.23191339697106095
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 13,
+      "gt": [
+        1192,
+        99,
+        1261,
+        160
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 69.0,
+      "gt_aspect_ratio": 0.8840579710144928,
+      "ideal_square_IoU_upper_bound": 0.8872261054254362,
+      "best_postNMS_IoU": 0.4807649544140538,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 14,
+      "gt": [
+        83,
+        571,
+        139,
+        606
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.625,
+      "ideal_square_IoU_upper_bound": 0.6536707644693894,
+      "best_postNMS_IoU": 0.5689655172413793,
+      "best_HOG_margin_of_IoU50_candidates": 0.7033250572807055
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 15,
+      "gt": [
+        542,
+        155,
+        585,
+        185
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 43.0,
+      "gt_aspect_ratio": 0.6976744186046512,
+      "ideal_square_IoU_upper_bound": 0.7171347886216329,
+      "best_postNMS_IoU": 0.44651162790697674,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 16,
+      "gt": [
+        900,
+        96,
+        1096,
+        518
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 422.0,
+      "gt_aspect_ratio": 0.46445497630331756,
+      "ideal_square_IoU_upper_bound": 0.5168859787914718,
+      "best_postNMS_IoU": 0.5150501672240803,
+      "best_HOG_margin_of_IoU50_candidates": -0.6646113462972041
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 17,
+      "gt": [
+        281,
+        138,
+        308,
+        163
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 27.0,
+      "gt_aspect_ratio": 0.9259259259259259,
+      "ideal_square_IoU_upper_bound": 0.9272472798441725,
+      "best_postNMS_IoU": 0.5815423514538559,
+      "best_HOG_margin_of_IoU50_candidates": 0.08915310268908216
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 18,
+      "gt": [
+        1389,
+        63,
+        1437,
+        101
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 48.0,
+      "gt_aspect_ratio": 0.7916666666666666,
+      "ideal_square_IoU_upper_bound": 0.8014066624431849,
+      "best_postNMS_IoU": 0.5750528541226215,
+      "best_HOG_margin_of_IoU50_candidates": 1.1340636373927229
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 19,
+      "gt": [
+        598,
+        579,
+        664,
+        617
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 66.0,
+      "gt_aspect_ratio": 0.5757575757575758,
+      "ideal_square_IoU_upper_bound": 0.6113268681610237,
+      "best_postNMS_IoU": 0.6050955414012739,
+      "best_HOG_margin_of_IoU50_candidates": 1.2068998549640804
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:005",
+      "annotation_index": 20,
+      "gt": [
+        209,
+        566,
+        245,
+        599
+      ],
+      "size_group": "le36",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.9166666666666666,
+      "ideal_square_IoU_upper_bound": 0.91833109692303,
+      "best_postNMS_IoU": 0.48484848484848486,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 0,
+      "gt": [
+        143,
+        430,
+        205,
+        505
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 75.0,
+      "gt_aspect_ratio": 0.8266666666666667,
+      "ideal_square_IoU_upper_bound": 0.8335370460918428,
+      "best_postNMS_IoU": 0.628718226068145,
+      "best_HOG_margin_of_IoU50_candidates": 2.2937910908303483
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 1,
+      "gt": [
+        232,
+        750,
+        287,
+        816
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 66.0,
+      "gt_aspect_ratio": 0.8333333333333334,
+      "ideal_square_IoU_upper_bound": 0.8397079552685959,
+      "best_postNMS_IoU": 0.6649036645258783,
+      "best_HOG_margin_of_IoU50_candidates": 3.7041521197368814
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 2,
+      "gt": [
+        1069,
+        684,
+        1111,
+        750
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 66.0,
+      "gt_aspect_ratio": 0.6363636363636364,
+      "ideal_square_IoU_upper_bound": 0.6635115885076823,
+      "best_postNMS_IoU": 0.4692737430167598,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 3,
+      "gt": [
+        247,
+        187,
+        285,
+        236
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 49.0,
+      "gt_aspect_ratio": 0.7755102040816326,
+      "ideal_square_IoU_upper_bound": 0.7867202281111751,
+      "best_postNMS_IoU": 0.37383177570093457,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 4,
+      "gt": [
+        605,
+        770,
+        654,
+        839
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 69.0,
+      "gt_aspect_ratio": 0.7101449275362319,
+      "ideal_square_IoU_upper_bound": 0.7281618241447271,
+      "best_postNMS_IoU": 0.6315417256011315,
+      "best_HOG_margin_of_IoU50_candidates": 1.2831482633440374
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 5,
+      "gt": [
+        623,
+        454,
+        672,
+        510
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.875,
+      "ideal_square_IoU_upper_bound": 0.8786651818838307,
+      "best_postNMS_IoU": 0.8596491228070176,
+      "best_HOG_margin_of_IoU50_candidates": 2.7526019707242124
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 6,
+      "gt": [
+        984,
+        401,
+        1101,
+        558
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 157.0,
+      "gt_aspect_ratio": 0.7452229299363057,
+      "ideal_square_IoU_upper_bound": 0.7594218550955703,
+      "best_postNMS_IoU": 0.7494481713914737,
+      "best_HOG_margin_of_IoU50_candidates": 2.628217067849521
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 7,
+      "gt": [
+        1102,
+        126,
+        1254,
+        285
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 159.0,
+      "gt_aspect_ratio": 0.9559748427672956,
+      "ideal_square_IoU_upper_bound": 0.9564487848862405,
+      "best_postNMS_IoU": 0.7419013865572344,
+      "best_HOG_margin_of_IoU50_candidates": 2.455988602941261
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 8,
+      "gt": [
+        377,
+        441,
+        426,
+        499
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 58.0,
+      "gt_aspect_ratio": 0.8448275862068966,
+      "ideal_square_IoU_upper_bound": 0.8503870135633591,
+      "best_postNMS_IoU": 0.5559467918622848,
+      "best_HOG_margin_of_IoU50_candidates": 1.9475441000308145
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 9,
+      "gt": [
+        445,
+        440,
+        492,
+        502
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 62.0,
+      "gt_aspect_ratio": 0.7580645161290323,
+      "ideal_square_IoU_upper_bound": 0.7709599831349565,
+      "best_postNMS_IoU": 0.7533279000271665,
+      "best_HOG_margin_of_IoU50_candidates": 2.1473678427979292
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 10,
+      "gt": [
+        1338,
+        682,
+        1365,
+        744
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 62.0,
+      "gt_aspect_ratio": 0.43548387096774194,
+      "ideal_square_IoU_upper_bound": 0.4924393220901138,
+      "best_postNMS_IoU": 0.4780453257790368,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 11,
+      "gt": [
+        1347,
+        957,
+        1413,
+        1039
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 82.0,
+      "gt_aspect_ratio": 0.8048780487804879,
+      "ideal_square_IoU_upper_bound": 0.8134831803892983,
+      "best_postNMS_IoU": 0.7013815090329437,
+      "best_HOG_margin_of_IoU50_candidates": 2.5781011509826595
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 12,
+      "gt": [
+        1043,
+        955,
+        1099,
+        1030
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 75.0,
+      "gt_aspect_ratio": 0.7466666666666667,
+      "ideal_square_IoU_upper_bound": 0.7607164506891689,
+      "best_postNMS_IoU": 0.5678745267712277,
+      "best_HOG_margin_of_IoU50_candidates": 3.059009841845479
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:068",
+      "annotation_index": 13,
+      "gt": [
+        474,
+        159,
+        496,
+        210
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.43137254901960786,
+      "ideal_square_IoU_upper_bound": 0.48896998295481825,
+      "best_postNMS_IoU": 0.4744871120462914,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 0,
+      "gt": [
+        1309,
+        952,
+        1382,
+        1036
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 84.0,
+      "gt_aspect_ratio": 0.8690476190476191,
+      "ideal_square_IoU_upper_bound": 0.8730577019148864,
+      "best_postNMS_IoU": 0.8290968090859925,
+      "best_HOG_margin_of_IoU50_candidates": 2.6034384610074266
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 1,
+      "gt": [
+        202,
+        182,
+        271,
+        273
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 91.0,
+      "gt_aspect_ratio": 0.7582417582417582,
+      "ideal_square_IoU_upper_bound": 0.771119602322916,
+      "best_postNMS_IoU": 0.7665676269215863,
+      "best_HOG_margin_of_IoU50_candidates": 2.035758268923235
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 2,
+      "gt": [
+        1075,
+        598,
+        1314,
+        843
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 245.0,
+      "gt_aspect_ratio": 0.9755102040816327,
+      "ideal_square_IoU_upper_bound": 0.9756583110505007,
+      "best_postNMS_IoU": 0.5882406549508635,
+      "best_HOG_margin_of_IoU50_candidates": 1.2162360971697095
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 3,
+      "gt": [
+        1038,
+        932,
+        1133,
+        1046
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 114.0,
+      "gt_aspect_ratio": 0.8333333333333334,
+      "ideal_square_IoU_upper_bound": 0.8397079552685959,
+      "best_postNMS_IoU": 0.65842182234374,
+      "best_HOG_margin_of_IoU50_candidates": 3.1910345228473975
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 4,
+      "gt": [
+        1314,
+        122,
+        1395,
+        209
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 87.0,
+      "gt_aspect_ratio": 0.9310344827586207,
+      "ideal_square_IoU_upper_bound": 0.9321828575116056,
+      "best_postNMS_IoU": 0.8672268907563025,
+      "best_HOG_margin_of_IoU50_candidates": 2.390779258275656
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 5,
+      "gt": [
+        291,
+        226,
+        349,
+        289
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 63.0,
+      "gt_aspect_ratio": 0.9206349206349206,
+      "ideal_square_IoU_upper_bound": 0.9221476808126768,
+      "best_postNMS_IoU": 0.7248561793294981,
+      "best_HOG_margin_of_IoU50_candidates": 2.9840462526033207
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 6,
+      "gt": [
+        890,
+        269,
+        916,
+        345
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 76.0,
+      "gt_aspect_ratio": 0.34210526315789475,
+      "ideal_square_IoU_upper_bound": 0.4133253348329909,
+      "best_postNMS_IoU": 0.3681257014590348,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 7,
+      "gt": [
+        367,
+        567,
+        420,
+        626
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 59.0,
+      "gt_aspect_ratio": 0.8983050847457628,
+      "ideal_square_IoU_upper_bound": 0.9007604931154454,
+      "best_postNMS_IoU": 0.422796106003245,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 8,
+      "gt": [
+        619,
+        863,
+        736,
+        1005
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 142.0,
+      "gt_aspect_ratio": 0.823943661971831,
+      "ideal_square_IoU_upper_bound": 0.8310213142068515,
+      "best_postNMS_IoU": 0.7301092043681747,
+      "best_HOG_margin_of_IoU50_candidates": 2.5134169608377483
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 9,
+      "gt": [
+        348,
+        118,
+        477,
+        225
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 129.0,
+      "gt_aspect_ratio": 0.8294573643410853,
+      "ideal_square_IoU_upper_bound": 0.8361181877691196,
+      "best_postNMS_IoU": 0.5358255451713395,
+      "best_HOG_margin_of_IoU50_candidates": 0.8455242164543302
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 10,
+      "gt": [
+        984,
+        118,
+        1053,
+        217
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 99.0,
+      "gt_aspect_ratio": 0.696969696969697,
+      "ideal_square_IoU_upper_bound": 0.7165129289525106,
+      "best_postNMS_IoU": 0.6470247742532994,
+      "best_HOG_margin_of_IoU50_candidates": 2.3055973979195272
+    },
+    {
+      "image_id": "manga109:RinToSiteSippuNoNaka:034",
+      "annotation_index": 11,
+      "gt": [
+        72,
+        674,
+        235,
+        871
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 197.0,
+      "gt_aspect_ratio": 0.8274111675126904,
+      "ideal_square_IoU_upper_bound": 0.834225356955899,
+      "best_postNMS_IoU": 0.7011747750895275,
+      "best_HOG_margin_of_IoU50_candidates": 3.123712873346885
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 0,
+      "gt": [
+        1071,
+        502,
+        1139,
+        554
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 68.0,
+      "gt_aspect_ratio": 0.7647058823529411,
+      "ideal_square_IoU_upper_bound": 0.7769479544479456,
+      "best_postNMS_IoU": 0.7070135746606335,
+      "best_HOG_margin_of_IoU50_candidates": 3.3307701545622086
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 1,
+      "gt": [
+        81,
+        649,
+        224,
+        750
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 143.0,
+      "gt_aspect_ratio": 0.7062937062937062,
+      "ideal_square_IoU_upper_bound": 0.7247517329643386,
+      "best_postNMS_IoU": 0.7192566002779064,
+      "best_HOG_margin_of_IoU50_candidates": 2.081964342164687
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 2,
+      "gt": [
+        515,
+        807,
+        549,
+        829
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 34.0,
+      "gt_aspect_ratio": 0.6470588235294118,
+      "ideal_square_IoU_upper_bound": 0.6727998010939419,
+      "best_postNMS_IoU": 0.5359628770301624,
+      "best_HOG_margin_of_IoU50_candidates": -0.6804748453787841
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 3,
+      "gt": [
+        1323,
+        650,
+        1405,
+        707
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 82.0,
+      "gt_aspect_ratio": 0.6951219512195121,
+      "ideal_square_IoU_upper_bound": 0.7148830888601391,
+      "best_postNMS_IoU": 0.7140084685956246,
+      "best_HOG_margin_of_IoU50_candidates": 2.4930715573759183
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 4,
+      "gt": [
+        211,
+        783,
+        266,
+        822
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 55.0,
+      "gt_aspect_ratio": 0.7090909090909091,
+      "ideal_square_IoU_upper_bound": 0.7272281183164381,
+      "best_postNMS_IoU": 0.7212681638044914,
+      "best_HOG_margin_of_IoU50_candidates": 2.6628960874021956
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 5,
+      "gt": [
+        988,
+        186,
+        1052,
+        233
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 64.0,
+      "gt_aspect_ratio": 0.734375,
+      "ideal_square_IoU_upper_bound": 0.7497151847196972,
+      "best_postNMS_IoU": 0.7283090563647878,
+      "best_HOG_margin_of_IoU50_candidates": 1.4939355191876054
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 6,
+      "gt": [
+        36,
+        978,
+        123,
+        1092
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 114.0,
+      "gt_aspect_ratio": 0.7631578947368421,
+      "ideal_square_IoU_upper_bound": 0.7755509812259457,
+      "best_postNMS_IoU": 0.7679321278601423,
+      "best_HOG_margin_of_IoU50_candidates": 3.0914865737341986
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 7,
+      "gt": [
+        71,
+        235,
+        93,
+        259
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 24.0,
+      "gt_aspect_ratio": 0.9166666666666666,
+      "ideal_square_IoU_upper_bound": 0.91833109692303,
+      "best_postNMS_IoU": 0.7777777777777778,
+      "best_HOG_margin_of_IoU50_candidates": 0.7084954215364538
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 8,
+      "gt": [
+        427,
+        116,
+        555,
+        226
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 128.0,
+      "gt_aspect_ratio": 0.859375,
+      "ideal_square_IoU_upper_bound": 0.8639759989727891,
+      "best_postNMS_IoU": 0.8433886375062846,
+      "best_HOG_margin_of_IoU50_candidates": 2.5828688423310178
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 9,
+      "gt": [
+        276,
+        484,
+        400,
+        567
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 124.0,
+      "gt_aspect_ratio": 0.6693548387096774,
+      "ideal_square_IoU_upper_bound": 0.6922493696066788,
+      "best_postNMS_IoU": 0.6478240302743614,
+      "best_HOG_margin_of_IoU50_candidates": 1.3236428198434376
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 10,
+      "gt": [
+        1450,
+        668,
+        1545,
+        717
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 95.0,
+      "gt_aspect_ratio": 0.5157894736842106,
+      "ideal_square_IoU_upper_bound": 0.5602873741006813,
+      "best_postNMS_IoU": 0.5531514581373471,
+      "best_HOG_margin_of_IoU50_candidates": 2.055222309760196
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 11,
+      "gt": [
+        1293,
+        197,
+        1343,
+        233
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 50.0,
+      "gt_aspect_ratio": 0.72,
+      "ideal_square_IoU_upper_bound": 0.7369074008682055,
+      "best_postNMS_IoU": 0.5,
+      "best_HOG_margin_of_IoU50_candidates": 1.9267214762207
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 12,
+      "gt": [
+        1144,
+        340,
+        1190,
+        404
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 64.0,
+      "gt_aspect_ratio": 0.71875,
+      "ideal_square_IoU_upper_bound": 0.7357965701428776,
+      "best_postNMS_IoU": 0.7198938992042441,
+      "best_HOG_margin_of_IoU50_candidates": 1.2103329844440003
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 13,
+      "gt": [
+        147,
+        1009,
+        205,
+        1044
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 58.0,
+      "gt_aspect_ratio": 0.603448275862069,
+      "ideal_square_IoU_upper_bound": 0.6350814345611699,
+      "best_postNMS_IoU": 0.6193353474320241,
+      "best_HOG_margin_of_IoU50_candidates": 1.2679955717509017
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 14,
+      "gt": [
+        1428,
+        963,
+        1549,
+        1063
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 121.0,
+      "gt_aspect_ratio": 0.8264462809917356,
+      "ideal_square_IoU_upper_bound": 0.8333333333333335,
+      "best_postNMS_IoU": 0.7527430466955856,
+      "best_HOG_margin_of_IoU50_candidates": 3.0046196298578582
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 15,
+      "gt": [
+        1181,
+        978,
+        1226,
+        1023
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 45.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.5876543209876544,
+      "best_HOG_margin_of_IoU50_candidates": 1.6812059517985625
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 16,
+      "gt": [
+        217,
+        191,
+        327,
+        299
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 110.0,
+      "gt_aspect_ratio": 0.9818181818181818,
+      "ideal_square_IoU_upper_bound": 0.981900076792227,
+      "best_postNMS_IoU": 0.7726326742976066,
+      "best_HOG_margin_of_IoU50_candidates": 2.5638059388944825
+    },
+    {
+      "image_id": "manga109:HisokaReturns:035",
+      "annotation_index": 17,
+      "gt": [
+        940,
+        784,
+        1077,
+        1094
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 310.0,
+      "gt_aspect_ratio": 0.44193548387096776,
+      "ideal_square_IoU_upper_bound": 0.4978830602877914,
+      "best_postNMS_IoU": 0.4196775757325715,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 0,
+      "gt": [
+        1462,
+        885,
+        1518,
+        984
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 99.0,
+      "gt_aspect_ratio": 0.5656565656565656,
+      "ideal_square_IoU_upper_bound": 0.6026943639761478,
+      "best_postNMS_IoU": 0.5809128630705395,
+      "best_HOG_margin_of_IoU50_candidates": 1.7322077027190246
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 1,
+      "gt": [
+        1210,
+        841,
+        1250,
+        892
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.7843137254901961,
+      "ideal_square_IoU_upper_bound": 0.7947116971042056,
+      "best_postNMS_IoU": 0.7874015748031497,
+      "best_HOG_margin_of_IoU50_candidates": 1.5314489335726709
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 2,
+      "gt": [
+        85,
+        828,
+        143,
+        894
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 66.0,
+      "gt_aspect_ratio": 0.8787878787878788,
+      "ideal_square_IoU_upper_bound": 0.8822410989614766,
+      "best_postNMS_IoU": 0.4941427050053248,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 3,
+      "gt": [
+        254,
+        93,
+        323,
+        175
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 82.0,
+      "gt_aspect_ratio": 0.8414634146341463,
+      "ideal_square_IoU_upper_bound": 0.8472562029063008,
+      "best_postNMS_IoU": 0.6568092397512375,
+      "best_HOG_margin_of_IoU50_candidates": 2.8529305109462557
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 4,
+      "gt": [
+        931,
+        764,
+        969,
+        815
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.7450980392156863,
+      "ideal_square_IoU_upper_bound": 0.7593098964591599,
+      "best_postNMS_IoU": 0.6722560975609756,
+      "best_HOG_margin_of_IoU50_candidates": 1.3133470588094016
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 5,
+      "gt": [
+        502,
+        266,
+        538,
+        300
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.9444444444444444,
+      "ideal_square_IoU_upper_bound": 0.9451947521649419,
+      "best_postNMS_IoU": 0.5787781350482315,
+      "best_HOG_margin_of_IoU50_candidates": 0.7363711209673607
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 6,
+      "gt": [
+        1223,
+        389,
+        1327,
+        528
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 139.0,
+      "gt_aspect_ratio": 0.7482014388489209,
+      "ideal_square_IoU_upper_bound": 0.7620933934580225,
+      "best_postNMS_IoU": 0.7614548889938593,
+      "best_HOG_margin_of_IoU50_candidates": 2.0141170778316297
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 7,
+      "gt": [
+        589,
+        683,
+        660,
+        769
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 86.0,
+      "gt_aspect_ratio": 0.8255813953488372,
+      "ideal_square_IoU_upper_bound": 0.832534054083115,
+      "best_postNMS_IoU": 0.7858272698513129,
+      "best_HOG_margin_of_IoU50_candidates": 0.780366821310936
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 8,
+      "gt": [
+        234,
+        429,
+        265,
+        465
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.8611111111111112,
+      "ideal_square_IoU_upper_bound": 0.86560329516779,
+      "best_postNMS_IoU": 0.8638535031847133,
+      "best_HOG_margin_of_IoU50_candidates": 1.9024956210032684
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 9,
+      "gt": [
+        308,
+        872,
+        398,
+        956
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 90.0,
+      "gt_aspect_ratio": 0.9333333333333333,
+      "ideal_square_IoU_upper_bound": 0.9344076846169321,
+      "best_postNMS_IoU": 0.4701901761754754,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 10,
+      "gt": [
+        1070,
+        823,
+        1112,
+        867
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 44.0,
+      "gt_aspect_ratio": 0.9545454545454546,
+      "ideal_square_IoU_upper_bound": 0.9550503062747665,
+      "best_postNMS_IoU": 0.6337962962962963,
+      "best_HOG_margin_of_IoU50_candidates": 0.9477790978120018
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 11,
+      "gt": [
+        657,
+        301,
+        701,
+        348
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 47.0,
+      "gt_aspect_ratio": 0.9361702127659575,
+      "ideal_square_IoU_upper_bound": 0.9371565000501152,
+      "best_postNMS_IoU": 0.6016830294530154,
+      "best_HOG_margin_of_IoU50_candidates": 0.8197080693123118
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 12,
+      "gt": [
+        1157,
+        900,
+        1208,
+        956
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.9107142857142857,
+      "ideal_square_IoU_upper_bound": 0.9126191544919023,
+      "best_postNMS_IoU": 0.590539541759054,
+      "best_HOG_margin_of_IoU50_candidates": 1.1761438439702463
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 13,
+      "gt": [
+        1313,
+        793,
+        1357,
+        848
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 55.0,
+      "gt_aspect_ratio": 0.8,
+      "ideal_square_IoU_upper_bound": 0.8090169943749476,
+      "best_postNMS_IoU": 0.579118028534371,
+      "best_HOG_margin_of_IoU50_candidates": 0.9357369911527531
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 14,
+      "gt": [
+        227,
+        768,
+        269,
+        845
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 77.0,
+      "gt_aspect_ratio": 0.5454545454545454,
+      "ideal_square_IoU_upper_bound": 0.5854757055071558,
+      "best_postNMS_IoU": 0.5466666666666666,
+      "best_HOG_margin_of_IoU50_candidates": -0.16780776853626378
+    },
+    {
+      "image_id": "manga109:NichijouSoup:027",
+      "annotation_index": 15,
+      "gt": [
+        449,
+        793,
+        516,
+        866
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 73.0,
+      "gt_aspect_ratio": 0.9178082191780822,
+      "ideal_square_IoU_upper_bound": 0.9194283087966529,
+      "best_postNMS_IoU": 0.6719037272271435,
+      "best_HOG_margin_of_IoU50_candidates": 2.4937015436082834
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 0,
+      "gt": [
+        1014,
+        342,
+        1109,
+        437
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 95.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.8195013850415512,
+      "best_HOG_margin_of_IoU50_candidates": 1.0099555583548958
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 1,
+      "gt": [
+        477,
+        557,
+        560,
+        656
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 99.0,
+      "gt_aspect_ratio": 0.8383838383838383,
+      "ideal_square_IoU_upper_bound": 0.8443940548142413,
+      "best_postNMS_IoU": 0.7471925754060325,
+      "best_HOG_margin_of_IoU50_candidates": 1.2295458584656398
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 2,
+      "gt": [
+        1389,
+        439,
+        1541,
+        581
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 152.0,
+      "gt_aspect_ratio": 0.9342105263157895,
+      "ideal_square_IoU_upper_bound": 0.9352572591315694,
+      "best_postNMS_IoU": 0.6774213796999561,
+      "best_HOG_margin_of_IoU50_candidates": 1.9464467637616263
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 3,
+      "gt": [
+        348,
+        194,
+        553,
+        313
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 205.0,
+      "gt_aspect_ratio": 0.5804878048780487,
+      "ideal_square_IoU_upper_bound": 0.6153751443313813,
+      "best_postNMS_IoU": 0.49250523969967896,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 4,
+      "gt": [
+        1063,
+        189,
+        1120,
+        234
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 57.0,
+      "gt_aspect_ratio": 0.7894736842105263,
+      "ideal_square_IoU_upper_bound": 0.7994079677421027,
+      "best_postNMS_IoU": 0.4947916666666667,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 5,
+      "gt": [
+        661,
+        494,
+        728,
+        589
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 95.0,
+      "gt_aspect_ratio": 0.7052631578947368,
+      "ideal_square_IoU_upper_bound": 0.7238399367869186,
+      "best_postNMS_IoU": 0.594193427931292,
+      "best_HOG_margin_of_IoU50_candidates": 1.0368244371706279
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 6,
+      "gt": [
+        1079,
+        783,
+        1128,
+        837
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 54.0,
+      "gt_aspect_ratio": 0.9074074074074074,
+      "ideal_square_IoU_upper_bound": 0.9094525101610389,
+      "best_postNMS_IoU": 0.7235998885483421,
+      "best_HOG_margin_of_IoU50_candidates": 1.2912853936017616
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 7,
+      "gt": [
+        477,
+        436,
+        522,
+        487
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.8823529411764706,
+      "ideal_square_IoU_upper_bound": 0.8856120536857098,
+      "best_postNMS_IoU": 0.8041825095057035,
+      "best_HOG_margin_of_IoU50_candidates": 2.4288100758260764
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 8,
+      "gt": [
+        367,
+        859,
+        576,
+        1052
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 209.0,
+      "gt_aspect_ratio": 0.9234449760765551,
+      "ideal_square_IoU_upper_bound": 0.924854534744608,
+      "best_postNMS_IoU": 0.8344124036290838,
+      "best_HOG_margin_of_IoU50_candidates": -0.14593264972565723
+    },
+    {
+      "image_id": "manga109:OhWareraRettouSeitokai:086",
+      "annotation_index": 9,
+      "gt": [
+        1051,
+        565,
+        1144,
+        649
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 93.0,
+      "gt_aspect_ratio": 0.9032258064516129,
+      "ideal_square_IoU_upper_bound": 0.9054549942773431,
+      "best_postNMS_IoU": 0.4939759036144578,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 0,
+      "gt": [
+        1100,
+        661,
+        1234,
+        757
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 134.0,
+      "gt_aspect_ratio": 0.7164179104477612,
+      "ideal_square_IoU_upper_bound": 0.7337253410457389,
+      "best_postNMS_IoU": 0.4143104908643569,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 1,
+      "gt": [
+        873,
+        685,
+        927,
+        780
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 95.0,
+      "gt_aspect_ratio": 0.5684210526315789,
+      "ideal_square_IoU_upper_bound": 0.6050553271035578,
+      "best_postNMS_IoU": 0.5035231943628891,
+      "best_HOG_margin_of_IoU50_candidates": 0.6467438778210703
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 2,
+      "gt": [
+        1476,
+        697,
+        1545,
+        774
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 77.0,
+      "gt_aspect_ratio": 0.8961038961038961,
+      "ideal_square_IoU_upper_bound": 0.8986638374608173,
+      "best_postNMS_IoU": 0.6775832862789385,
+      "best_HOG_margin_of_IoU50_candidates": 0.55325286841164
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 3,
+      "gt": [
+        1275,
+        957,
+        1389,
+        1039
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 114.0,
+      "gt_aspect_ratio": 0.7192982456140351,
+      "ideal_square_IoU_upper_bound": 0.7362837204394362,
+      "best_postNMS_IoU": 0.5053933770838048,
+      "best_HOG_margin_of_IoU50_candidates": -0.16301139550057475
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 4,
+      "gt": [
+        1416,
+        968,
+        1485,
+        1032
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 69.0,
+      "gt_aspect_ratio": 0.927536231884058,
+      "ideal_square_IoU_upper_bound": 0.9288018009749491,
+      "best_postNMS_IoU": 0.3955719557195572,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 5,
+      "gt": [
+        1334,
+        430,
+        1402,
+        513
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 83.0,
+      "gt_aspect_ratio": 0.8192771084337349,
+      "ideal_square_IoU_upper_bound": 0.8267163627573619,
+      "best_postNMS_IoU": 0.5396402398401066,
+      "best_HOG_margin_of_IoU50_candidates": 1.527961875601381
+    },
+    {
+      "image_id": "manga109:TapkunNoTanteisitsu:018",
+      "annotation_index": 6,
+      "gt": [
+        925,
+        959,
+        1040,
+        1045
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 115.0,
+      "gt_aspect_ratio": 0.7478260869565218,
+      "ideal_square_IoU_upper_bound": 0.7617565728535538,
+      "best_postNMS_IoU": 0.4484853981498277,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 0,
+      "gt": [
+        1028,
+        943,
+        1057,
+        969
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 29.0,
+      "gt_aspect_ratio": 0.896551724137931,
+      "ideal_square_IoU_upper_bound": 0.8990902318998215,
+      "best_postNMS_IoU": 0.6101694915254238,
+      "best_HOG_margin_of_IoU50_candidates": 1.1798865452381646
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 1,
+      "gt": [
+        254,
+        650,
+        276,
+        670
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 22.0,
+      "gt_aspect_ratio": 0.9090909090909091,
+      "ideal_square_IoU_upper_bound": 0.9110640283353831,
+      "best_postNMS_IoU": 0.7638888888888888,
+      "best_HOG_margin_of_IoU50_candidates": 1.8861954639343361
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 2,
+      "gt": [
+        134,
+        637,
+        182,
+        756
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 119.0,
+      "gt_aspect_ratio": 0.40336134453781514,
+      "ideal_square_IoU_upper_bound": 0.46531670332133057,
+      "best_postNMS_IoU": 0.41083423618634884,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 3,
+      "gt": [
+        1213,
+        869,
+        1450,
+        1115
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 246.0,
+      "gt_aspect_ratio": 0.9634146341463414,
+      "ideal_square_IoU_upper_bound": 0.9637431616982775,
+      "best_postNMS_IoU": 0.6145850902344409,
+      "best_HOG_margin_of_IoU50_candidates": 0.29877692862936334
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 4,
+      "gt": [
+        925,
+        730,
+        947,
+        750
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 22.0,
+      "gt_aspect_ratio": 0.9090909090909091,
+      "ideal_square_IoU_upper_bound": 0.9110640283353831,
+      "best_postNMS_IoU": 0.7638888888888888,
+      "best_HOG_margin_of_IoU50_candidates": 1.55818908215522
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 5,
+      "gt": [
+        968,
+        814,
+        988,
+        838
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 24.0,
+      "gt_aspect_ratio": 0.8333333333333334,
+      "ideal_square_IoU_upper_bound": 0.8397079552685959,
+      "best_postNMS_IoU": 0.8333333333333334,
+      "best_HOG_margin_of_IoU50_candidates": 1.51506240568425
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 6,
+      "gt": [
+        1205,
+        588,
+        1307,
+        677
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 102.0,
+      "gt_aspect_ratio": 0.8725490196078431,
+      "ideal_square_IoU_upper_bound": 0.8763544766872748,
+      "best_postNMS_IoU": 0.4459786999632758,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 7,
+      "gt": [
+        1473,
+        106,
+        1551,
+        186
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 80.0,
+      "gt_aspect_ratio": 0.975,
+      "ideal_square_IoU_upper_bound": 0.9751543027481487,
+      "best_postNMS_IoU": 0.5526274011747897,
+      "best_HOG_margin_of_IoU50_candidates": 0.7616087080762171
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 8,
+      "gt": [
+        446,
+        870,
+        535,
+        950
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 89.0,
+      "gt_aspect_ratio": 0.898876404494382,
+      "ideal_square_IoU_upper_bound": 0.9013050176733041,
+      "best_postNMS_IoU": 0.6462995635620763,
+      "best_HOG_margin_of_IoU50_candidates": 2.107471566794798
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 9,
+      "gt": [
+        144,
+        936,
+        269,
+        1066
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 130.0,
+      "gt_aspect_ratio": 0.9615384615384616,
+      "ideal_square_IoU_upper_bound": 0.9619012042522511,
+      "best_postNMS_IoU": 0.722252082773448,
+      "best_HOG_margin_of_IoU50_candidates": 3.222080552487024
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 10,
+      "gt": [
+        233,
+        80,
+        315,
+        255
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 175.0,
+      "gt_aspect_ratio": 0.4685714285714286,
+      "ideal_square_IoU_upper_bound": 0.5203607945213896,
+      "best_postNMS_IoU": 0.3749242549440864,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 11,
+      "gt": [
+        1030,
+        115,
+        1080,
+        240
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 125.0,
+      "gt_aspect_ratio": 0.4,
+      "ideal_square_IoU_upper_bound": 0.46247529557426437,
+      "best_postNMS_IoU": 0.4411394000504159,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 12,
+      "gt": [
+        523,
+        396,
+        644,
+        511
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 121.0,
+      "gt_aspect_ratio": 0.9504132231404959,
+      "ideal_square_IoU_upper_bound": 0.9510127818016245,
+      "best_postNMS_IoU": 0.5654283160985574,
+      "best_HOG_margin_of_IoU50_candidates": 1.1899007325000266
+    },
+    {
+      "image_id": "manga109:LancelotFullThrottle:054",
+      "annotation_index": 13,
+      "gt": [
+        1136,
+        839,
+        1242,
+        1113
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 274.0,
+      "gt_aspect_ratio": 0.38686131386861317,
+      "ideal_square_IoU_upper_bound": 0.4513596023074373,
+      "best_postNMS_IoU": 0.4455163465064455,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 0,
+      "gt": [
+        1273,
+        659,
+        1488,
+        824
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 215.0,
+      "gt_aspect_ratio": 0.7674418604651163,
+      "ideal_square_IoU_upper_bound": 0.779418941060068,
+      "best_postNMS_IoU": 0.7735665182922011,
+      "best_HOG_margin_of_IoU50_candidates": 2.189880752374952
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 1,
+      "gt": [
+        915,
+        920,
+        1040,
+        1022
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 125.0,
+      "gt_aspect_ratio": 0.816,
+      "ideal_square_IoU_upper_bound": 0.8236979794289555,
+      "best_postNMS_IoU": 0.6951378809869376,
+      "best_HOG_margin_of_IoU50_candidates": 2.5814704587615243
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 2,
+      "gt": [
+        72,
+        1022,
+        158,
+        1070
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 86.0,
+      "gt_aspect_ratio": 0.5581395348837209,
+      "ideal_square_IoU_upper_bound": 0.5962804974110544,
+      "best_postNMS_IoU": 0.591563964589481,
+      "best_HOG_margin_of_IoU50_candidates": 2.0327108076561293
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 3,
+      "gt": [
+        351,
+        970,
+        509,
+        1103
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 158.0,
+      "gt_aspect_ratio": 0.8417721518987342,
+      "ideal_square_IoU_upper_bound": 0.8475433426972584,
+      "best_postNMS_IoU": 0.7223993622957353,
+      "best_HOG_margin_of_IoU50_candidates": 1.2414925329592212
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 4,
+      "gt": [
+        123,
+        107,
+        291,
+        231
+      ],
+      "size_group": "gt128",
+      "reason": "candidate_available",
+      "gt_max_side": 168.0,
+      "gt_aspect_ratio": 0.7380952380952381,
+      "ideal_square_IoU_upper_bound": 0.7530399577421524,
+      "best_postNMS_IoU": 0.5772368421052632,
+      "best_HOG_margin_of_IoU50_candidates": 2.056466563603938
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 5,
+      "gt": [
+        1068,
+        239,
+        1132,
+        291
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 64.0,
+      "gt_aspect_ratio": 0.8125,
+      "ideal_square_IoU_upper_bound": 0.8204786314453317,
+      "best_postNMS_IoU": 0.5422974176313446,
+      "best_HOG_margin_of_IoU50_candidates": 1.5511287606079933
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 6,
+      "gt": [
+        518,
+        470,
+        669,
+        592
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 151.0,
+      "gt_aspect_ratio": 0.8079470198675497,
+      "ideal_square_IoU_upper_bound": 0.8162973797223767,
+      "best_postNMS_IoU": 0.5525034451079467,
+      "best_HOG_margin_of_IoU50_candidates": 1.568278726248721
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 7,
+      "gt": [
+        622,
+        977,
+        751,
+        1110
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 133.0,
+      "gt_aspect_ratio": 0.9699248120300752,
+      "ideal_square_IoU_upper_bound": 0.9701475530257077,
+      "best_postNMS_IoU": 0.7085244346038273,
+      "best_HOG_margin_of_IoU50_candidates": 0.6243641060292169
+    },
+    {
+      "image_id": "manga109:TensiNoHaneToAkumaNoShippo:036",
+      "annotation_index": 8,
+      "gt": [
+        222,
+        1028,
+        311,
+        1078
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 89.0,
+      "gt_aspect_ratio": 0.5617977528089888,
+      "ideal_square_IoU_upper_bound": 0.5994007864093575,
+      "best_postNMS_IoU": 0.5698383249403658,
+      "best_HOG_margin_of_IoU50_candidates": 1.9402954011420688
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 0,
+      "gt": [
+        1406,
+        521,
+        1426,
+        536
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 20.0,
+      "gt_aspect_ratio": 0.75,
+      "ideal_square_IoU_upper_bound": 0.7637079407904238,
+      "best_postNMS_IoU": 0.5208333333333334,
+      "best_HOG_margin_of_IoU50_candidates": 3.0726793774255476
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 1,
+      "gt": [
+        1042,
+        523,
+        1075,
+        584
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 61.0,
+      "gt_aspect_ratio": 0.5409836065573771,
+      "ideal_square_IoU_upper_bound": 0.5816726876620769,
+      "best_postNMS_IoU": 0.32760787599497276,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 2,
+      "gt": [
+        1558,
+        493,
+        1573,
+        510
+      ],
+      "size_group": "le36",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 17.0,
+      "gt_aspect_ratio": 0.8823529411764706,
+      "ideal_square_IoU_upper_bound": 0.8856120536857098,
+      "best_postNMS_IoU": 0.3032104637336504,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 3,
+      "gt": [
+        354,
+        93,
+        466,
+        164
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 112.0,
+      "gt_aspect_ratio": 0.6339285714285714,
+      "ideal_square_IoU_upper_bound": 0.6614004628033519,
+      "best_postNMS_IoU": 0.660679506600303,
+      "best_HOG_margin_of_IoU50_candidates": 2.0091393791978573
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 4,
+      "gt": [
+        227,
+        836,
+        588,
+        1166
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 361.0,
+      "gt_aspect_ratio": 0.9141274238227147,
+      "ideal_square_IoU_upper_bound": 0.9158925320774041,
+      "best_postNMS_IoU": 0.8657062282753646,
+      "best_HOG_margin_of_IoU50_candidates": 1.6975374056124037
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 5,
+      "gt": [
+        1500,
+        500,
+        1520,
+        517
+      ],
+      "size_group": "le36",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 20.0,
+      "gt_aspect_ratio": 0.85,
+      "ideal_square_IoU_upper_bound": 0.8552091718916118,
+      "best_postNMS_IoU": 0.3239910313901345,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 6,
+      "gt": [
+        1524,
+        509,
+        1544,
+        529
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 20.0,
+      "gt_aspect_ratio": 1.0,
+      "ideal_square_IoU_upper_bound": 1.0,
+      "best_postNMS_IoU": 0.5345911949685535,
+      "best_HOG_margin_of_IoU50_candidates": -0.0870254425719299
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 7,
+      "gt": [
+        1436,
+        729,
+        1484,
+        762
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 48.0,
+      "gt_aspect_ratio": 0.6875,
+      "ideal_square_IoU_upper_bound": 0.7081697796762868,
+      "best_postNMS_IoU": 0.6506572295247725,
+      "best_HOG_margin_of_IoU50_candidates": 0.6386739478207346
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 8,
+      "gt": [
+        1322,
+        734,
+        1352,
+        767
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 33.0,
+      "gt_aspect_ratio": 0.9090909090909091,
+      "ideal_square_IoU_upper_bound": 0.9110640283353831,
+      "best_postNMS_IoU": 0.6292947558770343,
+      "best_HOG_margin_of_IoU50_candidates": 1.6275199500093014
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 9,
+      "gt": [
+        938,
+        421,
+        963,
+        438
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 25.0,
+      "gt_aspect_ratio": 0.68,
+      "ideal_square_IoU_upper_bound": 0.7015789910382724,
+      "best_postNMS_IoU": 0.688026981450253,
+      "best_HOG_margin_of_IoU50_candidates": 0.8648888088156088
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 10,
+      "gt": [
+        905,
+        66,
+        1042,
+        368
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 302.0,
+      "gt_aspect_ratio": 0.45364238410596025,
+      "ideal_square_IoU_upper_bound": 0.5077609672175475,
+      "best_postNMS_IoU": 0.36922594797869007,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 11,
+      "gt": [
+        1,
+        335,
+        319,
+        655
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 320.0,
+      "gt_aspect_ratio": 0.99375,
+      "ideal_square_IoU_upper_bound": 0.9937597351310399,
+      "best_postNMS_IoU": 0.42882396548119145,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 12,
+      "gt": [
+        1365,
+        523,
+        1393,
+        540
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 28.0,
+      "gt_aspect_ratio": 0.6071428571428571,
+      "ideal_square_IoU_upper_bound": 0.6382615627215037,
+      "best_postNMS_IoU": 0.6335403726708074,
+      "best_HOG_margin_of_IoU50_candidates": 1.964867773054678
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 13,
+      "gt": [
+        1286,
+        76,
+        1367,
+        187
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 111.0,
+      "gt_aspect_ratio": 0.7297297297297297,
+      "ideal_square_IoU_upper_bound": 0.7455696075794747,
+      "best_postNMS_IoU": 0.5685685685685685,
+      "best_HOG_margin_of_IoU50_candidates": 2.0974746464033878
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 14,
+      "gt": [
+        913,
+        726,
+        1058,
+        911
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 185.0,
+      "gt_aspect_ratio": 0.7837837837837838,
+      "ideal_square_IoU_upper_bound": 0.794229894257452,
+      "best_postNMS_IoU": 0.47757431462483807,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:KyokugenCyclone:050",
+      "annotation_index": 15,
+      "gt": [
+        1157,
+        434,
+        1264,
+        591
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 157.0,
+      "gt_aspect_ratio": 0.6815286624203821,
+      "ideal_square_IoU_upper_bound": 0.7029211375316772,
+      "best_postNMS_IoU": 0.41583037414440843,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 0,
+      "gt": [
+        936,
+        1004,
+        1074,
+        1114
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 138.0,
+      "gt_aspect_ratio": 0.7971014492753623,
+      "ideal_square_IoU_upper_bound": 0.8063671613126313,
+      "best_postNMS_IoU": 0.6883729366950844,
+      "best_HOG_margin_of_IoU50_candidates": 0.5996075798229046
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 1,
+      "gt": [
+        1180,
+        525,
+        1242,
+        572
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 62.0,
+      "gt_aspect_ratio": 0.7580645161290323,
+      "ideal_square_IoU_upper_bound": 0.7709599831349565,
+      "best_postNMS_IoU": 0.5469009736404654,
+      "best_HOG_margin_of_IoU50_candidates": 0.14178661384665192
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 2,
+      "gt": [
+        1374,
+        397,
+        1472,
+        490
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 98.0,
+      "gt_aspect_ratio": 0.9489795918367347,
+      "ideal_square_IoU_upper_bound": 0.9496138587217458,
+      "best_postNMS_IoU": 0.592741935483871,
+      "best_HOG_margin_of_IoU50_candidates": 1.5876427200318646
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 3,
+      "gt": [
+        1307,
+        764,
+        1430,
+        830
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 123.0,
+      "gt_aspect_ratio": 0.5365853658536586,
+      "ideal_square_IoU_upper_bound": 0.5779340117656678,
+      "best_postNMS_IoU": 0.5769465338483432,
+      "best_HOG_margin_of_IoU50_candidates": 0.48380923556389055
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 4,
+      "gt": [
+        523,
+        161,
+        621,
+        254
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 98.0,
+      "gt_aspect_ratio": 0.9489795918367347,
+      "ideal_square_IoU_upper_bound": 0.9496138587217458,
+      "best_postNMS_IoU": 0.5680733244223792,
+      "best_HOG_margin_of_IoU50_candidates": -0.4129176066153164
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 5,
+      "gt": [
+        1397,
+        1006,
+        1486,
+        1070
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 89.0,
+      "gt_aspect_ratio": 0.7191011235955056,
+      "ideal_square_IoU_upper_bound": 0.7361085551811837,
+      "best_postNMS_IoU": 0.6162962962962963,
+      "best_HOG_margin_of_IoU50_candidates": 0.9354193281555001
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 6,
+      "gt": [
+        931,
+        136,
+        1020,
+        229
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 93.0,
+      "gt_aspect_ratio": 0.956989247311828,
+      "ideal_square_IoU_upper_bound": 0.9574418326738576,
+      "best_postNMS_IoU": 0.35897802905603665,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 7,
+      "gt": [
+        1207,
+        993,
+        1355,
+        1082
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 148.0,
+      "gt_aspect_ratio": 0.6013513513513513,
+      "ideal_square_IoU_upper_bound": 0.6332776695158194,
+      "best_postNMS_IoU": 0.6228850988652579,
+      "best_HOG_margin_of_IoU50_candidates": -0.6920933641625486
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 8,
+      "gt": [
+        561,
+        504,
+        654,
+        570
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 93.0,
+      "gt_aspect_ratio": 0.7096774193548387,
+      "ideal_square_IoU_upper_bound": 0.727747641458847,
+      "best_postNMS_IoU": 0.5804020100502513,
+      "best_HOG_margin_of_IoU50_candidates": 2.097075665657493
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 9,
+      "gt": [
+        1140,
+        180,
+        1269,
+        259
+      ],
+      "size_group": "gt128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 129.0,
+      "gt_aspect_ratio": 0.6124031007751938,
+      "ideal_square_IoU_upper_bound": 0.6427939721335368,
+      "best_postNMS_IoU": 0.6373962086793044,
+      "best_HOG_margin_of_IoU50_candidates": 0.3451933530603819
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 10,
+      "gt": [
+        337,
+        854,
+        460,
+        932
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 123.0,
+      "gt_aspect_ratio": 0.6341463414634146,
+      "ideal_square_IoU_upper_bound": 0.661589209197522,
+      "best_postNMS_IoU": 0.506268081002893,
+      "best_HOG_margin_of_IoU50_candidates": 0.872254602138745
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 11,
+      "gt": [
+        1349,
+        142,
+        1470,
+        254
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 121.0,
+      "gt_aspect_ratio": 0.9256198347107438,
+      "ideal_square_IoU_upper_bound": 0.9269519230475376,
+      "best_postNMS_IoU": 0.6145474333393797,
+      "best_HOG_margin_of_IoU50_candidates": 2.8966821787123918
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 12,
+      "gt": [
+        510,
+        877,
+        589,
+        926
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 79.0,
+      "gt_aspect_ratio": 0.620253164556962,
+      "ideal_square_IoU_upper_bound": 0.6495682466008174,
+      "best_postNMS_IoU": 0.6403460334989877,
+      "best_HOG_margin_of_IoU50_candidates": 0.33553355320022726
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 13,
+      "gt": [
+        925,
+        443,
+        1033,
+        562
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 119.0,
+      "gt_aspect_ratio": 0.907563025210084,
+      "ideal_square_IoU_upper_bound": 0.9096014226421039,
+      "best_postNMS_IoU": 0.7094890510948905,
+      "best_HOG_margin_of_IoU50_candidates": 0.8244769649867374
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 14,
+      "gt": [
+        400,
+        481,
+        540,
+        566
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 140.0,
+      "gt_aspect_ratio": 0.6071428571428571,
+      "ideal_square_IoU_upper_bound": 0.6382615627215037,
+      "best_postNMS_IoU": 0.484847165374902,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 15,
+      "gt": [
+        1444,
+        768,
+        1531,
+        828
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 87.0,
+      "gt_aspect_ratio": 0.6896551724137931,
+      "ideal_square_IoU_upper_bound": 0.7100664407830124,
+      "best_postNMS_IoU": 0.5427046263345195,
+      "best_HOG_margin_of_IoU50_candidates": 0.7962107182555123
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 16,
+      "gt": [
+        1077,
+        686,
+        1204,
+        815
+      ],
+      "size_group": "gt128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 129.0,
+      "gt_aspect_ratio": 0.9844961240310077,
+      "ideal_square_IoU_upper_bound": 0.9845557516215605,
+      "best_postNMS_IoU": 0.45144356955380577,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 17,
+      "gt": [
+        1073,
+        490,
+        1170,
+        558
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 97.0,
+      "gt_aspect_ratio": 0.7010309278350515,
+      "ideal_square_IoU_upper_bound": 0.7200985126061739,
+      "best_postNMS_IoU": 0.5457853244390539,
+      "best_HOG_margin_of_IoU50_candidates": 0.887314800081874
+    },
+    {
+      "image_id": "manga109:MukoukizuNoChonbo:055",
+      "annotation_index": 18,
+      "gt": [
+        207,
+        175,
+        311,
+        283
+      ],
+      "size_group": "65to128",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 108.0,
+      "gt_aspect_ratio": 0.9629629629629629,
+      "ideal_square_IoU_upper_bound": 0.9632995755849644,
+      "best_postNMS_IoU": 0.4551282051282051,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 0,
+      "gt": [
+        545,
+        637,
+        585,
+        688
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.7843137254901961,
+      "ideal_square_IoU_upper_bound": 0.7947116971042056,
+      "best_postNMS_IoU": 0.65,
+      "best_HOG_margin_of_IoU50_candidates": 2.1165376368352184
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 1,
+      "gt": [
+        625,
+        74,
+        657,
+        119
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 45.0,
+      "gt_aspect_ratio": 0.7111111111111111,
+      "ideal_square_IoU_upper_bound": 0.7290179989462238,
+      "best_postNMS_IoU": 0.5787094122482532,
+      "best_HOG_margin_of_IoU50_candidates": 2.1288199749250927
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 2,
+      "gt": [
+        1208,
+        346,
+        1257,
+        415
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 69.0,
+      "gt_aspect_ratio": 0.7101449275362319,
+      "ideal_square_IoU_upper_bound": 0.7281618241447271,
+      "best_postNMS_IoU": 0.6538734896943852,
+      "best_HOG_margin_of_IoU50_candidates": 2.11929179114753
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 3,
+      "gt": [
+        1481,
+        894,
+        1497,
+        921
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 27.0,
+      "gt_aspect_ratio": 0.5925925925925926,
+      "ideal_square_IoU_upper_bound": 0.6257523845831853,
+      "best_postNMS_IoU": 0.6153846153846154,
+      "best_HOG_margin_of_IoU50_candidates": 3.4039669703181312
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 4,
+      "gt": [
+        1520,
+        883,
+        1543,
+        910
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 27.0,
+      "gt_aspect_ratio": 0.8518518518518519,
+      "ideal_square_IoU_upper_bound": 0.8569381550295111,
+      "best_postNMS_IoU": 0.7272727272727273,
+      "best_HOG_margin_of_IoU50_candidates": 2.489757646162653
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 5,
+      "gt": [
+        1460,
+        109,
+        1487,
+        145
+      ],
+      "size_group": "le36",
+      "reason": "HOG_filtered",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.75,
+      "ideal_square_IoU_upper_bound": 0.7637079407904238,
+      "best_postNMS_IoU": 0.6487985212569316,
+      "best_HOG_margin_of_IoU50_candidates": 1.4639895267427878
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 6,
+      "gt": [
+        1048,
+        167,
+        1095,
+        216
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 49.0,
+      "gt_aspect_ratio": 0.9591836734693877,
+      "ideal_square_IoU_upper_bound": 0.9595917074202324,
+      "best_postNMS_IoU": 0.6505649717514125,
+      "best_HOG_margin_of_IoU50_candidates": 1.8592727147036037
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 7,
+      "gt": [
+        1097,
+        849,
+        1130,
+        907
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 58.0,
+      "gt_aspect_ratio": 0.5689655172413793,
+      "ideal_square_IoU_upper_bound": 0.6055204593814545,
+      "best_postNMS_IoU": 0.5040916530278232,
+      "best_HOG_margin_of_IoU50_candidates": 1.4355442649655275
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 8,
+      "gt": [
+        1180,
+        981,
+        1247,
+        1052
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 71.0,
+      "gt_aspect_ratio": 0.9436619718309859,
+      "ideal_square_IoU_upper_bound": 0.9444332571620416,
+      "best_postNMS_IoU": 0.6431855056787452,
+      "best_HOG_margin_of_IoU50_candidates": 2.4492847992964037
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 9,
+      "gt": [
+        254,
+        594,
+        283,
+        630
+      ],
+      "size_group": "le36",
+      "reason": "candidate_available",
+      "gt_max_side": 36.0,
+      "gt_aspect_ratio": 0.8055555555555556,
+      "ideal_square_IoU_upper_bound": 0.8141041537879483,
+      "best_postNMS_IoU": 0.5796687607081668,
+      "best_HOG_margin_of_IoU50_candidates": 2.445804969456802
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 10,
+      "gt": [
+        168,
+        129,
+        213,
+        181
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 52.0,
+      "gt_aspect_ratio": 0.8653846153846154,
+      "ideal_square_IoU_upper_bound": 0.8696140673594024,
+      "best_postNMS_IoU": 0.6265060240963856,
+      "best_HOG_margin_of_IoU50_candidates": 2.5883316146342805
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 11,
+      "gt": [
+        399,
+        942,
+        451,
+        1033
+      ],
+      "size_group": "65to128",
+      "reason": "HOG_filtered",
+      "gt_max_side": 91.0,
+      "gt_aspect_ratio": 0.5714285714285714,
+      "ideal_square_IoU_upper_bound": 0.6076252185107651,
+      "best_postNMS_IoU": 0.6066104990278678,
+      "best_HOG_margin_of_IoU50_candidates": 0.41697185214139854
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 12,
+      "gt": [
+        301,
+        568,
+        326,
+        610
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 42.0,
+      "gt_aspect_ratio": 0.5952380952380952,
+      "ideal_square_IoU_upper_bound": 0.6280238250634866,
+      "best_postNMS_IoU": 0.5415793151642209,
+      "best_HOG_margin_of_IoU50_candidates": 0.794517110113012
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 13,
+      "gt": [
+        410,
+        801,
+        442,
+        862
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 61.0,
+      "gt_aspect_ratio": 0.5245901639344263,
+      "ideal_square_IoU_upper_bound": 0.5677494723466892,
+      "best_postNMS_IoU": 0.3895522388059702,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 14,
+      "gt": [
+        325,
+        661,
+        346,
+        717
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.375,
+      "ideal_square_IoU_upper_bound": 0.4413089300390591,
+      "best_postNMS_IoU": 0.42857142857142855,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 15,
+      "gt": [
+        616,
+        581,
+        674,
+        661
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 80.0,
+      "gt_aspect_ratio": 0.725,
+      "ideal_square_IoU_upper_bound": 0.741355308883249,
+      "best_postNMS_IoU": 0.7043719639139486,
+      "best_HOG_margin_of_IoU50_candidates": 1.8705195064623625
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 16,
+      "gt": [
+        363,
+        677,
+        381,
+        728
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 51.0,
+      "gt_aspect_ratio": 0.35294117647058826,
+      "ideal_square_IoU_upper_bound": 0.4225646754310349,
+      "best_postNMS_IoU": 0.4219886822958771,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 17,
+      "gt": [
+        512,
+        278,
+        555,
+        325
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 47.0,
+      "gt_aspect_ratio": 0.9148936170212766,
+      "ideal_square_IoU_upper_bound": 0.9166280494617661,
+      "best_postNMS_IoU": 0.5664187035069076,
+      "best_HOG_margin_of_IoU50_candidates": 1.0109079476296072
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 18,
+      "gt": [
+        398,
+        701,
+        434,
+        757
+      ],
+      "size_group": "37to64",
+      "reason": "candidate_available",
+      "gt_max_side": 56.0,
+      "gt_aspect_ratio": 0.6428571428571429,
+      "ideal_square_IoU_upper_bound": 0.6691477515030564,
+      "best_postNMS_IoU": 0.6627393225331369,
+      "best_HOG_margin_of_IoU50_candidates": 2.760067639779849
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 19,
+      "gt": [
+        948,
+        725,
+        968,
+        759
+      ],
+      "size_group": "le36",
+      "reason": "min_side_filtered",
+      "gt_max_side": 34.0,
+      "gt_aspect_ratio": 0.5882352941176471,
+      "ideal_square_IoU_upper_bound": 0.6220139589794931,
+      "best_postNMS_IoU": 0.5301204819277109,
+      "best_HOG_margin_of_IoU50_candidates": 1.8327085487979526
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 20,
+      "gt": [
+        653,
+        973,
+        709,
+        1045
+      ],
+      "size_group": "65to128",
+      "reason": "candidate_available",
+      "gt_max_side": 72.0,
+      "gt_aspect_ratio": 0.7777777777777778,
+      "ideal_square_IoU_upper_bound": 0.7887761333237084,
+      "best_postNMS_IoU": 0.7741330834114339,
+      "best_HOG_margin_of_IoU50_candidates": 2.7989382286139834
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 21,
+      "gt": [
+        239,
+        670,
+        257,
+        711
+      ],
+      "size_group": "37to64",
+      "reason": "no_IoU50_postNMS_candidate",
+      "gt_max_side": 41.0,
+      "gt_aspect_ratio": 0.43902439024390244,
+      "ideal_square_IoU_upper_bound": 0.49542678649879796,
+      "best_postNMS_IoU": 0.4818355640535373,
+      "best_HOG_margin_of_IoU50_candidates": null
+    },
+    {
+      "image_id": "manga109:HighschoolKimengumi_vol01:029",
+      "annotation_index": 22,
+      "gt": [
+        285,
+        267,
+        325,
+        316
+      ],
+      "size_group": "37to64",
+      "reason": "HOG_filtered",
+      "gt_max_side": 49.0,
+      "gt_aspect_ratio": 0.8163265306122449,
+      "ideal_square_IoU_upper_bound": 0.8239985543891962,
+      "best_postNMS_IoU": 0.6269113149847095,
+      "best_HOG_margin_of_IoU50_candidates": -0.781249884187905
+    }
+  ],
+  "threshold": 1.75,
+  "minimum_proposal_side": 36,
+  "source_sha256": "54f5dcf5063605939f80d77c70834448aa7a538cb5eebb6ee71234353f465134",
+  "script_sha256": "cc3762ce0a6a1da707c4a05fbc0b6e0d599e1bfcf2023208de6a7d30542d8363",
+  "prediction_sha256": "be76f5ae34ed8d49e52792cf9408b140ec9aa21d39724e7f7695b9a4b9b52a41",
+  "HOG_sha256": "e0dc3a4e94ecf541ce2631eaa2cca0d08d6e78ed0dd034b8ee22a62110843a01",
+  "scope": "20 explored validation pages, 252 GT; candidate availability after NMS, not one-to-one TP or pre-NMS Cascade recall",
+  "square_geometry_bound": "Ideal aligned square maximum IoU for GT ratio r=min(w,h)/max(w,h): r/(2sqrt(r)-r); no image or classifier effects"
+}

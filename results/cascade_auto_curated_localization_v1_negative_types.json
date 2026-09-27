@@ -1,0 +1,66 @@
+{
+  "guarded_background": [
+    {
+      "stage": 0,
+      "trees": 64,
+      "threshold": -0.8428387839383159,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 4453,
+      "negative_passing": 3108,
+      "negative_rejected": 1345
+    },
+    {
+      "stage": 1,
+      "trees": 64,
+      "threshold": -0.8678453215669774,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 3108,
+      "negative_passing": 2591,
+      "negative_rejected": 517
+    },
+    {
+      "stage": 2,
+      "trees": 64,
+      "threshold": -0.8379226517083884,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 2591,
+      "negative_passing": 2262,
+      "negative_rejected": 329
+    }
+  ],
+  "localization_negative": [
+    {
+      "stage": 0,
+      "trees": 64,
+      "threshold": -0.8428387839383159,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 20000,
+      "negative_passing": 6428,
+      "negative_rejected": 13572
+    },
+    {
+      "stage": 1,
+      "trees": 64,
+      "threshold": -0.8678453215669774,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 6428,
+      "negative_passing": 4770,
+      "negative_rejected": 1658
+    },
+    {
+      "stage": 2,
+      "trees": 64,
+      "threshold": -0.8379226517083884,
+      "positive_entering": 0,
+      "positive_passing": 0,
+      "negative_entering": 4770,
+      "negative_passing": 3807,
+      "negative_rejected": 963
+    }
+  ]
+}

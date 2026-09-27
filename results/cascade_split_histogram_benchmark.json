@@ -1,0 +1,15 @@
+{
+  "seed": 20260926,
+  "randomized_brute_force_checks": 120,
+  "threshold_differences": 0,
+  "max_allowed_weighted_error_difference": 1e-12,
+  "benchmark_samples": 30000,
+  "repeats": 200,
+  "seconds": {
+    "sort": 0.15262029998120852,
+    "histogram": 0.06411029997980222
+  },
+  "speed_ratio": 2.3805893909292446,
+  "scope": "split-search only; concurrent training load; floating reduction/ties may alter chosen thresholds; not model equivalence or deployment speed",
+  "running_trainer_changed": false
+}

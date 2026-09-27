@@ -1,0 +1,8 @@
+{
+  "samples": 12271,
+  "positive": 4271,
+  "negative": 8000,
+  "proposal_positive": 271,
+  "distinct_train_works_scanned": 32,
+  "scope": "saved feature dimensions/finiteness, row labels, proposal train identity and recorded IoU, model/features/samples SHA; no complete source-pixel or visual review"
+}
