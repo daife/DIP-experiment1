@@ -1,0 +1,15 @@
+{
+  "total": 11414,
+  "accepted": 10910,
+  "rejected": 504,
+  "actual_local_contexts": 1967,
+  "reasons": {
+    "keep_auto": 10910,
+    "local_teacher_face_overlap": 440,
+    "confirmed_face_source_page_quarantine": 64
+  },
+  "quarantined_page_negatives": 64,
+  "all_quarantined_negatives_excluded": true,
+  "checks": "all source IDs/train labels, source/decisions/indices SHA, unique complete accepted set, finite thresholded teacher boxes and expanded-overlap decisions; not visual review or teacher accuracy",
+  "provenance_sha256": "7e0c872242641dcd0f6f1e9e023de98978781c125423df2fa69788cbf5d524b6"
+}

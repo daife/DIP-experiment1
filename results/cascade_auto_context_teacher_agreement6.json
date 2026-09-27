@@ -1,0 +1,210 @@
+{
+  "cases": [
+    {
+      "id": "cascade_auto_windows_scale_v2:window0000027",
+      "page_id": "manga109:ARMS:070",
+      "candidate": [
+        1069,
+        322,
+        1146,
+        398
+      ],
+      "context": [
+        992,
+        244,
+        1223,
+        476
+      ],
+      "source_image_sha256": "68dbfc3923061c5e02eb127e671c0f3b234fa5314bbc30bd03fedce0a5e8a905",
+      "context_pixel_sha256": "17115c425d9fd3afe17b30bca442d988c2c7ccf9473d98f45843bd6eb4957e99",
+      "yolo_boxes": [
+        [
+          1042.234619140625,
+          247.45179748535156,
+          1095.710693359375,
+          330.5487365722656,
+          0.4450303316116333
+        ]
+      ],
+      "faster_boxes": [],
+      "faster_overlap_veto": false
+    },
+    {
+      "id": "cascade_auto_windows_scale_v2:window0000406",
+      "page_id": "manga109:Belmondo:080",
+      "candidate": [
+        1481,
+        533,
+        1512,
+        564
+      ],
+      "context": [
+        1400,
+        452,
+        1593,
+        645
+      ],
+      "source_image_sha256": "4935c4ef0081e6be1fa7bc672d3f6fb5dda235a13651c49eb6505638aa3935e1",
+      "context_pixel_sha256": "76a7f86b9d7977b7b0396b322035cf1ef086491b04f11d3ccbc9a992905055c8",
+      "yolo_boxes": [
+        [
+          1477.827880859375,
+          451.20513916015625,
+          1596.889404296875,
+          584.1978759765625,
+          0.5152524709701538
+        ]
+      ],
+      "faster_boxes": [],
+      "faster_overlap_veto": false
+    },
+    {
+      "id": "cascade_auto_windows_scale_v2:window0000601",
+      "page_id": "manga109:BurariTessenTorimonocho:042",
+      "candidate": [
+        1000,
+        592,
+        1031,
+        623
+      ],
+      "context": [
+        919,
+        511,
+        1112,
+        704
+      ],
+      "source_image_sha256": "e22591fe56d0a0ccd9f353e3bb0543e6c5278861a503dd2dd4560a79da94977c",
+      "context_pixel_sha256": "72206d9ba101a81bfd3e802e58fb39071e6a9016433d5c85f70b46b49c9e4f56",
+      "yolo_boxes": [
+        [
+          918.5122680664062,
+          530.7653198242188,
+          1012.9954833984375,
+          662.6887817382812,
+          0.6458166241645813
+        ]
+      ],
+      "faster_boxes": [],
+      "faster_overlap_veto": false
+    },
+    {
+      "id": "cascade_auto_windows_scale_v2:window0000787",
+      "page_id": "manga109:Count3DeKimeteAgeru:010",
+      "candidate": [
+        1188,
+        324,
+        1281,
+        418
+      ],
+      "context": [
+        1093,
+        230,
+        1376,
+        512
+      ],
+      "source_image_sha256": "20e6e1254b7de48e3366d06bc25cd4429cc2ef2d2f2c504434ee06b812de178f",
+      "context_pixel_sha256": "99aad19f0831e90207bcf125e5c32ca9ba56451e93b7ca876902c3a9cb3fa68a",
+      "yolo_boxes": [
+        [
+          1186.7802734375,
+          363.21087646484375,
+          1258.8402099609375,
+          464.759521484375,
+          0.5513008236885071
+        ],
+        [
+          1093.3314208984375,
+          428.9555969238281,
+          1165.8004150390625,
+          518.2650146484375,
+          0.10560888797044754
+        ]
+      ],
+      "faster_boxes": [
+        [
+          1189.2677001953125,
+          368.7952880859375,
+          1260.0042724609375,
+          459.6507568359375,
+          0.13143277168273926
+        ]
+      ],
+      "faster_overlap_veto": true
+    },
+    {
+      "id": "cascade_auto_windows_scale_v2:window0001099",
+      "page_id": "manga109:EienNoWith:121",
+      "candidate": [
+        911,
+        914,
+        1102,
+        1105
+      ],
+      "context": [
+        720,
+        723,
+        1293,
+        1170
+      ],
+      "source_image_sha256": "169e793ef52fa6d4e3f8d99178662b3de4bb46611e441dfe31651db6a18b02ce",
+      "context_pixel_sha256": "6eb95dccbcf7569fe12555b3171bf905905d0cb47121edf89cd61bae7755da89",
+      "yolo_boxes": [
+        [
+          969.22021484375,
+          715.6280517578125,
+          1215.875244140625,
+          899.048828125,
+          0.1326252520084381
+        ]
+      ],
+      "faster_boxes": [],
+      "faster_overlap_veto": false
+    },
+    {
+      "id": "cascade_auto_windows_scale_v2:window0001269",
+      "page_id": "manga109:EverydayOsakanaChan:002",
+      "candidate": [
+        296,
+        110,
+        373,
+        186
+      ],
+      "context": [
+        219,
+        32,
+        450,
+        264
+      ],
+      "source_image_sha256": "2013af64487797897775dcb0a3bbdcb98b8dad450751909324488b84b8e273c6",
+      "context_pixel_sha256": "8be3cb4f8a2d2556e1645a6aec1e997faa0a812b31447521b5bb9877ca75627c",
+      "yolo_boxes": [
+        [
+          220.7489471435547,
+          130.0381317138672,
+          372.6767578125,
+          263.84149169921875,
+          0.7725020051002502
+        ]
+      ],
+      "faster_boxes": [
+        [
+          224.5186004638672,
+          110.94597625732422,
+          351.2695007324219,
+          264.0,
+          0.522240161895752
+        ]
+      ],
+      "faster_overlap_veto": true
+    }
+  ],
+  "cases_count": 6,
+  "both_teacher_veto": 2,
+  "second_teacher": "faster-rcnn",
+  "threshold": 0.1,
+  "teacher_sha256": "bf3093cc70aaeee6a0a45459aa5d724f9e74022b927b41ba364aac25adc8b009",
+  "snapshot_audit_sha256": "acbb4392204284471679d4bb72b41b1f0453c064cdd4b2fe6acefabb3d4a06ae",
+  "script_sha256": "a85425c92e05a13d820fd1069dab5de67fb035079c548c745acf2009565d689f",
+  "scope": "six already inspected evenly spaced snapshot vetoes; not a representative accuracy estimate or a modification of running guard",
+  "limitation": "Teacher agreement can still be wrong; this diagnostic does not relabel or approve any data."
+}

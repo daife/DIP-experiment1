@@ -1,0 +1,26 @@
+{
+  "snapshot_count": 1129,
+  "snapshot_sha256": "679ee6d5d58f0c7cc30816754d0ba8e416e8a40eb14f351ec22ba8dc13c960c1",
+  "local_contexts_in_snapshot": 324,
+  "reasons": {
+    "keep_auto": 1052,
+    "local_teacher_face_overlap": 77
+  },
+  "checks": "complete-line snapshot IDs, train labels, finite thresholded teacher boxes, expanded overlap rule and recorded decisions; not model accuracy",
+  "sheet": "datasets\\derived\\cascade_auto_background_context_guard_v1\\progress_vetoes6.png",
+  "sheet_ids": [
+    "cascade_auto_windows_scale_v2:window0000027",
+    "cascade_auto_windows_scale_v2:window0000406",
+    "cascade_auto_windows_scale_v2:window0000601",
+    "cascade_auto_windows_scale_v2:window0000787",
+    "cascade_auto_windows_scale_v2:window0001099",
+    "cascade_auto_windows_scale_v2:window0001269"
+  ],
+  "colors": "red background candidate; blue local teacher face boxes",
+  "visual_review": {
+    "reviewer": "agent",
+    "inspected_cases": 6,
+    "scope": "six evenly spaced local-overlap vetoes in 1129-line snapshot",
+    "observations": "Many vetoes are true background/text/clothes or merely near a detected face; YOLO falsely boxes text or mechanical shapes in several displayed cases. This is conservative exclusion, not proof of mislabeled face. Other snapshot windows and future decisions unreviewed."
+  }
+}

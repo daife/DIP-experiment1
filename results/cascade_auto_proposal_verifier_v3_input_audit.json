@@ -1,0 +1,10 @@
+{
+  "samples": 15786,
+  "positive": 4271,
+  "negative": 11515,
+  "removed_negative": 485,
+  "all_parent_positive_rows_preserved": true,
+  "exact_exclusion_and_parent_feature_identity_checked": true,
+  "model_features_samples_sha_verified": true,
+  "scope": "all saved input rows and features; teacher accuracy and unseen source faces unverified"
+}

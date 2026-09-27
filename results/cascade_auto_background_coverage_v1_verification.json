@@ -1,0 +1,52 @@
+{
+  "total": 7763,
+  "works": 81,
+  "pages": 648,
+  "labels": {
+    "zero_overlap_expanded_annotations": 7763
+  },
+  "side_percentiles": [
+    32.0,
+    48.0,
+    96.0,
+    192.0,
+    320.0
+  ],
+  "size_groups_le64_le128_le256_gt256": [
+    3215,
+    2239,
+    1727,
+    582
+  ],
+  "candidates_sha256": "d83feff140ac87adfb531ccd9f4df63cb26a2d5197e05fa83bdab723e6bed8ef",
+  "checks": "all source identities/bounds/train labels/cache hashes; type-specific annotation geometry; localization parent IDs",
+  "sheet": "datasets\\derived\\cascade_auto_background_coverage_v1\\verification_24.png",
+  "sheet_ids": [
+    "auto0000196",
+    "auto0002987",
+    "auto0005290",
+    "auto0007394",
+    "auto0009371",
+    "auto0011673",
+    "auto0013866",
+    "auto0015812",
+    "auto0017861",
+    "auto0019903",
+    "auto0021530",
+    "auto0023844",
+    "auto0025321",
+    "auto0027425",
+    "auto0028674",
+    "auto0030852",
+    "auto0033247",
+    "auto0035275",
+    "auto0037554",
+    "auto0039560",
+    "auto0041037",
+    "auto0042985",
+    "auto0045170",
+    "auto0046566"
+  ],
+  "visual_review": "pending; no human approval inferred",
+  "command": ".venv/Scripts/python.exe scripts/verify_auto_window_data.py --dataset datasets\\derived\\cascade_auto_background_coverage_v1 --report results\\cascade_auto_background_coverage_v1_verification.json"
+}

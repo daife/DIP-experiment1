@@ -1,0 +1,105 @@
+{
+  "total": 5120,
+  "accepted": 4453,
+  "rejected": 667,
+  "checks": "all decision identities, accepted index set, source SHA, cached teacher exclusion and quarantine recomputed; known suspect IDs excluded",
+  "visual_review": "pending",
+  "sheet_ids": [
+    {
+      "id": "window0000000",
+      "decision": "K"
+    },
+    {
+      "id": "window0000487",
+      "decision": "K"
+    },
+    {
+      "id": "window0000927",
+      "decision": "K"
+    },
+    {
+      "id": "window0001366",
+      "decision": "K"
+    },
+    {
+      "id": "window0001868",
+      "decision": "K"
+    },
+    {
+      "id": "window0002310",
+      "decision": "K"
+    },
+    {
+      "id": "window0002806",
+      "decision": "K"
+    },
+    {
+      "id": "window0003278",
+      "decision": "K"
+    },
+    {
+      "id": "window0003710",
+      "decision": "K"
+    },
+    {
+      "id": "window0004156",
+      "decision": "K"
+    },
+    {
+      "id": "window0004686",
+      "decision": "K"
+    },
+    {
+      "id": "window0005119",
+      "decision": "K"
+    },
+    {
+      "id": "window0000003",
+      "decision": "R"
+    },
+    {
+      "id": "window0000367",
+      "decision": "R"
+    },
+    {
+      "id": "window0001047",
+      "decision": "R"
+    },
+    {
+      "id": "window0001545",
+      "decision": "R"
+    },
+    {
+      "id": "window0001665",
+      "decision": "R"
+    },
+    {
+      "id": "window0002503",
+      "decision": "R"
+    },
+    {
+      "id": "window0002770",
+      "decision": "R"
+    },
+    {
+      "id": "window0003117",
+      "decision": "R"
+    },
+    {
+      "id": "window0003829",
+      "decision": "R"
+    },
+    {
+      "id": "window0004408",
+      "decision": "R"
+    },
+    {
+      "id": "window0004469",
+      "decision": "R"
+    },
+    {
+      "id": "window0005113",
+      "decision": "R"
+    }
+  ]
+}

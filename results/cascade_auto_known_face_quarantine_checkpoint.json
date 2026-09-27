@@ -1,0 +1,9 @@
+{
+  "known_face_id": "cascade_auto_windows_scale_v2:window0002243",
+  "merged_array_index": 1968,
+  "known_face_rejected": true,
+  "confirmed_page_rows_seen": 64,
+  "all_seen_page_rows_rejected": true,
+  "snapshot_count": 2170,
+  "scope": "only completed guard prefix; final pool/positive labels unchanged; not final guard validation"
+}

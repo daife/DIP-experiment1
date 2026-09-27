@@ -1,0 +1,62 @@
+{
+  "total": 5120,
+  "works": 64,
+  "pages": 64,
+  "labels": {
+    "zero_overlap_expanded_annotations": 5120
+  },
+  "side_percentiles": [
+    31.0,
+    44.0,
+    77.0,
+    133.0,
+    993.0
+  ],
+  "size_groups_le64_le128_le256_gt256": [
+    1952,
+    1449,
+    1301,
+    418
+  ],
+  "candidates_sha256": "c247ba516c43806b4dbb33a0a36c71c928da6a925c4049b81397b9dec9bff247",
+  "checks": "all source identities/bounds/train labels/cache hashes; type-specific annotation geometry; localization parent IDs",
+  "sheet": "datasets\\derived\\cascade_auto_windows_scale_v2\\verification_24.png",
+  "sheet_ids": [
+    "window0000000",
+    "window0000222",
+    "window0000445",
+    "window0000667",
+    "window0000890",
+    "window0001112",
+    "window0001335",
+    "window0001557",
+    "window0001780",
+    "window0002003",
+    "window0002225",
+    "window0002448",
+    "window0002670",
+    "window0002893",
+    "window0003115",
+    "window0003338",
+    "window0003561",
+    "window0003783",
+    "window0004006",
+    "window0004228",
+    "window0004451",
+    "window0004673",
+    "window0004896",
+    "window0005119"
+  ],
+  "visual_review": {
+    "scope": "24 evenly spaced samples opened; native context additionally inspected for window0001557 and window0004453",
+    "observation": "window0001557 includes actual face eye/forehead with missing corresponding source annotation; window0004453 includes source-unannotated inserted illustration people",
+    "suspect_ids": [
+      "window0001557",
+      "window0004453"
+    ],
+    "context": "datasets/derived/cascade_auto_windows_scale_v2/suspect_context.png",
+    "training_eligibility": "not yet admitted; independent automatic face veto required",
+    "limitation": "annotation exclusion checks pass, but do not establish pure background semantics; remaining samples unreviewed"
+  },
+  "command": ".venv/Scripts/python.exe scripts/verify_auto_window_data.py --dataset datasets\\derived\\cascade_auto_windows_scale_v2 --report results\\cascade_auto_windows_scale_v2_verification.json"
+}

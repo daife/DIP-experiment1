@@ -1,0 +1,15 @@
+{
+  "accepted_backgrounds": 4116,
+  "positive": 14758,
+  "negative": 24116,
+  "all_backgrounds_train_nonquarantined": true,
+  "exact_context_accepted_scale_source_intersection": true,
+  "identical_to_coverage_control": {
+    "base_indices.npy": "331dc91eba9b2e684e74ae65c1707f244fba90ae8cb0f880b06d5a10a0ca04fe",
+    "localization_indices.npy": "09de6da025d690ddbbd693e368445db1d02eca8e8b98e91d32656f0e109a23e0",
+    "calibration.json": "0ff8381f7e95c134ae14eae7f41266ed9275c9dcf16d00e598d82ac8048ee8cc"
+  },
+  "mined_indices_sha256": "0fe63925303ee0046e88163a22220c1b407ddf748ae1f5cf9629894144217e59",
+  "guard_provenance_sha256": "f56766c10547438f3fb028d2d56ffe1f6cdfacfd958e1476ec4b3bda00fe6d86",
+  "limitation": "Traceability audit; not a claim of true-negative purity or full visual review."
+}

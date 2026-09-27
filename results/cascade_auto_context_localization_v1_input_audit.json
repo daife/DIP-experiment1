@@ -1,0 +1,11 @@
+{
+  "total": 45668,
+  "positive": 14758,
+  "background_negative": 10910,
+  "localization_negative": 20000,
+  "calibration": 721,
+  "positive_and_calibration_identical_to_curated_control": true,
+  "guard_accepted_indices_exact": true,
+  "all_saved_negative_rows_train_and_not_quarantined": true,
+  "scope": "all actual saved index rows, class/split/quarantine/provenance checks; pixel/geometry verification performed by trainer, no teacher-accuracy claim"
+}

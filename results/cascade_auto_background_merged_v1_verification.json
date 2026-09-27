@@ -1,0 +1,52 @@
+{
+  "total": 11414,
+  "works": 81,
+  "pages": 703,
+  "labels": {
+    "zero_overlap_expanded_annotations": 11414
+  },
+  "side_percentiles": [
+    31.0,
+    48.0,
+    93.0,
+    134.0,
+    827.0
+  ],
+  "size_groups_le64_le128_le256_gt256": [
+    4808,
+    3305,
+    2555,
+    746
+  ],
+  "candidates_sha256": "9fb993a45fd4e72b3890de99cb9ac941a66992acf24cf3694db37096d56e17b4",
+  "checks": "all source identities/bounds/train labels/cache hashes; type-specific annotation geometry; localization parent IDs",
+  "sheet": "datasets\\derived\\cascade_auto_background_merged_v1\\verification_24.png",
+  "sheet_ids": [
+    "cascade_auto_windows_scale_v2:window0000000",
+    "cascade_auto_windows_scale_v2:window0000601",
+    "cascade_auto_windows_scale_v2:window0001125",
+    "cascade_auto_windows_scale_v2:window0001733",
+    "cascade_auto_windows_scale_v2:window0002262",
+    "cascade_auto_windows_scale_v2:window0002873",
+    "cascade_auto_windows_scale_v2:window0003438",
+    "cascade_auto_windows_scale_v2:window0003975",
+    "cascade_auto_windows_scale_v2:window0004599",
+    "cascade_auto_background_coverage_v1:auto0000262",
+    "cascade_auto_background_coverage_v1:auto0004532",
+    "cascade_auto_background_coverage_v1:auto0008057",
+    "cascade_auto_background_coverage_v1:auto0011667",
+    "cascade_auto_background_coverage_v1:auto0015104",
+    "cascade_auto_background_coverage_v1:auto0018603",
+    "cascade_auto_background_coverage_v1:auto0021497",
+    "cascade_auto_background_coverage_v1:auto0024917",
+    "cascade_auto_background_coverage_v1:auto0027553",
+    "cascade_auto_background_coverage_v1:auto0030745",
+    "cascade_auto_background_coverage_v1:auto0034101",
+    "cascade_auto_background_coverage_v1:auto0037812",
+    "cascade_auto_background_coverage_v1:auto0040601",
+    "cascade_auto_background_coverage_v1:auto0043943",
+    "cascade_auto_background_coverage_v1:auto0046566"
+  ],
+  "visual_review": "pending; no human approval inferred",
+  "command": ".venv/Scripts/python.exe scripts/verify_auto_window_data.py --dataset datasets\\derived\\cascade_auto_background_merged_v1 --report results\\cascade_auto_background_merged_v1_verification.json"
+}

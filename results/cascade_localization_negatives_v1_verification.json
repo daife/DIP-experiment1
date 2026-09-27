@@ -1,0 +1,56 @@
+{
+  "total": 20000,
+  "works": 81,
+  "pages": 3005,
+  "labels": {
+    "nonmatching_localization_window": 20000
+  },
+  "side_percentiles": [
+    24.0,
+    55.0,
+    84.0,
+    134.0,
+    599.0
+  ],
+  "size_groups_le64_le128_le256_gt256": [
+    6805,
+    7822,
+    4445,
+    928
+  ],
+  "candidates_sha256": "638cdffbfc0bf392ef7fd56c50ac3cd13fc5655afdd8e15f0650403d8e1d47a2",
+  "checks": "all source identities/bounds/train labels/cache hashes; type-specific annotation geometry; localization parent IDs",
+  "sheet": "datasets\\derived\\cascade_localization_negatives_v1\\verification_24.png",
+  "sheet_ids": [
+    "loc0000000",
+    "loc0000869",
+    "loc0001739",
+    "loc0002608",
+    "loc0003478",
+    "loc0004347",
+    "loc0005217",
+    "loc0006086",
+    "loc0006956",
+    "loc0007825",
+    "loc0008695",
+    "loc0009564",
+    "loc0010434",
+    "loc0011303",
+    "loc0012173",
+    "loc0013042",
+    "loc0013912",
+    "loc0014781",
+    "loc0015651",
+    "loc0016520",
+    "loc0017390",
+    "loc0018259",
+    "loc0019129",
+    "loc0019999"
+  ],
+  "visual_review": {
+    "scope": "24 evenly spaced manifest IDs; sheet opened directly",
+    "observation": "partial eyes, cheek, hair and shifted person regions present, consistent with localization-negative label; not face-free-background claim",
+    "limitation": "no visual review of remaining 19976 samples; source boxes can include extra hair or omit faces"
+  },
+  "command": ".venv/Scripts/python.exe scripts/verify_auto_window_data.py --dataset datasets\\derived\\cascade_localization_negatives_v1 --report results\\cascade_localization_negatives_v1_verification.json"
+}
