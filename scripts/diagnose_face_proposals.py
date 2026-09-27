@@ -81,19 +81,25 @@ def main() -> None:
     parser.add_argument("--split", choices=("train", "validation"), required=True)
     parser.add_argument("--pages", type=int, default=8)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--cascade", type=Path)
+    parser.add_argument("--verifier", type=Path)
+    parser.add_argument("--threshold", type=float)
     args = parser.parse_args()
     if args.pages < 1:
         parser.error("--pages must be positive")
     config_path = ROOT / "models/config.json"
     config = json.loads(config_path.read_text(encoding="utf-8"))
-    cascade_path = ROOT / "models" / config["cascade"]
-    verifier_path = ROOT / "models" / config["candidate_verifier"]["model"]
+    cascade_path = (args.cascade or ROOT / "models" / config["cascade"]).resolve()
+    verifier_path = (args.verifier or ROOT / "models" / config["candidate_verifier"]["model"]).resolve()
     manifest = ROOT / "datasets/manifests/normalized/manga109_faces.jsonl"
     cascade = cascade_from_dict(json.loads(cascade_path.read_text(encoding="utf-8")))
     verifier = CandidateVerifier(verifier_path)
     search = config["search"]
     pyramid = PyramidConfig(search["scale_factor"], search["step"], search["nms_iou"])
-    threshold = config["candidate_verifier"]["threshold"]
+    threshold = args.threshold if args.threshold is not None else config["candidate_verifier"]["threshold"]
+    if not np.isfinite(threshold):
+        parser.error('--threshold must be finite')
+    config['candidate_verifier'] = {**config['candidate_verifier'], 'model':str(verifier_path),'threshold':threshold}
     min_side = config["candidate_verifier"]["min_side"]
     selected = (choose_train_pages if args.split == "train" else choose_validation_pages)(manifest, args.pages)
     pages = []

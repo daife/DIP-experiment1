@@ -38,6 +38,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--split", choices=("validation", "test"), default="validation")
     parser.add_argument("--pages", type=int, default=8)
+    parser.add_argument('--pages-per-work', type=int, default=1)
     parser.add_argument("--verifier", type=Path, default=ROOT / "models/candidate_hog_svm.npz")
     parser.add_argument("--cascade", type=Path, default=ROOT / "models/step4_cascade.json")
     parser.add_argument("--nms-iou", type=float, default=0.3)
@@ -76,7 +77,7 @@ def main() -> None:
     pages = []
     if args.pages < 1:
         parser.error("--pages must be positive")
-    selected = choose_pages(manifest, args.pages) if args.split == "validation" else choose_test_pages(manifest, args.pages)
+    selected = choose_pages(manifest, args.pages, args.pages_per_work) if args.split == "validation" else choose_test_pages(manifest, args.pages)
     for page in selected:
         page_started = perf_counter()
         gray = cv2.imread(str(ROOT / "datasets" / page["image_path"]), cv2.IMREAD_GRAYSCALE)
@@ -133,7 +134,7 @@ def main() -> None:
               "cascade_sha256": hashlib.sha256(cascade_path.read_bytes()).hexdigest(),
               "verifier_sha256": hashlib.sha256(verifier_path.read_bytes()).hexdigest(),
               "manifest_sha256": hashlib.sha256(manifest.read_bytes()).hexdigest(),
-              "selection": ("step5-comparison" if args.split == "validation" else "step8-test") + f" SHA-256 order, {args.pages} distinct source groups",
+              "selection": (f"step5-comparison SHA-256 order, round robin, {args.pages} pages, max {args.pages_per_work} per work" if args.split == 'validation' else f"step8-test SHA-256 order, {args.pages} distinct source groups"),
               "pages": pages, "summary": totals,
               "mean_scan_seconds": sum(p["scan_seconds"] for p in pages) / len(pages),
               "mean_verifier_seconds": sum(p["verifier_seconds"] for p in pages) / len(pages),

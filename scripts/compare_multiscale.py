@@ -20,19 +20,25 @@ from src.cascade import cascade_from_dict  # noqa: E402
 from src.multiscale import PyramidConfig, detect_multiscale  # noqa: E402
 
 
-def choose_pages(manifest: Path, count: int) -> list[dict]:
+def choose_pages(manifest: Path, count: int, pages_per_work: int = 1) -> list[dict]:
     rows = [json.loads(line) for line in manifest.read_text(encoding="utf-8").splitlines()]
     eligible = [row for row in rows if row["split"] == "validation" and row["annotations"]]
     eligible.sort(key=lambda row: hashlib.sha256(("step5-comparison:" + row["image_id"]).encode()).digest())
+    if count < 1 or pages_per_work < 1:
+        raise ValueError('page counts must be positive')
     selected, groups = [], set()
-    for row in eligible:
-        if row["source_group"] not in groups:
+    for round_index in range(pages_per_work):
+        seen = set()
+        for row in eligible:
+            if row['image_id'] in groups or row['source_group'] in seen:
+                continue
             selected.append(row)
-            groups.add(row["source_group"])
-        if len(selected) == count:
-            break
+            groups.add(row['image_id'])
+            seen.add(row['source_group'])
+            if len(selected) == count:
+                return selected
     if len(selected) < count:
-        raise ValueError(f"only {len(selected)} distinct validation groups available")
+        raise ValueError(f"only {len(selected)} validation pages available under per-work limit")
     return selected
 
 
