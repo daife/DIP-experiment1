@@ -6,6 +6,22 @@
 
 ## 最终 Demo
 
+默认关键点模型已更新为 **20,710 张 HRNet 真值训练、HOG 非线性初始化＋5级局部像素差 Ridge**。模型权重随 Git 提交，运行时不下载 HRNet、不需要完整训练图片。第五轮固定 test（4,120张）全部28点教师 NME：平均0.1131、中位数0.0733、P90=0.1407，77.82%图片NME≤0.1；同一validation相比原320张模型均值降低约38.2%。这是单脸裁剪的教师拟合指标，test历史已探索，不是整页检测或人工可见点指标。极端侧脸、强遮挡仍有偏差。
+
+Pull 后可直接查看下方已生成效果图。最小运行环境与随仓库样例：
+
+```powershell
+uv venv .venv --python 3.12
+uv pip install --python .venv/Scripts/python.exe -r requirements-demo.txt
+.venv/Scripts/python.exe demo.py --image datasets/annotations/review_sets/landmark320/images/102884-127.jpg --output results/my_demo.jpg
+```
+
+![默认Demo：绿色检测框与分数、红色28点](results/demo_landmark_teacher.jpg)
+
+样例使用仓库原有anime256裁剪，属于已接触样本，仅展示可运行效果；其来源与历史320张复核资料保持原记录，不作为新增盲测。输出JSON见 `results/demo_landmark_teacher.json`。任意本地图像可替换 `--image`。
+
+完整自动标注（不含原始授权图片）压缩包位于 `datasets/annotations/teacher/landmark28_hrnet_full_20260927.jsonl.gz`，元数据与哈希见同目录；解压到原自动标注路径并恢复原图来源后，可重跑 `scripts/iterate_landmark_teacher.py` 和 `scripts/train_landmark_hog_teacher.py`。五轮过程与实际命令见 `实验记录/2026-09-27_HRNet真值全量关键点自动迭代.md`。中间权重留本地，最终默认所需权重全部提交。
+
 使用已导出的 `models/` 配置与权重，对本地图像执行检测和 28 点回归：
 
 ```powershell
