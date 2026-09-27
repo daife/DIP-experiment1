@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-09-27T12:04:36.808493+00:00",
+  "model": {
+    "name": "anime-face-detector/hrnetv2",
+    "checkpoint": "model.safetensors",
+    "checkpoint_sha256": "e71271376406a743c01528a0460637fcc06e72aeeea583f85007cc72dc8b7a4a",
+    "flip_test": true,
+    "input_policy": "anime256 full crop; face detector skipped"
+  },
+  "landmark_schema": "datasets/annotations/landmark28_schema.json",
+  "sampling": {
+    "manifest": "datasets/manifests/images.csv",
+    "source_dataset": "anime256",
+    "split": "all",
+    "pool_size": 27588,
+    "seed": 20260927,
+    "requested": 27588,
+    "selected": 27588,
+    "warmup_excluded": 3
+  },
+  "environment": {
+    "device": "cpu",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.13",
+    "torch": "2.14.0+cpu",
+    "torch_threads": 8,
+    "cuda_available": false,
+    "cuda_device": null
+  },
+  "result": {
+    "successful_images": 27588,
+    "annotated_faces": 27588,
+    "failures": [],
+    "model_load_seconds": 0.2642354999552481,
+    "batch_elapsed_seconds": 3741.544050300028,
+    "steady_mean_seconds_per_image": 0.13562075515328412,
+    "steady_median_seconds_per_image": 0.13709139998536557,
+    "steady_p95_seconds_per_image": 0.17867748003918676,
+    "steady_images_per_second": 7.3735026683029385,
+    "estimated_current_pool_seconds": 3741.505393168802,
+    "estimated_all_anime256_seconds": 3741.505393168802,
+    "landmark_points": 772464,
+    "out_of_bounds_landmark_points": 758,
+    "landmark_confidence_mean": 0.8621174588408722,
+    "landmark_confidence_median": 0.9150548279285431,
+    "landmark_confidence_min": 0.0060361456125974655,
+    "landmark_confidence_max": 1.1698708534240723
+  },
+  "outputs": {
+    "annotations": "annotations.jsonl"
+  },
+  "distribution": {
+    "archive": "landmark28_hrnet_full_20260927.jsonl.gz",
+    "archive_sha256": "1a0b48a45f1a5a50df0053f7a7a5ae853c9bb8db22bf9f6bcfffd55f53afbb2b",
+    "uncompressed_sha256": "4e97147e8e852ebbaaf3e563c8e8690e94c390f4da7bb6bcfb488034f89882df",
+    "images": "original licensed source images excluded; paths relative to datasets",
+    "truth_policy": "HRNet coordinates accepted as absolute truth per user; visibility remains unknown"
+  }
+}

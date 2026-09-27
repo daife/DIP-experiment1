@@ -1,7 +1,7 @@
 {
   "format": "experiment1-demo-v1",
   "cascade": "step8_cascade_search128.json",
-  "landmark_model": "landmark_ridge4_visible_only.npz",
+  "landmark_model": "landmark_hog_teacher_c2048_g0.025_s5.joblib",
   "channels": {
     "count": 11,
     "definition": "feature_definition.json",
@@ -20,17 +20,18 @@
     "schema": "landmark28_schema.json",
     "index_base": 0,
     "normalization": "face box bilinear grayscale to 256x256; normalized coordinates mapped to original box",
-    "training_target": "visible_only",
-    "regression_stages": 4
+    "training_target": "all HRNet teacher coordinates; visibility unknown",
+    "regression_stages": 5,
+    "initializer": "64px HOG, RBF Nystroem 2048, Ridge alpha0.1, gamma0.025"
   },
   "provenance": {
     "split_seed": "experiment1-anime-face-v1",
     "cascade_seed": 20260923,
-    "landmark_seed": 20260925,
+    "landmark_seed": 20260927,
     "landmark_split_counts": {
-      "train": 240,
-      "validation": 32,
-      "test": 48
+      "train": 20710,
+      "validation": 2758,
+      "test": 4120
     },
     "sha256": {
       "landmark_ridge4_visible_only.npz": "1acf86d74815c7dd91ccbef8f89bd98cdaf992948e2aeb3812710c24ecdc9b50",
@@ -41,10 +42,12 @@
       "landmark28_schema.json": "02efb8b0f647d27978ea8443766cd136f4d37a07398dc3c202ec901b790555f3",
       "step8_cascade_search128.json": "dccac3e24b030e5c3ebef4bf8fbe6cf65d06292d5d7b2744e3484fc941931ca8",
       "candidate_hog_rbf_tight_v1.joblib": "e0dc3a4e94ecf541ce2631eaa2cca0d08d6e78ed0dd034b8ee22a62110843a01",
-      "box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43"
+      "box_refiner_ridge_v1.joblib": "9abe165d3cdcdb3f0f921fa7122ad01bfd00b556647143bf2b562bbb76b42c43",
+      "landmark_hog_teacher_c2048_g0.025_s5.joblib": "5c7cd4d7e0598fe72756b799391436763e7032366e280b4ce234568d671ea464"
     },
     "historical_search_config": "step5_search_config.json: prior step=1 baseline; current search parameters are in this config",
-    "status": "candidate configuration fixed after validation; test historically explored; not final excellent acceptance"
+    "status": "candidate configuration fixed after validation; test historically explored; not final excellent acceptance",
+    "landmark_teacher_metrics": "results/landmark_hog_teacher_c2048_metrics.json"
   },
   "candidate_verifier": {
     "model": "candidate_hog_rbf_tight_v1.joblib",
