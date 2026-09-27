@@ -1,0 +1,17 @@
+{
+  "pool_rows_and_channels_exact_shard_merge": true,
+  "unique_added_competitors": 313,
+  "positive": 18785,
+  "negative": 24429,
+  "control_inputs_unchanged": {
+    "base_indices.npy": "331dc91eba9b2e684e74ae65c1707f244fba90ae8cb0f880b06d5a10a0ca04fe",
+    "mined_indices.npy": "0fe63925303ee0046e88163a22220c1b407ddf748ae1f5cf9629894144217e59",
+    "localization_indices.npy": "09de6da025d690ddbbd693e368445db1d02eca8e8b98e91d32656f0e109a23e0",
+    "proposal_positive_indices.npy": "f7c17feabbbbd243167eed1de56ee0a9b6af0166fb5b2b8af14c44694b9e804a",
+    "calibration.json": "0ff8381f7e95c134ae14eae7f41266ed9275c9dcf16d00e598d82ac8048ee8cc"
+  },
+  "pool_candidate_sha256": "c0b14619f44049fbc5394699ed4e584873e148919e64e35cf293cf374ead2e7b",
+  "pool_channels_sha256": "dad2ebbdca6e3feb8f2d19869d2f1458426dc7b0f177edcfd8eb3c0599cc8226",
+  "actual_competitor_indices_sha256": "87dc8f82384918d8b6511e60ff72b8fe1b8736031dcc7b5643ecf35ddf2ab392",
+  "limitation": "Input audit, not performance or visual-label certification."
+}

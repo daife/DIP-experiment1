@@ -1,0 +1,16 @@
+{
+  "verifier_parent_rows_and_features_unchanged": true,
+  "verifier_exact_unique_HOG_additions": 3974,
+  "verifier_positive": 8245,
+  "verifier_negative": 11515,
+  "cascade_added_positive": 4027,
+  "cascade_control_identical_inputs": {
+    "base_indices.npy": "331dc91eba9b2e684e74ae65c1707f244fba90ae8cb0f880b06d5a10a0ca04fe",
+    "mined_indices.npy": "0fe63925303ee0046e88163a22220c1b407ddf748ae1f5cf9629894144217e59",
+    "localization_indices.npy": "09de6da025d690ddbbd693e368445db1d02eca8e8b98e91d32656f0e109a23e0",
+    "calibration.json": "0ff8381f7e95c134ae14eae7f41266ed9275c9dcf16d00e598d82ac8048ee8cc"
+  },
+  "verifier_model_sha256": "886de38376630096051257d13fe17f37f06a3e1ce41bf45358b0c7f4d31b056e",
+  "pool_candidate_sha256": "015426e84bd3b398a6c306c5ec18a2ae00c1550412415a62b8a46a1bf18a089f",
+  "limitation": "Input traceability; not new fullpage detection performance or all-image visual review."
+}

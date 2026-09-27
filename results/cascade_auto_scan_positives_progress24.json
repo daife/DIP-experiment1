@@ -1,0 +1,473 @@
+{
+  "source_shards": [
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_000.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_001.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_002.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_003.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_004.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_005.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_006.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_007.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_008.json",
+    "datasets\\derived\\cascade_auto_scan_positives_v1\\page_009.json"
+  ],
+  "sampled_rows": [
+    {
+      "id": "scan_positive:000:00000",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1072,
+        887,
+        1195,
+        1010
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6207701283547258,
+      "cascade_score": 1.713090375378529,
+      "crop_sha256": "2ba33e60a344617fe32e2de301e5869f8d49d841145e6f46e3e0c0f134fa8c3f",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00001",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        415,
+        813,
+        464,
+        863
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.8902077151335311,
+      "cascade_score": 1.51837623957078,
+      "crop_sha256": "0839c194ac15fa968080fd602d9497df006d3658be608063459c7e5d8c44612b",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00000",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        184,
+        468,
+        244,
+        528
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6666666666666666,
+      "cascade_score": 2.339374097934409,
+      "crop_sha256": "207bc1193e963b19ef5bab94d004efdbc769f9202263550c22f68088e0689ac7",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00001",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        166,
+        881,
+        194,
+        910
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6425233644859814,
+      "cascade_score": 2.31773084257069,
+      "crop_sha256": "4ab8cfac4919c03a22e5b341ebf422a5e2a6c11b342cd2aebb9cac0da4755b62",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00002",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        1348,
+        194,
+        1408,
+        254
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.8276553106212425,
+      "cascade_score": 2.2521140882168735,
+      "crop_sha256": "3bedd3481d84f02cb85e19a762de2975951e2423e205d49adc2a5cb23e25e500",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00003",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        193,
+        119,
+        371,
+        298
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.7096227481011864,
+      "cascade_score": 2.231391457234905,
+      "crop_sha256": "79f60e13645f5910edb53993d0c2783f041a0366c94272bba96a15b0db328a7a",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00004",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        1182,
+        425,
+        1224,
+        467
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5833333333333334,
+      "cascade_score": 2.0811771616399115,
+      "crop_sha256": "3e7c4e5a5573c580584087f25863cb4714164f5a8d47b12dc14ec0b52a11efc6",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00005",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        924,
+        697,
+        974,
+        747
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5772,
+      "cascade_score": 2.077315074816411,
+      "crop_sha256": "c8a2351c9d759f36d204deda1eea774cf05bd0d815df6aece846bf2ea92900cb",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00006",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        1537,
+        433,
+        1597,
+        493
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.7682926829268293,
+      "cascade_score": 2.002294204433113,
+      "crop_sha256": "e118d0481a96b6d6af2b6011abef4ee1dfdbc07785df4df0ecfd7d02331ef422",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00007",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        1393,
+        1011,
+        1453,
+        1070
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.7003848268279275,
+      "cascade_score": 1.8074623167071726,
+      "crop_sha256": "7670a2085a470b06d6a340870f8b606b518be5cb18c19937aa5004aa836472fd",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00008",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        949,
+        298,
+        1127,
+        477
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6849538635365011,
+      "cascade_score": 1.5928135623800532,
+      "crop_sha256": "ae54e00a5132c6c0d86e2dd8dfeec1522b00b12db812f24c0627d7fa8c8f2351",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00009",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "source_group": "LoveHina_vol01",
+      "split": "train",
+      "bbox_xyxy": [
+        286,
+        1044,
+        310,
+        1068
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6435935198821797,
+      "cascade_score": 1.5808634250811642,
+      "crop_sha256": "061d0f8231978d1a356053c1e0805badf35addf9f8793e43a076e89191c15309",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00002",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1362,
+        184,
+        1482,
+        304
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.7688483844241922,
+      "cascade_score": null,
+      "crop_sha256": "e79fb539ac50226297144d27e637c461eec507874d713b19e4da92e065e49fc9",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00003",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1348,
+        198,
+        1468,
+        318
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6797797010228167,
+      "cascade_score": null,
+      "crop_sha256": "a572d4f0bdd9336a91619b0ae4a31251a801740a63b6becf0473acc01fb3d972",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00004",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1352,
+        202,
+        1493,
+        343
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.7339004206925246,
+      "cascade_score": null,
+      "crop_sha256": "151334b2f8561043fc1b3dc04c6e005bb2b435d12da075994004a62a1da9873f",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00005",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1345,
+        153,
+        1528,
+        336
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5262922153542955,
+      "cascade_score": null,
+      "crop_sha256": "4af9d63750afc26be955f3563dcef9d7b2565036c69250ba0133282b57224554",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00006",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1000,
+        70,
+        1031,
+        101
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6423473433782713,
+      "cascade_score": null,
+      "crop_sha256": "23c11d9ddcf98952d53b89f33e2ebf7603dfbc6499f25ae40eee904d24e9aee1",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00007",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1001,
+        70,
+        1038,
+        107
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.8108108108108109,
+      "cascade_score": null,
+      "crop_sha256": "eb5cf756dd0d5dc7ad5af073d96e87f3f6b3eb465615dc55ffbd0d78f5868c09",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00008",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1000,
+        74,
+        1031,
+        105
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.7685738684884714,
+      "cascade_score": null,
+      "crop_sha256": "e2b8d79c73232d44f8342b9356acbbcab01d99447456303f822f5c08748aed47",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00009",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        1004,
+        74,
+        1035,
+        105
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.8150744960560912,
+      "cascade_score": null,
+      "crop_sha256": "0526c12fa70288d5c0aa693323c853196b7ed3346bb6ca4e84db753170c2ea4e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00010",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        398,
+        808,
+        468,
+        878
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.54,
+      "cascade_score": null,
+      "crop_sha256": "b354b790c53e6763851abac8853593286711bb10a16a708b6f77ca37da7feec3",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00011",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        406,
+        806,
+        460,
+        860
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6813784764207981,
+      "cascade_score": null,
+      "crop_sha256": "e872e37f1d8eef2f1c26bd45649e815c9e22aa68ee3f4ee7db47ea941106a985",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00012",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        406,
+        816,
+        460,
+        870
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6813784764207981,
+      "cascade_score": null,
+      "crop_sha256": "ecae74787ff70b99d47c1d23d9a044afdfdeab6c038c0d8e62b4fc2bc77983cc",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00013",
+      "page_id": "manga109:YoumaKourin:083",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "source_group": "YoumaKourin",
+      "split": "train",
+      "bbox_xyxy": [
+        410,
+        810,
+        456,
+        856
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6580779944289693,
+      "cascade_score": null,
+      "crop_sha256": "96226fe52d8c99fc8d6ccc3762fefdbd6293180d558cbab777207fa9c8ff27e0",
+      "review_decision": "unreviewed"
+    }
+  ],
+  "scope": "first 12 detected and first 12 jitter rows in completed-page order; nonrepresentative progress sample"
+}

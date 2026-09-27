@@ -1,0 +1,133 @@
+{
+  "split": "explored validation",
+  "pages": [
+    "manga109:NichijouSoup:009",
+    "manga109:RinToSiteSippuNoNaka:004",
+    "manga109:HisokaReturns:075",
+    "manga109:TensiNoHaneToAkumaNoShippo:056",
+    "manga109:OhWareraRettouSeitokai:068",
+    "manga109:TapkunNoTanteisitsu:099",
+    "manga109:LancelotFullThrottle:031",
+    "manga109:MukoukizuNoChonbo:050",
+    "manga109:KyokugenCyclone:005",
+    "manga109:HighschoolKimengumi_vol01:068",
+    "manga109:RinToSiteSippuNoNaka:034",
+    "manga109:HisokaReturns:035",
+    "manga109:NichijouSoup:027",
+    "manga109:OhWareraRettouSeitokai:086",
+    "manga109:TapkunNoTanteisitsu:018",
+    "manga109:LancelotFullThrottle:054",
+    "manga109:TensiNoHaneToAkumaNoShippo:036",
+    "manga109:KyokugenCyclone:050",
+    "manga109:MukoukizuNoChonbo:055",
+    "manga109:HighschoolKimengumi_vol01:029"
+  ],
+  "GT": 252,
+  "results": [
+    {
+      "report": "cascade_auto_scale_context_localization_v1_combined20",
+      "sha256": "826e8bf3b941fe9b659e2476cf3d93022b8f962aa4c7743c7c9d863971da8676",
+      "best_without_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 77,
+          "fp": 124,
+          "fn": 175,
+          "precision": 0.38308457711442784,
+          "recall": 0.3055555555555556,
+          "f1": 0.33995584988962474
+        }
+      ],
+      "best_with_refiner": [
+        "tight_refined_1.25",
+        {
+          "tp": 79,
+          "fp": 115,
+          "fn": 173,
+          "precision": 0.4072164948453608,
+          "recall": 0.3134920634920635,
+          "f1": 0.3542600896860987
+        }
+      ]
+    },
+    {
+      "report": "cascade_auto_scan_positive_verifier_v4_validation20",
+      "sha256": "ce690260bc6741fb7973ff1f2f5223aebf3fc96cdb485d5b29b4b16b95ddec4a",
+      "best_without_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 82,
+          "fp": 143,
+          "fn": 170,
+          "precision": 0.36444444444444446,
+          "recall": 0.3253968253968254,
+          "f1": 0.3438155136268344
+        }
+      ],
+      "best_with_refiner": [
+        "tight_refined_1.25",
+        {
+          "tp": 86,
+          "fp": 130,
+          "fn": 166,
+          "precision": 0.39814814814814814,
+          "recall": 0.3412698412698413,
+          "f1": 0.36752136752136755
+        }
+      ]
+    },
+    {
+      "report": "cascade_auto_scan_positive_localization_v1_v3_combined20",
+      "sha256": "5585061353093d8a93fe09c6f56462afd6355469df7ef1088178388816dd4bc7",
+      "best_without_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 80,
+          "fp": 120,
+          "fn": 172,
+          "precision": 0.4,
+          "recall": 0.31746031746031744,
+          "f1": 0.35398230088495575
+        }
+      ],
+      "best_with_refiner": [
+        "tight_refined_1.25",
+        {
+          "tp": 85,
+          "fp": 113,
+          "fn": 167,
+          "precision": 0.4292929292929293,
+          "recall": 0.3373015873015873,
+          "f1": 0.37777777777777777
+        }
+      ]
+    },
+    {
+      "report": "cascade_auto_scan_positive_localization_v1_v4_combined20",
+      "sha256": "775f3c48182c8cef37df1d154888a9e59c55a010b90888cb0949de3683875a59",
+      "best_without_refiner": [
+        "tight_postnms_1.5",
+        {
+          "tp": 76,
+          "fp": 77,
+          "fn": 176,
+          "precision": 0.49673202614379086,
+          "recall": 0.30158730158730157,
+          "f1": 0.37530864197530867
+        }
+      ],
+      "best_with_refiner": [
+        "tight_refined_1.5",
+        {
+          "tp": 81,
+          "fp": 72,
+          "fn": 171,
+          "precision": 0.5294117647058824,
+          "recall": 0.32142857142857145,
+          "f1": 0.4
+        }
+      ]
+    }
+  ],
+  "limitation": "Thresholds explored on same validation pages; not blind test or acceptance."
+}

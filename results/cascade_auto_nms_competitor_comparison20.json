@@ -1,0 +1,57 @@
+{
+  "scope": "same20 explored validation pages, 252GT; no deployment",
+  "results": [
+    {
+      "report": "cascade_auto_scan_positive_localization_v1_v4_combined20",
+      "report_sha256": "775f3c48182c8cef37df1d154888a9e59c55a010b90888cb0949de3683875a59",
+      "best_postnms": [
+        "tight_postnms_1.5",
+        {
+          "tp": 76,
+          "fp": 77,
+          "fn": 176,
+          "precision": 0.49673202614379086,
+          "recall": 0.30158730158730157,
+          "f1": 0.37530864197530867
+        }
+      ],
+      "best_refined": [
+        "tight_refined_1.5",
+        {
+          "tp": 81,
+          "fp": 72,
+          "fn": 171,
+          "precision": 0.5294117647058824,
+          "recall": 0.32142857142857145,
+          "f1": 0.4
+        }
+      ]
+    },
+    {
+      "report": "cascade_auto_nms_competitor_localization_v1_v4_combined20",
+      "report_sha256": "d01406f41585e55b318697f765525274c1bc8e47fdc2598f3cd13ab77e61cc06",
+      "best_postnms": [
+        "tight_postnms_1.5",
+        {
+          "tp": 76,
+          "fp": 93,
+          "fn": 176,
+          "precision": 0.44970414201183434,
+          "recall": 0.30158730158730157,
+          "f1": 0.36104513064133015
+        }
+      ],
+      "best_refined": [
+        "tight_refined_1.5",
+        {
+          "tp": 73,
+          "fp": 90,
+          "fn": 179,
+          "precision": 0.44785276073619634,
+          "recall": 0.2896825396825397,
+          "f1": 0.35180722891566263
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "identical_control_inputs": {
+    "base_indices.npy": "331dc91eba9b2e684e74ae65c1707f244fba90ae8cb0f880b06d5a10a0ca04fe",
+    "mined_indices.npy": "0fe63925303ee0046e88163a22220c1b407ddf748ae1f5cf9629894144217e59",
+    "localization_indices.npy": "09de6da025d690ddbbd693e368445db1d02eca8e8b98e91d32656f0e109a23e0",
+    "proposal_positive_indices.npy": "f7c17feabbbbd243167eed1de56ee0a9b6af0166fb5b2b8af14c44694b9e804a",
+    "calibration.json": "0ff8381f7e95c134ae14eae7f41266ed9275c9dcf16d00e598d82ac8048ee8cc"
+  },
+  "positive": 18785,
+  "negative": 24116,
+  "stages": 3,
+  "trees": 128,
+  "root_candidates": 128,
+  "child_candidates": 48,
+  "seed": 20260926,
+  "provenance_sha256": "cfda98e10b678fa3b8cfaa1b2237436fed6e624dd23b711dac3b9daaa0ba4960",
+  "limitation": "Input identity audit; capacity model still training, no performance claim."
+}

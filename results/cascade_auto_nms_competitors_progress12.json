@@ -1,0 +1,413 @@
+{
+  "sampled_rows": [
+    {
+      "id": "nms_competitor:000:000",
+      "page_id": "manga109:YoumaKourin:083",
+      "source_group": "YoumaKourin",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        1319,
+        124,
+        1443,
+        247
+      ],
+      "max_annotation_IoU": 0.1750178699070765,
+      "max_gt_coverage": 0.27784397163120567,
+      "cascade_score": 1.2460525558731574,
+      "witnesses": [
+        {
+          "annotation_index": 0,
+          "positive_bbox": [
+            1305,
+            149,
+            1483,
+            328
+          ],
+          "positive_GT_IoU": 0.5336721728081322,
+          "positive_score": 0.48095014823907,
+          "competitor_IoU": 0.3475773697156913
+        }
+      ],
+      "crop_sha256": "254382cd2e039f5e206097b143b8377624051a32b2f4a6f0fba10419b89297fe",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:000:001",
+      "page_id": "manga109:YoumaKourin:083",
+      "source_group": "YoumaKourin",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        135,
+        153,
+        170,
+        187
+      ],
+      "max_annotation_IoU": 0.3776944704779756,
+      "max_gt_coverage": 0.4605714285714286,
+      "cascade_score": 1.244342088401909,
+      "witnesses": [
+        {
+          "annotation_index": 3,
+          "positive_bbox": [
+            138,
+            147,
+            173,
+            182
+          ],
+          "positive_GT_IoU": 0.5765765765765766,
+          "positive_score": 0.8530126263374185,
+          "competitor_IoU": 0.6240753194351042
+        }
+      ],
+      "crop_sha256": "e0b93b3d3c97d3e3afa0961c5246f396ff7dd9ce3d4e0ec0c90e97eb11df0389",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:000:002",
+      "page_id": "manga109:YoumaKourin:083",
+      "source_group": "YoumaKourin",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        122,
+        134,
+        151,
+        163
+      ],
+      "max_annotation_IoU": 0.15514935354436024,
+      "max_gt_coverage": 0.19885714285714284,
+      "cascade_score": 1.0960872481860944,
+      "witnesses": [
+        {
+          "annotation_index": 3,
+          "positive_bbox": [
+            120,
+            129,
+            170,
+            178
+          ],
+          "positive_GT_IoU": 0.566579634464752,
+          "positive_score": 0.2966343064272922,
+          "competitor_IoU": 0.343265306122449
+        }
+      ],
+      "crop_sha256": "eaff11fb695c96ae3e859e9a4bd91fb4bf6548ab67732780c1332873a9ed6a2e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:000:003",
+      "page_id": "manga109:YoumaKourin:083",
+      "source_group": "YoumaKourin",
+      "parent_image_path": "raw/manga109/images/YoumaKourin/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        1352,
+        54,
+        1565,
+        268
+      ],
+      "max_annotation_IoU": 0.18794519518108518,
+      "max_gt_coverage": 0.5673758865248227,
+      "cascade_score": 0.9334642326158396,
+      "witnesses": [
+        {
+          "annotation_index": 0,
+          "positive_bbox": [
+            1350,
+            161,
+            1499,
+            310
+          ],
+          "positive_GT_IoU": 0.6205240885416666,
+          "positive_score": 0.3616041159911484,
+          "competitor_IoU": 0.3021669804433857
+        }
+      ],
+      "crop_sha256": "57ab5051ee8ea903d74816fee76eea2fa2082d8513d7e5cb4d4439811aba459e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:000",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        1397,
+        1018,
+        1426,
+        1046
+      ],
+      "max_annotation_IoU": 0.27979274611398963,
+      "max_gt_coverage": 0.2857142857142857,
+      "cascade_score": 1.7364461465937777,
+      "witnesses": [
+        {
+          "annotation_index": 9,
+          "positive_bbox": [
+            1389,
+            1016,
+            1438,
+            1066
+          ],
+          "positive_GT_IoU": 0.5806451612903226,
+          "positive_score": 1.3739295953163257,
+          "competitor_IoU": 0.3314285714285714
+        }
+      ],
+      "crop_sha256": "ed541c7e39f391bafb0cdc884b986b4b4cac8cdf7dacdede2d34a197d1b2d58d",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:001",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        398,
+        1033,
+        448,
+        1083
+      ],
+      "max_annotation_IoU": 0.439281530652089,
+      "max_gt_coverage": 0.4618226600985222,
+      "cascade_score": 1.4483999493192372,
+      "witnesses": [
+        {
+          "annotation_index": 17,
+          "positive_bbox": [
+            393,
+            1026,
+            453,
+            1085
+          ],
+          "positive_GT_IoU": 0.5400952032222629,
+          "positive_score": 0.4296666700095168,
+          "competitor_IoU": 0.7062146892655368
+        }
+      ],
+      "crop_sha256": "ce2a6d4404ae49ccd0f19e5ec8011642b8d44a5ae21553d7ecbe06ea4440d444",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:002",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        391,
+        992,
+        432,
+        1033
+      ],
+      "max_annotation_IoU": 0.27020740453576275,
+      "max_gt_coverage": 0.2861247947454844,
+      "cascade_score": 1.4072539954988736,
+      "witnesses": [
+        {
+          "annotation_index": 17,
+          "positive_bbox": [
+            388,
+            991,
+            448,
+            1051
+          ],
+          "positive_GT_IoU": 0.5096222380612973,
+          "positive_score": 1.087952061295449,
+          "competitor_IoU": 0.46694444444444444
+        }
+      ],
+      "crop_sha256": "62da5b99392f05c68e7e2e6b06827ab8d104b4655baabf230268406258d968d2",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:003",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        1010,
+        657,
+        1070,
+        717
+      ],
+      "max_annotation_IoU": 0.3022279625443978,
+      "max_gt_coverage": 0.419167039856695,
+      "cascade_score": 1.2545929326782677,
+      "witnesses": [
+        {
+          "annotation_index": 10,
+          "positive_bbox": [
+            1024,
+            685,
+            1074,
+            734
+          ],
+          "positive_GT_IoU": 0.54858934169279,
+          "positive_score": 0.7511196483080089,
+          "competitor_IoU": 0.3215377894276977
+        }
+      ],
+      "crop_sha256": "65ea7583934a5a9243cef66a0a038f99125dc600720d973943c440d63ec186c0",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:004",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        92,
+        902,
+        127,
+        937
+      ],
+      "max_annotation_IoU": 0.43037974683544306,
+      "max_gt_coverage": 0.4358974358974359,
+      "cascade_score": 1.2381624678951597,
+      "witnesses": [
+        {
+          "annotation_index": 14,
+          "positive_bbox": [
+            90,
+            899,
+            131,
+            940
+          ],
+          "positive_GT_IoU": 0.5028960817717206,
+          "positive_score": 1.055760588525052,
+          "competitor_IoU": 0.7287328970850684
+        }
+      ],
+      "crop_sha256": "b3270e7d6d188b9864d8a46a082240dd45d5b0b2b11cb7717ef521bd5a6f76a8",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:005",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        1040,
+        719,
+        1082,
+        760
+      ],
+      "max_annotation_IoU": 0.3032855939342881,
+      "max_gt_coverage": 0.32243618450515005,
+      "cascade_score": 1.1685061008554471,
+      "witnesses": [
+        {
+          "annotation_index": 10,
+          "positive_bbox": [
+            1033,
+            686,
+            1105,
+            758
+          ],
+          "positive_GT_IoU": 0.5061651318869986,
+          "positive_score": 0.6503290684153752,
+          "competitor_IoU": 0.3109339407744875
+        }
+      ],
+      "crop_sha256": "fb9b95e424263adda7c2677131d04c01d2932afacded21a65e8c5f62cb94ea59",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:001:006",
+      "page_id": "manga109:LoveHina_vol01:083",
+      "source_group": "LoveHina_vol01",
+      "parent_image_path": "raw/manga109/images/LoveHina_vol01/083.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        90,
+        871,
+        131,
+        912
+      ],
+      "max_annotation_IoU": 0.38406024474427364,
+      "max_gt_coverage": 0.44835164835164837,
+      "cascade_score": 1.004707116433733,
+      "witnesses": [
+        {
+          "annotation_index": 14,
+          "positive_bbox": [
+            85,
+            876,
+            144,
+            936
+          ],
+          "positive_GT_IoU": 0.5643712574850299,
+          "positive_score": 0.7504070875677168,
+          "competitor_IoU": 0.39412550066755675
+        }
+      ],
+      "crop_sha256": "e4fe0f4c61554804862cf60f5cbad19e785bf310652841553e2ca9afb06cbe98",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "nms_competitor:004:000",
+      "page_id": "manga109:ParaisoRoad:057",
+      "source_group": "ParaisoRoad",
+      "parent_image_path": "raw/manga109/images/ParaisoRoad/057.jpg",
+      "split": "train",
+      "label": 0,
+      "label_basis": "nonmatching_NMS_competitor",
+      "bbox_xyxy": [
+        133,
+        104,
+        182,
+        154
+      ],
+      "max_annotation_IoU": 0.46374709976798145,
+      "max_gt_coverage": 0.6157104351174432,
+      "cascade_score": 1.4860978074503217,
+      "witnesses": [
+        {
+          "annotation_index": 1,
+          "positive_bbox": [
+            129,
+            95,
+            189,
+            154
+          ],
+          "positive_GT_IoU": 0.580479011073912,
+          "positive_score": 1.4427938312133204,
+          "competitor_IoU": 0.692090395480226
+        }
+      ],
+      "crop_sha256": "d21028c9c689ffaaaaada482e24c8b5713704f233df3a64d258534321e191704",
+      "review_decision": "unreviewed"
+    }
+  ],
+  "scope": "first12 completed-page rows; not representative or full review"
+}

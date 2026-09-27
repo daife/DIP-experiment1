@@ -1,0 +1,246 @@
+{
+  "completed_page_snapshot": 33,
+  "samples_checked": 1681,
+  "counts": {
+    "detected_postNMS": 280,
+    "annotation_square_jitter": 1401
+  },
+  "all_train_and_GT_IoU50": true,
+  "all_pixels_channels_HOG_recomputed_exactly": true,
+  "selection_sha256": "1e69a00bbf5923ed68b44f8f607497c0620c43e42f67f50be41a3f1360bbdfb7",
+  "script_sha256": "a2b76c29b7808aa47a9408d3e265e7dfc0e0871c31f3e70040287c4665db356e",
+  "shards": [
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_000.json",
+      "metadata_sha256": "75b8134d5f45038959d99f129397b17f4fbb96902b392e85bb83161980fc2301",
+      "shard_sha256": "90c10ba496bb115c1e61a30e5b8e42e746b9624760f2398c6de4451849fadb27",
+      "image_id": "manga109:YoumaKourin:083",
+      "rows": 22
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_001.json",
+      "metadata_sha256": "80c884e88355e44b3c2f101caf9d119f00096ac581b7ef8879851379b7f7dbd6",
+      "shard_sha256": "b746a84f1117cd679ee8bdd62cb49c96e2256a50598902a8564caec7ea82aff7",
+      "image_id": "manga109:LoveHina_vol01:083",
+      "rows": 89
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_002.json",
+      "metadata_sha256": "b1a7b93adb08658e7d5079c8d06966b122f9bd6136590f13d8bef5ea5e6072f8",
+      "shard_sha256": "61a7e29b4df4b43c12c768a1e0a561e46910125792108f1b466880419146f37f",
+      "image_id": "manga109:MiraiSan:030",
+      "rows": 20
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_003.json",
+      "metadata_sha256": "c285b6c15b584cf687b5a97807c88aebca8b71228f4e8e109771a0727ca34e39",
+      "shard_sha256": "9344961ba5f41b0f6398a1d42d0fa2544d8845cc1c72300c77a7637710b0b3d6",
+      "image_id": "manga109:SaladDays_vol18:070",
+      "rows": 30
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_004.json",
+      "metadata_sha256": "118cfb17a56b3ab83b7e4d3aa4bdbdfdc0a3028a545dd42a647bf95f8bb0b1fd",
+      "shard_sha256": "ba372127838dcb10139f2f5c44e54b28dc9d2722ccc982766836aec551116ab2",
+      "image_id": "manga109:ParaisoRoad:057",
+      "rows": 58
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_005.json",
+      "metadata_sha256": "1b5af976166dadc68591abeef271ad11d41ac2a6367623c195625b01f1f1c265",
+      "shard_sha256": "1a0944fb9990a26859949482fd111f3b77f8dac1ea1d29a82f082da39d886a75",
+      "image_id": "manga109:KarappoHighschool:119",
+      "rows": 15
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_006.json",
+      "metadata_sha256": "5f8d0ee95031c0b2e57e78a26bd194c09b1b9274a537b3bb027918ef61f98e4a",
+      "shard_sha256": "fd2b522bc6c02bd47463d9335dba60a622f3ea99fe7414972a3b156ab63c2eda",
+      "image_id": "manga109:That'sIzumiko:033",
+      "rows": 46
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_007.json",
+      "metadata_sha256": "a8db9ed81ece8cab2c3c6b628cc09ec55f84782ceebec4fb1415c5c7b3cf0776",
+      "shard_sha256": "a5cb67666b666e1df9d291595c4517b328ddf4d9a4df6ff9e242a5f5f194cc87",
+      "image_id": "manga109:LoveHina_vol14:012",
+      "rows": 72
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_008.json",
+      "metadata_sha256": "14e9048f5eba89770c370565780f6b78d9253703bf5e1f75e5aac1df2d3e890c",
+      "shard_sha256": "488929da3037a6b82a1370e2e29ece95cd61a33345aed99f482d94a6fa1526d9",
+      "image_id": "manga109:HarukaRefrain:045",
+      "rows": 34
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_009.json",
+      "metadata_sha256": "da5e2a3297931921b09007c8b923f71f93248f06fee62b9c7cf2d76e19213651",
+      "shard_sha256": "dfa687a055c94afbe578a00306532ee891f50101cce17ae1338111fb4539a2aa",
+      "image_id": "manga109:HaruichibanNoFukukoro:071",
+      "rows": 63
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_010.json",
+      "metadata_sha256": "5711308d083804b6a4f0c8b3d96243d7e282aea921a01700db7b364c96edae9c",
+      "shard_sha256": "f4ee3acaee20761d2638105be894d1a339f5405d5b684d95f605083b3a5fd114",
+      "image_id": "manga109:RisingGirl:110",
+      "rows": 65
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_011.json",
+      "metadata_sha256": "6cbb28c4faeeb6faba9d4072aca9f1a0f7a7cc3d3ed167f04d335f821fc65416",
+      "shard_sha256": "2f0ac49ffcfeed5247ca6d0d1082961a5d709b4800c3eb52e7857529d8345c99",
+      "image_id": "manga109:AppareKappore:066",
+      "rows": 15
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_012.json",
+      "metadata_sha256": "e8afc771cabfc8d17ee9311c65cbf3a70f834bec269be16fcd263917737cd6c6",
+      "shard_sha256": "f9dea7f7577a94868e66d09d00087ac5b82d92d97c2d2f56bd7918966b031da2",
+      "image_id": "manga109:Donburakokko:024",
+      "rows": 20
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_013.json",
+      "metadata_sha256": "ecfd5446bc890f42e08dfbb4c25a9577dc59a0417fac33801c124af7693f12d3",
+      "shard_sha256": "3acc51b91b2b46c0d2c6c73cb0907f1777a3836ebad6fe9b5b27472f50185639",
+      "image_id": "manga109:TotteokiNoABC:018",
+      "rows": 45
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_014.json",
+      "metadata_sha256": "143a8a567a4b28053a4aa99bd5463881302aadb7bb66e888d4dcd0627bb33486",
+      "shard_sha256": "42a455040185534a884a98ccb98390ce85a22181aaeccb39e02ef97c36975a9a",
+      "image_id": "manga109:YumeNoKayoiji:079",
+      "rows": 15
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_015.json",
+      "metadata_sha256": "383827cd1e62b74984091fa2f86c64becdf4f0729f6d95d89a5bd4bdca02e6bc",
+      "shard_sha256": "c5304839feef29779744c5e087ccf63014b5d1e6a16e3a65993d9787a7000fe4",
+      "image_id": "manga109:YasasiiAkuma:022",
+      "rows": 77
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_016.json",
+      "metadata_sha256": "f1b3a22f076345edc55308e4b98c0d0331a0587840d588b3d0341974100badf4",
+      "shard_sha256": "ed9fe2cae94be24fbe89003e41b88cfb0e9c97250e39c6973752f94e0b78616e",
+      "image_id": "manga109:Hamlet:100",
+      "rows": 64
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_017.json",
+      "metadata_sha256": "95946af964566788be96b3a9570940187f2ef574eeccfb2352c2137f648f7b7b",
+      "shard_sha256": "835496b16be22ef03e8edfbb3cd822566943dc111131424f3e6e1b1c91117ba7",
+      "image_id": "manga109:PLANET7:029",
+      "rows": 65
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_018.json",
+      "metadata_sha256": "413149ebfc9be60b6be6ae6d0382f82402fdceb63b964c1d5dd6045d0b5169ea",
+      "shard_sha256": "5d2e654f618d847b28d73a732789d91ad5006e029f12897dd88649ec192cf063",
+      "image_id": "manga109:MisutenaideDaisy:105",
+      "rows": 130
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_019.json",
+      "metadata_sha256": "0f381ba9f9ab35992ec6450e94244ae18977c90f3ee457a42b10203ca325c5a9",
+      "shard_sha256": "2de42095b300eef6badaa1ddb72aabe1f41206d09e1c76a895cde7c662635738",
+      "image_id": "manga109:MemorySeijin:047",
+      "rows": 38
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_020.json",
+      "metadata_sha256": "420853a36ff02631745f54c8c1669b4c32aa59d8d77d89c4679c3e1ae816383d",
+      "shard_sha256": "a70ba5b2af96f954a85ea368c85ffd1dd5da6c4a850fd9e88450dd4e4f15fb7c",
+      "image_id": "manga109:HinagikuKenzan:018",
+      "rows": 30
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_021.json",
+      "metadata_sha256": "734206c0cd62a63f05b6183b8716e5fce61a1c19a0c222154cadf193c8088205",
+      "shard_sha256": "fc14a504f8f0e7a057d785a4884503f1103595cc3511c1d931a92cefc095d722",
+      "image_id": "manga109:JangiriPonpon:021",
+      "rows": 51
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_022.json",
+      "metadata_sha256": "f3a06c6f13c50f309b8ec3fe66bddc6a992d4890c867f35102603a6e34c3dcd9",
+      "shard_sha256": "a1978c049af5b405d775d930b54d0a6a56b48cf41a5d7c5e49af431a3262266a",
+      "image_id": "manga109:GakuenNoise:011",
+      "rows": 51
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_023.json",
+      "metadata_sha256": "73740d5e7d0f85746d757d90ec4049383cb4d8be03cc0278f1ae4d4bf571cfdd",
+      "shard_sha256": "9c7b962cda14912815ded8601be04be1993d82b061381d22fb9f627d948062c9",
+      "image_id": "manga109:ByebyeC-BOY:069",
+      "rows": 59
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_024.json",
+      "metadata_sha256": "27e4457198b289df5b1cba9c72e947054f3642372161440ef5b70ed9850689bd",
+      "shard_sha256": "d8501433269036897c15e0e7c1bd998ea4c884d0015b6e961c8790112058cbfd",
+      "image_id": "manga109:PrayerHaNemurenai:058",
+      "rows": 75
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_025.json",
+      "metadata_sha256": "b38487ab210eeaba3232b19c921200b54a1100a9f6ba93877f4d8c9e9aaaa1a8",
+      "shard_sha256": "6816312633f45af161f09c93ad5a5399190f45a411863226348f743ca81d8fc1",
+      "image_id": "manga109:EverydayOsakanaChan:017",
+      "rows": 29
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_026.json",
+      "metadata_sha256": "d0e7906be0917fa003b887ba53e21d0e4a7437dbc257693b2c3a257d9f697483",
+      "shard_sha256": "6a33b9b5d4259a0d31b31bc53a42c317f3900262aaa75d3fac259487fb05f565",
+      "image_id": "manga109:ReveryEarth:027",
+      "rows": 14
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_027.json",
+      "metadata_sha256": "f25124de07f6a71c4fcd9a11792cb37d54e080f7f0a2f0df3ecb56fb103dd68b",
+      "shard_sha256": "94e40212c15f430cc0248c3bb942b177e4d66214aaf2386212a219c7dff3abca",
+      "image_id": "manga109:GinNoChimera:012",
+      "rows": 69
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_028.json",
+      "metadata_sha256": "33249529f90beff41536c2e155a2be89a12852f037af215a5dee0a4d88c34854",
+      "shard_sha256": "879acf5681bc92bc1f5877b4f7b955f63d9e26e4556da7ef7693b2d433cac5be",
+      "image_id": "manga109:DualJustice:086",
+      "rows": 28
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_029.json",
+      "metadata_sha256": "3b21bd24532db3d637427b2c7c4c156265d7469748608e08687e3cf3d755421c",
+      "shard_sha256": "8a9acba19dc351c15afcbb548006c5d025c63e9f5b85ea8063d75e5f9b021f48",
+      "image_id": "manga109:KoukouNoHitotachi:028",
+      "rows": 135
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_030.json",
+      "metadata_sha256": "9dad426621adb689c166d8de5b0731ce6184ffd5f0df1eacc6215f193cc76630",
+      "shard_sha256": "d732c611804a3bd59a068fc859022d27257632a4d6dfe1a77651610e0114ba0c",
+      "image_id": "manga109:UltraEleven:017",
+      "rows": 38
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_031.json",
+      "metadata_sha256": "b3a616521e262ccf6eb5b54eac53ca3848be43299d7eebf7ebffba1f489cc25f",
+      "shard_sha256": "e3b81673a11d78e86c8d312432601935be0231bee77ded24ac7a5935f528cb65",
+      "image_id": "manga109:PikaruGenkiDesu:082",
+      "rows": 29
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v1\\page_032.json",
+      "metadata_sha256": "864c19fcc48c352ef835b49c259cd8a1835f85ca29380b9b6b0f46bad1fa2df1",
+      "shard_sha256": "e0cb2fade08acfa5099b28593f113b615e81f4f69fce4654af802aaf5a96010f",
+      "image_id": "manga109:YumeiroCooking:071",
+      "rows": 90
+    }
+  ],
+  "limitation": "Audit of completed shards captured at start; not full-dataset or visual-label accuracy certification."
+}
