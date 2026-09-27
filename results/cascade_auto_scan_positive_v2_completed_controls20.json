@@ -1,0 +1,85 @@
+{
+  "pages_config_shared_shas_identical": true,
+  "new_cascade_old_HOG_summaries_identical": true,
+  "comparisons": [
+    {
+      "source": "cascade_auto_pipeline_background_localization_v1_v5_combined20",
+      "sha256": "67bfd892cd5a1c8797d600a71f48b9790a73caa2a2b32872070a0a5458f37c92",
+      "best_refined": [
+        "tight_refined_1",
+        {
+          "tp": 85,
+          "fp": 109,
+          "fn": 167,
+          "precision": 0.4381443298969072,
+          "recall": 0.3373015873015873,
+          "f1": 0.3811659192825112
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1.25",
+        {
+          "tp": 75,
+          "fp": 46,
+          "fn": 177,
+          "precision": 0.6198347107438017,
+          "recall": 0.2976190476190476,
+          "f1": 0.40214477211796246
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_scan_positive_localization_v2_v5_control20",
+      "sha256": "b631e94015e05bdee3f6f7eb8b9a5cd11566e29f9bf45a59df8ed0c3fa2a1fd5",
+      "best_refined": [
+        "tight_refined_1",
+        {
+          "tp": 84,
+          "fp": 89,
+          "fn": 168,
+          "precision": 0.48554913294797686,
+          "recall": 0.3333333333333333,
+          "f1": 0.3952941176470588
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1",
+        {
+          "tp": 84,
+          "fp": 99,
+          "fn": 168,
+          "precision": 0.45901639344262296,
+          "recall": 0.3333333333333333,
+          "f1": 0.38620689655172413
+        }
+      ]
+    },
+    {
+      "source": "cascade_auto_scan_positive_localization_v2_v6_combined20",
+      "sha256": "70abf07a16780446c2bc23709d7e25d5c733772c43c5b1ded50998647e51bfa1",
+      "best_refined": [
+        "tight_refined_1",
+        {
+          "tp": 96,
+          "fp": 142,
+          "fn": 156,
+          "precision": 0.40336134453781514,
+          "recall": 0.38095238095238093,
+          "f1": 0.39183673469387753
+        }
+      ],
+      "best_no_refiner": [
+        "tight_postnms_1",
+        {
+          "tp": 97,
+          "fp": 162,
+          "fn": 155,
+          "precision": 0.3745173745173745,
+          "recall": 0.38492063492063494,
+          "f1": 0.3796477495107632
+        }
+      ]
+    }
+  ],
+  "limitation": "Explored validation threshold maxima; no deployment timing"
+}

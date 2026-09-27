@@ -1,0 +1,25 @@
+{
+  "pages_config_and_common_model_shas_identical": true,
+  "old_HOG_control_equal": true,
+  "baseline": {
+    "tp": 98,
+    "fp": 114,
+    "fn": 154,
+    "precision": 0.46226415094339623,
+    "recall": 0.3888888888888889,
+    "f1": 0.4224137931034483
+  },
+  "C4": {
+    "tp": 81,
+    "fp": 79,
+    "fn": 171,
+    "precision": 0.50625,
+    "recall": 0.32142857142857145,
+    "f1": 0.3932038834951456
+  },
+  "report_shas": {
+    "C1": "0bb72267b4176069c122583d90d662aff7e117fb8e6ec2d5f097f3ededb3be49",
+    "C4": "bb70e5b483b55b912a052c832247fad749aff439f0faf0d1f95ee3bf295def13"
+  },
+  "limitation": "Same train rows; explored validation thresholds, not blind test"
+}

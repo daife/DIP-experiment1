@@ -1,0 +1,101 @@
+{
+  "completed_page_snapshot": 12,
+  "samples_checked": 427,
+  "counts": {
+    "detected_postNMS": 67,
+    "annotation_square_jitter": 360
+  },
+  "all_train_and_GT_IoU50": true,
+  "all_pixels_channels_HOG_recomputed_exactly": true,
+  "selection_sha256": "0f72c2032e1e00581fcc465306177b7157201654d3f5aaad491d0820ea4eeb06",
+  "script_sha256": "c0b37402411c573cd0a46f08096d156d4f8f2be5359a55830b682e8bd3247fdc",
+  "shards": [
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_000.json",
+      "metadata_sha256": "9265b01e20c8257f42d0b5cbaf832884d1a6d5a6620e5bbe22023fb238b9085a",
+      "shard_sha256": "6d0b61dbb8dfef9ef6a6d8749904d70e25b4754f4f144d1931e7751f7ed0f8fe",
+      "image_id": "manga109:ARMS:040",
+      "rows": 23
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_001.json",
+      "metadata_sha256": "962d0b148fcfe6cb648e11c784a35b001bbc622b46d9474be6a8065d760de074",
+      "shard_sha256": "9a80c220a6d97ee4583b26831674bfff719004098481e6c5099d4afd07e52530",
+      "image_id": "manga109:ARMS:052",
+      "rows": 15
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_002.json",
+      "metadata_sha256": "459ce15f9f15d1cd5bdb800784e17fcef55abd6a496603fa22b43bed56fe4e8e",
+      "shard_sha256": "630ceea018c391e78178e3b8e4fdbb3c3a2ac4c1336038ef286fbebf03fd9f9d",
+      "image_id": "manga109:AkkeraKanjinchou:036",
+      "rows": 36
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_003.json",
+      "metadata_sha256": "9bb8484e281aa5ef2a053353169c854de27075e3bc6daa1572bb36d242300938",
+      "shard_sha256": "a9e912af4f05c7357c29f948e79970ea63d2cbd852f479e1abf039ad5b3069db",
+      "image_id": "manga109:AkkeraKanjinchou:088",
+      "rows": 15
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_004.json",
+      "metadata_sha256": "94dfd57503e4f501008f337529661a5e050589702fa07fffe6f9ac3b62d42711",
+      "shard_sha256": "563d3d476cf648ca1e37716ce474cac241534f7fbf8641a3d30d8cd57ad5e630",
+      "image_id": "manga109:AosugiruHaru:069",
+      "rows": 18
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_005.json",
+      "metadata_sha256": "fd48b2495aadb3f798a427891d16832c9a77ca7a5f9c328d5924ecce564926fa",
+      "shard_sha256": "c6ee39bc21089d4d7a233b455c37a846dccc2795973e900914084384c755c2be",
+      "image_id": "manga109:AosugiruHaru:049",
+      "rows": 27
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_006.json",
+      "metadata_sha256": "85f6b99f9dabb8d0d1cdd86cd2c9fb453a070a7f26eaa9839700e152a0e7f45f",
+      "shard_sha256": "ad2497de9e665714b4312bb9d3815f86eba0748445b67e816e1ddf4bfd3dfffd",
+      "image_id": "manga109:AppareKappore:002",
+      "rows": 20
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_007.json",
+      "metadata_sha256": "c884a03509ab5b82987b460d00bf625cd03eab53fc3ed7463105b833446ba376",
+      "shard_sha256": "51bd0c707d0497a49e87e9d040ce1835ae2fa409356d9df856743819ed78d024",
+      "image_id": "manga109:AppareKappore:091",
+      "rows": 44
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_008.json",
+      "metadata_sha256": "156930f2d6c1ac17deac2d0e9452ddf23df0a8f4fe05efc0c5813239fd9c46b4",
+      "shard_sha256": "59ec925d328e0d0721e4a63d96b26bd12565573bfd1fb6dc1d62df4fd488e6e0",
+      "image_id": "manga109:Arisa:024",
+      "rows": 62
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_009.json",
+      "metadata_sha256": "5ae26642d6aee31c8dc7fb001c1def570c9aeac6439c7e7053b1137fa6fbda0d",
+      "shard_sha256": "4454e9868d082408b4f5351f86b6916ada0312805615ac60d778dfbc617aaa7e",
+      "image_id": "manga109:Arisa:011",
+      "rows": 50
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_010.json",
+      "metadata_sha256": "f8de2c2f43156077a1ec58cd0cee7c140a721608ca6173036c7fe887e22acfb9",
+      "shard_sha256": "0638b259e0cd974a5942746c808c90dec198032f672b074d8a157f16c6c99659",
+      "image_id": "manga109:Belmondo:021",
+      "rows": 62
+    },
+    {
+      "metadata": "datasets\\derived\\cascade_auto_scan_positives_v2\\page_011.json",
+      "metadata_sha256": "03dc58d94a1789fa5b217d5619da6bef50e9b407c98f08dab2724fdfc9d48087",
+      "shard_sha256": "4c4faf23029e859c19ea84939e6542b9545101eb97e98221c517c0d916507c46",
+      "image_id": "manga109:Belmondo:068",
+      "rows": 55
+    }
+  ],
+  "final_merged_arrays_checked": false,
+  "unique_samples": 427,
+  "limitation": "Audit of completed shards captured at start; complete pool only if final_merged_arrays_checked true; not visual-label accuracy certification."
+}

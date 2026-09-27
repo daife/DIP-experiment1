@@ -1,0 +1,9 @@
+{
+  "base_indices_and_all_negative_indices_identical_to_previous": true,
+  "calibration_721_byte_identical": true,
+  "old_proposal_positive_selected": 4027,
+  "new_proposal_positive_selected": 8768,
+  "positive": 27553,
+  "negative": 24660,
+  "provenance_sha256": "2407d999172bb5d2aaeb312c5cb5d6b156c99cbd5e7c67497b95cba444b01cac"
+}

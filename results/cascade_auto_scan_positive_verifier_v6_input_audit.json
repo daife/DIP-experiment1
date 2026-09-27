@@ -1,0 +1,11 @@
+{
+  "parent_features_labels_rows_exact": true,
+  "added_positive_features_indices_exact": true,
+  "positive": 17022,
+  "negative": 12095,
+  "added_positive": 8777,
+  "features_sha256": "5975f5a8bfba5f781a4f708daf410989c2557936c697712c675b6f108d0007a4",
+  "samples_sha256": "dbceb908e195785de985b06dfdb178ee9755b290500cd15daf204ee744105a8a",
+  "pool_provenance_sha256": "2d0ee7ec94ea0f4c8805dd6aa4c3ffd2333f3509e4bdc735ff348f590aad4463",
+  "limitation": "Training-input audit; model fitting still running when recorded"
+}

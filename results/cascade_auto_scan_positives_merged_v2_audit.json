@@ -1,0 +1,21 @@
+{
+  "samples": 12817,
+  "source_rows_channels_hog_exact": true,
+  "unique_ids_pixels": true,
+  "all_train_positive_GT_IoU50": true,
+  "sources": [
+    {
+      "pool": "cascade_auto_scan_positives_v1",
+      "provenance_sha256": "eea28f0a69417564b9b2b640134584e28223e81f7ee1d614018b3c20da077265",
+      "source_positive": 4034,
+      "added": 4034
+    },
+    {
+      "pool": "cascade_auto_scan_positives_v2",
+      "provenance_sha256": "3e300615d5a4a6c0c85c9a565ef5d3f9c2717f05f4c700c11e2b48ab75396771",
+      "source_positive": 8783,
+      "added": 8783
+    }
+  ],
+  "provenance_sha256": "2d0ee7ec94ea0f4c8805dd6aa4c3ffd2333f3509e4bdc735ff348f590aad4463"
+}

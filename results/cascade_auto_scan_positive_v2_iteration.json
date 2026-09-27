@@ -1,0 +1,82 @@
+{
+  "status": "experiments_finished_not_acceptance",
+  "collector_pid": 5344,
+  "stages": [
+    {
+      "command": [
+        "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\.venv\\Scripts\\python.exe",
+        "-u",
+        "scripts/audit_scan_positive_shards.py",
+        "--pool",
+        "datasets/derived/cascade_auto_scan_positives_v2",
+        "--require-complete",
+        "--output",
+        "results/cascade_auto_scan_positives_v2_final_shard_audit.json"
+      ],
+      "status": "completed",
+      "stdout": "tmp/cascade_auto_scan_positive_v2_stage0.stdout.log",
+      "stderr": "tmp/cascade_auto_scan_positive_v2_stage0.stderr.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\.venv\\Scripts\\python.exe",
+        "-u",
+        "scripts/merge_scan_positive_pools.py"
+      ],
+      "status": "completed",
+      "stdout": "tmp/cascade_auto_scan_positive_v2_stage1.stdout.log",
+      "stderr": "tmp/cascade_auto_scan_positive_v2_stage1.stderr.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\.venv\\Scripts\\python.exe",
+        "-u",
+        "scripts/run_scan_positive_iteration.py",
+        "--fit-verifier",
+        "--pool",
+        "datasets/derived/cascade_auto_scan_positives_merged_v2",
+        "--parent-verifier",
+        "datasets/derived/cascade_auto_proposal_verifier_v5",
+        "--verifier-output",
+        "datasets/derived/cascade_auto_proposal_verifier_v6"
+      ],
+      "status": "completed",
+      "stdout": "tmp/cascade_auto_scan_positive_v2_stage2.stdout.log",
+      "stderr": "tmp/cascade_auto_scan_positive_v2_stage2.stderr.log",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "D:\\Documents\\Obsidian-Vaults\\DIP\\experiment1\\.venv\\Scripts\\python.exe",
+        "-u",
+        "scripts/run_cascade_data_trial.py",
+        "--tag",
+        "cascade_auto_scan_positive_localization_v2",
+        "--trees",
+        "64",
+        "--root-candidates",
+        "64",
+        "--child-candidates",
+        "32",
+        "--mined",
+        "datasets/derived/cascade_auto_pipeline_backgrounds_merged_v2",
+        "--mined-guard",
+        "datasets/derived/cascade_auto_pipeline_backgrounds_merged_v2_guard",
+        "--negative-quarantine",
+        "datasets/derived/cascade_auto_pipeline_backgrounds_merged_v2/provenance.json",
+        "--proposal-positives",
+        "datasets/derived/cascade_auto_scan_positives_merged_v2",
+        "--verifier",
+        "datasets/derived/cascade_auto_proposal_verifier_v6/model.joblib",
+        "--verifier-name",
+        "v6"
+      ],
+      "status": "completed",
+      "stdout": "tmp/cascade_auto_scan_positive_v2_stage3.stdout.log",
+      "stderr": "tmp/cascade_auto_scan_positive_v2_stage3.stderr.log",
+      "exit_code": 0
+    }
+  ]
+}

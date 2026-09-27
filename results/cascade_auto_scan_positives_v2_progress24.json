@@ -1,0 +1,464 @@
+{
+  "selection": "first12 detected and first12 jitter rows from completed-page snapshot; not representative random sample",
+  "rows": [
+    {
+      "id": "scan_positive:000:00000",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1028,
+        210,
+        1177,
+        359
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.7729381559389217,
+      "cascade_score": 1.8452137084684257,
+      "crop_sha256": "55f5f775b3d06dab84d18f427f183e41a136bd948efb90e6428a25e85d2afdb3",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00001",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1177,
+        1015,
+        1280,
+        1118
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5999634502923976,
+      "cascade_score": 1.1462721115527787,
+      "crop_sha256": "708259d14bf01a3d8870256873ba707c573beaf9613b1cad1988174cda3f48d5",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00002",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        570,
+        842,
+        719,
+        990
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5641059341525925,
+      "cascade_score": 0.5506954085777463,
+      "crop_sha256": "8d266870f887b0f06644e828289c41bf34dc682e08ec8a250ada5117a6bb553c",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00000",
+      "page_id": "manga109:ARMS:052",
+      "parent_image_path": "raw/manga109/images/ARMS/052.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        987,
+        195,
+        1036,
+        245
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5876508161816891,
+      "cascade_score": 1.9731067552240324,
+      "crop_sha256": "ad246d067827afbe293a28726643ad6a5153f40d2443fd55e44f131fa10ecb90",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00001",
+      "page_id": "manga109:ARMS:052",
+      "parent_image_path": "raw/manga109/images/ARMS/052.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1392,
+        163,
+        1495,
+        267
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6474034295478123,
+      "cascade_score": 1.8848212785655465,
+      "crop_sha256": "001c641f5dcdeafb874be59762f2ee28a8061640e25aec4eae080361e6afb4db",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:001:00002",
+      "page_id": "manga109:ARMS:052",
+      "parent_image_path": "raw/manga109/images/ARMS/052.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1175,
+        536,
+        1298,
+        660
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.713231418028466,
+      "cascade_score": 1.6722392087150117,
+      "crop_sha256": "12be58f801780d7b5f56d4618a5907f070bb39d29a3bfa327b3cb510f2aa6244",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:002:00000",
+      "page_id": "manga109:AkkeraKanjinchou:036",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/036.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        1290,
+        1009,
+        1324,
+        1043
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6510191476219889,
+      "cascade_score": 2.219489333636364,
+      "crop_sha256": "144c259ca763fcbe172d76b0349687f50310063ef636d3a7e1b895ead8332c8e",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:002:00001",
+      "page_id": "manga109:AkkeraKanjinchou:036",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/036.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        1194,
+        499,
+        1297,
+        602
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6853416727659858,
+      "cascade_score": 1.6991756622746932,
+      "crop_sha256": "7ed5e7d491ca321388d44c9e0aed1ad0e26cdb0d385b8cd6ba37fc3c910e6800",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:002:00002",
+      "page_id": "manga109:AkkeraKanjinchou:036",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/036.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        1432,
+        917,
+        1556,
+        1041
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.6249158249158249,
+      "cascade_score": 1.4141490485250672,
+      "crop_sha256": "a861412543c698c8d2f6be99ac6da9789aacdfaf4cf360750621178a695f0674",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:002:00003",
+      "page_id": "manga109:AkkeraKanjinchou:036",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/036.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        1203,
+        95,
+        1306,
+        198
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.7035269903639255,
+      "cascade_score": 1.308389417212378,
+      "crop_sha256": "bd19294179f26253f628486ca6c13d2879730cc28867d901835aafb04055a335",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:003:00000",
+      "page_id": "manga109:AkkeraKanjinchou:088",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/088.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        256,
+        107,
+        512,
+        365
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5712240515390121,
+      "cascade_score": 1.3732556667487463,
+      "crop_sha256": "19bd42212ca0e54a321bb19cdf17a730d4c54a2de232c7f410b89648587241e7",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:003:00001",
+      "page_id": "manga109:AkkeraKanjinchou:088",
+      "parent_image_path": "raw/manga109/images/AkkeraKanjinchou/088.jpg",
+      "source_group": "AkkeraKanjinchou",
+      "split": "train",
+      "bbox_xyxy": [
+        1443,
+        499,
+        1547,
+        602
+      ],
+      "label": 1,
+      "label_basis": "detected_postNMS",
+      "max_annotation_IoU": 0.5003810249571347,
+      "cascade_score": 1.0862692134277134,
+      "crop_sha256": "9133b8f0ba87699a2bf4e576b1b6b44316d5750c125e2efaa11706386e72cfda",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00003",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1033,
+        196,
+        1185,
+        348
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.7230400547757617,
+      "cascade_score": null,
+      "crop_sha256": "007ba0efc5b118a14a9375484b255baf55cf0ed72881eb9c4a44eac2976e6a18",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00004",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1053,
+        216,
+        1165,
+        328
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6869604725124944,
+      "cascade_score": null,
+      "crop_sha256": "1008a4704a0b79eb6df41dbaaebe85b65153ea27f29f5793742534fb74423699",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00005",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1020,
+        196,
+        1172,
+        348
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6951835634893904,
+      "cascade_score": null,
+      "crop_sha256": "7b93a7f6ada2694f7dc5510e7d3e5d3aef8e8b4c787adb597e04fb791cf030d8",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00006",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1040,
+        229,
+        1152,
+        341
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6977594878829446,
+      "cascade_score": null,
+      "crop_sha256": "82cfa98809fef618117300573195030ff6557ead3fee81b15ad04ed48bd4dd1c",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00007",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1162,
+        997,
+        1265,
+        1100
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5524425924284068,
+      "cascade_score": null,
+      "crop_sha256": "fe5042666aebbdf64a3c30ee0f5c625a054fabad3d38f80dcd1e5fe38365f6e4",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00008",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1172,
+        1017,
+        1275,
+        1120
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6504854368932039,
+      "cascade_score": null,
+      "crop_sha256": "ba50c3644ad4c4b16d129d78a3b090c60747109e9aa15341874137e3ea035000",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00009",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1162,
+        1017,
+        1265,
+        1120
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5524425924284068,
+      "cascade_score": null,
+      "crop_sha256": "6fb8fefc136078c0b1cac106dc075371e93a7cba660791a5917e30dfe40978f0",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00010",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1182,
+        997,
+        1285,
+        1100
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5524425924284068,
+      "cascade_score": null,
+      "crop_sha256": "afab320a5df33dc77e73439486b1141c86b30b057990d2fabb25ba216f5547da",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00011",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1084,
+        599,
+        1152,
+        667
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5614186851211073,
+      "cascade_score": null,
+      "crop_sha256": "770a64ed6fe7981aa9ca14d3bd5da4ebe091dd07b6af764c8faeb9878ce6c4b9",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00012",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1092,
+        614,
+        1142,
+        664
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6730137885751806,
+      "cascade_score": null,
+      "crop_sha256": "e9203c6e1c2b75efe48eeb5a1fa697098f2d3ffd4dd432576eee89c4ae36cfa6",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00013",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1098,
+        602,
+        1148,
+        652
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.6507936507936508,
+      "cascade_score": null,
+      "crop_sha256": "bb1839fc9abe5b241fed6aab3e0b1b8563fdcb5e09a0e7f08fab9eb971b6d9d5",
+      "review_decision": "unreviewed"
+    },
+    {
+      "id": "scan_positive:000:00014",
+      "page_id": "manga109:ARMS:040",
+      "parent_image_path": "raw/manga109/images/ARMS/040.jpg",
+      "source_group": "ARMS",
+      "split": "train",
+      "bbox_xyxy": [
+        1084,
+        593,
+        1152,
+        661
+      ],
+      "label": 1,
+      "label_basis": "annotation_square_jitter",
+      "max_annotation_IoU": 0.5614186851211073,
+      "cascade_score": null,
+      "crop_sha256": "40a209d14bfe0fa5ad9e582646911ffb44c23acee564bea30004af0e1177dab7",
+      "review_decision": "unreviewed"
+    }
+  ],
+  "image_path": "datasets\\derived\\cascade_auto_scan_positives_v2\\progress_positive24.png",
+  "image_sha256": "879979b06e2db4e2a137f0712e02cc2d208d206a446774aa83325229aceb8cc0",
+  "script_sha256": "f0520764c0650bcb57ee5e5819f8dd9a98d849cc08e54a9086eddb53e9cae5b6"
+}
