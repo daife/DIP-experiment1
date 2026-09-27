@@ -12,6 +12,7 @@ from .cascade import cascade_from_dict
 from .candidate_verifier import CandidateVerifier
 from .box_refiner import BoxRefiner
 from .landmark_regression import LandmarkRegressor
+from .landmark_hog import HogLandmarkRegressor
 from .multiscale import PyramidConfig, detect_multiscale, nms
 
 
@@ -23,7 +24,9 @@ class AnimeFaceDetector:
             raise ValueError("unsupported detector config")
         self.config = config
         self.cascade = cascade_from_dict(json.loads((root / config["cascade"]).read_text(encoding="utf-8")))
-        self.regressor = LandmarkRegressor.load(root / config["landmark_model"])
+        landmark_path = root / config["landmark_model"]
+        self.regressor = (HogLandmarkRegressor if landmark_path.suffix == '.joblib'
+                          else LandmarkRegressor).load(landmark_path)
         verifier = config.get("candidate_verifier")
         self.verifier = CandidateVerifier(root / verifier["model"]) if verifier else None
         self.verifier_threshold = verifier["threshold"] if verifier else None

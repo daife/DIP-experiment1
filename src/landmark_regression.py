@@ -18,6 +18,11 @@ def normalized_image(gray: np.ndarray, bbox: np.ndarray, size: int = 256) -> np.
 
 def features(images: np.ndarray, shapes: np.ndarray, offsets: np.ndarray) -> np.ndarray:
     """Sample bilinear intensities at two offsets per feature around each current point."""
+    if len(images) > 128:
+        # Bound bilinear-sampling intermediates for the full teacher dataset.
+        # Slicing also preserves disk-backed image caches without copying them.
+        return np.concatenate([features(images[i:i + 128], shapes[i:i + 128], offsets)
+                               for i in range(0, len(images), 128)])
     n, size = len(images), images.shape[1]
     points = shapes[:, :, None, None, :] + offsets[None, :, :, :, :]
     xy = np.clip(points * (size - 1), 0, size - 1)
@@ -39,6 +44,14 @@ def fit_stage(x: np.ndarray, residual: np.ndarray, mask: np.ndarray, alpha: floa
     coef = np.zeros((design.shape[1], 56), dtype=np.float64)
     regularizer = np.eye(design.shape[1]) * alpha
     regularizer[0, 0] = 0
+    # Teacher-supervised batches share a mask for every output. Solve the
+    # identical system once with 56 right-hand sides instead of 56 times.
+    if np.all(mask == mask[:, :1]):
+        valid = mask[:, 0]
+        if valid.sum() < 2:
+            raise ValueError("Too few valid training points")
+        a = design[valid]
+        return np.linalg.solve(a.T @ a + regularizer, a.T @ residual[valid])
     for j in range(56):
         valid = mask[:, j // 2]
         if valid.sum() < 2:

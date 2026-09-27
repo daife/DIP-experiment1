@@ -25,3 +25,30 @@ def test_local_pixel_difference_is_shape_dependent():
     assert first.shape == (1, 28)
     assert not np.allclose(first, second)  # right sample clips at the image edge
     assert np.array_equal(make_offsets(42), make_offsets(42))
+
+
+def test_full_dataset_features_match_single_image_sampling():
+    rng = np.random.default_rng(8)
+    images = rng.random((131, 16, 16), dtype=np.float32)
+    shapes = rng.uniform(-.1, 1.1, (131, 28, 2))
+    offsets = make_offsets(9, differences_per_point=2)
+    actual = features(images, shapes, offsets)
+    expected = np.concatenate([features(images[i:i+1], shapes[i:i+1], offsets)
+                               for i in range(len(images))])
+    np.testing.assert_array_equal(actual, expected)
+
+
+def test_shared_mask_ridge_matches_independent_output_solves():
+    rng = np.random.default_rng(42)
+    x = rng.normal(size=(40, 7))
+    residual = rng.normal(size=(40, 56))
+    mask = np.ones((40, 28), dtype=bool)
+    mask[::5] = False
+    actual = fit_stage(x, residual, mask, alpha=10.)
+    design = np.column_stack([np.ones(40), x])[mask[:, 0]]
+    regularizer = np.eye(8)*10.
+    regularizer[0, 0] = 0
+    expected = np.column_stack([np.linalg.solve(design.T@design+regularizer,
+                                               design.T@residual[mask[:, 0], j])
+                                for j in range(56)])
+    np.testing.assert_allclose(actual, expected, rtol=1e-12, atol=1e-12)

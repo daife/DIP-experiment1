@@ -61,6 +61,11 @@ Desktop.ini
 /mlruns/
 /models/checkpoints/
 
+# Reproducible landmark trial weights stay local; ship the selected Demo model.
+/models/landmark_teacher_n*.npz
+/models/landmark_hog_teacher_*.joblib
+!/models/landmark_hog_teacher_c2048_g0.025_s5.joblib
+
 # Keep final models, configs, demo outputs, reports, and fixed split manifests.
 
 # Step 2 inputs can be downloaded again; Manga109 artwork is not redistributable.
